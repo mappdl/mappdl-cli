@@ -39,7 +39,7 @@
     "url": "git+https://gitlab.com/dlpapps/mappdl-cli.git"
   },
   "author": "MappDL",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://gitlab.com/dlpapps/mappdl-cli/issues"
   },
