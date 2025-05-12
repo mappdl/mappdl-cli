@@ -1,19 +1,19 @@
 {
   "name": "mappdl-cli",
-  "version": "3.1.87",
+  "version": "3.1.88",
   "description": "Command line tool for MappDL",
   "keywords": [
     "mappdl",
     "deploycenter",
     "deploy apps"
   ],
-  "homepage": "https://gitlab.com/dlpapps/mappdl-cli#readme",
+  "homepage": "https://github.com/mappdl/mappdl-cli#readme",
   "engine": {
     "node": ">=18.0.0"
   },
   "main": "dist/index.js",
   "bin": {
-    "mappdl": "./bin/mappdl.js"
+    "mappdl": "bin/mappdl.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -30,18 +30,17 @@
     "autorest:gen": "node --max-old-space-size=16384 node_modules/autorest/dist/app.js --debug swagger/readme.md",
     "clean": "gulp clean",
     "compile": "gulp build:raw",
-
     "download-swagger": "gulp download-swagger",
     "prettier": "prettier --write \"**/*.+(js|ts)\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/dlpapps/mappdl-cli.git"
+    "url": "git+https://github.com/mappdl/mappdl-cli.git"
   },
   "author": "MappDL",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://gitlab.com/dlpapps/mappdl-cli/issues"
+    "url": "https://github.com/mappdl/mappdl-cli/issues"
   },
   "files": [
     "package-lock.json",
