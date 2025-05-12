@@ -1,1 +1,574 @@
-const _0x525b95=_0x47f0;(function(_0x269327,_0x5b6fc7){const _0x198e43=_0x47f0,_0x527115=_0x269327();while(!![]){try{const _0x929921=-parseInt(_0x198e43(0x229))/0x1+parseInt(_0x198e43(0x221))/0x2*(parseInt(_0x198e43(0x21d))/0x3)+parseInt(_0x198e43(0x20d))/0x4+parseInt(_0x198e43(0x201))/0x5+parseInt(_0x198e43(0x228))/0x6*(parseInt(_0x198e43(0x218))/0x7)+parseInt(_0x198e43(0x22f))/0x8+-parseInt(_0x198e43(0x239))/0x9;if(_0x929921===_0x5b6fc7)break;else _0x527115['push'](_0x527115['shift']());}catch(_0x130156){_0x527115['push'](_0x527115['shift']());}}}(_0x11c0,0xc8e36),(Object[_0x525b95(0x1fb)](exports,'__esModule',{'value':!0x0}),exports[_0x525b95(0x21c)]=exports[_0x525b95(0x20e)]=exports[_0x525b95(0x217)]=exports[_0x525b95(0x206)]=exports[_0x525b95(0x234)]=exports[_0x525b95(0x203)]=exports[_0x525b95(0x22e)]=exports['text']=exports[_0x525b95(0x1f9)]=exports[_0x525b95(0x1f1)]=exports[_0x525b95(0x213)]=void 0x0));let util_1=require(_0x525b95(0x232)),io_options_1=require(_0x525b95(0x20f)),os=require('os'),wrap=require(_0x525b95(0x1f0)),tty=require(_0x525b95(0x22c)),Table=require(_0x525b95(0x205)),Spinner=require(_0x525b95(0x1fc))[_0x525b95(0x227)],terminal_1=require('./terminal'),_=require(_0x525b95(0x1fe));function progress(_0x593672,_0x21a266){const _0x2dd71a=_0x525b95;var _0x17ec1a=tty[_0x2dd71a(0x1ff)](0x1);if(io_options_1[_0x2dd71a(0x1f6)]()||io_options_1[_0x2dd71a(0x207)]()||!_0x17ec1a)return _0x21a266;{let _0x22b1e9=new Spinner(_0x593672);return _0x22b1e9[_0x2dd71a(0x1f8)](),_0x21a266[_0x2dd71a(0x238)](_0x3ca9f3=>(_0x22b1e9['stop'](!0x0),_0x3ca9f3))[_0x2dd71a(0x202)](_0x23b1ff=>{const _0x31f843=_0x2dd71a;throw _0x22b1e9[_0x31f843(0x219)](!0x0),_0x23b1ff;});}}function list(_0x2b6dd8,_0x28bcee){const _0x24c7f0=_0x525b95;console[_0x24c7f0(0x208)](!io_options_1[_0x24c7f0(0x1f7)](),_0x24c7f0(0x22d)),_0x28bcee&&0x0!==Object[_0x24c7f0(0x1fa)](_0x28bcee)[_0x24c7f0(0x210)]&&(io_options_1['formatIsJson']()?console['log'](JSON[_0x24c7f0(0x230)](_0x28bcee)):_0x28bcee[_0x24c7f0(0x209)](_0x2b6dd8)[_0x24c7f0(0x236)](_0x15d2ef=>console[_0x24c7f0(0x235)](_0x15d2ef)));}function help(..._0x3e587a){const _0x1809a2=_0x525b95;console['assert'](!io_options_1[_0x1809a2(0x1f7)](),_0x1809a2(0x22d));let _0x6dcbc2;_0x6dcbc2=0x0===_0x3e587a[_0x1809a2(0x210)]?'':_0x3e587a[0x0],console[_0x1809a2(0x235)](_0x6dcbc2);}function text(..._0x4e8ec0){const _0x2a1027=_0x525b95;console[_0x2a1027(0x208)](!io_options_1[_0x2a1027(0x1f7)](),_0x2a1027(0x22d));let _0x5ad2d2,_0x28a6e8;0x1===_0x4e8ec0['length']?(_0x5ad2d2=null,_0x28a6e8=_0x4e8ec0[0x0]):[_0x5ad2d2,_0x28a6e8]=_0x4e8ec0,io_options_1[_0x2a1027(0x211)]()?_0x5ad2d2&&console[_0x2a1027(0x235)](JSON[_0x2a1027(0x230)](_0x28a6e8)):(_0x5ad2d2=_0x5ad2d2||(_0x34b069=>_0x34b069),console[_0x2a1027(0x235)](_0x5ad2d2(_0x28a6e8)));}function table(_0x3eca40,_0xe0ead0){const _0xd64b4a=_0x525b95;if(console['assert'](!io_options_1[_0xd64b4a(0x1f7)](),_0xd64b4a(0x22d)),_0xe0ead0||(_0xe0ead0=_0x3eca40,_0x3eca40=void 0x0),io_options_1['formatIsJson']())console[_0xd64b4a(0x235)](JSON[_0xd64b4a(0x230)](_0xe0ead0,null,'\x20\x20'));else{let _0x48e253=new Table(_0x3eca40);_0xe0ead0['forEach'](_0x8aadb9=>_0x48e253[_0xd64b4a(0x20b)](_0x8aadb9)),console[_0xd64b4a(0x235)](_0x48e253[_0xd64b4a(0x231)]());}}function getCommandOutputTableOptions(_0x3afa2d){return{'head':_0x3afa2d,'style':{'head':[]}};}function getOptionsForTwoColumnTableWithNoBorders(_0x15857c){const _0x3b9a52=_0x525b95;return{'chars':{'top':'','top-mid':'','top-left':'','top-right':'','bottom':'','bottom-mid':'','bottom-left':'','bottom-right':'','left':'','left-mid':'','mid':'','mid-mid':'','right':'','right-mid':'','middle':''},'style':{'padding-left':0x0,'padding-right':0x0},'colWidths':[_0x15857c,terminal_1[_0x3b9a52(0x225)]['columns']()-0x2-_0x15857c],'wordWrap':!0x0};}function spaces(_0x473bc0){const _0x2e2429=_0x525b95;return 0x0<_0x473bc0?new Array(_0x473bc0+0x1)[_0x2e2429(0x220)]('\x20'):'';}function toWidth(_0x4aab79,_0x25887a){const _0x38dd49=_0x525b95;return _0x4aab79+spaces(_0x25887a-_0x4aab79[_0x38dd49(0x210)]);}function defaultFormat(_0x4346dc){const _0x3a9ae8=_0x525b95;return null==_0x4346dc?'':_0x4346dc instanceof Array?0x0===_0x4346dc['length']?'[]':_0x4346dc[_0x3a9ae8(0x220)](',\x20'):_0x4346dc[_0x3a9ae8(0x231)]();}function getProperty(_0x2f5168,_0x7c4906){const _0x5a17c6=_0x525b95;var _0x1031b9;return null==_0x2f5168?'':_0x7c4906?(_0x1031b9=_0x7c4906['split']('.')[0x0],_0x7c4906=_0x7c4906[_0x5a17c6(0x22b)](_0x1031b9[_0x5a17c6(0x210)]+0x1),getProperty(_0x2f5168[_0x1031b9],_0x7c4906)):_0x2f5168;}function doReport(_0x98545a,_0x49d1e6,_0x59b724,_0x37dd2f){const _0x2d51f3=_0x525b95;if(0x0!==_0x49d1e6[_0x2d51f3(0x210)]){let _0x34dda3=0x50,_0x3cb6a5=(process[_0x2d51f3(0x21b)][_0x2d51f3(0x215)]&&(_0x34dda3=process[_0x2d51f3(0x21b)][_0x2d51f3(0x223)]),Math[_0x2d51f3(0x233)][_0x2d51f3(0x224)](null,_0x49d1e6[_0x2d51f3(0x209)](function(_0x38b4a1){const _0x43cdd3=_0x2d51f3;return _0x38b4a1[0x0][_0x43cdd3(0x210)];}))+0x2);_0x49d1e6[_0x2d51f3(0x236)](function(_0x84f0ad){const _0x2ebd0c=_0x2d51f3;var _0x3f9b5a=_0x84f0ad[0x0]+':',_0x9c3cb4=_0x84f0ad[0x2]||defaultFormat,_0x84f0ad=getProperty(_0x59b724,_0x84f0ad[0x1]);if(_0x9c3cb4 instanceof Array)_0x37dd2f(spaces(_0x98545a)+toWidth(_0x3f9b5a,_0x3cb6a5)),doReport(_0x98545a+_0x3cb6a5,_0x9c3cb4,_0x84f0ad,_0x37dd2f);else{var _0x5d2b8a='verbose:\x20'[_0x2ebd0c(0x210)]+_0x98545a+_0x3cb6a5;let _0x879c8b=wrap[_0x2ebd0c(0x21f)](_0x5d2b8a,_0x34dda3)(_0x9c3cb4(_0x84f0ad));_0x879c8b=spaces(_0x98545a)+toWidth(_0x3f9b5a,_0x3cb6a5)+_0x879c8b[_0x2ebd0c(0x22b)](_0x5d2b8a),_0x37dd2f(_0x879c8b);}});}}function makeReport(..._0x42d54e){const _0x3dcec7=_0x525b95;console['assert'](!io_options_1['formatIsCsv'](),_0x3dcec7(0x22d));let _0x5eda8d,_0x674539,_0x2cdad6;0x3===_0x42d54e[_0x3dcec7(0x210)]?[_0x5eda8d,_0x674539,_0x2cdad6]=_0x42d54e:([_0x5eda8d,_0x2cdad6]=_0x42d54e,_0x674539=_0x3dcec7(0x214)),io_options_1[_0x3dcec7(0x211)]()?console[_0x3dcec7(0x235)](JSON['stringify'](_0x2cdad6)):null==_0x2cdad6?console['log'](_0x674539):doReport(0x0,_0x5eda8d,_0x2cdad6,console['log']);}function _0x47f0(_0x12c626,_0x2231ae){const _0x11c000=_0x11c0();return _0x47f0=function(_0x47f0a6,_0x12f935){_0x47f0a6=_0x47f0a6-0x1f0;let _0xee5fe6=_0x11c000[_0x47f0a6];return _0xee5fe6;},_0x47f0(_0x12c626,_0x2231ae);}function reportNewLineSeparatedArray(_0xd069e5,_0x2b129c){const _0x2fde11=_0x525b95;console['assert'](!io_options_1[_0x2fde11(0x1f7)](),_0x2fde11(0x22d)),io_options_1[_0x2fde11(0x211)]()?console[_0x2fde11(0x235)](JSON[_0x2fde11(0x230)](_0x2b129c)):_0x2b129c[_0x2fde11(0x236)]((_0x4d582f,_0x86d8fc)=>{const _0x43b1a2=_0x2fde11;_0x86d8fc&&console[_0x43b1a2(0x235)](''),exports[_0x43b1a2(0x206)](_0xd069e5,_0x4d582f);});}function reportTitledGroupsOfTables(_0x75dc9a){const _0x13aafe=_0x525b95;console[_0x13aafe(0x208)](!io_options_1['formatIsCsv'](),_0x13aafe(0x22d)),io_options_1[_0x13aafe(0x211)]()?console['log'](JSON['stringify'](_0x75dc9a)):_0x75dc9a['forEach']((_0x2c6905,_0x212552)=>{const _0xfc70f0=_0x13aafe;_0x212552&&console[_0xfc70f0(0x235)](''),console['log'](_0x2c6905[_0xfc70f0(0x237)]),console['log'](''),reportNewLineSeparatedArray(_0x2c6905[_0xfc70f0(0x1f3)],_0x2c6905[_0xfc70f0(0x1f4)]);});}function _0x11c0(){const _0x4b3d1d=['3NjMsQR','string','hard','join','624628gfUVze','name','columns','apply','terminal','isUndefined','Spinner','78LnLdtR','68510ZHlXgT','inspect','slice','tty','this\x20function\x20doesn\x27t\x20support\x20CSV\x20mode','table','1876952JyznYj','stringify','toString','util','max','getOptionsForTwoColumnTableWithNoBorders','log','forEach','title','then','18023778jMGwMb','wordwrap','list','get','reportFormat','tables','text','formatIsParsingCompatible','formatIsCsv','start','help','keys','defineProperty','cli-spinner','set','lodash','isatty','asDate','7545225mYjUFK','catch','getCommandOutputTableOptions','round','cli-table3','report','isQuiet','assert','map','content','push','EOL','1132168WPXHxq','reportTitledGroupsOfTables','./io-options','length','formatIsJson','repeat','progress','No\x20data\x20available','isTTY','every','reportNewLineSeparatedArray','298830xWrfFN','stop','toJSON','stdout','reportObjectAsTitledTables'];_0x11c0=function(){return _0x4b3d1d;};return _0x11c0();}function getMarginStringFromLevel(_0x3b9481){const _0x56659b=_0x525b95;return _[_0x56659b(0x212)]('\x20',0x4*_0x3b9481);}function getTableWithLeftMarginOptions(_0x2a01ee){return{'chars':{'top':'─','top-mid':'┬','top-left':_0x2a01ee+'┌','top-right':'┐','bottom':'─','bottom-mid':'┴','bottom-left':_0x2a01ee+'└','bottom-right':'┘','left':_0x2a01ee+'│','left-mid':_0x2a01ee+'├','mid':'─','mid-mid':'┼','right':'│','right-mid':'┤','middle':'│'},'style':{'padding-left':0x0,'padding-right':0x0},'wordWrap':!0x0};}function convertNamedTablesToCsvString(_0x2d1f1e){const _0x3d4864=_0x525b95;let _0x27b622=calculateNumberOfColumns(_0x2d1f1e);var _0x2068d3=_0x27b622-0x1;let _0x21dca8=_[_0x3d4864(0x212)](',',_0x2068d3);return _0x2d1f1e[_0x3d4864(0x209)](_0x3b9d3a=>function _0xa0515a(_0x261b7f){const _0x5b4fdd=_0x3d4864;let _0x25ab9e='';return _0x25ab9e+=_0x261b7f['name']+_0x21dca8+os['EOL'],_['cloneDeep'](_0x261b7f[_0x5b4fdd(0x20a)])['forEach']((_0xb6ffb2,_0x6400ee)=>{const _0x52635e=_0x5b4fdd;_0x6400ee&&(_0x25ab9e+=os['EOL']),isINamedTable(_0xb6ffb2)?_0x25ab9e+=_0xa0515a(_0xb6ffb2):(_0xb6ffb2['length']=_0x27b622,_0x25ab9e+=_0xb6ffb2[_0x52635e(0x220)](','));}),_0x25ab9e;}(_0x3b9d3a))[_0x3d4864(0x220)](os[_0x3d4864(0x20c)]+_0x21dca8+os[_0x3d4864(0x20c)]);}function convertNamedTablesToListString(_0x30cef5){const _0x69b452=_0x525b95;return _0x30cef5['map'](_0x28bf9b=>function _0x11aaa6(_0x4709aa,_0x4b2ef0){const _0x449c81=_0x47f0;_0x4709aa=padTableCells(_0x4709aa);let _0x3b4d7e='';var _0x11dda6,_0x403836=getMarginStringFromLevel(_0x4b2ef0),_0x10730f=(_0x3b4d7e+=_0x403836+_0x4709aa[_0x449c81(0x222)]+os[_0x449c81(0x20c)],[]);for(_0x11dda6 of _0x4709aa[_0x449c81(0x20a)])if(isINamedTable(_0x11dda6))_0x10730f[_0x449c81(0x20b)](_0x11dda6);else{var _0x17f448=_['last'](_0x10730f);let _0x1ac47b;_[_0x449c81(0x226)](_0x17f448)||isINamedTable(_0x17f448)?(_0x1ac47b=new Table(getTableWithLeftMarginOptions(_0x403836)),_0x10730f[_0x449c81(0x20b)](_0x1ac47b)):_0x1ac47b=_0x17f448,_0x1ac47b[_0x449c81(0x20b)](_0x11dda6);}return _0x10730f[_0x449c81(0x236)]((_0x3333d2,_0x253639)=>{const _0x550eb6=_0x449c81;_0x253639&&(_0x3b4d7e+=os['EOL']),isINamedTable(_0x3333d2)?_0x3b4d7e+=_0x11aaa6(_0x3333d2,_0x4b2ef0+0x2):_0x3b4d7e+=_0x3333d2[_0x550eb6(0x231)]();}),_0x3b4d7e;}(_0x28bf9b,0x0))[_0x69b452(0x220)](os['EOL']+os['EOL']);}function getMapKey(_0xf3a85d,_0x3e7bd2){return[_0xf3a85d,_0x3e7bd2]['join']();}function calculateTableCellsMaxWidthAcrossLevels(_0x19ef4e){return function _0x4bc8f7(_0x2d4e47,_0x4fdba7,_0x49accd){const _0x2be0c6=_0x47f0;for(var _0x39d972 of _0x2d4e47[_0x2be0c6(0x20a)])_0x39d972 instanceof Array?_0x39d972[_0x2be0c6(0x236)]((_0x6741ca,_0x34d176)=>{const _0x5ac328=_0x2be0c6;_0x34d176=getMapKey(_0x4fdba7,_0x34d176),_0x49accd[_0x5ac328(0x1fd)](_0x34d176,_['max']([_0x49accd[_0x5ac328(0x1f2)](_0x34d176),_0x6741ca[_0x5ac328(0x210)]]));}):_0x4bc8f7(_0x39d972,_0x4fdba7+0x1,_0x49accd);return _0x49accd;}(_0x19ef4e,0x0,new Map());}function padTableCells(_0x5039fc){let _0x1a8f8d=calculateTableCellsMaxWidthAcrossLevels(_0x5039fc);return function _0xa5ef8e(_0x2d78e8,_0x1eca17){const _0x1d1900=_0x47f0;var _0x566124=_0x2d78e8[_0x1d1900(0x20a)][_0x1d1900(0x209)](_0x39b2e6=>_0x39b2e6 instanceof Array?_0x39b2e6[_0x1d1900(0x209)]((_0x479667,_0x4c3aca)=>_['padEnd'](_0x479667,_0x1a8f8d['get'](getMapKey(_0x1eca17,_0x4c3aca)))):_0xa5ef8e(_0x39b2e6,_0x1eca17+0x1));return{'name':_0x2d78e8[_0x1d1900(0x222)],'content':_0x566124};}(_0x5039fc,0x0);}function calculateNumberOfColumns(_0x1219ff){const _0x48b956=_0x525b95;return _0x1219ff[_0x48b956(0x210)]?_[_0x48b956(0x233)](_0x1219ff['map'](_0x417752=>_0x417752 instanceof Array?_0x417752[_0x48b956(0x210)]||0x1:calculateNumberOfColumns(_0x417752[_0x48b956(0x20a)]))):0x1;}function isINamedTable(_0x2da5d5){const _0x388069=_0x525b95;return null!=_0x2da5d5&&_0x388069(0x21e)==typeof _0x2da5d5[_0x388069(0x222)]&&_0x2da5d5[_0x388069(0x20a)]instanceof Array&&_0x2da5d5[_0x388069(0x20a)]['every'](_0x113507=>isINamedTable(_0x113507)||_0x113507 instanceof Array&&_0x113507[_0x388069(0x216)](_0x2bc5ae=>_0x388069(0x21e)==typeof _0x2bc5ae));}function reportObjectAsTitledTables(_0x1838bd,_0x53457e){const _0x35c531=_0x525b95;if(io_options_1['formatIsJson']())console[_0x35c531(0x235)](JSON[_0x35c531(0x230)](_0x53457e));else{let _0x5ad054;_0x5ad054=io_options_1[_0x35c531(0x1f7)]()?convertNamedTablesToCsvString(_0x1838bd(_0x53457e,_0x475d1a=>_0x475d1a[_0x35c531(0x231)](),_0x392463=>_0x392463['toISOString'](),_0x42a139=>_0x42a139[_0x35c531(0x231)]())):convertNamedTablesToListString(_0x1838bd(_0x53457e,_0x58406=>_[_0x35c531(0x204)](_0x58406,0x2)[_0x35c531(0x231)](),_0x2ed082=>_0x2ed082[_0x35c531(0x231)](),_0x435291=>_[_0x35c531(0x204)](_0x435291,0x2)[_0x35c531(0x231)]()+'%')),console[_0x35c531(0x235)](_0x5ad054);}}exports[_0x525b95(0x213)]=progress,exports[_0x525b95(0x1f1)]=list,exports[_0x525b95(0x1f9)]=help,exports[_0x525b95(0x1f5)]=text,exports[_0x525b95(0x22e)]=table,exports['getCommandOutputTableOptions']=getCommandOutputTableOptions,exports[_0x525b95(0x234)]=getOptionsForTwoColumnTableWithNoBorders,exports['report']=makeReport,exports[_0x525b95(0x206)]['allProperties']=function(_0x3eba71){const _0x5292a4=_0x525b95;if(null==_0x3eba71||''===_0x3eba71)return'[]';var _0x365299=Object[_0x5292a4(0x1fa)](_0x3eba71)['map'](function(_0x220b4d){return[_0x220b4d,_0x220b4d];});let _0x4b61a2=[];return doReport(0x0,_0x365299,_0x3eba71,function(_0x403612){const _0x79d235=_0x5292a4;_0x4b61a2[_0x79d235(0x20b)](_0x403612);}),_0x4b61a2[_0x5292a4(0x20b)](''),_0x4b61a2[_0x5292a4(0x220)](os[_0x5292a4(0x20c)]);},exports[_0x525b95(0x206)][_0x525b95(0x200)]=function(_0x233e1d){const _0x596060=_0x525b95;return _0x233e1d=new Date(_0x233e1d),io_options_1['formatIsJson']()?_0x233e1d[_0x596060(0x21a)]():_0x233e1d[_0x596060(0x231)]();},exports[_0x525b95(0x206)]['inspect']=function(_0x434a09){const _0x2c273d=_0x525b95;return util_1[_0x2c273d(0x22a)](_0x434a09,{'depth':null});},exports['reportNewLineSeparatedArray']=reportNewLineSeparatedArray,exports[_0x525b95(0x20e)]=reportTitledGroupsOfTables,exports['reportObjectAsTitledTables']=reportObjectAsTitledTables;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.reportObjectAsTitledTables = exports.reportTitledGroupsOfTables = exports.reportNewLineSeparatedArray = exports.report = exports.getOptionsForTwoColumnTableWithNoBorders = exports.getCommandOutputTableOptions = exports.table = exports.text = exports.help = exports.list = exports.progress = void 0;
+// Functions to support outputting stuff to the user
+const util_1 = require("util");
+const io_options_1 = require("./io-options");
+const os = require("os");
+const wrap = require("wordwrap");
+const tty = require("tty");
+const Table = require("cli-table3");
+const Spinner = require("cli-spinner").Spinner;
+const terminal_1 = require("./terminal");
+const _ = require("lodash");
+//
+// Display a progress spinner while waiting for the provided promise
+// to complete.
+//
+function progress(title, action) {
+    const stdoutIsTerminal = tty.isatty(1);
+    if (!io_options_1.formatIsParsingCompatible() && !io_options_1.isQuiet() && stdoutIsTerminal) {
+        const spinner = new Spinner(title);
+        spinner.start();
+        return action
+            .then((result) => {
+            spinner.stop(true);
+            return result;
+        })
+            .catch((ex) => {
+            spinner.stop(true);
+            throw ex;
+        });
+    }
+    else {
+        return action;
+    }
+}
+exports.progress = progress;
+//
+// Output an array of items, passing each item through a formatting
+// function.
+//
+function list(formatter, items) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    if (!items || Object.keys(items).length === 0) {
+        return;
+    }
+    if (!io_options_1.formatIsJson()) {
+        items.map(formatter).forEach((text) => console.log(text));
+    }
+    else {
+        console.log(JSON.stringify(items));
+    }
+}
+exports.list = list;
+function help(...args) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    let t;
+    if (args.length === 0) {
+        t = "";
+    }
+    else {
+        t = args[0];
+    }
+    console.log(t);
+}
+exports.help = help;
+function text(...args) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    let converter;
+    let data;
+    if (args.length === 1) {
+        converter = null;
+        data = args[0];
+    }
+    else {
+        [converter, data] = args;
+    }
+    if (io_options_1.formatIsJson()) {
+        if (converter) {
+            console.log(JSON.stringify(data));
+        }
+    }
+    else {
+        converter = converter || ((s) => s);
+        console.log(converter(data));
+    }
+}
+exports.text = text;
+//
+// Output tabular data.
+// By default, does a simple default table using cli-table3.
+// If you want to, you can pass in explicit table initialization
+// options. See https://github.com/cli-table/cli-table3 for docs
+// on the module.
+//
+function table(options, data) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    if (!data) {
+        data = options;
+        options = undefined;
+    }
+    if (!io_options_1.formatIsJson()) {
+        const cliTable = new Table(options);
+        data.forEach((item) => cliTable.push(item));
+        console.log(cliTable.toString());
+    }
+    else {
+        console.log(JSON.stringify(data, null, "  "));
+    }
+}
+exports.table = table;
+// Formatting helper for cli-table3 - default command output table style
+function getCommandOutputTableOptions(header) {
+    return {
+        head: header,
+        style: {
+            head: [],
+        },
+    };
+}
+exports.getCommandOutputTableOptions = getCommandOutputTableOptions;
+//
+// Formatting helper for cli-table3 - two columns with no table outlines. Used by
+// help commands for formatting lists of options, commands, etc.
+//
+function getOptionsForTwoColumnTableWithNoBorders(firstColumnWidth) {
+    const consoleWidth = terminal_1.terminal.columns();
+    // There will be a single whitespace to the right from the each column, count it as unavailable
+    const availableWidth = consoleWidth - 2;
+    const secondColumnWidth = availableWidth - firstColumnWidth;
+    return {
+        chars: {
+            top: "",
+            "top-mid": "",
+            "top-left": "",
+            "top-right": "",
+            bottom: "",
+            "bottom-mid": "",
+            "bottom-left": "",
+            "bottom-right": "",
+            left: "",
+            "left-mid": "",
+            mid: "",
+            "mid-mid": "",
+            right: "",
+            "right-mid": "",
+            middle: "",
+        },
+        style: { "padding-left": 0, "padding-right": 0 },
+        colWidths: [firstColumnWidth, secondColumnWidth],
+        wordWrap: true,
+    };
+}
+exports.getOptionsForTwoColumnTableWithNoBorders = getOptionsForTwoColumnTableWithNoBorders;
+//
+// Output a "report", which is a formatted output of a single object
+// with ability to control naming of fields in the output, lets you
+// output subobjects formatted nicely, and aligns everything for you.
+//
+// Usage looks like:
+//  out.report([
+//    // Report format here, one array entry per field to output
+//    [ "Field name to display", "path.to.property.to.display.in.data", optionalFormatter ],
+//    [ "Second field name", "second.path.to.display", /* No formatter on this one */ ]
+//  ],
+//  "Optional string to print if no data is available",
+//  theDataToFormat);
+//
+// The paths to properties are simple dotted property names like you'd use in javascript.
+// For example, in the profile list command, there's this line to display some of the
+// current profile properties:
+//
+//   out.report([
+//       ["Username", "userName" ],
+//       [ "Display Name", "displayName" ],
+//       [ "Email", "email"]
+//     ], "No logged in user. Use 'mappdl login' command to log in.",
+//     user);
+//
+// "userName", "displayName", and "email" are names of properties on the user object being
+// passed in. If there were subobjects, for example if the input object looked like this:
+//
+//   let user = {
+//     name: {
+//       userName: "chris",
+//       displayName: "christav"
+//     },
+//     email: "not.giving@real.email.here"
+//    };
+//
+// This format could be displayed in a report like so:
+//
+//   out.report([
+//       [ "Username", "name.userName" ],
+//       [ "Display Name", "name.displayName" ],
+//       [ "Email", "email"]
+//     ], "No logged in user. Use 'mappdl login' command to log in.",
+//     user);
+//
+// Each report format entry can have a formatter supplied with it. This is a function that
+// takes the field's value and returns the appropriate string for display. By default
+// report just calls 'toString' on the value, but you can use a formatter to customize
+// to whatever you like.
+//
+// There are a few supplied formatters you can use out of the box attached to the report
+// function. They are:
+//
+//   out.report.asDate: takes an input string, parses it as a Date object, then outputs the result.
+//   out.report.inspect: takes any input object and returns the result of calling util.inspect on it.
+//   out.report.allProperties: Takes an object with properties itself, and runs report
+//                             recursively on that object. This results in a nicely indented subreport
+//                             in the final output.
+//
+// In addition, if the formatter is itself an array, it becomes the report format for the subobjects.
+// So you can nest arbitrary reports. For exmaple, asssuming the same user field, then using this:
+//
+//   out.report(
+//     [
+//       [ "Email", "email" ],
+//       // Nested subobject
+//       [ "Names", "name",
+//         [
+//           // report format for each of the subobject's fields
+//           [ "User Name", "userName" ],
+//           [ "Display Name", "displayName" ]
+//         ]
+//       ]
+//     ],
+//     {
+//       // reformat our user to show subobjects
+//       name: {
+//         displayName: user.displayName,
+//         userName: user.userName
+//       },
+//       email: user.email
+//     });
+//
+// The resulting output looks like this:
+//
+//   Email: not.giving@real.email.here
+//   Names:
+//          User Name:    christav-yngr
+//          Display Name: christav
+//
+//
+// Support functions for "report" output
+//
+function spaces(num) {
+    if (num > 0) {
+        return new Array(num + 1).join(" ");
+    }
+    return "";
+}
+function toWidth(s, width) {
+    const pad = width - s.length;
+    return s + spaces(pad);
+}
+function defaultFormat(data) {
+    if (typeof data === "undefined" || data === null) {
+        return "";
+    }
+    if (data instanceof Array) {
+        if (data.length === 0) {
+            return "[]";
+        }
+        return data.join(", ");
+    }
+    return data.toString();
+}
+function getProperty(value, propertyName) {
+    if (typeof value === "undefined" || value === null) {
+        return "";
+    }
+    if (!propertyName) {
+        return value;
+    }
+    const first = propertyName.split(".")[0];
+    const rest = propertyName.slice(first.length + 1);
+    return getProperty(value[first], rest);
+}
+function doReport(indentation, reportFormat, data, outfn) {
+    if (reportFormat.length === 0) {
+        return;
+    }
+    let maxWidth = 80;
+    if (process.stdout.isTTY) {
+        maxWidth = process.stdout.columns;
+    }
+    const headerWidth = Math.max.apply(null, reportFormat.map(function (item) {
+        return item[0].length;
+    })) + 2;
+    reportFormat.forEach(function (item) {
+        const title = item[0] + ":";
+        const field = item[1];
+        const formatter = item[2] || defaultFormat;
+        const value = getProperty(data, field);
+        if (formatter instanceof Array) {
+            outfn(spaces(indentation) + toWidth(title, headerWidth));
+            doReport(indentation + headerWidth, formatter, value, outfn);
+        }
+        else {
+            const leftIndentation = "verbose: ".length + indentation + headerWidth;
+            let formatted = wrap.hard(leftIndentation, maxWidth)(formatter(value));
+            formatted = spaces(indentation) + toWidth(title, headerWidth) + formatted.slice(leftIndentation);
+            outfn(formatted);
+        }
+    });
+}
+function makeReport(...args) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    let reportFormat;
+    let nullMessage;
+    let data;
+    if (args.length === 3) {
+        [reportFormat, nullMessage, data] = args;
+    }
+    else {
+        [reportFormat, data] = args;
+        nullMessage = "No data available";
+    }
+    if (!io_options_1.formatIsJson()) {
+        if (data === null || data === undefined) {
+            console.log(nullMessage);
+        }
+        else {
+            doReport(0, reportFormat, data, console.log);
+        }
+    }
+    else {
+        console.log(JSON.stringify(data));
+    }
+}
+exports.report = makeReport;
+exports.report.allProperties = function (data) {
+    if (typeof data === "undefined" || data === null || data === "") {
+        return "[]";
+    }
+    const subreport = Object.keys(data).map(function (key) {
+        return [key, key];
+    });
+    const result = [];
+    doReport(0, subreport, data, function (o) {
+        result.push(o);
+    });
+    result.push("");
+    return result.join(os.EOL);
+};
+exports.report.asDate = function (data) {
+    const date = new Date(data);
+    if (io_options_1.formatIsJson()) {
+        return date.toJSON();
+    }
+    else {
+        return date.toString();
+    }
+};
+exports.report.inspect = function (data) {
+    return util_1.inspect(data, { depth: null });
+};
+function reportNewLineSeparatedArray(reportFormat, data) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    if (!io_options_1.formatIsJson()) {
+        data.forEach((item, index) => {
+            if (index) {
+                console.log("");
+            }
+            exports.report(reportFormat, item);
+        });
+    }
+    else {
+        console.log(JSON.stringify(data));
+    }
+}
+exports.reportNewLineSeparatedArray = reportNewLineSeparatedArray;
+function reportTitledGroupsOfTables(dataGroups) {
+    console.assert(!io_options_1.formatIsCsv(), "this function doesn't support CSV mode");
+    if (!io_options_1.formatIsJson()) {
+        dataGroups.forEach((dataGroup, index) => {
+            if (index) {
+                console.log("");
+            }
+            console.log(dataGroup.title);
+            console.log("");
+            reportNewLineSeparatedArray(dataGroup.reportFormat, dataGroup.tables);
+        });
+    }
+    else {
+        console.log(JSON.stringify(dataGroups));
+    }
+}
+exports.reportTitledGroupsOfTables = reportTitledGroupsOfTables;
+function getMarginStringFromLevel(level) {
+    return _.repeat(" ", level * 4);
+}
+//
+// Formatting helper for cli-table3 - table with borders which can be moved to the right
+// It is used to show sub-tables
+//
+function getTableWithLeftMarginOptions(leftMargin) {
+    return {
+        chars: {
+            top: "─",
+            "top-mid": "┬",
+            "top-left": leftMargin + "┌",
+            "top-right": "┐",
+            bottom: "─",
+            "bottom-mid": "┴",
+            "bottom-left": leftMargin + "└",
+            "bottom-right": "┘",
+            left: leftMargin + "│",
+            "left-mid": leftMargin + "├",
+            mid: "─",
+            "mid-mid": "┼",
+            right: "│",
+            "right-mid": "┤",
+            middle: "│",
+        },
+        style: { "padding-left": 0, "padding-right": 0 },
+        wordWrap: true,
+    };
+}
+function convertNamedTablesToCsvString(stringTables) {
+    const columnsCount = calculateNumberOfColumns(stringTables);
+    const delimitersCount = columnsCount - 1;
+    const delimitersString = _.repeat(",", delimitersCount);
+    function outputTable(table) {
+        let tableOutput = "";
+        // table name
+        tableOutput += table.name + delimitersString + os.EOL;
+        // table contents
+        const contents = _.cloneDeep(table.content);
+        contents.forEach((row, index) => {
+            if (index) {
+                tableOutput += os.EOL;
+            }
+            if (isINamedTable(row)) {
+                tableOutput += outputTable(row);
+            }
+            else {
+                row.length = columnsCount;
+                tableOutput += row.join(",");
+            }
+        });
+        return tableOutput;
+    }
+    return stringTables.map((table) => outputTable(table)).join(os.EOL + delimitersString + os.EOL);
+}
+function convertNamedTablesToListString(stringTables) {
+    function outputTable(table, level) {
+        const paddedTable = padTableCells(table);
+        let tableOutput = "";
+        const marginString = getMarginStringFromLevel(level);
+        // table name
+        tableOutput += marginString + paddedTable.name + os.EOL;
+        // table contents
+        const tableWithMergedStringArrays = [];
+        // merging continuous string[] chains into Table objects
+        for (const row of paddedTable.content) {
+            if (isINamedTable(row)) {
+                tableWithMergedStringArrays.push(row);
+            }
+            else {
+                const lastElement = _.last(tableWithMergedStringArrays);
+                let tableObject;
+                if (_.isUndefined(lastElement) || isINamedTable(lastElement)) {
+                    tableObject = new Table(getTableWithLeftMarginOptions(marginString));
+                    tableWithMergedStringArrays.push(tableObject);
+                }
+                else {
+                    tableObject = lastElement;
+                }
+                tableObject.push(row);
+            }
+        }
+        tableWithMergedStringArrays.forEach((rowObject, rowIndex) => {
+            if (rowIndex) {
+                tableOutput += os.EOL;
+            }
+            if (isINamedTable(rowObject)) {
+                tableOutput += outputTable(rowObject, level + 2);
+            }
+            else {
+                tableOutput += rowObject.toString();
+            }
+        });
+        return tableOutput;
+    }
+    return stringTables.map((table) => outputTable(table, 0)).join(os.EOL + os.EOL);
+}
+function getMapKey(level, cellIndex) {
+    return [level, cellIndex].join();
+}
+// returns map of max table cell width across tables on the same level - it is used to nicely align table columns vertically
+// key is [level, cellIndex].join()
+function calculateTableCellsMaxWidthAcrossLevels(wholeTable) {
+    function calculate(table, level, levelAndCellIndexToMaxWidth) {
+        for (const entry of table.content) {
+            if (entry instanceof Array) {
+                // row
+                entry.forEach((cell, cellIndex) => {
+                    const key = getMapKey(level, cellIndex);
+                    levelAndCellIndexToMaxWidth.set(key, _.max([levelAndCellIndexToMaxWidth.get(key), cell.length]));
+                });
+            }
+            else {
+                // inner table
+                calculate(entry, level + 1, levelAndCellIndexToMaxWidth);
+            }
+        }
+        return levelAndCellIndexToMaxWidth;
+    }
+    return calculate(wholeTable, 0, new Map());
+}
+function padTableCells(wholeTable) {
+    // calculating max widths for the cells
+    const levelAndCellIndexToMaxWidth = calculateTableCellsMaxWidthAcrossLevels(wholeTable);
+    // recursively pad content
+    function pad(table, level) {
+        const paddedContent = table.content.map((entry) => {
+            if (entry instanceof Array) {
+                // row
+                return entry.map((cellContent, cellIndex) => _.padEnd(cellContent, levelAndCellIndexToMaxWidth.get(getMapKey(level, cellIndex))));
+            }
+            else {
+                // inner table
+                return pad(entry, level + 1);
+            }
+        });
+        return {
+            name: table.name,
+            content: paddedContent,
+        };
+    }
+    return pad(wholeTable, 0);
+}
+function calculateNumberOfColumns(tables) {
+    if (tables.length) {
+        return _.max(tables.map((table) => {
+            if (table instanceof Array) {
+                return table.length || 1;
+            }
+            else {
+                return calculateNumberOfColumns(table.content);
+            }
+        }));
+    }
+    else {
+        return 1;
+    }
+}
+function isINamedTable(object) {
+    return (object != null &&
+        typeof object.name === "string" &&
+        object.content instanceof Array &&
+        object.content.every((item) => isINamedTable(item) || (item instanceof Array && item.every((itemComponent) => typeof itemComponent === "string"))));
+}
+function reportObjectAsTitledTables(toNamedTables, object) {
+    if (io_options_1.formatIsJson()) {
+        console.log(JSON.stringify(object));
+    }
+    else {
+        let output;
+        if (io_options_1.formatIsCsv()) {
+            const stringTables = toNamedTables(object, (num) => num.toString(), (date) => date.toISOString(), (percentage) => percentage.toString());
+            output = convertNamedTablesToCsvString(stringTables);
+        }
+        else {
+            const stringTables = toNamedTables(object, (num) => _.round(num, 2).toString(), (date) => date.toString(), (percentage) => _.round(percentage, 2).toString() + "%");
+            output = convertNamedTablesToListString(stringTables);
+        }
+        console.log(output);
+    }
+}
+exports.reportObjectAsTitledTables = reportObjectAsTitledTables;

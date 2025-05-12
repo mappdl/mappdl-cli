@@ -1,1 +1,267 @@
-var _0x574036=_0x144e;(function(_0x41992a,_0x27be4e){var _0x5cd13f=_0x144e,_0x55f39c=_0x41992a();while(!![]){try{var _0x2065e2=parseInt(_0x5cd13f(0x1c7))/0x1*(parseInt(_0x5cd13f(0x18c))/0x2)+parseInt(_0x5cd13f(0x1a9))/0x3+parseInt(_0x5cd13f(0x18a))/0x4*(parseInt(_0x5cd13f(0x189))/0x5)+-parseInt(_0x5cd13f(0x1ae))/0x6*(parseInt(_0x5cd13f(0x175))/0x7)+-parseInt(_0x5cd13f(0x1d1))/0x8*(parseInt(_0x5cd13f(0x1de))/0x9)+parseInt(_0x5cd13f(0x1a1))/0xa*(parseInt(_0x5cd13f(0x19f))/0xb)+parseInt(_0x5cd13f(0x15e))/0xc;if(_0x2065e2===_0x27be4e)break;else _0x55f39c['push'](_0x55f39c['shift']());}catch(_0x2a4d17){_0x55f39c['push'](_0x55f39c['shift']());}}}(_0x5d3a,0xb304d));function _0x5d3a(){var _0x5c699e=['createEmptyTmpReleaseFolder','platform','Prefix\x20to\x20append\x20to\x20the\x20file\x20name\x20when\x20attempting\x20to\x20find\x20your\x20app\x27s\x20Info.plist\x20file\x20(iOS\x20only)','sourcemap-output-dir','4618608vRsBGO','string','plist-file','xcode-target-name','main.jsbundle','sourcemapOutput','gradleFile','Failed\x20to\x20release\x20a\x20CodePush\x20update.','outputDir','hasArg','\x22\x20does\x20not\x20exist.','ios','.map','ErrorCodes','rmDir','Name\x20of\x20the\x20generated\x20JS\x20bundle\x20file.\x20If\x20unspecified,\x20the\x20standard\x20bundle\x20name\x20will\x20be\x20used,\x20depending\x20on\x20the\x20specified\x20platform:\x20\x22main.jsbundle\x22\x20(iOS),\x20\x22index.android.bundle\x22\x20(Android)\x20or\x20\x22index.windows.bundle\x22\x20(Windows)','Path\x20to\x20the\x20gradle\x20file\x20which\x20specifies\x20the\x20binary\x20version\x20you\x20want\x20to\x20target\x20this\x20release\x20at\x20(android\x20only)','Getting\x20app\x20info...','__esModule','__decorate','get','Path\x20to\x20where\x20the\x20bundle\x20should\x20be\x20written.\x20If\x20omitted,\x20the\x20bundle\x20will\x20not\x20be\x20saved\x20on\x20your\x20machine','android','1247379BCUnTM','lodash','text','toLowerCase','util','code-push','appName','extraHermesFlags','isValidOS','defaultValue','Path\x20to\x20the\x20cocopods\x20config\x20file\x20(iOS\x20only)','OS\x20must\x20be\x20\x22android\x22,\x20\x22ios\x22,\x20or\x20\x22windows\x22.','Path\x20to\x20folder\x20where\x20the\x20sourcemap\x20for\x20the\x20resulting\x20bundle\x20should\x20be\x20written.\x20Name\x20of\x20sourcemap\x20file\x20will\x20be\x20generated\x20automatically.\x20This\x20argument\x20will\x20be\x20ignored\x20if\x20\x22sourcemap-output\x22\x20argument\x20is\x20provided.\x20If\x20omitted,\x20a\x20sourcemap\x20will\x20not\x20be\x20generated','getReactNativeVersion','failure','CodePush','then','getiOSHermesEnabled','path','length','985oUMHTa','8552hGRkgS','output-dir','2BKRAUV','Semver\x20expression\x20that\x20specifies\x20the\x20binary\x20app\x20version(s)\x20this\x20release\x20is\x20targeting\x20(e.g.\x201.1.0,\x20~1.2.3)','development','gradle-file','sync','Entry\x20file\x20\x22','debug','__awaiter','InvalidParameter','removeReactTmpDir','xcodeProjectFile','isValidVersion','pod-file','updateContentsPath','Exception','join','Path\x20to\x20where\x20the\x20sourcemap\x20for\x20the\x20resulting\x20bundle\x20should\x20be\x20written.\x20If\x20omitted,\x20a\x20sourcemap\x20will\x20not\x20be\x20generated','getOwnPropertyDescriptor','plistFile','55CnnMoM','release','450630VlykPy','useHermes','value','use-hermes','specifiedTargetBinaryVersion','decorate','runReactNativeBundleCommand','shortName','1504932RqokWg','Path\x20to\x20the\x20Xcode\x20project\x20or\x20project.pbxproj\x20file','extraBundlerOptions','Name\x20of\x20build\x20configuration\x20which\x20specifies\x20the\x20binary\x20version\x20you\x20want\x20to\x20target\x20this\x20release\x20at.\x20For\x20example,\x20\x22Debug\x22\x20or\x20\x22Release\x22\x20(iOS\x20only)','Option\x20that\x20gets\x20passed\x20to\x20react-native\x20bundler.\x20Can\x20be\x20specified\x20multiple\x20times','30EhmxRv','longName','help','buildConfigurationName','apply','sourcemap-output','NotFound','.js\x22\x20or\x20\x22index.js\x22\x20does\x20not\x20exist.','./lib/codepush-release-command-base','targetBinaryVersion','entryFile','prototype','./lib/react-native-utils','mkdirp','Specifies\x20whether\x20to\x20generate\x20a\x20dev\x20or\x20release\x20build','./lib/file-utils','run','../util/commandline','throw','target-binary-version','plistFilePrefix','Failed\x20to\x20release\x20a\x20CodePush\x20update\x20-\x20','done','mkTempDir','Name\x20of\x20target\x20(PBXNativeTarget)\x20which\x20specifies\x20the\x20binary\x20version\x20you\x20want\x20to\x20target\x20this\x20release\x20at\x20(iOS\x20only)','167271oBZSEa','index.js','apps','\x0a\x22sourcemap-output-dir\x22\x20argument\x20will\x20be\x20ignored\x20as\x20\x22sourcemap-output\x22\x20argument\x20is\x20provided.\x0a','../util/misc/promisfied-fs','sourcemapOutputDir','mappdl-cli:commands:release-react','isValidPlatform','Path\x20to\x20the\x20app\x27s\x20entry\x20JavaScript\x20file.\x20If\x20omitted,\x20\x22index.<platform>.js\x22\x20and\x20then\x20\x22index.js\x22\x20will\x20be\x20used\x20(if\x20they\x20exist)','default','8mmjRVo','ownerName','defineProperty','./lib/validation-utils','out','index.','isArray','podFile','xcode-project-file','../util/interaction','log','bundleName','Platform\x20must\x20be\x20\x22React\x20Native\x22.','684486AtmaUc','build-configuration-name','Release\x20a\x20React\x20Native\x20update\x20to\x20an\x20app\x20deployment','getReactNativeProjectAppVersion','xcodeTargetName','fileDoesNotExistOrIsDirectory'];_0x5d3a=function(){return _0x5c699e;};return _0x5d3a();}var __decorate=this&&this[_0x574036(0x171)]||function(_0x5d2185,_0x5af8a0,_0x4129cd,_0xc227ed){var _0xa2fd78=_0x574036,_0x38d3a0,_0x2283c4=arguments['length'],_0x513b4c=_0x2283c4<0x3?_0x5af8a0:null===_0xc227ed?_0xc227ed=Object[_0xa2fd78(0x19d)](_0x5af8a0,_0x4129cd):_0xc227ed;if('object'==typeof Reflect&&'function'==typeof Reflect[_0xa2fd78(0x1a6)])_0x513b4c=Reflect[_0xa2fd78(0x1a6)](_0x5d2185,_0x5af8a0,_0x4129cd,_0xc227ed);else{for(var _0x105205=_0x5d2185[_0xa2fd78(0x188)]-0x1;0x0<=_0x105205;_0x105205--)(_0x38d3a0=_0x5d2185[_0x105205])&&(_0x513b4c=(_0x2283c4<0x3?_0x38d3a0(_0x513b4c):0x3<_0x2283c4?_0x38d3a0(_0x5af8a0,_0x4129cd,_0x513b4c):_0x38d3a0(_0x5af8a0,_0x4129cd))||_0x513b4c);}return 0x3<_0x2283c4&&_0x513b4c&&Object['defineProperty'](_0x5af8a0,_0x4129cd,_0x513b4c),_0x513b4c;},__awaiter=this&&this[_0x574036(0x193)]||function(_0x49d9b7,_0x3eddc3,_0x85a3f0,_0x27ceab){return new(_0x85a3f0=_0x85a3f0||Promise)(function(_0x4e94aa,_0x33ff75){var _0x4d4d4e=_0x144e;function _0x4764a3(_0xce62b2){try{_0x555644(_0x27ceab['next'](_0xce62b2));}catch(_0x3d8b0d){_0x33ff75(_0x3d8b0d);}}function _0x5a7469(_0x72fa96){var _0x28bddb=_0x144e;try{_0x555644(_0x27ceab[_0x28bddb(0x1c0)](_0x72fa96));}catch(_0x15af43){_0x33ff75(_0x15af43);}}function _0x555644(_0x43c4e6){var _0x1bf95b=_0x144e,_0xd30f34;_0x43c4e6[_0x1bf95b(0x1c4)]?_0x4e94aa(_0x43c4e6[_0x1bf95b(0x1a3)]):((_0xd30f34=_0x43c4e6[_0x1bf95b(0x1a3)])instanceof _0x85a3f0?_0xd30f34:new _0x85a3f0(function(_0x479f76){_0x479f76(_0xd30f34);}))[_0x1bf95b(0x185)](_0x4764a3,_0x5a7469);}_0x555644((_0x27ceab=_0x27ceab[_0x4d4d4e(0x1b2)](_0x49d9b7,_0x3eddc3||[]))['next']());});};Object[_0x574036(0x1d3)](exports,_0x574036(0x170),{'value':!0x0});let commandline_1=require(_0x574036(0x1bf)),codepush_release_command_base_1=require(_0x574036(0x1b6)),interaction_1=require(_0x574036(0x1da)),util_1=require(_0x574036(0x179)),pfs=require(_0x574036(0x1cb)),path=require(_0x574036(0x187)),mkdirp=require(_0x574036(0x1bb)),file_utils_1=require(_0x574036(0x1bd)),validation_utils_1=require(_0x574036(0x1d4)),react_native_utils_1=require(_0x574036(0x1ba)),lodash_1=require(_0x574036(0x176)),debug=require(_0x574036(0x192))(_0x574036(0x1cd)),CodePushReleaseReactCommand=class extends codepush_release_command_base_1[_0x574036(0x1d0)]{[_0x574036(0x1be)](_0x4ee358){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x3098ff=_0x144e;if(!react_native_utils_1[_0x3098ff(0x182)]())return commandline_1[_0x3098ff(0x183)](commandline_1[_0x3098ff(0x16b)]['InvalidParameter'],'The\x20project\x20in\x20the\x20CWD\x20is\x20not\x20a\x20React\x20Native\x20project.');var _0x3d64e4=yield interaction_1[_0x3098ff(0x1d5)]['progress'](_0x3098ff(0x16f),_0x4ee358[_0x3098ff(0x1c9)][_0x3098ff(0x172)](this['app'][_0x3098ff(0x1d2)],this['app'][_0x3098ff(0x17b)]));if(this['os']=_0x3d64e4['os'][_0x3098ff(0x178)](),this[_0x3098ff(0x1e5)]=_0x3d64e4[_0x3098ff(0x1e5)][_0x3098ff(0x178)](),this[_0x3098ff(0x199)]=this[_0x3098ff(0x166)]||(yield pfs[_0x3098ff(0x1c5)](_0x3098ff(0x17a))),this['updateContentsPath']=path[_0x3098ff(0x19b)](this[_0x3098ff(0x199)],_0x3098ff(0x184)),mkdirp[_0x3098ff(0x190)](this[_0x3098ff(0x199)]),!react_native_utils_1[_0x3098ff(0x17d)](this['os']))return commandline_1['failure'](commandline_1['ErrorCodes'][_0x3098ff(0x194)],_0x3098ff(0x180));if(!react_native_utils_1[_0x3098ff(0x1ce)](this['platform']))return commandline_1['failure'](commandline_1[_0x3098ff(0x16b)][_0x3098ff(0x19a)],_0x3098ff(0x1dd));if(this[_0x3098ff(0x1dc)]||(this[_0x3098ff(0x1dc)]=_0x3098ff(0x169)===this['os']?_0x3098ff(0x162):_0x3098ff(0x1d6)+this['os']+'.bundle'),this[_0x3098ff(0x1b8)]){if(file_utils_1['fileDoesNotExistOrIsDirectory'](this['entryFile']))return commandline_1[_0x3098ff(0x183)](commandline_1[_0x3098ff(0x16b)][_0x3098ff(0x1b4)],_0x3098ff(0x191)+this['entryFile']+_0x3098ff(0x168));}else{if(this['entryFile']=_0x3098ff(0x1d6)+this['os']+'.js',file_utils_1['fileDoesNotExistOrIsDirectory'](this[_0x3098ff(0x1b8)])&&(this['entryFile']=_0x3098ff(0x1c8)),file_utils_1[_0x3098ff(0x1e3)](this['entryFile']))return commandline_1[_0x3098ff(0x183)](commandline_1[_0x3098ff(0x16b)][_0x3098ff(0x1b4)],'Entry\x20file\x20\x22index.'+this['os']+_0x3098ff(0x1b5));}if(this[_0x3098ff(0x1cc)]&&this[_0x3098ff(0x163)]&&interaction_1['out'][_0x3098ff(0x177)](_0x3098ff(0x1ca)),this['sourcemapOutputDir']&&!this[_0x3098ff(0x163)]&&(this[_0x3098ff(0x163)]=path[_0x3098ff(0x19b)](this[_0x3098ff(0x1cc)],this['bundleName']+_0x3098ff(0x16a))),lodash_1[_0x3098ff(0x1d7)](this[_0x3098ff(0x1a5)])&&console[_0x3098ff(0x1db)](this[_0x3098ff(0x1a5)]),this['targetBinaryVersion']=this[_0x3098ff(0x1a5)],this[_0x3098ff(0x1b7)]&&!validation_utils_1[_0x3098ff(0x197)](this[_0x3098ff(0x1b7)]))return commandline_1['failure'](commandline_1['ErrorCodes'][_0x3098ff(0x194)],'Invalid\x20binary\x20version(s)\x20for\x20a\x20release.');this[_0x3098ff(0x1b7)]||(_0x3d64e4={'os':this['os'],'plistFile':this[_0x3098ff(0x19e)],'plistFilePrefix':this[_0x3098ff(0x1c2)],'gradleFile':this['gradleFile'],'buildConfigurationName':this[_0x3098ff(0x1b1)],'xcodeTargetName':this[_0x3098ff(0x1e2)],'projectFile':this[_0x3098ff(0x196)]},this[_0x3098ff(0x1b7)]=yield react_native_utils_1[_0x3098ff(0x1e1)](_0x3d64e4)),_0x3098ff(0x15f)==typeof this[_0x3098ff(0x1ab)]&&(this[_0x3098ff(0x1ab)]=[this[_0x3098ff(0x1ab)]]),_0x3098ff(0x15f)==typeof this[_0x3098ff(0x17c)]&&(this[_0x3098ff(0x17c)]=[this[_0x3098ff(0x17c)]]);try{return file_utils_1[_0x3098ff(0x1e4)](this['updateContentsPath']),file_utils_1[_0x3098ff(0x195)](),yield react_native_utils_1[_0x3098ff(0x1a7)](this[_0x3098ff(0x1dc)],this[_0x3098ff(0x18e)],this[_0x3098ff(0x1b8)],this[_0x3098ff(0x199)],this['os'],this['sourcemapOutput'],this[_0x3098ff(0x1ab)]),(this['useHermes']||_0x3098ff(0x174)===this['os']&&(yield react_native_utils_1['getAndroidHermesEnabled'](this[_0x3098ff(0x164)]))||_0x3098ff(0x169)===this['os']&&(yield react_native_utils_1[_0x3098ff(0x186)](this[_0x3098ff(0x1d8)])))&&(yield react_native_utils_1['runHermesEmitBinaryCommand'](this[_0x3098ff(0x1dc)],this[_0x3098ff(0x199)],this[_0x3098ff(0x163)],this[_0x3098ff(0x17c)],this[_0x3098ff(0x164)])),yield this[_0x3098ff(0x1a0)](_0x4ee358);}catch(_0x211e65){return debug(_0x3098ff(0x1c3)+util_1['inspect'](_0x211e65)),commandline_1[_0x3098ff(0x183)](commandline_1[_0x3098ff(0x16b)][_0x3098ff(0x19a)],_0x3098ff(0x165));}finally{this[_0x3098ff(0x166)]||(yield pfs[_0x3098ff(0x16c)](this[_0x3098ff(0x199)]));}});}};function _0x144e(_0x2f3506,_0x2cd984){var _0x5d3a95=_0x5d3a();return _0x144e=function(_0x144eea,_0x27134c){_0x144eea=_0x144eea-0x15c;var _0x6af5da=_0x5d3a95[_0x144eea];return _0x6af5da;},_0x144e(_0x2f3506,_0x2cd984);}__decorate([commandline_1['help'](_0x574036(0x16d)),commandline_1[_0x574036(0x1a8)]('b'),commandline_1[_0x574036(0x1af)]('bundle-name'),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],'bundleName',void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1bc)),commandline_1[_0x574036(0x1af)](_0x574036(0x18e))],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x18e),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1cf)),commandline_1[_0x574036(0x1a8)]('e'),commandline_1[_0x574036(0x1af)]('entry-file'),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand['prototype'],'entryFile',void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x16e)),commandline_1['shortName']('g'),commandline_1[_0x574036(0x1af)](_0x574036(0x18f)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x164),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x17f)),commandline_1[_0x574036(0x1af)](_0x574036(0x198)),commandline_1['hasArg']],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x1d8),void 0x0),__decorate([commandline_1['help']('Path\x20to\x20the\x20plist\x20file\x20which\x20specifies\x20the\x20binary\x20version\x20you\x20want\x20to\x20target\x20this\x20release\x20at\x20(iOS\x20only)'),commandline_1[_0x574036(0x1a8)]('p'),commandline_1[_0x574036(0x167)],commandline_1[_0x574036(0x1af)](_0x574036(0x160))],CodePushReleaseReactCommand['prototype'],_0x574036(0x19e),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1aa)),commandline_1['shortName']('xp'),commandline_1['longName'](_0x574036(0x1d9)),commandline_1['hasArg']],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x196),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x15c)),commandline_1[_0x574036(0x1af)]('plist-file-prefix'),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand['prototype'],'plistFilePrefix',void 0x0),__decorate([commandline_1['help'](_0x574036(0x1ac)),commandline_1[_0x574036(0x1a8)]('c'),commandline_1['hasArg'],commandline_1[_0x574036(0x1af)](_0x574036(0x1df)),commandline_1[_0x574036(0x17e)]('Release')],CodePushReleaseReactCommand[_0x574036(0x1b9)],'buildConfigurationName',void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1c6)),commandline_1[_0x574036(0x1a8)]('xt'),commandline_1['longName'](_0x574036(0x161)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],'xcodeTargetName',void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x19c)),commandline_1[_0x574036(0x1a8)]('s'),commandline_1[_0x574036(0x1af)](_0x574036(0x1b3)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand['prototype'],_0x574036(0x163),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x181)),commandline_1[_0x574036(0x1af)](_0x574036(0x15d)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x1cc),void 0x0),__decorate([commandline_1['help'](_0x574036(0x173)),commandline_1[_0x574036(0x1a8)]('o'),commandline_1[_0x574036(0x1af)](_0x574036(0x18b)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x166),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x18d)),commandline_1[_0x574036(0x1a8)]('t'),commandline_1['longName'](_0x574036(0x1c1)),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand['prototype'],_0x574036(0x1a5),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1ad)),commandline_1[_0x574036(0x1af)]('extra-bundler-option'),commandline_1[_0x574036(0x17e)]([]),commandline_1[_0x574036(0x167)]],CodePushReleaseReactCommand[_0x574036(0x1b9)],'extraBundlerOptions',void 0x0),__decorate([commandline_1[_0x574036(0x1b0)]('Flag\x20that\x20gets\x20passed\x20to\x20Hermes,\x20JavaScript\x20to\x20bytecode\x20compiler.\x20Can\x20be\x20specified\x20multiple\x20times'),commandline_1['longName']('extra-hermes-flag'),commandline_1[_0x574036(0x17e)]([]),commandline_1['hasArg']],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x17c),void 0x0),__decorate([commandline_1[_0x574036(0x1b0)]('Enable\x20hermes\x20and\x20bypass\x20automatic\x20checks'),commandline_1[_0x574036(0x1af)](_0x574036(0x1a4))],CodePushReleaseReactCommand[_0x574036(0x1b9)],_0x574036(0x1a2),void 0x0),CodePushReleaseReactCommand=__decorate([commandline_1[_0x574036(0x1b0)](_0x574036(0x1e0))],CodePushReleaseReactCommand),exports['default']=CodePushReleaseReactCommand;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const commandline_1 = require("../util/commandline");
+const codepush_release_command_base_1 = require("./lib/codepush-release-command-base");
+const interaction_1 = require("../util/interaction");
+const util_1 = require("util");
+const pfs = require("../util/misc/promisfied-fs");
+const path = require("path");
+const mkdirp = require("mkdirp");
+const file_utils_1 = require("./lib/file-utils");
+// import { isValidDeployment, isValidNumber, isValidVersion } from "./lib/validation-utils";
+// import { isValidDeployment, isValidVersion } from "./lib/validation-utils";
+const validation_utils_1 = require("./lib/validation-utils");
+const react_native_utils_1 = require("./lib/react-native-utils");
+const lodash_1 = require("lodash");
+// import * as chalk from "chalk";
+const debug = require("debug")("mappdl-cli:commands:release-react");
+let CodePushReleaseReactCommand = class CodePushReleaseReactCommand extends codepush_release_command_base_1.default {
+    run(client) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (!react_native_utils_1.getReactNativeVersion()) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, "The project in the CWD is not a React Native project.");
+            }
+            // if (!(await isValidDeployment(client, this.app, this.specifiedDeploymentName))) {
+            //   return failure(ErrorCodes.InvalidParameter, `Deployment "${this.specifiedDeploymentName}" does not exist.`);
+            // } else {
+            //   this.deploymentName = this.specifiedDeploymentName;
+            // }
+            // this.deploymentName = "";
+            const appInfo = yield interaction_1.out.progress("Getting app info...", client.apps.get(this.app.ownerName, this.app.appName));
+            this.os = appInfo.os.toLowerCase();
+            this.platform = appInfo.platform.toLowerCase();
+            this.updateContentsPath = this.outputDir || (yield pfs.mkTempDir("code-push"));
+            // we have to add "CodePush" root folder to make update contents file structure
+            // to be compatible with React Native client SDK
+            this.updateContentsPath = path.join(this.updateContentsPath, "CodePush");
+            mkdirp.sync(this.updateContentsPath);
+            if (!react_native_utils_1.isValidOS(this.os)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, `OS must be "android", "ios", or "windows".`);
+            }
+            if (!react_native_utils_1.isValidPlatform(this.platform)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.Exception, `Platform must be "React Native".`);
+            }
+            if (!this.bundleName) {
+                this.bundleName = this.os === "ios" ? "main.jsbundle" : `index.${this.os}.bundle`;
+            }
+            if (!this.entryFile) {
+                this.entryFile = `index.${this.os}.js`;
+                if (file_utils_1.fileDoesNotExistOrIsDirectory(this.entryFile)) {
+                    this.entryFile = "index.js";
+                }
+                if (file_utils_1.fileDoesNotExistOrIsDirectory(this.entryFile)) {
+                    return commandline_1.failure(commandline_1.ErrorCodes.NotFound, `Entry file "index.${this.os}.js" or "index.js" does not exist.`);
+                }
+            }
+            else {
+                if (file_utils_1.fileDoesNotExistOrIsDirectory(this.entryFile)) {
+                    return commandline_1.failure(commandline_1.ErrorCodes.NotFound, `Entry file "${this.entryFile}" does not exist.`);
+                }
+            }
+            if (this.sourcemapOutputDir && this.sourcemapOutput) {
+                interaction_1.out.text('\n"sourcemap-output-dir" argument will be ignored as "sourcemap-output" argument is provided.\n');
+            }
+            if (this.sourcemapOutputDir && !this.sourcemapOutput) {
+                this.sourcemapOutput = path.join(this.sourcemapOutputDir, this.bundleName + ".map");
+            }
+            if (lodash_1.isArray(this.specifiedTargetBinaryVersion)) {
+                console.log(this.specifiedTargetBinaryVersion);
+            }
+            this.targetBinaryVersion = this.specifiedTargetBinaryVersion;
+            if (this.targetBinaryVersion && !validation_utils_1.isValidVersion(this.targetBinaryVersion)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, "Invalid binary version(s) for a release.");
+            }
+            else if (!this.targetBinaryVersion) {
+                const versionSearchParams = {
+                    os: this.os,
+                    plistFile: this.plistFile,
+                    plistFilePrefix: this.plistFilePrefix,
+                    gradleFile: this.gradleFile,
+                    buildConfigurationName: this.buildConfigurationName,
+                    xcodeTargetName: this.xcodeTargetName,
+                    projectFile: this.xcodeProjectFile,
+                };
+                this.targetBinaryVersion = yield react_native_utils_1.getReactNativeProjectAppVersion(versionSearchParams);
+            }
+            else {
+                // if (!this.specifiedTargetBinaryVersionCode || !isValidNumber(this.specifiedTargetBinaryVersionCode)) {
+                //   return failure(
+                //     ErrorCodes.InvalidParameter,
+                //     `Using the --number-build-version or -n option valid binary ${this.os === "android" ? "versionCode" : "build number"
+                //     } for a release.`
+                //   );
+                // }
+            }
+            // if (this.specifiedTargetBinaryVersionCode && !isValidNumber(this.specifiedTargetBinaryVersionCode)) {
+            //   return failure(
+            //     ErrorCodes.InvalidParameter,
+            //     `Invalid binary ${this.os === "android" ? "versionCode" : "build number"} for a release.`
+            //   );
+            // } else {
+            //   if (this.specifiedTargetBinaryVersionCode) {
+            //     this.targetBinaryVersionCode = parseInt(this.specifiedTargetBinaryVersionCode, 10);
+            //   } else {
+            //     const versionSearchParams: VersionSearchParams = {
+            //       os: this.os,
+            //       plistFile: this.plistFile,
+            //       plistFilePrefix: this.plistFilePrefix,
+            //       gradleFile: this.gradleFile,
+            //       buildConfigurationName: this.buildConfigurationName,
+            //       xcodeTargetName: this.xcodeTargetName,
+            //       projectFile: this.xcodeProjectFile,
+            //     } as VersionSearchParams;
+            //     this.targetBinaryVersionCode = await getReactNativeProjectAppVersionCode(versionSearchParams);
+            //     // return failure(
+            //     //   ErrorCodes.InvalidParameter,
+            //     //   `Invalid binary ${this.os === "android" ? "versionCode" : "build number"} for a release.`
+            //     // );
+            //   }
+            // }
+            if (typeof this.extraBundlerOptions === "string") {
+                this.extraBundlerOptions = [this.extraBundlerOptions];
+            }
+            if (typeof this.extraHermesFlags === "string") {
+                this.extraHermesFlags = [this.extraHermesFlags];
+            }
+            try {
+                file_utils_1.createEmptyTmpReleaseFolder(this.updateContentsPath);
+                file_utils_1.removeReactTmpDir();
+                yield react_native_utils_1.runReactNativeBundleCommand(this.bundleName, this.development, this.entryFile, this.updateContentsPath, this.os, this.sourcemapOutput, this.extraBundlerOptions);
+                const isHermesEnabled = this.useHermes ||
+                    (this.os === "android" && (yield react_native_utils_1.getAndroidHermesEnabled(this.gradleFile))) || // Check if we have to run hermes to compile JS to Byte Code if Hermes is enabled in build.gradle and we're releasing an Android build
+                    (this.os === "ios" && (yield react_native_utils_1.getiOSHermesEnabled(this.podFile))); // Check if we have to run hermes to compile JS to Byte Code if Hermes is enabled in Podfile and we're releasing an iOS build
+                if (isHermesEnabled) {
+                    yield react_native_utils_1.runHermesEmitBinaryCommand(this.bundleName, this.updateContentsPath, this.sourcemapOutput, this.extraHermesFlags, this.gradleFile);
+                }
+                // out.text(chalk.cyan("DEBUG LOG \nReleasing update contents to CodePush 2:\n"));
+                // out.text(chalk.cyan("DEBUG LOG \nReleasing update contents to CodePush:\n"));
+                return yield this.release(client);
+            }
+            catch (error) {
+                // out.text(chalk.red(`DEBUG LOG Failed to release a CodePush update - ${inspect(error)}`));
+                debug(`Failed to release a CodePush update - ${util_1.inspect(error)}`);
+                return commandline_1.failure(commandline_1.ErrorCodes.Exception, "Failed to release a CodePush update.");
+            }
+            finally {
+                if (!this.outputDir) {
+                    yield pfs.rmDir(this.updateContentsPath);
+                }
+            }
+        });
+    }
+};
+__decorate([
+    commandline_1.help('Name of the generated JS bundle file. If unspecified, the standard bundle name will be used, depending on the specified platform: "main.jsbundle" (iOS), "index.android.bundle" (Android) or "index.windows.bundle" (Windows)'),
+    commandline_1.shortName("b"),
+    commandline_1.longName("bundle-name"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "bundleName", void 0);
+__decorate([
+    commandline_1.help("Specifies whether to generate a dev or release build"),
+    commandline_1.longName("development")
+], CodePushReleaseReactCommand.prototype, "development", void 0);
+__decorate([
+    commandline_1.help('Path to the app\'s entry JavaScript file. If omitted, "index.<platform>.js" and then "index.js" will be used (if they exist)'),
+    commandline_1.shortName("e"),
+    commandline_1.longName("entry-file"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "entryFile", void 0);
+__decorate([
+    commandline_1.help("Path to the gradle file which specifies the binary version you want to target this release at (android only)"),
+    commandline_1.shortName("g"),
+    commandline_1.longName("gradle-file"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "gradleFile", void 0);
+__decorate([
+    commandline_1.help("Path to the cocopods config file (iOS only)"),
+    commandline_1.longName("pod-file"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "podFile", void 0);
+__decorate([
+    commandline_1.help("Path to the plist file which specifies the binary version you want to target this release at (iOS only)"),
+    commandline_1.shortName("p"),
+    commandline_1.hasArg,
+    commandline_1.longName("plist-file")
+], CodePushReleaseReactCommand.prototype, "plistFile", void 0);
+__decorate([
+    commandline_1.help("Path to the Xcode project or project.pbxproj file"),
+    commandline_1.shortName("xp"),
+    commandline_1.longName("xcode-project-file"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "xcodeProjectFile", void 0);
+__decorate([
+    commandline_1.help("Prefix to append to the file name when attempting to find your app's Info.plist file (iOS only)"),
+    commandline_1.longName("plist-file-prefix"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "plistFilePrefix", void 0);
+__decorate([
+    commandline_1.help('Name of build configuration which specifies the binary version you want to target this release at. For example, "Debug" or "Release" (iOS only)'),
+    commandline_1.shortName("c"),
+    commandline_1.hasArg,
+    commandline_1.longName("build-configuration-name"),
+    commandline_1.defaultValue("Release")
+], CodePushReleaseReactCommand.prototype, "buildConfigurationName", void 0);
+__decorate([
+    commandline_1.help("Name of target (PBXNativeTarget) which specifies the binary version you want to target this release at (iOS only)"),
+    commandline_1.shortName("xt"),
+    commandline_1.longName("xcode-target-name"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "xcodeTargetName", void 0);
+__decorate([
+    commandline_1.help("Path to where the sourcemap for the resulting bundle should be written. If omitted, a sourcemap will not be generated"),
+    commandline_1.shortName("s"),
+    commandline_1.longName("sourcemap-output"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "sourcemapOutput", void 0);
+__decorate([
+    commandline_1.help('Path to folder where the sourcemap for the resulting bundle should be written. Name of sourcemap file will be generated automatically. This argument will be ignored if "sourcemap-output" argument is provided. If omitted, a sourcemap will not be generated'),
+    commandline_1.longName("sourcemap-output-dir"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "sourcemapOutputDir", void 0);
+__decorate([
+    commandline_1.help("Path to where the bundle should be written. If omitted, the bundle will not be saved on your machine"),
+    commandline_1.shortName("o"),
+    commandline_1.longName("output-dir"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "outputDir", void 0);
+__decorate([
+    commandline_1.help("Semver expression that specifies the binary app version(s) this release is targeting (e.g. 1.1.0, ~1.2.3)"),
+    commandline_1.shortName("t"),
+    commandline_1.longName("target-binary-version"),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "specifiedTargetBinaryVersion", void 0);
+__decorate([
+    commandline_1.help("Option that gets passed to react-native bundler. Can be specified multiple times"),
+    commandline_1.longName("extra-bundler-option"),
+    commandline_1.defaultValue([]),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "extraBundlerOptions", void 0);
+__decorate([
+    commandline_1.help("Flag that gets passed to Hermes, JavaScript to bytecode compiler. Can be specified multiple times"),
+    commandline_1.longName("extra-hermes-flag"),
+    commandline_1.defaultValue([]),
+    commandline_1.hasArg
+], CodePushReleaseReactCommand.prototype, "extraHermesFlags", void 0);
+__decorate([
+    commandline_1.help("Enable hermes and bypass automatic checks"),
+    commandline_1.longName("use-hermes")
+], CodePushReleaseReactCommand.prototype, "useHermes", void 0);
+CodePushReleaseReactCommand = __decorate([
+    commandline_1.help("Release a React Native update to an app deployment")
+], CodePushReleaseReactCommand);
+exports.default = CodePushReleaseReactCommand;

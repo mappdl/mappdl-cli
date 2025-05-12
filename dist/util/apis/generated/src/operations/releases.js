@@ -1,1 +1,768 @@
-const _0x37e6a8=_0x34ae;function _0x1455(){const _0x12293c=['13007511IDZlHd','updateDetails','Paths1P68AoeV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses404ContentApplicationJsonSchema','PathsOst83YV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses501ContentApplicationJsonSchema','1778xhwDtp','Paths3NwxqsV01SdkAppsAppSecretReleasesReleaseHashGetResponses200ContentApplicationJsonSchema','PathsMeoh5V01AppsOwnerNameAppNameReleasesReleaseIdPutResponses200ContentApplicationJsonSchema','964866XrRzca','PathsOjvewzV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdPutRequestbodyContentApplicationJsonSchema','putDistributionTester','deleteDistributionTester','appSecret','Paths5WvwkdV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses201ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/stores','Paths1Wtl5HpV01AppsOwnerNameAppNameReleasesReleaseIdGetResponses200ContentApplicationJsonSchema','999rnoprj','/v0.1/sdk/apps/{app_secret}/releases/private/latest','/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/releases/{release_id}','list','contentType','PATCH','Paths19I3T9ZV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostRequestbodyContentApplicationJsonSchema','body5','client','21bSQHvq','storeId','Paths1WkrcwmV01SdkAppsAppSecretReleasesPrivateLatestGetResponses404ContentApplicationJsonSchema','sendOperationRequest','1899qhouPe','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}','Paths7J8CcmV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdPutResponses404ContentApplicationJsonSchema','PathsHninlmV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesGetResponses200ContentApplicationJsonSchemaItems','Paths1Y3U3TvV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdPutRequestbodyContentApplicationJsonSchema','31110bnURlx','putDistributionGroup','accept','listByDistributionGroup','Paths1Ufxd2QV01AppsOwnerNameAppNameReleasesReleaseIdPutResponses400ContentApplicationJsonSchema','Composite','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/testers/{tester_id}','PathsFv6EorV01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses201ContentApplicationJsonSchema','Paths1FopftvV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses200ContentApplicationJsonSchema','Paths1BbvdowV01AppsOwnerNameAppNameReleasesReleaseIdStoresStoreIdDeleteResponses404ContentApplicationJsonSchema','assign','deleteTesterFromDestinations','notifyTesters','releaseId2','getLatestByHash','__esModule','listLatest','testerId','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/testers','addTesters','70435troOvp','addDistributionGroup','Paths1Wkh2MwV01SdkAppsAppSecretReleasesPrivateLatestGetResponses200ContentApplicationJsonSchema','PUT','build','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/stores/{store_id}','Paths1Nrzr5YV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdDeleteResponses404ContentApplicationJsonSchema','releaseHash','options','publishedOnly','Paths1Tn9O5V01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses201ContentApplicationJsonSchema','addStore','PathsAuajt0V01AppsOwnerNameAppNameReleasesReleaseIdPutResponses404ContentApplicationJsonSchema','PathsFvdb99V01TesterAppsGetResponses200ContentApplicationJsonSchemaItems','ownerName','PathsVb1DjeV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses400ContentApplicationJsonSchema','email','json','Paths11Dzu4BV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdPutResponses404ContentApplicationJsonSchema','$host','Sequence','/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/releases','releaseNotes','deleteDistributionGroup','GET','/v0.1/apps/{owner_name}/{app_name}/testers/{tester_id}','distributionGroupName','/v0.1/apps/{owner_name}/{app_name}/releases','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups/{group_id}','/v0.1/apps/{owner_name}/{app_name}/releases/filter_by_tester','Paths1Kf4BpnV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses400ContentApplicationJsonSchema','Paths1Lqk8FbV01AppsOwnerNameAppNameReleasesReleaseIdDeleteResponses500ContentApplicationJsonSchema','defineProperty','groupId1','DELETE','PathsQ3NwdwV01AppsOwnerNameAppNameReleasesReleaseIdPutRequestbodyContentApplicationJsonSchema','Paths1T5QljtV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses404ContentApplicationJsonSchema','Paths6Hivb0V01AppsOwnerNameAppNameReleasesReleaseIdGetResponses404ContentApplicationJsonSchema','@azure/core-client','../models/parameters','236GgKUWE','mandatoryUpdate','2600196PGbdyG','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups','getLatestByDistributionGroup','/v0.1/apps/{owner_name}/{app_name}/recent_releases','POST','274728NhKIMo','Paths1Hpnd2WV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses404ContentApplicationJsonSchema','ReleasesImpl','testerId1','Paths19Ueda8V01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses404ContentApplicationJsonSchema','PathsYi44H6V01AppsOwnerNameAppNameRecentReleasesGetResponses200ContentApplicationJsonSchemaItems','Paths1Jif7RyV01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostRequestbodyContentApplicationJsonSchema','appName','PathsQra1HiV01AppsOwnerNameAppNameReleasesReleaseIdDeleteResponses404ContentApplicationJsonSchema'];_0x1455=function(){return _0x12293c;};return _0x1455();}(function(_0x392bca,_0x4c9e0b){const _0x6518ea=_0x34ae,_0x5472de=_0x392bca();while(!![]){try{const _0x3f2c87=parseInt(_0x6518ea(0x20e))/0x1*(parseInt(_0x6518ea(0x203))/0x2)+-parseInt(_0x6518ea(0x1f1))/0x3+-parseInt(_0x6518ea(0x1ef))/0x4*(-parseInt(_0x6518ea(0x234))/0x5)+parseInt(_0x6518ea(0x206))/0x6+parseInt(_0x6518ea(0x217))/0x7*(parseInt(_0x6518ea(0x1f6))/0x8)+-parseInt(_0x6518ea(0x21b))/0x9*(-parseInt(_0x6518ea(0x220))/0xa)+-parseInt(_0x6518ea(0x1ff))/0xb;if(_0x3f2c87===_0x4c9e0b)break;else _0x5472de['push'](_0x5472de['shift']());}catch(_0x11d18d){_0x5472de['push'](_0x5472de['shift']());}}}(_0x1455,0x901ba),(Object[_0x37e6a8(0x1e7)](exports,_0x37e6a8(0x22f),{'value':!0x0}),exports['ReleasesImpl']=void 0x0));function _0x34ae(_0x2ed61c,_0x517f92){const _0x145531=_0x1455();return _0x34ae=function(_0x34aec3,_0x38d248){_0x34aec3=_0x34aec3-0x1d6;let _0x5f47ed=_0x145531[_0x34aec3];return _0x5f47ed;},_0x34ae(_0x2ed61c,_0x517f92);}let coreClient=require(_0x37e6a8(0x1ed)),Mappers=require('../models/mappers'),Parameters=require(_0x37e6a8(0x1ee));class ReleasesImpl{constructor(_0x427041){const _0x4c040e=_0x37e6a8;this[_0x4c040e(0x216)]=_0x427041;}['listTesterApps'](_0x20edc5){const _0x48625f=_0x37e6a8;return this[_0x48625f(0x216)][_0x48625f(0x21a)]({'options':_0x20edc5},listTesterAppsOperationSpec);}[_0x37e6a8(0x22e)](_0x54c2c0,_0x4872b8,_0x16ee23){const _0x10689c=_0x37e6a8;return this['client'][_0x10689c(0x21a)]({'appSecret':_0x54c2c0,'releaseHash':_0x4872b8,'options':_0x16ee23},getLatestByHashOperationSpec);}['getLatestPrivateRelease'](_0x1bce66,_0x15034b){const _0x14fe06=_0x37e6a8;return this[_0x14fe06(0x216)][_0x14fe06(0x21a)]({'appSecret':_0x1bce66,'options':_0x15034b},getLatestPrivateReleaseOperationSpec);}[_0x37e6a8(0x22b)](_0x5bb5f7,_0x57b269,_0x54889e,_0x1ae339){const _0x56afa5=_0x37e6a8;return this[_0x56afa5(0x216)][_0x56afa5(0x21a)]({'testerId':_0x5bb5f7,'ownerName':_0x57b269,'appName':_0x54889e,'options':_0x1ae339},deleteTesterFromDestinationsOperationSpec);}[_0x37e6a8(0x208)](_0x257e71,_0x5cd53c,_0x4a9670,_0x305090,_0x3c06dd,_0x2a03f4){const _0x295d42=_0x37e6a8;return this[_0x295d42(0x216)][_0x295d42(0x21a)]({'releaseId':_0x257e71,'testerId':_0x5cd53c,'ownerName':_0x4a9670,'appName':_0x305090,'mandatoryUpdate':_0x3c06dd,'options':_0x2a03f4},putDistributionTesterOperationSpec);}[_0x37e6a8(0x209)](_0x2796ce,_0x36f0a2,_0x1827f5,_0x260984,_0xf562b5){const _0x1b69c5=_0x37e6a8;return this['client'][_0x1b69c5(0x21a)]({'releaseId':_0x2796ce,'testerId':_0x36f0a2,'ownerName':_0x1827f5,'appName':_0x260984,'options':_0xf562b5},deleteDistributionTesterOperationSpec);}[_0x37e6a8(0x233)](_0x274a1f,_0xe6829a,_0x182edc,_0xe2ca28,_0x14f74c){const _0x17a366=_0x37e6a8;return this[_0x17a366(0x216)][_0x17a366(0x21a)]({'releaseId':_0x274a1f,'ownerName':_0xe6829a,'appName':_0x182edc,'email':_0xe2ca28,'options':_0x14f74c},addTestersOperationSpec);}['deleteDistributionStore'](_0x4d5ef3,_0xf233e,_0x26643c,_0x169305,_0x475fce){const _0x4fffb2=_0x37e6a8;return this[_0x4fffb2(0x216)]['sendOperationRequest']({'releaseId':_0x4d5ef3,'storeId':_0xf233e,'ownerName':_0x26643c,'appName':_0x169305,'options':_0x475fce},deleteDistributionStoreOperationSpec);}[_0x37e6a8(0x23f)](_0x5163da,_0x517c93,_0x1532a1,_0x296ea8,_0x4065f8){const _0x53ac85=_0x37e6a8;return this[_0x53ac85(0x216)]['sendOperationRequest']({'releaseId':_0x5163da,'ownerName':_0x517c93,'appName':_0x1532a1,'id':_0x296ea8,'options':_0x4065f8},addStoreOperationSpec);}[_0x37e6a8(0x221)](_0x29abee,_0x2e13ea,_0x283b90,_0x19eccb,_0x4ffa65,_0x5d5ce5){const _0x3a925d=_0x37e6a8;return this[_0x3a925d(0x216)][_0x3a925d(0x21a)]({'releaseId':_0x29abee,'groupId':_0x2e13ea,'ownerName':_0x283b90,'appName':_0x19eccb,'mandatoryUpdate':_0x4ffa65,'options':_0x5d5ce5},putDistributionGroupOperationSpec);}[_0x37e6a8(0x1de)](_0x44ad88,_0x1bc7e8,_0x29dab6,_0x2ab3ff,_0x23e520){const _0x15bc73=_0x37e6a8;return this[_0x15bc73(0x216)][_0x15bc73(0x21a)]({'releaseId':_0x44ad88,'groupId':_0x1bc7e8,'ownerName':_0x29dab6,'appName':_0x2ab3ff,'options':_0x23e520},deleteDistributionGroupOperationSpec);}[_0x37e6a8(0x235)](_0x1fb885,_0x26afd9,_0xeb882e,_0x1b0d72,_0x46917e){const _0x1d4a01=_0x37e6a8;return this[_0x1d4a01(0x216)][_0x1d4a01(0x21a)]({'releaseId':_0x1fb885,'ownerName':_0x26afd9,'appName':_0xeb882e,'id':_0x1b0d72,'options':_0x46917e},addDistributionGroupOperationSpec);}['getLatestByUser'](_0x282a68,_0x3334b8,_0xace79c,_0x1673e3){const _0x37ca09=_0x37e6a8;return this[_0x37ca09(0x216)]['sendOperationRequest']({'releaseId':_0x282a68,'ownerName':_0x3334b8,'appName':_0xace79c,'options':_0x1673e3},getLatestByUserOperationSpec);}[_0x37e6a8(0x200)](_0x3368f9,_0x2ab91e,_0x46d3ac,_0x41ace3){const _0xd86e49=_0x37e6a8;return this['client'][_0xd86e49(0x21a)]({'releaseId':_0x3368f9,'ownerName':_0x2ab91e,'appName':_0x46d3ac,'options':_0x41ace3},updateDetailsOperationSpec);}['update'](_0x592418,_0x10f062,_0x347a96,_0x575345,_0x41f2c3){return this['client']['sendOperationRequest']({'releaseId':_0x592418,'ownerName':_0x10f062,'appName':_0x347a96,'body':_0x575345,'options':_0x41f2c3},updateOperationSpec);}['delete'](_0x22e2ef,_0x46df8e,_0x1ed8b1,_0x3c9473){const _0x40eee3=_0x37e6a8;return this[_0x40eee3(0x216)]['sendOperationRequest']({'releaseId':_0x22e2ef,'ownerName':_0x46df8e,'appName':_0x1ed8b1,'options':_0x3c9473},deleteOperationSpec);}['availableToTester'](_0x2e175e,_0x556bc6,_0x18bd00){const _0xbdb612=_0x37e6a8;return this[_0xbdb612(0x216)][_0xbdb612(0x21a)]({'ownerName':_0x2e175e,'appName':_0x556bc6,'options':_0x18bd00},availableToTesterOperationSpec);}[_0x37e6a8(0x211)](_0x3248b9,_0x541ff4,_0x3f6ef9){const _0x49ebcb=_0x37e6a8;return this[_0x49ebcb(0x216)][_0x49ebcb(0x21a)]({'ownerName':_0x3248b9,'appName':_0x541ff4,'options':_0x3f6ef9},listOperationSpec);}[_0x37e6a8(0x230)](_0xa3f609,_0x4a36d9,_0x54348f){const _0x5b42df=_0x37e6a8;return this[_0x5b42df(0x216)]['sendOperationRequest']({'ownerName':_0xa3f609,'appName':_0x4a36d9,'options':_0x54348f},listLatestOperationSpec);}[_0x37e6a8(0x1f3)](_0x5377c0,_0x3c7eed,_0x2581d4,_0x119602,_0x2bfea3){const _0x913548=_0x37e6a8;return this[_0x913548(0x216)]['sendOperationRequest']({'ownerName':_0x5377c0,'appName':_0x3c7eed,'distributionGroupName':_0x2581d4,'releaseId':_0x119602,'options':_0x2bfea3},getLatestByDistributionGroupOperationSpec);}['deleteWithDistributionGroupId'](_0x4c64ef,_0x825732,_0x26a89f,_0x1711c2,_0x4579cc){const _0x19c717=_0x37e6a8;return this[_0x19c717(0x216)]['sendOperationRequest']({'ownerName':_0x4c64ef,'appName':_0x825732,'distributionGroupName':_0x26a89f,'releaseId':_0x1711c2,'options':_0x4579cc},deleteWithDistributionGroupIdOperationSpec);}[_0x37e6a8(0x223)](_0x53b6c2,_0x1f95ce,_0xdd857e,_0x496fa1){const _0x2de224=_0x37e6a8;return this[_0x2de224(0x216)][_0x2de224(0x21a)]({'distributionGroupName':_0x53b6c2,'ownerName':_0x1f95ce,'appName':_0xdd857e,'options':_0x496fa1},listByDistributionGroupOperationSpec);}}exports[_0x37e6a8(0x1f8)]=ReleasesImpl;let serializer=coreClient['createSerializer'](Mappers,!0x1),listTesterAppsOperationSpec={'path':'/v0.1/tester/apps','httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x37e6a8(0x225),'className':_0x37e6a8(0x241)}}}}}},'urlParameters':[Parameters['$host']],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},getLatestByHashOperationSpec={'path':'/v0.1/sdk/apps/{app_secret}/releases/{release_hash}','httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':Mappers[_0x37e6a8(0x204)]},0x194:{'bodyMapper':Mappers['Paths5W4BybV01SdkAppsAppSecretReleasesReleaseHashGetResponses404ContentApplicationJsonSchema']}},'queryParameters':[Parameters['udid']],'urlParameters':[Parameters['$host'],Parameters[_0x37e6a8(0x20a)],Parameters[_0x37e6a8(0x23b)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},getLatestPrivateReleaseOperationSpec={'path':_0x37e6a8(0x20f),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':Mappers[_0x37e6a8(0x236)]},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x219)]}},'queryParameters':[Parameters['udid']],'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x20a)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},deleteTesterFromDestinationsOperationSpec={'path':_0x37e6a8(0x1e0),'httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers['Paths16X7GfoV01AppsOwnerNameAppNameTestersTesterIdDeleteResponses404ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x231)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},putDistributionTesterOperationSpec={'path':_0x37e6a8(0x226),'httpMethod':_0x37e6a8(0x237),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x21d)]}},'requestBody':{'parameterPath':{'mandatoryUpdate':[_0x37e6a8(0x1f0)]},'mapper':Object[_0x37e6a8(0x22a)](Object[_0x37e6a8(0x22a)]({},Mappers[_0x37e6a8(0x207)]),{'required':!0x0})},'urlParameters':[Parameters['$host'],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)],Parameters[_0x37e6a8(0x1f9)]],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters['accept']],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},deleteDistributionTesterOperationSpec={'path':_0x37e6a8(0x226),'httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers['Paths1RmbaiiV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdDeleteResponses404ContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x231)],Parameters[_0x37e6a8(0x22d)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},addTestersOperationSpec={'path':_0x37e6a8(0x232),'httpMethod':_0x37e6a8(0x1f5),'responses':{0xc9:{'bodyMapper':Mappers[_0x37e6a8(0x20b)]},0x190:{'bodyMapper':Mappers[_0x37e6a8(0x1d6)]},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x201)]}},'requestBody':{'parameterPath':{'mandatoryUpdate':[_0x37e6a8(0x23c),_0x37e6a8(0x1f0)],'email':[_0x37e6a8(0x1d7)],'notifyTesters':['options',_0x37e6a8(0x22c)]},'mapper':Object[_0x37e6a8(0x22a)](Object['assign']({},Mappers['PathsF6Ye6UV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)]],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},deleteDistributionStoreOperationSpec={'path':_0x37e6a8(0x239),'httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x229)]}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters['ownerName'],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)],Parameters[_0x37e6a8(0x218)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},addStoreOperationSpec={'path':_0x37e6a8(0x20c),'httpMethod':'POST','responses':{0xc9:{'bodyMapper':Mappers[_0x37e6a8(0x23e)]},0x190:{'bodyMapper':Mappers[_0x37e6a8(0x1e5)]},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1eb)]}},'requestBody':{'parameterPath':{'id':['id']},'mapper':Object[_0x37e6a8(0x22a)](Object[_0x37e6a8(0x22a)]({},Mappers[_0x37e6a8(0x214)]),{'required':!0x0})},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)]],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},putDistributionGroupOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups/{group_id}','httpMethod':_0x37e6a8(0x237),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1d9)]}},'requestBody':{'parameterPath':{'mandatoryUpdate':[_0x37e6a8(0x1f0)]},'mapper':Object[_0x37e6a8(0x22a)](Object[_0x37e6a8(0x22a)]({},Mappers[_0x37e6a8(0x21f)]),{'required':!0x0})},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters['releaseId2'],Parameters['groupId']],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},deleteDistributionGroupOperationSpec={'path':_0x37e6a8(0x1e3),'httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x23a)]}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)],Parameters[_0x37e6a8(0x1e8)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},addDistributionGroupOperationSpec={'path':_0x37e6a8(0x1f2),'httpMethod':_0x37e6a8(0x1f5),'responses':{0xc9:{'bodyMapper':Mappers[_0x37e6a8(0x227)]},0x190:{'bodyMapper':Mappers['PathsPtrb07V01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses400ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1fa)]}},'requestBody':{'parameterPath':{'id':['id'],'mandatoryUpdate':[_0x37e6a8(0x23c),_0x37e6a8(0x1f0)],'notifyTesters':[_0x37e6a8(0x23c),_0x37e6a8(0x22c)]},'mapper':Object[_0x37e6a8(0x22a)](Object['assign']({},Mappers[_0x37e6a8(0x1fc)]),{'required':!0x0})},'urlParameters':[Parameters['$host'],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x22d)]],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},getLatestByUserOperationSpec={'path':_0x37e6a8(0x21c),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':Mappers[_0x37e6a8(0x20d)]},0x190:{'bodyMapper':Mappers['Paths1LeydabV01AppsOwnerNameAppNameReleasesReleaseIdGetResponses400ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1ec)]}},'queryParameters':[Parameters['udid']],'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters['releaseId'],Parameters[_0x37e6a8(0x242)],Parameters['appName']],'headerParameters':[Parameters['accept']],'serializer':serializer},updateDetailsOperationSpec={'path':_0x37e6a8(0x21c),'httpMethod':_0x37e6a8(0x237),'responses':{0xc8:{'bodyMapper':Mappers[_0x37e6a8(0x205)]},0x190:{'bodyMapper':Mappers[_0x37e6a8(0x224)]},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x240)]}},'requestBody':{'parameterPath':{'enabled':['options','enabled'],'releaseNotes':[_0x37e6a8(0x23c),_0x37e6a8(0x1dd)],'build':[_0x37e6a8(0x23c),_0x37e6a8(0x238)]},'mapper':Object[_0x37e6a8(0x22a)](Object[_0x37e6a8(0x22a)]({},Mappers[_0x37e6a8(0x1ea)]),{'required':!0x0})},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters['appName'],Parameters['releaseId2']],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':_0x37e6a8(0x1d8),'serializer':serializer},updateOperationSpec={'path':_0x37e6a8(0x21c),'httpMethod':_0x37e6a8(0x213),'responses':{0xc8:{'bodyMapper':Mappers[_0x37e6a8(0x228)]},0x190:{'bodyMapper':Mappers['Paths5XfktV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses400ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers['PathsW9K4UlV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses404ContentApplicationJsonSchema']}},'requestBody':Parameters[_0x37e6a8(0x215)],'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters['releaseId2']],'headerParameters':[Parameters[_0x37e6a8(0x212)],Parameters[_0x37e6a8(0x222)]],'mediaType':'json','serializer':serializer},deleteOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}','httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1fe)]},0x1f4:{'bodyMapper':Mappers[_0x37e6a8(0x1e6)]}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters['ownerName'],Parameters['appName'],Parameters[_0x37e6a8(0x22d)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},availableToTesterOperationSpec={'path':_0x37e6a8(0x1e4),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x37e6a8(0x1db),'element':{'type':{'name':_0x37e6a8(0x225),'className':'Paths146V2RtV01AppsOwnerNameAppNameReleasesFilterByTesterGetResponses200ContentApplicationJsonSchemaItems'}}}}}},'queryParameters':[Parameters[_0x37e6a8(0x23d)]],'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},listOperationSpec={'path':_0x37e6a8(0x1e2),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x37e6a8(0x225),'className':'Paths13M4B1YV01AppsOwnerNameAppNameReleasesGetResponses200ContentApplicationJsonSchemaItems'}}}}}},'queryParameters':[Parameters[_0x37e6a8(0x23d)],Parameters['scope']],'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)]],'headerParameters':[Parameters['accept']],'serializer':serializer},listLatestOperationSpec={'path':_0x37e6a8(0x1f4),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x37e6a8(0x1db),'element':{'type':{'name':_0x37e6a8(0x225),'className':_0x37e6a8(0x1fb)}}}}}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)]],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},getLatestByDistributionGroupOperationSpec={'path':_0x37e6a8(0x210),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers['Paths7CegcuV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses200ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x37e6a8(0x1f7)]},0x1f5:{'bodyMapper':Mappers[_0x37e6a8(0x202)]}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters['releaseId'],Parameters['ownerName'],Parameters[_0x37e6a8(0x1fd)],Parameters['distributionGroupName']],'headerParameters':[Parameters[_0x37e6a8(0x222)]],'serializer':serializer},deleteWithDistributionGroupIdOperationSpec={'path':_0x37e6a8(0x210),'httpMethod':_0x37e6a8(0x1e9),'responses':{0xc8:{},0x194:{}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters[_0x37e6a8(0x1e1)],Parameters[_0x37e6a8(0x22d)]],'serializer':serializer},listByDistributionGroupOperationSpec={'path':_0x37e6a8(0x1dc),'httpMethod':_0x37e6a8(0x1df),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x37e6a8(0x1db),'element':{'type':{'name':_0x37e6a8(0x225),'className':_0x37e6a8(0x21e)}}}}},0x194:{'bodyMapper':Mappers['Paths1JakpdqV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesGetResponses404ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x37e6a8(0x1da)],Parameters[_0x37e6a8(0x242)],Parameters[_0x37e6a8(0x1fd)],Parameters['distributionGroupName']],'headerParameters':[Parameters['accept']],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReleasesImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Releases operations. */
+class ReleasesImpl {
+    /**
+     * Initialize a new instance of the class Releases class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Return a list of applications that the user has tester permission to with the latest release for
+     * each.
+     * @param options The options parameters.
+     */
+    listTesterApps(options) {
+        return this.client.sendOperationRequest({ options }, listTesterAppsOperationSpec);
+    }
+    /**
+     * If 'latest' is not specified then it will return the specified release if it's enabled. If 'latest'
+     * is specified, regardless of whether a release hash is provided, the latest enabled release is
+     * returned.
+     * @param appSecret The secret of the target application
+     * @param releaseHash The hash of the release or 'latest' to get the latest release from all the
+     *                    distribution groups assigned to the current user.
+     * @param options The options parameters.
+     */
+    getLatestByHash(appSecret, releaseHash, options) {
+        return this.client.sendOperationRequest({ appSecret, releaseHash, options }, getLatestByHashOperationSpec);
+    }
+    /**
+     * Get the latest release distributed to a private group the given user is a member of for the given
+     * app.
+     * @param appSecret The secret of the target application
+     * @param options The options parameters.
+     */
+    getLatestPrivateRelease(appSecret, options) {
+        return this.client.sendOperationRequest({ appSecret, options }, getLatestPrivateReleaseOperationSpec);
+    }
+    /**
+     * Delete the given tester from the all releases
+     * @param testerId The id of the tester
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteTesterFromDestinations(testerId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testerId, ownerName, appName, options }, deleteTesterFromDestinationsOperationSpec);
+    }
+    /**
+     * Update details about the specified tester associated with the release
+     * @param releaseId The ID of the release
+     * @param testerId The id of the tester
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param mandatoryUpdate Whether a release is mandatory for the given destination
+     * @param options The options parameters.
+     */
+    putDistributionTester(releaseId, testerId, ownerName, appName, mandatoryUpdate, options) {
+        return this.client.sendOperationRequest({ releaseId, testerId, ownerName, appName, mandatoryUpdate, options }, putDistributionTesterOperationSpec);
+    }
+    /**
+     * Delete the given tester from the release
+     * @param releaseId The ID of the release
+     * @param testerId The id of the tester
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteDistributionTester(releaseId, testerId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, testerId, ownerName, appName, options }, deleteDistributionTesterOperationSpec);
+    }
+    /**
+     * Distributes a release to a user
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param email Tester's email address
+     * @param options The options parameters.
+     */
+    addTesters(releaseId, ownerName, appName, email, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, email, options }, addTestersOperationSpec);
+    }
+    /**
+     * Delete the given distribution store from the release
+     * @param releaseId The ID of the release
+     * @param storeId The id of the distribution store
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteDistributionStore(releaseId, storeId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, storeId, ownerName, appName, options }, deleteDistributionStoreOperationSpec);
+    }
+    /**
+     * Distributes a release to a store
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param id Unique id of the release destination
+     * @param options The options parameters.
+     */
+    addStore(releaseId, ownerName, appName, id, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, id, options }, addStoreOperationSpec);
+    }
+    /**
+     * Update details about the specified distribution group associated with the release
+     * @param releaseId The ID of the release
+     * @param groupId The id of the releases destination
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param mandatoryUpdate Whether a release is mandatory for the given destination
+     * @param options The options parameters.
+     */
+    putDistributionGroup(releaseId, groupId, ownerName, appName, mandatoryUpdate, options) {
+        return this.client.sendOperationRequest({ releaseId, groupId, ownerName, appName, mandatoryUpdate, options }, putDistributionGroupOperationSpec);
+    }
+    /**
+     * Delete the given distribution group from the release
+     * @param releaseId The ID of the release
+     * @param groupId The id of the distribution group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteDistributionGroup(releaseId, groupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, groupId, ownerName, appName, options }, deleteDistributionGroupOperationSpec);
+    }
+    /**
+     * Distributes a release to a group
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param id Unique id of the release destination
+     * @param options The options parameters.
+     */
+    addDistributionGroup(releaseId, ownerName, appName, id, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, id, options }, addDistributionGroupOperationSpec);
+    }
+    /**
+     * Get a release with id `release_id`. If `release_id` is `latest`, return the latest release that was
+     * distributed to the current user (from all the distribution groups).
+     * @param releaseId The ID of the release, or `latest` to get the latest release from all the
+     *                  distribution groups assigned to the current user.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getLatestByUser(releaseId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, options }, getLatestByUserOperationSpec);
+    }
+    /**
+     * Update details of a release.
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    updateDetails(releaseId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, options }, updateDetailsOperationSpec);
+    }
+    /**
+     * Updates a release.
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param body The release information.
+     * @param options The options parameters.
+     */
+    update(releaseId, ownerName, appName, body, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, body, options }, updateOperationSpec);
+    }
+    /**
+     * Deletes a release.
+     * @param releaseId The ID of the release
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    delete(releaseId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, ownerName, appName, options }, deleteOperationSpec);
+    }
+    /**
+     * Return detailed information about releases avaiable to a tester.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    availableToTester(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, availableToTesterOperationSpec);
+    }
+    /**
+     * Return basic information about releases.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+    /**
+     * Get the latest release from every distribution group associated with an application.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listLatest(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listLatestOperationSpec);
+    }
+    /**
+     * Return detailed information about a distributed release in a given distribution group.
+     * @param ownerName The name of the app owner
+     * @param appName The name of the app
+     * @param distributionGroupName The name of the distribution group.
+     * @param releaseId Also supports the constant `latest`, which will return the latest release in the
+     *                  distribution group.
+     * @param options The options parameters.
+     */
+    getLatestByDistributionGroup(ownerName, appName, distributionGroupName, releaseId, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, distributionGroupName, releaseId, options }, getLatestByDistributionGroupOperationSpec);
+    }
+    /**
+     * Deletes a release with id 'release_id' in a given distribution group.
+     * @param ownerName The name of the app owner
+     * @param appName The name of the app
+     * @param distributionGroupName The name of the distribution group.
+     * @param releaseId The ID identifying the unique release.
+     * @param options The options parameters.
+     */
+    deleteWithDistributionGroupId(ownerName, appName, distributionGroupName, releaseId, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, distributionGroupName, releaseId, options }, deleteWithDistributionGroupIdOperationSpec);
+    }
+    /**
+     * Return basic information about distributed releases in a given distribution group.
+     * @param distributionGroupName The name of the distribution group.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listByDistributionGroup(distributionGroupName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ distributionGroupName, ownerName, appName, options }, listByDistributionGroupOperationSpec);
+    }
+}
+exports.ReleasesImpl = ReleasesImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const listTesterAppsOperationSpec = {
+    path: "/v0.1/tester/apps",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsFvdb99V01TesterAppsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getLatestByHashOperationSpec = {
+    path: "/v0.1/sdk/apps/{app_secret}/releases/{release_hash}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths3NwxqsV01SdkAppsAppSecretReleasesReleaseHashGetResponses200ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths5W4BybV01SdkAppsAppSecretReleasesReleaseHashGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.udid],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.appSecret,
+        Parameters.releaseHash
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getLatestPrivateReleaseOperationSpec = {
+    path: "/v0.1/sdk/apps/{app_secret}/releases/private/latest",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Wkh2MwV01SdkAppsAppSecretReleasesPrivateLatestGetResponses200ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1WkrcwmV01SdkAppsAppSecretReleasesPrivateLatestGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.udid],
+    urlParameters: [Parameters.$host, Parameters.appSecret],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteTesterFromDestinationsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/testers/{tester_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths16X7GfoV01AppsOwnerNameAppNameTestersTesterIdDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testerId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const putDistributionTesterOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/testers/{tester_id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths7J8CcmV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdPutResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { mandatoryUpdate: ["mandatoryUpdate"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsOjvewzV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdPutRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2,
+        Parameters.testerId1
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteDistributionTesterOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/testers/{tester_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths1RmbaiiV01AppsOwnerNameAppNameReleasesReleaseIdTestersTesterIdDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testerId,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const addTestersOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/testers",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Paths5WvwkdV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses201ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.PathsVb1DjeV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1P68AoeV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            mandatoryUpdate: ["options", "mandatoryUpdate"],
+            email: ["email"],
+            notifyTesters: ["options", "notifyTesters"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsF6Ye6UV01AppsOwnerNameAppNameReleasesReleaseIdTestersPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteDistributionStoreOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/stores/{store_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths1BbvdowV01AppsOwnerNameAppNameReleasesReleaseIdStoresStoreIdDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2,
+        Parameters.storeId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const addStoreOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/stores",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Paths1Tn9O5V01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses201ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths1Kf4BpnV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1T5QljtV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { id: ["id"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths19I3T9ZV01AppsOwnerNameAppNameReleasesReleaseIdStoresPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const putDistributionGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups/{group_id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths11Dzu4BV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdPutResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { mandatoryUpdate: ["mandatoryUpdate"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Y3U3TvV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdPutRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2,
+        Parameters.groupId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteDistributionGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups/{group_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.Paths1Nrzr5YV01AppsOwnerNameAppNameReleasesReleaseIdGroupsGroupIdDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2,
+        Parameters.groupId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const addDistributionGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/groups",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.PathsFv6EorV01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses201ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.PathsPtrb07V01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths19Ueda8V01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            id: ["id"],
+            mandatoryUpdate: ["options", "mandatoryUpdate"],
+            notifyTesters: ["options", "notifyTesters"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Jif7RyV01AppsOwnerNameAppNameReleasesReleaseIdGroupsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getLatestByUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Wtl5HpV01AppsOwnerNameAppNameReleasesReleaseIdGetResponses200ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths1LeydabV01AppsOwnerNameAppNameReleasesReleaseIdGetResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths6Hivb0V01AppsOwnerNameAppNameReleasesReleaseIdGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.udid],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.releaseId,
+        Parameters.ownerName,
+        Parameters.appName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateDetailsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsMeoh5V01AppsOwnerNameAppNameReleasesReleaseIdPutResponses200ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths1Ufxd2QV01AppsOwnerNameAppNameReleasesReleaseIdPutResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsAuajt0V01AppsOwnerNameAppNameReleasesReleaseIdPutResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            enabled: ["options", "enabled"],
+            releaseNotes: ["options", "releaseNotes"],
+            build: ["options", "build"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsQ3NwdwV01AppsOwnerNameAppNameReleasesReleaseIdPutRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1FopftvV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses200ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths5XfktV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsW9K4UlV01AppsOwnerNameAppNameReleasesReleaseIdPatchResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body5,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        404: {
+            bodyMapper: Mappers.PathsQra1HiV01AppsOwnerNameAppNameReleasesReleaseIdDeleteResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.Paths1Lqk8FbV01AppsOwnerNameAppNameReleasesReleaseIdDeleteResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.releaseId2
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const availableToTesterOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/filter_by_tester",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths146V2RtV01AppsOwnerNameAppNameReleasesFilterByTesterGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    queryParameters: [Parameters.publishedOnly],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths13M4B1YV01AppsOwnerNameAppNameReleasesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    queryParameters: [Parameters.publishedOnly, Parameters.scope],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listLatestOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/recent_releases",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsYi44H6V01AppsOwnerNameAppNameRecentReleasesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getLatestByDistributionGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/releases/{release_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths7CegcuV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses200ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1Hpnd2WV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses404ContentApplicationJsonSchema
+        },
+        501: {
+            bodyMapper: Mappers.PathsOst83YV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesReleaseIdGetResponses501ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.releaseId,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.distributionGroupName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteWithDistributionGroupIdOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/releases/{release_id}",
+    httpMethod: "DELETE",
+    responses: { 200: {}, 404: {} },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.distributionGroupName,
+        Parameters.releaseId2
+    ],
+    serializer
+};
+const listByDistributionGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/releases",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsHninlmV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        404: {
+            bodyMapper: Mappers.Paths1JakpdqV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameReleasesGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.distributionGroupName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};

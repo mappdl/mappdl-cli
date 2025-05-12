@@ -1,1 +1,210 @@
-const _0x748ba9=_0xda6d;(function(_0x5c29a0,_0x32359b){const _0x3cfa50=_0xda6d,_0x209e22=_0x5c29a0();while(!![]){try{const _0x349c02=parseInt(_0x3cfa50(0x152))/0x1+parseInt(_0x3cfa50(0x157))/0x2*(parseInt(_0x3cfa50(0x148))/0x3)+parseInt(_0x3cfa50(0x14b))/0x4*(parseInt(_0x3cfa50(0x142))/0x5)+parseInt(_0x3cfa50(0x14c))/0x6+parseInt(_0x3cfa50(0x137))/0x7*(parseInt(_0x3cfa50(0x14e))/0x8)+-parseInt(_0x3cfa50(0x15c))/0x9*(-parseInt(_0x3cfa50(0x140))/0xa)+parseInt(_0x3cfa50(0x144))/0xb*(-parseInt(_0x3cfa50(0x132))/0xc);if(_0x349c02===_0x32359b)break;else _0x209e22['push'](_0x209e22['shift']());}catch(_0x33ca9f){_0x209e22['push'](_0x209e22['shift']());}}}(_0x4318,0x4a8bc),(Object[_0x748ba9(0x134)](exports,_0x748ba9(0x14d),{'value':!0x0}),exports['AppInvitationsImpl']=void 0x0));let coreClient=require(_0x748ba9(0x135)),Mappers=require(_0x748ba9(0x13e)),Parameters=require(_0x748ba9(0x150));function _0xda6d(_0x6b2e27,_0x19cdec){const _0x4318ad=_0x4318();return _0xda6d=function(_0xda6d92,_0x1d6770){_0xda6d92=_0xda6d92-0x12e;let _0x20a165=_0x4318ad[_0xda6d92];return _0x20a165;},_0xda6d(_0x6b2e27,_0x19cdec);}class AppInvitationsImpl{constructor(_0x2b3146){this['client']=_0x2b3146;}[_0x748ba9(0x13a)](_0x19f6d3,_0x163a15){const _0x492c34=_0x748ba9;return this['client'][_0x492c34(0x138)]({'invitationToken':_0x19f6d3,'options':_0x163a15},rejectOperationSpec);}[_0x748ba9(0x133)](_0xf3bb7e,_0x4b400f){const _0x3de8e2=_0x748ba9;return this[_0x3de8e2(0x162)][_0x3de8e2(0x138)]({'invitationToken':_0xf3bb7e,'options':_0x4b400f},acceptOperationSpec);}[_0x748ba9(0x13f)](_0x11df4f,_0x1dbbba,_0x116ee3,_0x1f9bb0){const _0x1174e6=_0x748ba9;return this[_0x1174e6(0x162)][_0x1174e6(0x138)]({'ownerName':_0x11df4f,'appName':_0x1dbbba,'userEmail':_0x116ee3,'options':_0x1f9bb0},createByEmailOperationSpec);}[_0x748ba9(0x131)](_0x29f781,_0x1a897e,_0x4fb56c,_0x37bd9d,_0xa653ae){const _0x482e1b=_0x748ba9;return this[_0x482e1b(0x162)][_0x482e1b(0x138)]({'ownerName':_0x29f781,'appName':_0x1a897e,'userEmail':_0x4fb56c,'permissions':_0x37bd9d,'options':_0xa653ae},updatePermissionsOperationSpec);}[_0x748ba9(0x151)](_0x747a94,_0x19f4f2,_0x26b38c,_0x55ce85){const _0xc2d0d2=_0x748ba9;return this[_0xc2d0d2(0x162)][_0xc2d0d2(0x138)]({'ownerName':_0x747a94,'appName':_0x19f4f2,'userEmail':_0x26b38c,'options':_0x55ce85},deleteOperationSpec);}[_0x748ba9(0x14f)](_0x584820,_0x40b5f0,_0x320839,_0x320936){return this['client']['sendOperationRequest']({'ownerName':_0x584820,'appName':_0x40b5f0,'userEmail':_0x320839,'options':_0x320936},createOperationSpec);}['list'](_0x42a266,_0x37dd94,_0x458949){const _0x515758=_0x748ba9;return this[_0x515758(0x162)][_0x515758(0x138)]({'ownerName':_0x42a266,'appName':_0x37dd94,'options':_0x458949},listOperationSpec);}}exports[_0x748ba9(0x155)]=AppInvitationsImpl;let serializer=coreClient['createSerializer'](Mappers,!0x1),rejectOperationSpec={'path':_0x748ba9(0x136),'httpMethod':_0x748ba9(0x147),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x146)]}},'urlParameters':[Parameters['$host'],Parameters['invitationToken']],'headerParameters':[Parameters[_0x748ba9(0x133)]],'serializer':serializer},acceptOperationSpec={'path':_0x748ba9(0x158),'httpMethod':'POST','responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x15b)]}},'urlParameters':[Parameters['$host'],Parameters[_0x748ba9(0x145)]],'headerParameters':[Parameters[_0x748ba9(0x133)]],'serializer':serializer},createByEmailOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/invitations/{user_email}','httpMethod':_0x748ba9(0x147),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x15d)]}},'urlParameters':[Parameters[_0x748ba9(0x149)],Parameters[_0x748ba9(0x13c)],Parameters[_0x748ba9(0x12e)],Parameters[_0x748ba9(0x159)]],'headerParameters':[Parameters[_0x748ba9(0x133)]],'serializer':serializer},updatePermissionsOperationSpec={'path':_0x748ba9(0x130),'httpMethod':_0x748ba9(0x161),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x14a)]}},'requestBody':{'parameterPath':{'permissions':[_0x748ba9(0x153)]},'mapper':Object[_0x748ba9(0x141)](Object[_0x748ba9(0x141)]({},Mappers[_0x748ba9(0x154)]),{'required':!0x0})},'urlParameters':[Parameters[_0x748ba9(0x149)],Parameters[_0x748ba9(0x13c)],Parameters['appName'],Parameters[_0x748ba9(0x159)]],'headerParameters':[Parameters[_0x748ba9(0x13d)],Parameters[_0x748ba9(0x133)]],'mediaType':_0x748ba9(0x163),'serializer':serializer},deleteOperationSpec={'path':_0x748ba9(0x130),'httpMethod':_0x748ba9(0x15e),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x139)]}},'urlParameters':[Parameters[_0x748ba9(0x149)],Parameters['ownerName'],Parameters[_0x748ba9(0x12e)],Parameters[_0x748ba9(0x159)]],'headerParameters':[Parameters[_0x748ba9(0x133)]],'serializer':serializer},createOperationSpec={'path':_0x748ba9(0x15a),'httpMethod':_0x748ba9(0x147),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x748ba9(0x156)]}},'requestBody':{'parameterPath':{'userEmail':[_0x748ba9(0x160)],'role':['options',_0x748ba9(0x143)]},'mapper':Object[_0x748ba9(0x141)](Object[_0x748ba9(0x141)]({},Mappers['Paths1CzjavmV01AppsOwnerNameAppNameInvitationsPostRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x748ba9(0x149)],Parameters['ownerName'],Parameters[_0x748ba9(0x12e)]],'headerParameters':[Parameters[_0x748ba9(0x13d)],Parameters[_0x748ba9(0x133)]],'mediaType':_0x748ba9(0x163),'serializer':serializer},listOperationSpec={'path':_0x748ba9(0x15a),'httpMethod':_0x748ba9(0x15f),'responses':{0xc8:{'bodyMapper':Mappers[_0x748ba9(0x12f)]},'default':{'bodyMapper':Mappers[_0x748ba9(0x13b)]}},'urlParameters':[Parameters[_0x748ba9(0x149)],Parameters[_0x748ba9(0x13c)],Parameters[_0x748ba9(0x12e)]],'headerParameters':[Parameters['accept']],'serializer':serializer};function _0x4318(){const _0x479c7b=['Paths8D56KcV01AppsOwnerNameAppNameInvitationsGetResponsesDefaultContentApplicationJsonSchema','ownerName','contentType','../models/mappers','createByEmail','1302170TjVIyV','assign','2297105QDhVQF','role','14248223HoZzRW','invitationToken','Paths1De5Y4YV01UserInvitationsAppsInvitationTokenRejectPostResponsesDefaultContentApplicationJsonSchema','POST','20925qOekii','$host','Paths8Hsxc2V01AppsOwnerNameAppNameInvitationsUserEmailPatchResponsesDefaultContentApplicationJsonSchema','4iiuKyp','1528830Evtedq','__esModule','8bjgema','create','../models/parameters','delete','497456FaBEIK','permissions','Paths1Uclv96V01AppsOwnerNameAppNameInvitationsUserEmailPatchRequestbodyContentApplicationJsonSchema','AppInvitationsImpl','Paths86Npv6V01AppsOwnerNameAppNameInvitationsPostResponsesDefaultContentApplicationJsonSchema','34ejFhDV','/v0.1/user/invitations/apps/{invitation_token}/accept','userEmail4','/v0.1/apps/{owner_name}/{app_name}/invitations','Paths14WkhazV01UserInvitationsAppsInvitationTokenAcceptPostResponsesDefaultContentApplicationJsonSchema','9IsHGRo','Paths1HhwggV01AppsOwnerNameAppNameInvitationsUserEmailPostResponsesDefaultContentApplicationJsonSchema','DELETE','GET','userEmail','PATCH','client','json','appName','PathsIn5115V01AppsOwnerNameAppNameInvitationsGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/invitations/{user_email}','updatePermissions','12dCXMwt','accept','defineProperty','@azure/core-client','/v0.1/user/invitations/apps/{invitation_token}/reject','981113ZbGQsX','sendOperationRequest','PathsTcxwc4V01AppsOwnerNameAppNameInvitationsUserEmailDeleteResponsesDefaultContentApplicationJsonSchema','reject'];_0x4318=function(){return _0x479c7b;};return _0x4318();}
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AppInvitationsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing AppInvitations operations. */
+class AppInvitationsImpl {
+    /**
+     * Initialize a new instance of the class AppInvitations class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Rejects a pending invitation for the specified user
+     * @param invitationToken The app invitation token that was sent to the user
+     * @param options The options parameters.
+     */
+    reject(invitationToken, options) {
+        return this.client.sendOperationRequest({ invitationToken, options }, rejectOperationSpec);
+    }
+    /**
+     * Accepts a pending invitation for the specified user
+     * @param invitationToken The app invitation token that was sent to the user
+     * @param options The options parameters.
+     */
+    accept(invitationToken, options) {
+        return this.client.sendOperationRequest({ invitationToken, options }, acceptOperationSpec);
+    }
+    /**
+     * Invites a new or existing user to an app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param userEmail The email of the user to invite
+     * @param options The options parameters.
+     */
+    createByEmail(ownerName, appName, userEmail, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, userEmail, options }, createByEmailOperationSpec);
+    }
+    /**
+     * Update pending invitation permission
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param userEmail The email of the user to invite
+     * @param permissions The permissions the user has for the app in the invitation
+     * @param options The options parameters.
+     */
+    updatePermissions(ownerName, appName, userEmail, permissions, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, userEmail, permissions, options }, updatePermissionsOperationSpec);
+    }
+    /**
+     * Removes a user's invitation to an app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param userEmail The email of the user to invite
+     * @param options The options parameters.
+     */
+    delete(ownerName, appName, userEmail, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, userEmail, options }, deleteOperationSpec);
+    }
+    /**
+     * Invites a new or existing user to an app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param userEmail The user's email address
+     * @param options The options parameters.
+     */
+    create(ownerName, appName, userEmail, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, userEmail, options }, createOperationSpec);
+    }
+    /**
+     * Gets the pending invitations for the app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+}
+exports.AppInvitationsImpl = AppInvitationsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const rejectOperationSpec = {
+    path: "/v0.1/user/invitations/apps/{invitation_token}/reject",
+    httpMethod: "POST",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths1De5Y4YV01UserInvitationsAppsInvitationTokenRejectPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.invitationToken],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const acceptOperationSpec = {
+    path: "/v0.1/user/invitations/apps/{invitation_token}/accept",
+    httpMethod: "POST",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths14WkhazV01UserInvitationsAppsInvitationTokenAcceptPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.invitationToken],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createByEmailOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/invitations/{user_email}",
+    httpMethod: "POST",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths1HhwggV01AppsOwnerNameAppNameInvitationsUserEmailPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.userEmail4
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updatePermissionsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/invitations/{user_email}",
+    httpMethod: "PATCH",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths8Hsxc2V01AppsOwnerNameAppNameInvitationsUserEmailPatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { permissions: ["permissions"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Uclv96V01AppsOwnerNameAppNameInvitationsUserEmailPatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.userEmail4
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/invitations/{user_email}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.PathsTcxwc4V01AppsOwnerNameAppNameInvitationsUserEmailDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.userEmail4
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/invitations",
+    httpMethod: "POST",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths86Npv6V01AppsOwnerNameAppNameInvitationsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { userEmail: ["userEmail"], role: ["options", "role"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1CzjavmV01AppsOwnerNameAppNameInvitationsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/invitations",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsIn5115V01AppsOwnerNameAppNameInvitationsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths8D56KcV01AppsOwnerNameAppNameInvitationsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

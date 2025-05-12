@@ -1,1 +1,132 @@
-function _0x478f(){const _0x582b9f=['json','description','ownerName','/v0.1/apps/{owner_name}/{app_name}/api_tokens/{api_token_id}','contentType','accept','Paths1X34P14V01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses401ContentApplicationJsonSchema','12UhRJtC','Paths1ElzjgvV01AppsOwnerNameAppNameApiTokensPostResponses401ContentApplicationJsonSchema','__esModule','$host','create','GET','@azure/core-client','defineProperty','../models/mappers','sendOperationRequest','/v0.1/apps/{owner_name}/{app_name}/api_tokens','3073806BxQZjz','POST','10466Vmjgej','PathsJ0An0FV01AppsOwnerNameAppNameApiTokensGetResponses401ContentApplicationJsonSchema','5VOscsZ','appName','delete','6342744zMNMmm','12771603QboaXY','scope','1540973FkQLMH','../models/parameters','Paths1FrjyzkV01AppsOwnerNameAppNameApiTokensPostResponses201ContentApplicationJsonSchema','DELETE','client','PathsVpkwjrV01AppsOwnerNameAppNameApiTokensGetResponses200ContentApplicationJsonSchemaItems','2667980INQjbT','options','createSerializer','AppApiTokensImpl','list','1116540bRxYUG'];_0x478f=function(){return _0x582b9f;};return _0x478f();}const _0x33215a=_0xebd6;(function(_0xa12788,_0xb6f6ca){const _0x52aa03=_0xebd6,_0xcdc5db=_0xa12788();while(!![]){try{const _0x58e066=-parseInt(_0x52aa03(0x8e))/0x1+parseInt(_0x52aa03(0x86))/0x2*(parseInt(_0x52aa03(0x79))/0x3)+parseInt(_0x52aa03(0x99))/0x4*(parseInt(_0x52aa03(0x88))/0x5)+-parseInt(_0x52aa03(0x84))/0x6+parseInt(_0x52aa03(0x94))/0x7+parseInt(_0x52aa03(0x8b))/0x8+parseInt(_0x52aa03(0x8c))/0x9;if(_0x58e066===_0xb6f6ca)break;else _0xcdc5db['push'](_0xcdc5db['shift']());}catch(_0x4f54f1){_0xcdc5db['push'](_0xcdc5db['shift']());}}}(_0x478f,0xcd0a3),(Object[_0x33215a(0x80)](exports,_0x33215a(0x7b),{'value':!0x0}),exports[_0x33215a(0x97)]=void 0x0));let coreClient=require(_0x33215a(0x7f)),Mappers=require(_0x33215a(0x81)),Parameters=require(_0x33215a(0x8f));class AppApiTokensImpl{constructor(_0x1aa802){const _0x44d97a=_0x33215a;this[_0x44d97a(0x92)]=_0x1aa802;}[_0x33215a(0x8a)](_0x5a317b,_0x2e38ec,_0xa346f5,_0x4548e9){const _0x7153ea=_0x33215a;return this[_0x7153ea(0x92)][_0x7153ea(0x82)]({'ownerName':_0x5a317b,'appName':_0x2e38ec,'apiTokenId':_0xa346f5,'options':_0x4548e9},deleteOperationSpec);}[_0x33215a(0x98)](_0x3de37b,_0x29bee5,_0x689431){const _0x578988=_0x33215a;return this[_0x578988(0x92)][_0x578988(0x82)]({'ownerName':_0x3de37b,'appName':_0x29bee5,'options':_0x689431},listOperationSpec);}[_0x33215a(0x7d)](_0x5af9d3,_0xdaa34,_0x44e851){const _0x47acee=_0x33215a;return this[_0x47acee(0x92)][_0x47acee(0x82)]({'ownerName':_0x5af9d3,'appName':_0xdaa34,'options':_0x44e851},createOperationSpec);}}function _0xebd6(_0x470968,_0x217a02){const _0x478f6e=_0x478f();return _0xebd6=function(_0xebd6ad,_0x4b5a19){_0xebd6ad=_0xebd6ad-0x72;let _0x50fcf5=_0x478f6e[_0xebd6ad];return _0x50fcf5;},_0xebd6(_0x470968,_0x217a02);}exports['AppApiTokensImpl']=AppApiTokensImpl;let serializer=coreClient[_0x33215a(0x96)](Mappers,!0x1),deleteOperationSpec={'path':_0x33215a(0x75),'httpMethod':_0x33215a(0x91),'responses':{0xcc:{},0x190:{'bodyMapper':Mappers['Paths1NebezpV01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses400ContentApplicationJsonSchema']},0x191:{'bodyMapper':Mappers[_0x33215a(0x78)]},0x194:{'bodyMapper':Mappers['PathsA1Vv93V01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses404ContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x33215a(0x74)],Parameters['appName'],Parameters['apiTokenId']],'headerParameters':[Parameters[_0x33215a(0x77)]],'serializer':serializer},listOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/api_tokens','httpMethod':_0x33215a(0x7e),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':'Composite','className':_0x33215a(0x93)}}}}},0x190:{'bodyMapper':Mappers['Paths1P1Ao38V01AppsOwnerNameAppNameApiTokensGetResponses400ContentApplicationJsonSchema']},0x191:{'bodyMapper':Mappers[_0x33215a(0x87)]}},'urlParameters':[Parameters[_0x33215a(0x7c)],Parameters[_0x33215a(0x74)],Parameters[_0x33215a(0x89)]],'headerParameters':[Parameters['accept']],'serializer':serializer},createOperationSpec={'path':_0x33215a(0x83),'httpMethod':_0x33215a(0x85),'responses':{0xc9:{'bodyMapper':Mappers[_0x33215a(0x90)]},0x190:{'bodyMapper':Mappers['Paths8Qg468V01AppsOwnerNameAppNameApiTokensPostResponses400ContentApplicationJsonSchema']},0x191:{'bodyMapper':Mappers[_0x33215a(0x7a)]}},'requestBody':{'parameterPath':{'description':[_0x33215a(0x95),_0x33215a(0x73)],'scope':[_0x33215a(0x95),_0x33215a(0x8d)]},'mapper':Mappers['PathsUuian4V01AppsOwnerNameAppNameApiTokensPostRequestbodyContentApplicationJsonSchema']},'urlParameters':[Parameters[_0x33215a(0x7c)],Parameters['ownerName'],Parameters[_0x33215a(0x89)]],'headerParameters':[Parameters[_0x33215a(0x76)],Parameters['accept']],'mediaType':_0x33215a(0x72),'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AppApiTokensImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing AppApiTokens operations. */
+class AppApiTokensImpl {
+    /**
+     * Initialize a new instance of the class AppApiTokens class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Delete the App Api Token object with the specific ID
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param apiTokenId The unique ID (UUID) of the api token
+     * @param options The options parameters.
+     */
+    delete(ownerName, appName, apiTokenId, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, apiTokenId, options }, deleteOperationSpec);
+    }
+    /**
+     * Returns App API tokens for the app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+    /**
+     * Creates a new App API token
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    create(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, createOperationSpec);
+    }
+}
+exports.AppApiTokensImpl = AppApiTokensImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/api_tokens/{api_token_id}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        400: {
+            bodyMapper: Mappers.Paths1NebezpV01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses400ContentApplicationJsonSchema
+        },
+        401: {
+            bodyMapper: Mappers.Paths1X34P14V01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses401ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsA1Vv93V01AppsOwnerNameAppNameApiTokensApiTokenIdDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.apiTokenId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/api_tokens",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsVpkwjrV01AppsOwnerNameAppNameApiTokensGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        400: {
+            bodyMapper: Mappers.Paths1P1Ao38V01AppsOwnerNameAppNameApiTokensGetResponses400ContentApplicationJsonSchema
+        },
+        401: {
+            bodyMapper: Mappers.PathsJ0An0FV01AppsOwnerNameAppNameApiTokensGetResponses401ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/api_tokens",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Paths1FrjyzkV01AppsOwnerNameAppNameApiTokensPostResponses201ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths8Qg468V01AppsOwnerNameAppNameApiTokensPostResponses400ContentApplicationJsonSchema
+        },
+        401: {
+            bodyMapper: Mappers.Paths1ElzjgvV01AppsOwnerNameAppNameApiTokensPostResponses401ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            description: ["options", "description"],
+            scope: ["options", "scope"]
+        },
+        mapper: Mappers.PathsUuian4V01AppsOwnerNameAppNameApiTokensPostRequestbodyContentApplicationJsonSchema
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

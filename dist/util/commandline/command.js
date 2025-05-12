@@ -1,1 +1,180 @@
-function _0x2092(){var _0x22397d=['414cmyVGk','path','getOwnPropertyDescriptor','../profile','logged\x20in\x20user\x20and\x20token\x20in\x20environment\x20variable\x20','string','object','parseOptions','commandPath','quiet','fromProfile','\x20version\x20','resolve','prototype','73602NnwGxI','Display\x20help\x20for\x20current\x20command','version','Unknown\x20output\x20format\x20','fromToken','help','createMappDLClient','Dev\x20error,\x20should\x20be\x20overridden!','value','commandOptions','1XVfCDd','14989JpHLep','getVersion','\x20cannot\x20be\x20used\x20together','hasArg','telemetryIsEnabled','scriptName','../apis','IllegalCommand','runNoClient','environments','Creating\x20mappdl\x20client\x20from\x20token\x20specified\x20in\x20environment\x20variable\x20for\x20environment\x20STG','./help','run','Display\x20extra\x20output\x20for\x20debugging','success','decorate','2158135iZZgiW','66vVmxjD','apply','getPortalUrlForEndpoint','function','Starting\x20command\x20with\x20path\x20','20125JGyVqt','10xfVwit','getPrototypeOf','mappDLAccessTokenEnvVar','command','./option-decorators','debug','getUser','shortName','then','Display\x20','__decorate','Version\x20switch\x20detected,\x20displaying\x20version\x20number','out','getClientAndEndpointForToken','getEnvFromEnvironmentVar','defineProperty','execute','join','showVersion','format','../interaction','252pcngwq','next','420202chPYQs','\x20version','../misc','endpoint','./command-result','clientFactory','ErrorCodes','notLoggedIn','help\x20switch\x20detected,\x20displaying\x20help\x20for\x20command','throw','7648RrBsZN','Using\x20mappdl-cli\x20version:\x20','longName','__awaiter','setDebug','4RryiSs',',\x20command\x20','Auto-confirm\x20any\x20prompts\x20without\x20waiting\x20for\x20input','disable-telemetry','additionalSupportedOutputFormats','disableTelemetry','common','Output\x20format:\x20json','3313651SJMfKE','../../../package.json','setFormatJson','fixArrayParameter'];_0x2092=function(){return _0x22397d;};return _0x2092();}var _0x42d572=_0x346d;(function(_0x1d1e20,_0x191638){var _0x3be043=_0x346d,_0x59234c=_0x1d1e20();while(!![]){try{var _0x385000=-parseInt(_0x3be043(0x1ba))/0x1*(-parseInt(_0x3be043(0x187))/0x2)+parseInt(_0x3be043(0x1b0))/0x3*(-parseInt(_0x3be043(0x196))/0x4)+-parseInt(_0x3be043(0x1d1))/0x5*(parseInt(_0x3be043(0x1cc))/0x6)+parseInt(_0x3be043(0x1cb))/0x7+parseInt(_0x3be043(0x191))/0x8*(parseInt(_0x3be043(0x1a2))/0x9)+parseInt(_0x3be043(0x1d2))/0xa*(-parseInt(_0x3be043(0x19e))/0xb)+-parseInt(_0x3be043(0x185))/0xc*(parseInt(_0x3be043(0x1bb))/0xd);if(_0x385000===_0x191638)break;else _0x59234c['push'](_0x59234c['shift']());}catch(_0x174b0a){_0x59234c['push'](_0x59234c['shift']());}}}(_0x2092,0x290b7));var __decorate=this&&this[_0x42d572(0x1dc)]||function(_0x1fb32b,_0x4bd3ed,_0x5d08d9,_0x30fb51){var _0x3b8a15=_0x42d572,_0x127816,_0x4afd7=arguments['length'],_0x5d166e=_0x4afd7<0x3?_0x4bd3ed:null===_0x30fb51?_0x30fb51=Object[_0x3b8a15(0x1a4)](_0x4bd3ed,_0x5d08d9):_0x30fb51;if(_0x3b8a15(0x1a8)==typeof Reflect&&_0x3b8a15(0x1cf)==typeof Reflect[_0x3b8a15(0x1ca)])_0x5d166e=Reflect[_0x3b8a15(0x1ca)](_0x1fb32b,_0x4bd3ed,_0x5d08d9,_0x30fb51);else{for(var _0x3c087d=_0x1fb32b['length']-0x1;0x0<=_0x3c087d;_0x3c087d--)(_0x127816=_0x1fb32b[_0x3c087d])&&(_0x5d166e=(_0x4afd7<0x3?_0x127816(_0x5d166e):0x3<_0x4afd7?_0x127816(_0x4bd3ed,_0x5d08d9,_0x5d166e):_0x127816(_0x4bd3ed,_0x5d08d9))||_0x5d166e);}return 0x3<_0x4afd7&&_0x5d166e&&Object[_0x3b8a15(0x1e1)](_0x4bd3ed,_0x5d08d9,_0x5d166e),_0x5d166e;},__awaiter=this&&this[_0x42d572(0x194)]||function(_0x2bb4cc,_0x32ec28,_0x444e8a,_0x27667b){return new(_0x444e8a=_0x444e8a||Promise)(function(_0x1e1598,_0x503098){var _0x26797a=_0x346d;function _0x5405eb(_0x2b7d71){var _0x4d5b39=_0x346d;try{_0x4f188a(_0x27667b[_0x4d5b39(0x186)](_0x2b7d71));}catch(_0x4a09f4){_0x503098(_0x4a09f4);}}function _0x56371d(_0x22b044){var _0x373a4b=_0x346d;try{_0x4f188a(_0x27667b[_0x373a4b(0x190)](_0x22b044));}catch(_0x44c670){_0x503098(_0x44c670);}}function _0x4f188a(_0x5975c8){var _0x427456=_0x346d,_0x4c0b16;_0x5975c8['done']?_0x1e1598(_0x5975c8['value']):((_0x4c0b16=_0x5975c8[_0x427456(0x1b8)])instanceof _0x444e8a?_0x4c0b16:new _0x444e8a(function(_0x20a4c8){_0x20a4c8(_0x4c0b16);}))[_0x427456(0x1da)](_0x5405eb,_0x56371d);}_0x4f188a((_0x27667b=_0x27667b[_0x26797a(0x1cd)](_0x2bb4cc,_0x32ec28||[]))[_0x26797a(0x186)]());});};Object[_0x42d572(0x1e1)](exports,'__esModule',{'value':!0x0}),exports['Command']=void 0x0;function _0x346d(_0x991e73,_0x382bce){var _0x20923e=_0x2092();return _0x346d=function(_0x346dc6,_0x572d34){_0x346dc6=_0x346dc6-0x185;var _0x22e437=_0x20923e[_0x346dc6];return _0x22e437;},_0x346d(_0x991e73,_0x382bce);}let Result=require(_0x42d572(0x18b)),option_decorators_1=require(_0x42d572(0x1d6)),option_parser_1=require('./option-parser'),interaction_1=require(_0x42d572(0x1e6)),help_1=require(_0x42d572(0x1c6)),misc_1=require(_0x42d572(0x189)),profile_1=require(_0x42d572(0x1a5)),apis_1=require(_0x42d572(0x1c1)),path=require(_0x42d572(0x1a3)),debug=require(_0x42d572(0x1d7))('mappdl-cli:util:commandline:command');class Command{constructor(_0x41c3ba){var _0x5a20e4=_0x42d572;this[_0x5a20e4(0x19a)]={'json':interaction_1[_0x5a20e4(0x1a0)]};var _0x3f2b95=Object[_0x5a20e4(0x1d3)](this),_0x5121d3=option_decorators_1['getOptionsDescription'](_0x3f2b95),_0x3f2b95=option_decorators_1['getPositionalOptionsDescription'](_0x3f2b95);option_parser_1[_0x5a20e4(0x1a9)](_0x5121d3,_0x3f2b95,this,_0x41c3ba['args']),this[_0x5a20e4(0x1aa)]=_0x41c3ba[_0x5a20e4(0x1aa)],this[_0x5a20e4(0x1d5)]=_0x41c3ba['command'],this[_0x5a20e4(0x1b9)]=_0x5121d3,debug(_0x5a20e4(0x1d0)+_0x41c3ba[_0x5a20e4(0x1aa)]+_0x5a20e4(0x197)+_0x41c3ba[_0x5a20e4(0x1d5)]);}[_0x42d572(0x1e2)](){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x2fffa5=_0x346d;if(debug('Initial\x20execution\x20of\x20command'),this[_0x2fffa5(0x1b5)])return debug(_0x2fffa5(0x18f)),help_1['runHelp'](Object[_0x2fffa5(0x1d3)](this),this),Result[_0x2fffa5(0x1c9)]();if(this[_0x2fffa5(0x1b2)])return debug(_0x2fffa5(0x1dd)),this['showVersion']();var _0x2de60b;if(this[_0x2fffa5(0x1d7)]&&(interaction_1[_0x2fffa5(0x195)](),_0x2de60b=this[_0x2fffa5(0x1bc)](),console['log'](_0x2fffa5(0x192)+_0x2de60b)),this[_0x2fffa5(0x1ab)]&&interaction_1['setQuiet'](),this[_0x2fffa5(0x1e5)]){if(this[_0x2fffa5(0x1e5)]in this['additionalSupportedOutputFormats'])this[_0x2fffa5(0x19a)][this[_0x2fffa5(0x1e5)]]();else{if(null!=this[_0x2fffa5(0x1e5)]&&''!==this[_0x2fffa5(0x1e5)])return Promise[_0x2fffa5(0x1ae)](Result['failure'](Result[_0x2fffa5(0x18d)]['InvalidParameter'],_0x2fffa5(0x1b3)+this[_0x2fffa5(0x1e5)]));}}return this[_0x2fffa5(0x18c)]=apis_1[_0x2fffa5(0x1b6)](this['command'],yield profile_1[_0x2fffa5(0x1bf)](this[_0x2fffa5(0x19b)])),this[_0x2fffa5(0x1c3)]();});}[_0x42d572(0x1c3)](){var _0x15dba1=_0x42d572;let _0x1103a9,_0x34ad19;var _0x3d1026=profile_1[_0x15dba1(0x1d8)](),_0x478a77=profile_1['getTokenFromEnvironmentVar'](),_0x2ee200=profile_1[_0x15dba1(0x1e0)](),_0x47e12a='logout'===this['command'][0x0];return _0x3d1026&&_0x478a77&&!_0x47e12a?Promise[_0x15dba1(0x1ae)](Result['failure'](Result[_0x15dba1(0x18d)][_0x15dba1(0x1c2)],_0x15dba1(0x1a6)+profile_1[_0x15dba1(0x1d4)]+_0x15dba1(0x1bd))):(_0x3d1026?(debug('Creating\x20mappdl\x20client\x20for\x20command\x20for\x20current\x20logged\x20in\x20user'),_0x1103a9=this[_0x15dba1(0x18c)][_0x15dba1(0x1ac)](_0x3d1026),_0x34ad19=_0x3d1026[_0x15dba1(0x18a)]):_0x478a77&&(debug(_0x15dba1(0x1c5)),[_0x1103a9,_0x34ad19]=this[_0x15dba1(0x1df)](_0x2ee200,_0x478a77)),_0x1103a9&&_0x34ad19?this[_0x15dba1(0x1c7)](_0x1103a9,profile_1[_0x15dba1(0x1ce)](_0x34ad19)):Promise[_0x15dba1(0x1ae)](Result[_0x15dba1(0x18e)](misc_1[_0x15dba1(0x1c0)]+'\x20'+this[_0x15dba1(0x1d5)][_0x15dba1(0x1e3)]('\x20'))));}[_0x42d572(0x1c7)](_0x38ead6,_0x551c67){var _0x28bb46=_0x42d572;throw new Error(_0x28bb46(0x1b7));}[_0x42d572(0x1e4)](){var _0x2d2b10=_0x42d572;return interaction_1[_0x2d2b10(0x1de)]['text'](_0x205621=>_0x205621,misc_1[_0x2d2b10(0x1c0)]+_0x2d2b10(0x1ad)+this[_0x2d2b10(0x1bc)]()),Result[_0x2d2b10(0x1c9)]();}['getClientAndEndpointForToken'](_0x423455,_0x2da632){var _0x11adfe=_0x42d572,_0x553212=profile_1[_0x11adfe(0x1c4)](_0x423455);if(_0x553212)return[this[_0x11adfe(0x18c)][_0x11adfe(0x1b4)](_0x2da632,_0x553212[_0x11adfe(0x18a)]),_0x553212[_0x11adfe(0x18a)]];throw Result['failure'](Result[_0x11adfe(0x18d)]['InvalidParameter'],_0x423455+'\x20is\x20not\x20valid\x20environment\x20name');}['getVersion'](){var _0x7af1b4=_0x42d572,_0x1f081b=path[_0x7af1b4(0x1e3)](__dirname,_0x7af1b4(0x19f));return require(_0x1f081b)['version'];}[_0x42d572(0x1a1)](_0xa4a534){var _0x2ce35c=_0x42d572;return _0xa4a534?_0x2ce35c(0x1a7)==typeof _0xa4a534?[_0xa4a534]:_0xa4a534:[];}}__decorate([option_decorators_1[_0x42d572(0x193)](_0x42d572(0x1d7)),option_decorators_1['help'](_0x42d572(0x1c8)),option_decorators_1[_0x42d572(0x19c)]],Command[_0x42d572(0x1af)],_0x42d572(0x1d7),void 0x0),__decorate([option_decorators_1['longName']('output'),option_decorators_1[_0x42d572(0x1be)],option_decorators_1[_0x42d572(0x1b5)](_0x42d572(0x19d)),option_decorators_1['common']],Command[_0x42d572(0x1af)],'format',void 0x0),__decorate([option_decorators_1[_0x42d572(0x1d9)]('h'),option_decorators_1[_0x42d572(0x193)](_0x42d572(0x1b5)),option_decorators_1[_0x42d572(0x1b5)](_0x42d572(0x1b1)),option_decorators_1[_0x42d572(0x19c)]],Command[_0x42d572(0x1af)],_0x42d572(0x1b5),void 0x0),__decorate([option_decorators_1['longName'](_0x42d572(0x1ab)),option_decorators_1['help'](_0x42d572(0x198)),option_decorators_1[_0x42d572(0x19c)]],Command[_0x42d572(0x1af)],_0x42d572(0x1ab),void 0x0),__decorate([option_decorators_1[_0x42d572(0x1d9)]('v'),option_decorators_1[_0x42d572(0x193)](_0x42d572(0x1b2)),option_decorators_1[_0x42d572(0x1b5)](_0x42d572(0x1db)+misc_1[_0x42d572(0x1c0)]+_0x42d572(0x188)),option_decorators_1[_0x42d572(0x19c)]],Command[_0x42d572(0x1af)],'version',void 0x0),__decorate([option_decorators_1[_0x42d572(0x193)](_0x42d572(0x199)),option_decorators_1['help']('Disable\x20telemetry\x20for\x20this\x20command'),option_decorators_1[_0x42d572(0x19c)]],Command[_0x42d572(0x1af)],'disableTelemetry',void 0x0),exports['Command']=Command;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Command = void 0;
+// Base class for all command handlers
+const Result = require("./command-result");
+const option_decorators_1 = require("./option-decorators");
+const option_parser_1 = require("./option-parser");
+const interaction_1 = require("../interaction");
+const help_1 = require("./help");
+const misc_1 = require("../misc");
+const profile_1 = require("../profile");
+const apis_1 = require("../apis");
+const path = require("path");
+const debug = require("debug")("mappdl-cli:util:commandline:command");
+class Command {
+    constructor(args) {
+        // Additional output formats (except "list" which is used by default) which are supported by this command
+        this.additionalSupportedOutputFormats = {
+            json: interaction_1.setFormatJson,
+        };
+        const proto = Object.getPrototypeOf(this);
+        const flags = option_decorators_1.getOptionsDescription(proto);
+        const positionals = option_decorators_1.getPositionalOptionsDescription(proto);
+        option_parser_1.parseOptions(flags, positionals, this, args.args);
+        this.commandPath = args.commandPath;
+        this.command = args.command;
+        this.commandOptions = flags;
+        debug(`Starting command with path ${args.commandPath}, command ${args.command}`);
+    }
+    // Entry point for runner. DO NOT override in command definition!
+    execute() {
+        return __awaiter(this, void 0, void 0, function* () {
+            debug(`Initial execution of command`);
+            if (this.help) {
+                debug(`help switch detected, displaying help for command`);
+                help_1.runHelp(Object.getPrototypeOf(this), this);
+                return Result.success();
+            }
+            if (this.version) {
+                debug("Version switch detected, displaying version number");
+                return this.showVersion();
+            }
+            if (this.debug) {
+                interaction_1.setDebug();
+                const version = this.getVersion();
+                console.log(`Using mappdl-cli version: ${version}`);
+            }
+            if (this.quiet) {
+                interaction_1.setQuiet();
+            }
+            if (this.format) {
+                if (this.format in this.additionalSupportedOutputFormats) {
+                    this.additionalSupportedOutputFormats[this.format]();
+                }
+                else if (this.format != null && this.format !== "") {
+                    return Promise.resolve(Result.failure(Result.ErrorCodes.InvalidParameter, `Unknown output format ${this.format}`));
+                }
+            }
+            this.clientFactory = apis_1.createMappDLClient(this.command, yield profile_1.telemetryIsEnabled(this.disableTelemetry));
+            return this.runNoClient();
+        });
+    }
+    // Entry point to load mappdl client.
+    // Override this if your command needs to do something special with login - typically just
+    // the login command
+    runNoClient() {
+        // if (this.environmentName && !this.token) {
+        //   return Promise.resolve(Result.failure(Result.ErrorCodes.IllegalCommand, "Cannot specify environment without giving token"));
+        // }
+        let client;
+        let endpoint;
+        // if (this.token) {
+        //   debug(`Creating mappdl client for command from token for environment ${this.environmentName}`);
+        //   [client, endpoint] = this.getClientAndEndpointForToken(this.environmentName, this.token);
+        // } else {
+        // creating client for either logged in user or environment variable token
+        const user = profile_1.getUser();
+        const tokenFromEnvVar = profile_1.getTokenFromEnvironmentVar();
+        const envFromEnvVar = profile_1.getEnvFromEnvironmentVar();
+        const isLogoutCommand = this.command[0] === "logout";
+        if (user && tokenFromEnvVar && !isLogoutCommand) {
+            // logout command should be executed even if both user and env token are set - it just logs out user
+            return Promise.resolve(Result.failure(Result.ErrorCodes.IllegalCommand, `logged in user and token in environment variable ${profile_1.mappDLAccessTokenEnvVar} cannot be used together`));
+        }
+        else if (user) {
+            debug(`Creating mappdl client for command for current logged in user`);
+            client = this.clientFactory.fromProfile(user);
+            endpoint = user.endpoint;
+        }
+        else if (tokenFromEnvVar) {
+            // debug(`Creating mappdl client from token specified in environment variable for environment ${this.environmentName}`);
+            debug(`Creating mappdl client from token specified in environment variable for environment STG`);
+            [client, endpoint] = this.getClientAndEndpointForToken(envFromEnvVar, tokenFromEnvVar);
+        }
+        // }
+        if (client && endpoint) {
+            return this.run(client, profile_1.getPortalUrlForEndpoint(endpoint));
+        }
+        return Promise.resolve(Result.notLoggedIn(`${misc_1.scriptName} ${this.command.join(" ")}`));
+    }
+    // Entry point for command author - override this!
+    run(client, portalBaseUrl) {
+        throw new Error("Dev error, should be overridden!");
+    }
+    showVersion() {
+        interaction_1.out.text((s) => s, `${misc_1.scriptName} version ${this.getVersion()}`);
+        return Result.success();
+    }
+    getClientAndEndpointForToken(environmentString, token) {
+        const environment = profile_1.environments(environmentString);
+        if (!environment) {
+            throw Result.failure(Result.ErrorCodes.InvalidParameter, `${environmentString} is not valid environment name`);
+        }
+        return [this.clientFactory.fromToken(token, environment.endpoint), environment.endpoint];
+    }
+    getVersion() {
+        const packageJsonPath = path.join(__dirname, "../../../package.json");
+        // eslint-disable-next-line security/detect-non-literal-require
+        const packageJson = require(packageJsonPath);
+        return packageJson.version;
+    }
+    fixArrayParameter(input) {
+        if (!input) {
+            return [];
+        }
+        else if (typeof input === "string") {
+            return [input];
+        }
+        return input;
+    }
+}
+__decorate([
+    option_decorators_1.longName("debug"),
+    option_decorators_1.help("Display extra output for debugging"),
+    option_decorators_1.common
+], Command.prototype, "debug", void 0);
+__decorate([
+    option_decorators_1.longName("output"),
+    option_decorators_1.hasArg,
+    option_decorators_1.help("Output format: json"),
+    option_decorators_1.common
+], Command.prototype, "format", void 0);
+__decorate([
+    option_decorators_1.shortName("h"),
+    option_decorators_1.longName("help"),
+    option_decorators_1.help("Display help for current command"),
+    option_decorators_1.common
+], Command.prototype, "help", void 0);
+__decorate([
+    option_decorators_1.longName("quiet"),
+    option_decorators_1.help("Auto-confirm any prompts without waiting for input"),
+    option_decorators_1.common
+], Command.prototype, "quiet", void 0);
+__decorate([
+    option_decorators_1.shortName("v"),
+    option_decorators_1.longName("version"),
+    option_decorators_1.help(`Display ${misc_1.scriptName} version`),
+    option_decorators_1.common
+], Command.prototype, "version", void 0);
+__decorate([
+    option_decorators_1.longName("disable-telemetry"),
+    option_decorators_1.help("Disable telemetry for this command"),
+    option_decorators_1.common
+], Command.prototype, "disableTelemetry", void 0);
+exports.Command = Command;

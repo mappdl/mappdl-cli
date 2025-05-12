@@ -1,1 +1,39 @@
-var _0x57c1a0=_0x5af0;(function(_0x47fa0e,_0x21d0aa){var _0x53bf5f=_0x5af0,_0xc76a73=_0x47fa0e();while(!![]){try{var _0x2b710c=-parseInt(_0x53bf5f(0x18d))/0x1*(-parseInt(_0x53bf5f(0x18b))/0x2)+-parseInt(_0x53bf5f(0x18a))/0x3+parseInt(_0x53bf5f(0x196))/0x4*(parseInt(_0x53bf5f(0x185))/0x5)+-parseInt(_0x53bf5f(0x19a))/0x6+-parseInt(_0x53bf5f(0x189))/0x7+-parseInt(_0x53bf5f(0x197))/0x8*(-parseInt(_0x53bf5f(0x194))/0x9)+parseInt(_0x53bf5f(0x187))/0xa;if(_0x2b710c===_0x21d0aa)break;else _0xc76a73['push'](_0xc76a73['shift']());}catch(_0x599be0){_0xc76a73['push'](_0xc76a73['shift']());}}}(_0x1760,0xd2d54));function _0x1760(){var _0x5839d2=['10247886xfeSYk','createWriteStream','throw','apply','1570QMAUcW','close','12272310tZhPFH','finish','4555523kqhZar','1682169FobJZN','86NDdnvD','value','34457IeqTbQ','defineProperty','__awaiter','next','get','unlink','getToFile','171utMtJW','pipe','2804SBJbBw','359608AqMuvI','error','done'];_0x1760=function(){return _0x5839d2;};return _0x1760();}var __awaiter=this&&this[_0x57c1a0(0x18f)]||function(_0x4d682e,_0x55dfd5,_0x2854c0,_0x542652){return new(_0x2854c0=_0x2854c0||Promise)(function(_0x21f7d9,_0xa7feaa){var _0x460fda=_0x5af0;function _0x520914(_0x5a9d8f){var _0x882db8=_0x5af0;try{_0x1e2cab(_0x542652[_0x882db8(0x190)](_0x5a9d8f));}catch(_0x191f83){_0xa7feaa(_0x191f83);}}function _0xab37ff(_0x149766){var _0x135a0f=_0x5af0;try{_0x1e2cab(_0x542652[_0x135a0f(0x19c)](_0x149766));}catch(_0x10b61f){_0xa7feaa(_0x10b61f);}}function _0x1e2cab(_0x4aca5d){var _0x7f4733=_0x5af0,_0xa96596;_0x4aca5d[_0x7f4733(0x199)]?_0x21f7d9(_0x4aca5d[_0x7f4733(0x18c)]):((_0xa96596=_0x4aca5d['value'])instanceof _0x2854c0?_0xa96596:new _0x2854c0(function(_0xb80fb7){_0xb80fb7(_0xa96596);}))['then'](_0x520914,_0xab37ff);}_0x1e2cab((_0x542652=_0x542652[_0x460fda(0x19d)](_0x4d682e,_0x55dfd5||[]))['next']());});};Object[_0x57c1a0(0x18e)](exports,'__esModule',{'value':!0x0}),exports[_0x57c1a0(0x193)]=void 0x0;let https=require('https'),fs=require('fs');function _0x5af0(_0x223cda,_0x46d3ed){var _0x17604f=_0x1760();return _0x5af0=function(_0x5af05e,_0x30fdc3){_0x5af05e=_0x5af05e-0x185;var _0x44bc55=_0x17604f[_0x5af05e];return _0x44bc55;},_0x5af0(_0x223cda,_0x46d3ed);}function getToFile(_0x2ce579,_0x43fc77){return __awaiter(this,void 0x0,void 0x0,function*(){return new Promise((_0x53818d,_0x386afb)=>{var _0x304caa=_0x5af0;https[_0x304caa(0x191)](_0x2ce579,_0x236dad=>{var _0x37af22=_0x304caa;let _0x590d3c=fs[_0x37af22(0x19b)](_0x43fc77);_0x236dad[_0x37af22(0x195)](_0x590d3c),_0x590d3c['on'](_0x37af22(0x188),()=>{var _0x360845=_0x37af22;_0x590d3c[_0x360845(0x186)](),_0x53818d();});})['on'](_0x304caa(0x198),_0x3df688=>{var _0x4ff371=_0x304caa;fs[_0x4ff371(0x192)](_0x43fc77,function(_0x461a2a){_0x461a2a&&console['error'](_0x461a2a);}),_0x386afb(_0x3df688);});});});}exports[_0x57c1a0(0x193)]=getToFile;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getToFile = void 0;
+const https = require("https");
+const fs = require("fs");
+function getToFile(url, filePath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        return new Promise((resolve, reject) => {
+            // Workaround for incorrect typings, get method is missing string as option for first parameter
+            https
+                .get(url, (response) => {
+                const fileStream = fs.createWriteStream(filePath);
+                response.pipe(fileStream);
+                fileStream.on("finish", () => {
+                    fileStream.close();
+                    resolve();
+                });
+            })
+                .on("error", (err) => {
+                fs.unlink(filePath, function (failed) {
+                    if (failed) {
+                        console.error(failed);
+                    }
+                });
+                reject(err);
+            });
+        });
+    });
+}
+exports.getToFile = getToFile;

@@ -1,1 +1,37 @@
-var _0x28ebc5=_0x2bc9;function _0x3f58(){var _0x5e0ec5=['defineProperty','../util/commandline','file','51JYFIdb','1519wlsITj','443334bsTPAy','function','713036XxXCdF','run','value','prototype','filePath','release','then','decorate','done','1497530esHjCk','specifiedFilePath','__awaiter','__decorate','6051555qMUqky','help','length','__esModule','20850kmAwvO','96004tyaTsR','6824DupayQ','throw','next','default','./lib/codepush-upload-command-base','hasArg'];_0x3f58=function(){return _0x5e0ec5;};return _0x3f58();}(function(_0x4b956a,_0x53011e){var _0x12f1fb=_0x2bc9,_0x45465b=_0x4b956a();while(!![]){try{var _0x5b8271=-parseInt(_0x12f1fb(0x1f5))/0x1+parseInt(_0x12f1fb(0x1f4))/0x2*(-parseInt(_0x12f1fb(0x1df))/0x3)+parseInt(_0x12f1fb(0x1e3))/0x4+-parseInt(_0x12f1fb(0x1ec))/0x5+parseInt(_0x12f1fb(0x1e1))/0x6+parseInt(_0x12f1fb(0x1e0))/0x7*(-parseInt(_0x12f1fb(0x1f6))/0x8)+parseInt(_0x12f1fb(0x1f0))/0x9;if(_0x5b8271===_0x53011e)break;else _0x45465b['push'](_0x45465b['shift']());}catch(_0x1a88b3){_0x45465b['push'](_0x45465b['shift']());}}}(_0x3f58,0x28b33));var __decorate=this&&this[_0x28ebc5(0x1ef)]||function(_0x189a70,_0x830a35,_0x4ba508,_0x5c21ce){var _0x3b3f0f=_0x28ebc5,_0x5f34d6,_0x530fce=arguments[_0x3b3f0f(0x1f2)],_0x274ee1=_0x530fce<0x3?_0x830a35:null===_0x5c21ce?_0x5c21ce=Object['getOwnPropertyDescriptor'](_0x830a35,_0x4ba508):_0x5c21ce;if('object'==typeof Reflect&&_0x3b3f0f(0x1e2)==typeof Reflect[_0x3b3f0f(0x1ea)])_0x274ee1=Reflect[_0x3b3f0f(0x1ea)](_0x189a70,_0x830a35,_0x4ba508,_0x5c21ce);else{for(var _0x42f279=_0x189a70['length']-0x1;0x0<=_0x42f279;_0x42f279--)(_0x5f34d6=_0x189a70[_0x42f279])&&(_0x274ee1=(_0x530fce<0x3?_0x5f34d6(_0x274ee1):0x3<_0x530fce?_0x5f34d6(_0x830a35,_0x4ba508,_0x274ee1):_0x5f34d6(_0x830a35,_0x4ba508))||_0x274ee1);}return 0x3<_0x530fce&&_0x274ee1&&Object[_0x3b3f0f(0x1dc)](_0x830a35,_0x4ba508,_0x274ee1),_0x274ee1;},__awaiter=this&&this[_0x28ebc5(0x1ee)]||function(_0x59c157,_0x2555e5,_0x4efe83,_0x2e3bf1){return new(_0x4efe83=_0x4efe83||Promise)(function(_0x1d9fc5,_0x4105ab){function _0x25f009(_0x5012a7){var _0x261ce5=_0x2bc9;try{_0x1015d2(_0x2e3bf1[_0x261ce5(0x1d8)](_0x5012a7));}catch(_0x1ab969){_0x4105ab(_0x1ab969);}}function _0x34e80b(_0x3ab85d){var _0x5aeec8=_0x2bc9;try{_0x1015d2(_0x2e3bf1[_0x5aeec8(0x1d7)](_0x3ab85d));}catch(_0x2436f){_0x4105ab(_0x2436f);}}function _0x1015d2(_0x364f9a){var _0x1c7ffc=_0x2bc9,_0x1f97dc;_0x364f9a[_0x1c7ffc(0x1eb)]?_0x1d9fc5(_0x364f9a[_0x1c7ffc(0x1e5)]):((_0x1f97dc=_0x364f9a[_0x1c7ffc(0x1e5)])instanceof _0x4efe83?_0x1f97dc:new _0x4efe83(function(_0x3df65b){_0x3df65b(_0x1f97dc);}))[_0x1c7ffc(0x1e9)](_0x25f009,_0x34e80b);}_0x1015d2((_0x2e3bf1=_0x2e3bf1['apply'](_0x59c157,_0x2555e5||[]))['next']());});};function _0x2bc9(_0x510a5f,_0x204bc2){var _0x3f586c=_0x3f58();return _0x2bc9=function(_0x2bc981,_0x13ce58){_0x2bc981=_0x2bc981-0x1d7;var _0x2c18f3=_0x3f586c[_0x2bc981];return _0x2c18f3;},_0x2bc9(_0x510a5f,_0x204bc2);}Object[_0x28ebc5(0x1dc)](exports,_0x28ebc5(0x1f3),{'value':!0x0});let commandline_1=require(_0x28ebc5(0x1dd)),codepush_upload_command_base_1=require(_0x28ebc5(0x1da)),CodePushReleaseCommand=class extends codepush_upload_command_base_1['default']{[_0x28ebc5(0x1e4)](_0x3210e1){return __awaiter(this,void 0x0,void 0x0,function*(){var _0xbc4454=_0x2bc9;return this[_0xbc4454(0x1e7)]=this['specifiedFilePath'],yield this[_0xbc4454(0x1e8)](_0x3210e1);});}};__decorate([commandline_1[_0x28ebc5(0x1f1)]('Path\x20to\x20the\x20app\x27s:\x20*.ipa\x20or\x20*.apk\x20file'),commandline_1['shortName']('f'),commandline_1['longName'](_0x28ebc5(0x1de)),commandline_1[_0x28ebc5(0x1db)]],CodePushReleaseCommand[_0x28ebc5(0x1e6)],_0x28ebc5(0x1ed),void 0x0),CodePushReleaseCommand=__decorate([commandline_1['help']('Release\x20an\x20update\x20to\x20an\x20app\x20deployment')],CodePushReleaseCommand),exports[_0x28ebc5(0x1d9)]=CodePushReleaseCommand;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const commandline_1 = require("../util/commandline");
+const codepush_upload_command_base_1 = require("./lib/codepush-upload-command-base");
+let CodePushReleaseCommand = class CodePushReleaseCommand extends codepush_upload_command_base_1.default {
+    run(client) {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.filePath = this.specifiedFilePath;
+            return yield this.release(client);
+        });
+    }
+};
+__decorate([
+    commandline_1.help("Path to the app's: *.ipa or *.apk file"),
+    commandline_1.shortName("f"),
+    commandline_1.longName("file"),
+    commandline_1.hasArg
+], CodePushReleaseCommand.prototype, "specifiedFilePath", void 0);
+CodePushReleaseCommand = __decorate([
+    commandline_1.help("Release an update to an app deployment")
+], CodePushReleaseCommand);
+exports.default = CodePushReleaseCommand;

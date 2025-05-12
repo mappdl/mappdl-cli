@@ -1,1 +1,185 @@
-const _0x5f0363=_0x2103;function _0x2103(_0x54613f,_0x107948){const _0x21568e=_0x2156();return _0x2103=function(_0x21031e,_0x379fcb){_0x21031e=_0x21031e-0x9c;let _0x22a354=_0x21568e[_0x21031e];return _0x22a354;},_0x2103(_0x54613f,_0x107948);}(function(_0x48fe1b,_0x43d2e1){const _0x18e949=_0x2103,_0x110f8a=_0x48fe1b();while(!![]){try{const _0x16823f=parseInt(_0x18e949(0xb8))/0x1*(parseInt(_0x18e949(0xb7))/0x2)+parseInt(_0x18e949(0xa2))/0x3*(-parseInt(_0x18e949(0xa1))/0x4)+parseInt(_0x18e949(0x9c))/0x5*(parseInt(_0x18e949(0xce))/0x6)+-parseInt(_0x18e949(0xab))/0x7*(-parseInt(_0x18e949(0x9e))/0x8)+-parseInt(_0x18e949(0xc5))/0x9*(parseInt(_0x18e949(0xb5))/0xa)+-parseInt(_0x18e949(0xb9))/0xb+parseInt(_0x18e949(0xcc))/0xc;if(_0x16823f===_0x43d2e1)break;else _0x110f8a['push'](_0x110f8a['shift']());}catch(_0x15f53a){_0x110f8a['push'](_0x110f8a['shift']());}}}(_0x2156,0x68999),(Object[_0x5f0363(0x9f)](exports,_0x5f0363(0xc8),{'value':!0x0}),exports['OrganizationsImpl']=void 0x0));function _0x2156(){const _0x19b4ce=['Composite','/v0.1/orgs/{org_name}','32459kNNHVy','listAdministered','client','delete','orgName','accept','OrganizationsImpl','Paths1Vgfr6WV01OrgsOrgNamePatchResponses200ContentApplicationJsonSchema','PathsHjvrvyV01AdministeredorgsGetResponsesDefaultContentApplicationJsonSchema','list','50wfAINt','name','12BSvbUE','83075oNiLSP','5105782ntKgWi','DELETE','PathsSnamasV01AdministeredorgsGetResponses200ContentApplicationJsonSchema','$host','../models/mappers','displayName','contentType','json','PATCH','../models/parameters','createOrUpdate','POST','1015263ARRWmd','Paths16NvgokV01OrgsOrgNameGetResponsesDefaultContentApplicationJsonSchema','GET','__esModule','assign','Paths184FzfwV01OrgsPostRequestbodyContentApplicationJsonSchema','options','10254420zaHlqy','Paths1Sl6Qy7V01OrgsOrgNameGetResponses200ContentApplicationJsonSchema','12rWPpjq','/v0.1/administeredOrgs','459005hcHiXr','update','672AkmVmG','defineProperty','@azure/core-client','1877828WYPVTf','3uHawXu','sendOperationRequest','/v0.1/orgs','get','createSerializer','Sequence','Paths11Pjgn9V01OrgsOrgNamePatchResponsesDefaultContentApplicationJsonSchema'];_0x2156=function(){return _0x19b4ce;};return _0x2156();}let coreClient=require(_0x5f0363(0xa0)),Mappers=require(_0x5f0363(0xbd)),Parameters=require(_0x5f0363(0xc2));class OrganizationsImpl{constructor(_0x5a827d){const _0x271c29=_0x5f0363;this[_0x271c29(0xad)]=_0x5a827d;}[_0x5f0363(0xa5)](_0x5d2c25,_0x3ac9fb){const _0x30cc08=_0x5f0363;return this[_0x30cc08(0xad)][_0x30cc08(0xa3)]({'orgName':_0x5d2c25,'options':_0x3ac9fb},getOperationSpec);}[_0x5f0363(0x9d)](_0x2ab6a6,_0x55d656){const _0x178e31=_0x5f0363;return this[_0x178e31(0xad)][_0x178e31(0xa3)]({'orgName':_0x2ab6a6,'options':_0x55d656},updateOperationSpec);}[_0x5f0363(0xae)](_0x4b7bf5,_0x301ad2){return this['client']['sendOperationRequest']({'orgName':_0x4b7bf5,'options':_0x301ad2},deleteOperationSpec);}[_0x5f0363(0xc3)](_0x33632d){const _0x5a5c94=_0x5f0363;return this[_0x5a5c94(0xad)][_0x5a5c94(0xa3)]({'options':_0x33632d},createOrUpdateOperationSpec);}[_0x5f0363(0xb4)](_0x32c3cc){const _0x3cda9d=_0x5f0363;return this[_0x3cda9d(0xad)][_0x3cda9d(0xa3)]({'options':_0x32c3cc},listOperationSpec);}[_0x5f0363(0xac)](_0x1c194b){const _0x567e73=_0x5f0363;return this[_0x567e73(0xad)][_0x567e73(0xa3)]({'options':_0x1c194b},listAdministeredOperationSpec);}}exports[_0x5f0363(0xb1)]=OrganizationsImpl;let serializer=coreClient[_0x5f0363(0xa6)](Mappers,!0x1),getOperationSpec={'path':_0x5f0363(0xaa),'httpMethod':_0x5f0363(0xc7),'responses':{0xc8:{'bodyMapper':Mappers[_0x5f0363(0xcd)]},'default':{'bodyMapper':Mappers[_0x5f0363(0xc6)]}},'urlParameters':[Parameters['$host'],Parameters['orgName']],'headerParameters':[Parameters[_0x5f0363(0xb0)]],'serializer':serializer},updateOperationSpec={'path':_0x5f0363(0xaa),'httpMethod':_0x5f0363(0xc1),'responses':{0xc8:{'bodyMapper':Mappers[_0x5f0363(0xb2)]},'default':{'bodyMapper':Mappers[_0x5f0363(0xa8)]}},'requestBody':{'parameterPath':{'displayName':['options',_0x5f0363(0xbe)],'name':[_0x5f0363(0xcb),_0x5f0363(0xb6)]},'mapper':Object[_0x5f0363(0xc9)](Object[_0x5f0363(0xc9)]({},Mappers['Paths600DxeV01OrgsOrgNamePatchRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x5f0363(0xbc)],Parameters['orgName']],'headerParameters':[Parameters[_0x5f0363(0xbf)],Parameters[_0x5f0363(0xb0)]],'mediaType':_0x5f0363(0xc0),'serializer':serializer},deleteOperationSpec={'path':_0x5f0363(0xaa),'httpMethod':_0x5f0363(0xba),'responses':{0xcc:{},'default':{'bodyMapper':Mappers['Paths9Ngr72V01OrgsOrgNameDeleteResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x5f0363(0xbc)],Parameters[_0x5f0363(0xaf)]],'headerParameters':[Parameters[_0x5f0363(0xb0)]],'serializer':serializer},createOrUpdateOperationSpec={'path':_0x5f0363(0xa4),'httpMethod':_0x5f0363(0xc4),'responses':{0xc9:{'bodyMapper':Mappers['Paths5Gk61LV01OrgsPostResponses201ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers['Paths92RvyjV01OrgsPostResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'displayName':[_0x5f0363(0xcb),_0x5f0363(0xbe)],'name':['options','name']},'mapper':Object['assign'](Object[_0x5f0363(0xc9)]({},Mappers[_0x5f0363(0xca)]),{'required':!0x0})},'urlParameters':[Parameters[_0x5f0363(0xbc)]],'headerParameters':[Parameters['contentType'],Parameters['accept']],'mediaType':'json','serializer':serializer},listOperationSpec={'path':'/v0.1/orgs','httpMethod':_0x5f0363(0xc7),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x5f0363(0xa7),'element':{'type':{'name':_0x5f0363(0xa9),'className':'Paths1Ft71BmV01OrgsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers['PathsZre2DkV01OrgsGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host']],'headerParameters':[Parameters[_0x5f0363(0xb0)]],'serializer':serializer},listAdministeredOperationSpec={'path':_0x5f0363(0xcf),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x5f0363(0xbb)]},'default':{'bodyMapper':Mappers[_0x5f0363(0xb3)]}},'urlParameters':[Parameters['$host']],'headerParameters':[Parameters[_0x5f0363(0xb0)]],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.OrganizationsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Organizations operations. */
+class OrganizationsImpl {
+    /**
+     * Initialize a new instance of the class Organizations class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Returns the details of a single organization
+     * @param orgName The organization's name
+     * @param options The options parameters.
+     */
+    get(orgName, options) {
+        return this.client.sendOperationRequest({ orgName, options }, getOperationSpec);
+    }
+    /**
+     * Returns a list of organizations the requesting user has access to
+     * @param orgName The organization's name
+     * @param options The options parameters.
+     */
+    update(orgName, options) {
+        return this.client.sendOperationRequest({ orgName, options }, updateOperationSpec);
+    }
+    /**
+     * Deletes a single organization
+     * @param orgName The organization's name
+     * @param options The options parameters.
+     */
+    delete(orgName, options) {
+        return this.client.sendOperationRequest({ orgName, options }, deleteOperationSpec);
+    }
+    /**
+     * Creates a new organization and returns it to the caller
+     * @param options The options parameters.
+     */
+    createOrUpdate(options) {
+        return this.client.sendOperationRequest({ options }, createOrUpdateOperationSpec);
+    }
+    /**
+     * Returns a list of organizations the requesting user has access to
+     * @param options The options parameters.
+     */
+    list(options) {
+        return this.client.sendOperationRequest({ options }, listOperationSpec);
+    }
+    /**
+     * Returns a list organizations in which the requesting user is an admin
+     * @param options The options parameters.
+     */
+    listAdministered(options) {
+        return this.client.sendOperationRequest({ options }, listAdministeredOperationSpec);
+    }
+}
+exports.OrganizationsImpl = OrganizationsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getOperationSpec = {
+    path: "/v0.1/orgs/{org_name}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Sl6Qy7V01OrgsOrgNameGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths16NvgokV01OrgsOrgNameGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/orgs/{org_name}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Vgfr6WV01OrgsOrgNamePatchResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths11Pjgn9V01OrgsOrgNamePatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            displayName: ["options", "displayName"],
+            name: ["options", "name"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths600DxeV01OrgsOrgNamePatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/orgs/{org_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths9Ngr72V01OrgsOrgNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOrUpdateOperationSpec = {
+    path: "/v0.1/orgs",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Paths5Gk61LV01OrgsPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths92RvyjV01OrgsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            displayName: ["options", "displayName"],
+            name: ["options", "name"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths184FzfwV01OrgsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/orgs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Ft71BmV01OrgsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsZre2DkV01OrgsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listAdministeredOperationSpec = {
+    path: "/v0.1/administeredOrgs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsSnamasV01AdministeredorgsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsHjvrvyV01AdministeredorgsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};

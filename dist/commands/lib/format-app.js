@@ -1,1 +1,21 @@
-const _0x2dd15f=_0xf9da;function _0x7f6a(){const _0x5d677c=['owner.name','displayName','description','Release\x20Type','Description','Display\x20Name','5282390ZeGxCQ','Platform','163527CIQhjE','Owner\x20Name','316qMxslK','4673466TamEEa','320468gaPqdA','Name','Owner\x20Email','appSecret','owner.displayName','Owner\x20Display\x20Name','defineProperty','3646695ClzLlf','Owner\x20ID','owner.email','out','9FNtYac','5200560GxArbT','8uWPcpE','reportApp','report','4003fUNHBz','name'];_0x7f6a=function(){return _0x5d677c;};return _0x7f6a();}(function(_0xe15574,_0x387d3a){const _0x2b1ef4=_0xf9da,_0x7a9e7f=_0xe15574();while(!![]){try{const _0x2246f2=-parseInt(_0x2b1ef4(0x125))/0x1*(-parseInt(_0x2b1ef4(0x113))/0x2)+-parseInt(_0x2b1ef4(0x120))/0x3*(-parseInt(_0x2b1ef4(0x115))/0x4)+-parseInt(_0x2b1ef4(0x11c))/0x5+parseInt(_0x2b1ef4(0x121))/0x6+-parseInt(_0x2b1ef4(0x111))/0x7*(parseInt(_0x2b1ef4(0x122))/0x8)+parseInt(_0x2b1ef4(0x114))/0x9+-parseInt(_0x2b1ef4(0x10f))/0xa;if(_0x2246f2===_0x387d3a)break;else _0x7a9e7f['push'](_0x7a9e7f['shift']());}catch(_0x283280){_0x7a9e7f['push'](_0x7a9e7f['shift']());}}}(_0x7f6a,0xeec00),(Object[_0x2dd15f(0x11b)](exports,'__esModule',{'value':!0x0}),exports[_0x2dd15f(0x123)]=void 0x0));let interaction_1=require('../../util/interaction');function reportApp(_0x147292){const _0x8e36c4=_0x2dd15f;interaction_1[_0x8e36c4(0x11f)][_0x8e36c4(0x124)]([['App\x20Secret',_0x8e36c4(0x118)],[_0x8e36c4(0x10d),_0x8e36c4(0x10b)],[_0x8e36c4(0x10e),_0x8e36c4(0x128)],[_0x8e36c4(0x116),_0x8e36c4(0x126)],['OS','os'],[_0x8e36c4(0x110),'platform'],[_0x8e36c4(0x10c),'releaseType'],[_0x8e36c4(0x11d),'owner.id'],[_0x8e36c4(0x11a),_0x8e36c4(0x119)],[_0x8e36c4(0x117),_0x8e36c4(0x11e)],[_0x8e36c4(0x112),_0x8e36c4(0x127)]],_0x147292);}function _0xf9da(_0x18934f,_0x4839a3){const _0x7f6af0=_0x7f6a();return _0xf9da=function(_0xf9dad1,_0x24fdcf){_0xf9dad1=_0xf9dad1-0x10b;let _0x2de988=_0x7f6af0[_0xf9dad1];return _0x2de988;},_0xf9da(_0x18934f,_0x4839a3);}exports[_0x2dd15f(0x123)]=reportApp;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.reportApp = void 0;
+const interaction_1 = require("../../util/interaction");
+function reportApp(app) {
+    interaction_1.out.report([
+        ["App Secret", "appSecret"],
+        ["Description", "description"],
+        ["Display Name", "displayName"],
+        ["Name", "name"],
+        ["OS", "os"],
+        ["Platform", "platform"],
+        ["Release Type", "releaseType"],
+        ["Owner ID", "owner.id"],
+        ["Owner Display Name", "owner.displayName"],
+        ["Owner Email", "owner.email"],
+        ["Owner Name", "owner.name"],
+        // ["Azure Subscription ID", "azureSubscription.subscriptionId"],
+    ], app);
+}
+exports.reportApp = reportApp;

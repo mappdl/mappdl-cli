@@ -1,1 +1,65 @@
-var _0xdd443f=_0x4d5d;(function(_0x28c8b1,_0x226a4d){var _0x46b825=_0x4d5d,_0x239a77=_0x28c8b1();while(!![]){try{var _0x123f38=parseInt(_0x46b825(0x175))/0x1*(parseInt(_0x46b825(0x180))/0x2)+parseInt(_0x46b825(0x174))/0x3+-parseInt(_0x46b825(0x170))/0x4*(parseInt(_0x46b825(0x17b))/0x5)+parseInt(_0x46b825(0x166))/0x6+-parseInt(_0x46b825(0x16f))/0x7*(parseInt(_0x46b825(0x17d))/0x8)+parseInt(_0x46b825(0x165))/0x9+-parseInt(_0x46b825(0x181))/0xa*(parseInt(_0x46b825(0x17c))/0xb);if(_0x123f38===_0x226a4d)break;else _0x239a77['push'](_0x239a77['shift']());}catch(_0x47c28e){_0x239a77['push'](_0x239a77['shift']());}}}(_0xf6cd,0x9179f));var __awaiter=this&&this[_0xdd443f(0x16a)]||function(_0x3d295e,_0x3a508a,_0x3eca6a,_0x33afe6){return new(_0x3eca6a=_0x3eca6a||Promise)(function(_0x361dfb,_0x4d4f76){var _0x18cadb=_0x4d5d;function _0x477aaf(_0x1eee69){var _0x52e64c=_0x4d5d;try{_0x1eefc4(_0x33afe6[_0x52e64c(0x17e)](_0x1eee69));}catch(_0x142b02){_0x4d4f76(_0x142b02);}}function _0x31d644(_0x5e1656){var _0x89f725=_0x4d5d;try{_0x1eefc4(_0x33afe6[_0x89f725(0x184)](_0x5e1656));}catch(_0x373da5){_0x4d4f76(_0x373da5);}}function _0x1eefc4(_0x4a0044){var _0x5a20ac=_0x4d5d,_0x5407d9;_0x4a0044[_0x5a20ac(0x17f)]?_0x361dfb(_0x4a0044[_0x5a20ac(0x16e)]):((_0x5407d9=_0x4a0044[_0x5a20ac(0x16e)])instanceof _0x3eca6a?_0x5407d9:new _0x3eca6a(function(_0x67c01b){_0x67c01b(_0x5407d9);}))['then'](_0x477aaf,_0x31d644);}_0x1eefc4((_0x33afe6=_0x33afe6[_0x18cadb(0x169)](_0x3d295e,_0x3a508a||[]))[_0x18cadb(0x17e)]());});};Object[_0xdd443f(0x183)](exports,_0xdd443f(0x178),{'value':!0x0}),exports['validateVersion']=exports[_0xdd443f(0x16c)]=exports[_0xdd443f(0x168)]=exports['isValidRange']=exports[_0xdd443f(0x177)]=exports[_0xdd443f(0x17a)]=void 0x0;let semver=require(_0xdd443f(0x173)),regexpForMajor=/^\d+$/,regexpForMajorMinor=/^\d+\.\d+$/;function isValidNumber(_0x56514c){return!isNaN(parseInt(_0x56514c,0xa));}function isValidVersion(_0x41cc43){var _0x3fb736=_0xdd443f;return!!semver[_0x3fb736(0x176)](_0x41cc43)||regexpForMajorMinor[_0x3fb736(0x16d)](_0x41cc43)||regexpForMajor[_0x3fb736(0x16d)](_0x41cc43);}function isValidRange(_0x5ab4e6){var _0x4b5cc4=_0xdd443f;return!!semver[_0x4b5cc4(0x179)](_0x5ab4e6);}function _0xf6cd(){var _0x302df4=['validRange','isValidNumber','55SMzNjG','878977LbwPHc','16760ueegYN','next','done','385334HEqavu','190Qgzgvb','status','defineProperty','throw','9850923zQHzQI','4507506GjBojv','get','isValidRollout','apply','__awaiter','validateVersion','isValidDeployment','test','value','2408RlFoxy','113656SUWUTA','codePushDeployments','isValidRange','semver','2170617nMlGly','3sQPGrJ','valid','isValidVersion','__esModule'];_0xf6cd=function(){return _0x302df4;};return _0xf6cd();}function isValidRollout(_0x5dac6d){return _0x5dac6d&&0x0<_0x5dac6d&&_0x5dac6d<=0x64;}function _0x4d5d(_0x91ad4c,_0x157835){var _0xf6cd7d=_0xf6cd();return _0x4d5d=function(_0x4d5df3,_0x183476){_0x4d5df3=_0x4d5df3-0x165;var _0x3bc83c=_0xf6cd7d[_0x4d5df3];return _0x3bc83c;},_0x4d5d(_0x91ad4c,_0x157835);}function isValidDeployment(_0x54ea85,_0x406def){var _0x56700f;return __awaiter(this,void 0x0,void 0x0,function*(){var _0xaad302=_0x4d5d;try{var _0x3bf920=yield _0x54ea85[_0xaad302(0x171)][_0xaad302(0x167)](_0x406def['ownerName'],_0x406def['appName']);return null!=_0x3bf920;}catch(_0xf5b400){if(0x194===(null==(_0x56700f=_0xf5b400['response'])?void 0x0:_0x56700f[_0xaad302(0x182)]))return!0x1;throw _0xf5b400;}return!0x1;});}function validateVersion(_0x46bbd4){var _0x2b6e92=_0xdd443f;return regexpForMajorMinor[_0x2b6e92(0x16d)](_0x46bbd4)?_0x46bbd4+'.X':regexpForMajor[_0x2b6e92(0x16d)](_0x46bbd4)?_0x46bbd4+'.X.X':null;}exports[_0xdd443f(0x17a)]=isValidNumber,exports[_0xdd443f(0x177)]=isValidVersion,exports[_0xdd443f(0x172)]=isValidRange,exports[_0xdd443f(0x168)]=isValidRollout,exports[_0xdd443f(0x16c)]=isValidDeployment,exports[_0xdd443f(0x16b)]=validateVersion;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.validateVersion = exports.isValidDeployment = exports.isValidRollout = exports.isValidRange = exports.isValidVersion = exports.isValidNumber = void 0;
+const semver = require("semver");
+const regexpForMajor = /^\d+$/;
+const regexpForMajorMinor = /^\d+\.\d+$/;
+// Check if the given string is number e.g 123
+function isValidNumber(versionCode) {
+    return !isNaN(parseInt(versionCode, 10));
+}
+exports.isValidNumber = isValidNumber;
+// Check if the given string is a semver-compliant version number (e.g. '1.2.3')
+// (missing minor/patch values will be added on server side to pass semver.satisfies check)
+function isValidVersion(version) {
+    return !!semver.valid(version) || regexpForMajorMinor.test(version) || regexpForMajor.test(version);
+}
+exports.isValidVersion = isValidVersion;
+// Allow plain integer versions (as well as '1.0' values) for now, e.g. '1' is valid here and we assume that it is equal to '1.0.0'.
+function isValidRange(semverRange) {
+    return !!semver.validRange(semverRange);
+}
+exports.isValidRange = isValidRange;
+function isValidRollout(rollout) {
+    return rollout && rollout > 0 && rollout <= 100;
+}
+exports.isValidRollout = isValidRollout;
+function isValidDeployment(client, app) {
+    var _a;
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const result = yield client.codePushDeployments.get(app.ownerName, app.appName);
+            return result !== null && result !== undefined;
+        }
+        catch (error) {
+            if (((_a = error.response) === null || _a === void 0 ? void 0 : _a.status) === 404) {
+                // 404 is correct status code for this case
+                return false;
+            }
+            throw error;
+        }
+        return false;
+    });
+}
+exports.isValidDeployment = isValidDeployment;
+function validateVersion(version) {
+    if (regexpForMajorMinor.test(version)) {
+        return version + ".X";
+    }
+    else if (regexpForMajor.test(version)) {
+        return version + ".X.X";
+    }
+    else {
+        return null;
+    }
+}
+exports.validateVersion = validateVersion;

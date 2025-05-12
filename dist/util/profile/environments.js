@@ -1,1 +1,54 @@
-function _0x4490(_0xebc778,_0x22ad4e){const _0xda7d9b=_0xda7d();return _0x4490=function(_0x449055,_0xafdecd){_0x449055=_0x449055-0x143;let _0x1215ae=_0xda7d9b[_0x449055];return _0x1215ae;},_0x4490(_0xebc778,_0x22ad4e);}const _0xa0df3c=_0x4490;(function(_0x12024a,_0x5d02a1){const _0x387427=_0x4490,_0x5385e7=_0x12024a();while(!![]){try{const _0x3b239f=parseInt(_0x387427(0x156))/0x1+parseInt(_0x387427(0x148))/0x2*(-parseInt(_0x387427(0x155))/0x3)+-parseInt(_0x387427(0x15a))/0x4+-parseInt(_0x387427(0x160))/0x5+parseInt(_0x387427(0x15c))/0x6*(parseInt(_0x387427(0x14e))/0x7)+parseInt(_0x387427(0x159))/0x8+parseInt(_0x387427(0x157))/0x9*(parseInt(_0x387427(0x149))/0xa);if(_0x3b239f===_0x5d02a1)break;else _0x5385e7['push'](_0x5385e7['shift']());}catch(_0x371dba){_0x5385e7['push'](_0x5385e7['shift']());}}}(_0xda7d,0x6a6d4),(Object[_0xa0df3c(0x146)](exports,_0xa0df3c(0x154),{'value':!0x0}),exports[_0xa0df3c(0x150)]=exports[_0xa0df3c(0x151)]=exports[_0xa0df3c(0x161)]=exports[_0xa0df3c(0x15f)]=exports[_0xa0df3c(0x143)]=exports[_0xa0df3c(0x158)]=exports['mappDLEndpointEnvVar']=void 0x0,exports[_0xa0df3c(0x14d)]=_0xa0df3c(0x147),exports[_0xa0df3c(0x158)]=_0xa0df3c(0x14f),exports[_0xa0df3c(0x143)]='MAPPDL_PORTAL_ENDPOINT'));let environmentsData={'defaultEnvironment':'prod','environments':{'int':{'endpoint':'http://192.168.1.196:3000','loginEndpoint':_0xa0df3c(0x153),'portalEndpoint':_0xa0df3c(0x14b),'description':'Integration'},'prod':{'endpoint':_0xa0df3c(0x144),'loginEndpoint':'https://token.mappdl.com','portalEndpoint':'https://mappdl.com','description':_0xa0df3c(0x145)},'local':{'endpoint':_0xa0df3c(0x15b),'loginEndpoint':_0xa0df3c(0x15d),'portalEndpoint':'https://localhost:883','description':_0xa0df3c(0x152)}}};function environments(_0x8e948b=environmentsData[_0xa0df3c(0x15e)]){const _0x51ea18=_0xa0df3c;return environmentsData[_0x51ea18(0x15f)][_0x8e948b];}function allEnvironments(){return environmentsData;}function _0xda7d(){const _0x35593f=['endpoint','mappDLEndpointEnvVar','86863CFIXVi','DCPPS_LOGIN_ENDPOINT','getPortalUrlForEndpoint','defaultEnvironmentName','Local\x20Development','http://localhost','__esModule','9dElHHf','309372LfWTkF','45ULZfnW','mappDLLoginEndpointEnvVar','3607680zjZxPD','1643380gzpLwc','http://localhost:3015/','270hOJZrf','http://localhost:3000','defaultEnvironment','environments','3652745ZlghWO','allEnvironments','mappDLPortalEndpointEnvVar','https://cli.mappdl.com','Production','defineProperty','MAPPDL_ENDPOINT','102436VoAdJs','824470xWsHfp','keys','https://localhost:883'];_0xda7d=function(){return _0x35593f;};return _0xda7d();}function defaultEnvironmentName(){return environmentsData['defaultEnvironment'];}function getPortalUrlForEndpoint(_0x8ad465){const _0x173523=_0xa0df3c;for(var _0x4612b9 of Object[_0x173523(0x14a)](environmentsData[_0x173523(0x15f)])){_0x4612b9=environmentsData[_0x173523(0x15f)][_0x4612b9];if(_0x4612b9[_0x173523(0x14c)]===_0x8ad465)return _0x4612b9['portalEndpoint'];}throw new Error('Unknown\x20API\x20endpoint\x20-\x20'+_0x8ad465);}exports[_0xa0df3c(0x15f)]=environments,exports['allEnvironments']=allEnvironments,exports['defaultEnvironmentName']=defaultEnvironmentName,exports['getPortalUrlForEndpoint']=getPortalUrlForEndpoint;
+"use strict";
+// Management for the current environment.
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPortalUrlForEndpoint = exports.defaultEnvironmentName = exports.allEnvironments = exports.environments = exports.mappDLPortalEndpointEnvVar = exports.mappDLLoginEndpointEnvVar = exports.mappDLEndpointEnvVar = void 0;
+// import { localEndpoint } from "../misc/constants";
+exports.mappDLEndpointEnvVar = "MAPPDL_ENDPOINT";
+exports.mappDLLoginEndpointEnvVar = "DCPPS_LOGIN_ENDPOINT";
+exports.mappDLPortalEndpointEnvVar = "MAPPDL_PORTAL_ENDPOINT";
+// Default environment data // "prod",
+const environmentsData = {
+    defaultEnvironment: "prod",
+    environments: {
+        int: {
+            endpoint: "http://192.168.1.196:3000",
+            loginEndpoint: "http://localhost",
+            portalEndpoint: "https://localhost:883",
+            description: "Integration",
+        },
+        prod: {
+            endpoint: "https://cli.mappdl.com",
+            loginEndpoint: "https://token.mappdl.com",
+            portalEndpoint: "https://mappdl.com",
+            description: "Production",
+        },
+        local: {
+            endpoint: "http://localhost:3015/",
+            loginEndpoint: "http://localhost:3000",
+            portalEndpoint: "https://localhost:883",
+            description: "Local Development",
+        },
+    },
+};
+function environments(environmentName = environmentsData.defaultEnvironment) {
+    return environmentsData.environments[environmentName];
+}
+exports.environments = environments;
+function allEnvironments() {
+    return environmentsData;
+}
+exports.allEnvironments = allEnvironments;
+function defaultEnvironmentName() {
+    return environmentsData.defaultEnvironment;
+}
+exports.defaultEnvironmentName = defaultEnvironmentName;
+function getPortalUrlForEndpoint(endpoint) {
+    for (const environmentName of Object.keys(environmentsData.environments)) {
+        const environment = environmentsData.environments[environmentName];
+        if (environment.endpoint === endpoint) {
+            return environment.portalEndpoint;
+        }
+    }
+    throw new Error(`Unknown API endpoint - ${endpoint}`);
+}
+exports.getPortalUrlForEndpoint = getPortalUrlForEndpoint;

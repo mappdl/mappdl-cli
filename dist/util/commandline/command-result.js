@@ -1,1 +1,92 @@
-function _0x4c66(){const _0x9fb898=['InvalidParameter','Command\x20','7840294XCjMnW','NotFound','failed','../misc/constants','\x27\x20requires\x20a\x20logged\x20in\x20user.\x20Use\x20the\x20\x27','success','illegal','Exception','12828jnkeQR','8FtdFla','Command\x20\x27','50QwBqde','notFound','Succeeded','defineProperty','scriptName','fromValue','\x20not\x20found','3474663utuEEv','failure','NotLoggedIn','242OszvEJ','9953HuEPqA','result','boolean','isCommandFailedResult','2628639ljBMtZ','__esModule','NoSuchCommand','6591541Cancvs','ErrorCodes','exception','IllegalCommand','4018676VauzPz','notLoggedIn','\x20login\x27\x20command\x20to\x20log\x20in.','50wKKJAI','fromResult','succeeded','string','ResultOrValue','message'];_0x4c66=function(){return _0x9fb898;};return _0x4c66();}const _0x4a4259=_0x294f;function _0x294f(_0xb27181,_0x1e4982){const _0x4c6682=_0x4c66();return _0x294f=function(_0x294f46,_0x25b4de){_0x294f46=_0x294f46-0x199;let _0x1e4f9c=_0x4c6682[_0x294f46];return _0x1e4f9c;},_0x294f(_0xb27181,_0x1e4982);}(function(_0x2251cf,_0x8488b0){const _0xf00279=_0x294f,_0x5298a3=_0x2251cf();while(!![]){try{const _0x1b6eed=parseInt(_0xf00279(0x1aa))/0x1*(parseInt(_0xf00279(0x1a9))/0x2)+-parseInt(_0xf00279(0x1a6))/0x3+parseInt(_0xf00279(0x1b5))/0x4+-parseInt(_0xf00279(0x19f))/0x5*(parseInt(_0xf00279(0x19c))/0x6)+parseInt(_0xf00279(0x1c0))/0x7*(-parseInt(_0xf00279(0x19d))/0x8)+parseInt(_0xf00279(0x1ae))/0x9*(parseInt(_0xf00279(0x1b8))/0xa)+-parseInt(_0xf00279(0x1b1))/0xb;if(_0x1b6eed===_0x8488b0)break;else _0x5298a3['push'](_0x5298a3['shift']());}catch(_0xb7e3ab){_0x5298a3['push'](_0x5298a3['shift']());}}}(_0x4c66,0xbc19f),(Object[_0x4a4259(0x1a2)](exports,_0x4a4259(0x1af),{'value':!0x0}),exports[_0x4a4259(0x1c2)]=exports['succeeded']=exports[_0x4a4259(0x1b3)]=exports[_0x4a4259(0x1b6)]=exports[_0x4a4259(0x1a0)]=exports['illegal']=exports['failure']=exports[_0x4a4259(0x199)]=exports[_0x4a4259(0x1b2)]=exports[_0x4a4259(0x1bc)]=exports[_0x4a4259(0x1ad)]=void 0x0));let constants_1=require(_0x4a4259(0x1c3));function isCommandFailedResult(_0xf58a57){const _0xf3eb03=_0x4a4259;return null!=_0xf58a57&&_0xf3eb03(0x1ac)==typeof _0xf58a57[_0xf3eb03(0x1ba)]&&'number'==typeof _0xf58a57['errorCode']&&_0xf3eb03(0x1bb)==typeof _0xf58a57['errorMessage'];}exports[_0x4a4259(0x1ad)]=isCommandFailedResult;class ResultOrValue{constructor(_0x3e2c31,_0x1fce9e){const _0x381e00=_0x4a4259;this['value']=_0x3e2c31,this[_0x381e00(0x1ab)]=_0x1fce9e;}static[_0x4a4259(0x1a4)](_0x11fdde){return new ResultOrValue(_0x11fdde,null);}static[_0x4a4259(0x1b9)](_0x7e70c2){return new ResultOrValue(null,_0x7e70c2);}}var ErrorCodes;exports[_0x4a4259(0x1bc)]=ResultOrValue,(_0x18b87f=>{const _0x231596=_0x4a4259;_0x18b87f[_0x18b87f['Succeeded']=0x0]=_0x231596(0x1a1),_0x18b87f[_0x18b87f[_0x231596(0x1b4)]=0x1]=_0x231596(0x1b4),_0x18b87f[_0x18b87f[_0x231596(0x1b0)]=0x2]=_0x231596(0x1b0),_0x18b87f[_0x18b87f[_0x231596(0x19b)]=0x3]=_0x231596(0x19b),_0x18b87f[_0x18b87f[_0x231596(0x1be)]=0x4]='InvalidParameter',_0x18b87f[_0x18b87f[_0x231596(0x1a8)]=0x5]=_0x231596(0x1a8),_0x18b87f[_0x18b87f['NotFound']=0x6]=_0x231596(0x1c1);})(ErrorCodes=exports['ErrorCodes']||(exports[_0x4a4259(0x1b2)]={}));let successResult={'succeeded':!0x0};function success(){return successResult;}function failure(_0x3ca68a,_0x3a77f6){return{'succeeded':!0x1,'errorCode':_0x3ca68a,'errorMessage':_0x3a77f6};}function illegal(_0x3b7d8e){const _0x50bd38=_0x4a4259;return failure(ErrorCodes[_0x50bd38(0x1b4)],_0x50bd38(0x1bf)+_0x3b7d8e+'\x20is\x20invalid');}function notFound(_0x2163ca){const _0x26c0e4=_0x4a4259;return failure(ErrorCodes[_0x26c0e4(0x1b0)],'Command\x20'+_0x2163ca+_0x26c0e4(0x1a5));}function notLoggedIn(_0x239d65){const _0x5e4b59=_0x4a4259;return failure(ErrorCodes[_0x5e4b59(0x1a8)],'Command\x20\x27'+_0x239d65+_0x5e4b59(0x1c4)+constants_1[_0x5e4b59(0x1a3)]+_0x5e4b59(0x1b7));}function exception(_0x52eda6,_0x44cb3d){const _0x587bfe=_0x4a4259;return{'succeeded':!0x1,'errorCode':ErrorCodes[_0x587bfe(0x19b)],'errorMessage':_0x587bfe(0x19e)+_0x52eda6+'\x27\x20failed\x20with\x20exception\x20\x22'+_0x44cb3d[_0x587bfe(0x1bd)]+'\x22','exception':_0x44cb3d};}function succeeded(_0x3ce41b){return _0x3ce41b['succeeded'];}function failed(_0xb9c2cf){return!_0xb9c2cf['succeeded'];}exports[_0x4a4259(0x199)]=success,exports[_0x4a4259(0x1a7)]=failure,exports[_0x4a4259(0x19a)]=illegal,exports[_0x4a4259(0x1a0)]=notFound,exports[_0x4a4259(0x1b6)]=notLoggedIn,exports[_0x4a4259(0x1b3)]=exception,exports[_0x4a4259(0x1ba)]=succeeded,exports[_0x4a4259(0x1c2)]=failed;
+"use strict";
+// Results of exeuting a command.
+// Includes general exit codes, specific known errors, or
+// room for other errors.
+// This consolidates success and failure into a single type.
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.failed = exports.succeeded = exports.exception = exports.notLoggedIn = exports.notFound = exports.illegal = exports.failure = exports.success = exports.ErrorCodes = exports.ResultOrValue = exports.isCommandFailedResult = void 0;
+const constants_1 = require("../misc/constants");
+function isCommandFailedResult(object) {
+    return (object != null &&
+        typeof object.succeeded === "boolean" &&
+        typeof object.errorCode === "number" &&
+        typeof object.errorMessage === "string");
+}
+exports.isCommandFailedResult = isCommandFailedResult;
+class ResultOrValue {
+    constructor(value, result) {
+        this.value = value;
+        this.result = result;
+    }
+    static fromValue(value) {
+        return new ResultOrValue(value, null);
+    }
+    static fromResult(result) {
+        return new ResultOrValue(null, result);
+    }
+}
+exports.ResultOrValue = ResultOrValue;
+var ErrorCodes;
+(function (ErrorCodes) {
+    ErrorCodes[ErrorCodes["Succeeded"] = 0] = "Succeeded";
+    // Command given contained illegal characters/names
+    ErrorCodes[ErrorCodes["IllegalCommand"] = 1] = "IllegalCommand";
+    // Command was legal, but not found
+    ErrorCodes[ErrorCodes["NoSuchCommand"] = 2] = "NoSuchCommand";
+    // Unhandled exception occurred
+    ErrorCodes[ErrorCodes["Exception"] = 3] = "Exception";
+    // A parameter is invalid
+    ErrorCodes[ErrorCodes["InvalidParameter"] = 4] = "InvalidParameter";
+    // Command requires logged in user
+    ErrorCodes[ErrorCodes["NotLoggedIn"] = 5] = "NotLoggedIn";
+    // The requested resource was not found
+    ErrorCodes[ErrorCodes["NotFound"] = 6] = "NotFound";
+})(ErrorCodes = exports.ErrorCodes || (exports.ErrorCodes = {}));
+// Cache this, we only ever need one
+const successResult = {
+    succeeded: true,
+};
+// Factory functions for various results
+function success() {
+    return successResult;
+}
+exports.success = success;
+// Used when there's a failure otherwise
+function failure(errorCode, errorMessage) {
+    return {
+        succeeded: false,
+        errorCode,
+        errorMessage,
+    };
+}
+exports.failure = failure;
+function illegal(command) {
+    return failure(ErrorCodes.IllegalCommand, `Command ${command} is invalid`);
+}
+exports.illegal = illegal;
+function notFound(command) {
+    return failure(ErrorCodes.NoSuchCommand, `Command ${command} not found`);
+}
+exports.notFound = notFound;
+function notLoggedIn(command) {
+    return failure(ErrorCodes.NotLoggedIn, `Command '${command}' requires a logged in user. Use the '${constants_1.scriptName} login' command to log in.`);
+}
+exports.notLoggedIn = notLoggedIn;
+function exception(command, ex) {
+    return {
+        succeeded: false,
+        errorCode: ErrorCodes.Exception,
+        errorMessage: `Command '${command}' failed with exception "${ex.message}"`,
+        exception: ex,
+    };
+}
+exports.exception = exception;
+// Type checks for results
+function succeeded(result) {
+    return result.succeeded;
+}
+exports.succeeded = succeeded;
+function failed(result) {
+    return !result.succeeded;
+}
+exports.failed = failed;

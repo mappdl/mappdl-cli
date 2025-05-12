@@ -1,1 +1,135 @@
-const _0x1a2b4f=_0x5ccd;function _0x5ccd(_0x46516f,_0x4c8df0){const _0x4cd023=_0x4cd0();return _0x5ccd=function(_0x5ccdce,_0x16623f){_0x5ccdce=_0x5ccdce-0x129;let _0x473257=_0x4cd023[_0x5ccdce];return _0x473257;},_0x5ccd(_0x46516f,_0x4c8df0);}(function(_0x1c919a,_0x3f4360){const _0x133aa7=_0x5ccd,_0x2875dd=_0x1c919a();while(!![]){try{const _0x24047b=-parseInt(_0x133aa7(0x133))/0x1*(parseInt(_0x133aa7(0x142))/0x2)+-parseInt(_0x133aa7(0x129))/0x3*(-parseInt(_0x133aa7(0x144))/0x4)+-parseInt(_0x133aa7(0x146))/0x5*(-parseInt(_0x133aa7(0x12b))/0x6)+-parseInt(_0x133aa7(0x12a))/0x7+parseInt(_0x133aa7(0x149))/0x8+parseInt(_0x133aa7(0x139))/0x9+-parseInt(_0x133aa7(0x14e))/0xa;if(_0x24047b===_0x3f4360)break;else _0x2875dd['push'](_0x2875dd['shift']());}catch(_0x1b3108){_0x2875dd['push'](_0x2875dd['shift']());}}}(_0x4cd0,0x3648d),(Object[_0x1a2b4f(0x14f)](exports,_0x1a2b4f(0x137),{'value':!0x0}),exports['AppleMappingImpl']=void 0x0));let coreClient=require(_0x1a2b4f(0x141)),Mappers=require(_0x1a2b4f(0x12d)),Parameters=require(_0x1a2b4f(0x148));class AppleMappingImpl{constructor(_0x583a03){this['client']=_0x583a03;}['testFlightGroups'](_0xcb9c48,_0x1f9b14,_0x332456){const _0x271c17=_0x1a2b4f;return this[_0x271c17(0x134)][_0x271c17(0x13e)]({'ownerName':_0xcb9c48,'appName':_0x1f9b14,'options':_0x332456},testFlightGroupsOperationSpec);}[_0x1a2b4f(0x13a)](_0x55e8bf,_0x158e33,_0x590dc2){const _0x3d336f=_0x1a2b4f;return this[_0x3d336f(0x134)][_0x3d336f(0x13e)]({'ownerName':_0x55e8bf,'appName':_0x158e33,'options':_0x590dc2},getOperationSpec);}[_0x1a2b4f(0x151)](_0x5cd6f0,_0x15a13e,_0x4fbbe9){const _0x23057f=_0x1a2b4f;return this[_0x23057f(0x134)][_0x23057f(0x13e)]({'ownerName':_0x5cd6f0,'appName':_0x15a13e,'options':_0x4fbbe9},deleteOperationSpec);}[_0x1a2b4f(0x131)](_0x25c698,_0xae39e7,_0x2168b5,_0x6d37ed){const _0x4d6772=_0x1a2b4f;return this[_0x4d6772(0x134)][_0x4d6772(0x13e)]({'ownerName':_0x25c698,'appName':_0xae39e7,'body':_0x2168b5,'options':_0x6d37ed},createOperationSpec);}}function _0x4cd0(){const _0x49d56b=['793710euIWTx','get','createSerializer','ownerName','Paths1J6Tdl2V01AppsOwnerNameAppNameAppleMappingPostResponses201ContentApplicationJsonSchema','sendOperationRequest','PathsH96V4UV01AppsOwnerNameAppNameAppleMappingGetResponses200ContentApplicationJsonSchema','PathsRxnoxxV01AppsOwnerNameAppNameAppleMappingPostResponsesDefaultContentApplicationJsonSchema','@azure/core-client','2QSLTRZ','/v0.1/apps/{owner_name}/{app_name}/apple_mapping','4zbNhKP','POST','5zQFHaw','Paths1F11J7YV01AppsOwnerNameAppNameAppleMappingDeleteResponsesDefaultContentApplicationJsonSchema','../models/parameters','1521072iUGIOU','DELETE','appName','PathsZew5JgV01AppsOwnerNameAppNameAppleTestFlightGroupsGetResponses200ContentApplicationJsonSchemaItems','json','282320jILehO','defineProperty','accept','delete','85971iSMxfE','1843114dxQjcf','2308044CsQOUL','Composite','../models/mappers','GET','body12','PathsU1IachV01AppsOwnerNameAppNameAppleMappingGetResponsesDefaultContentApplicationJsonSchema','create','$host','177772WaRjJD','client','AppleMappingImpl','body8','__esModule','/v0.1/apps/{owner_name}/{app_name}/apple_test_flight_groups'];_0x4cd0=function(){return _0x49d56b;};return _0x4cd0();}exports[_0x1a2b4f(0x135)]=AppleMappingImpl;let serializer=coreClient[_0x1a2b4f(0x13b)](Mappers,!0x1),testFlightGroupsOperationSpec={'path':_0x1a2b4f(0x138),'httpMethod':_0x1a2b4f(0x12e),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x1a2b4f(0x12c),'className':_0x1a2b4f(0x14c)}}}}},'default':{'bodyMapper':Mappers['Paths11QoktgV01AppsOwnerNameAppNameAppleTestFlightGroupsGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x1a2b4f(0x13c)],Parameters[_0x1a2b4f(0x14b)]],'headerParameters':[Parameters[_0x1a2b4f(0x150)]],'serializer':serializer},getOperationSpec={'path':_0x1a2b4f(0x143),'httpMethod':_0x1a2b4f(0x12e),'responses':{0xc8:{'bodyMapper':Mappers[_0x1a2b4f(0x13f)]},'default':{'bodyMapper':Mappers[_0x1a2b4f(0x130)]}},'urlParameters':[Parameters[_0x1a2b4f(0x132)],Parameters[_0x1a2b4f(0x13c)],Parameters[_0x1a2b4f(0x14b)]],'headerParameters':[Parameters[_0x1a2b4f(0x150)]],'serializer':serializer},deleteOperationSpec={'path':_0x1a2b4f(0x143),'httpMethod':_0x1a2b4f(0x14a),'responses':{0xc8:{},'default':{'bodyMapper':Mappers[_0x1a2b4f(0x147)]}},'requestBody':Parameters[_0x1a2b4f(0x136)],'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters['contentType'],Parameters[_0x1a2b4f(0x150)]],'mediaType':_0x1a2b4f(0x14d),'serializer':serializer},createOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/apple_mapping','httpMethod':_0x1a2b4f(0x145),'responses':{0xc9:{'bodyMapper':Mappers[_0x1a2b4f(0x13d)]},'default':{'bodyMapper':Mappers[_0x1a2b4f(0x140)]}},'requestBody':Parameters[_0x1a2b4f(0x12f)],'urlParameters':[Parameters[_0x1a2b4f(0x132)],Parameters[_0x1a2b4f(0x13c)],Parameters[_0x1a2b4f(0x14b)]],'headerParameters':[Parameters['contentType'],Parameters[_0x1a2b4f(0x150)]],'mediaType':_0x1a2b4f(0x14d),'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AppleMappingImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing AppleMapping operations. */
+class AppleMappingImpl {
+    /**
+     * Initialize a new instance of the class AppleMapping class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Fetch all apple test flight groups
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    testFlightGroups(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, testFlightGroupsOperationSpec);
+    }
+    /**
+     * Get mapping of apple app to an existing app in apple store.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Delete mapping of apple app to an existing app in apple store.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    delete(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, deleteOperationSpec);
+    }
+    /**
+     * Create a mapping for an existing app in apple store for the specified application.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param body The apple app mapping object
+     * @param options The options parameters.
+     */
+    create(ownerName, appName, body, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, body, options }, createOperationSpec);
+    }
+}
+exports.AppleMappingImpl = AppleMappingImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const testFlightGroupsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/apple_test_flight_groups",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsZew5JgV01AppsOwnerNameAppNameAppleTestFlightGroupsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths11QoktgV01AppsOwnerNameAppNameAppleTestFlightGroupsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/apple_mapping",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsH96V4UV01AppsOwnerNameAppNameAppleMappingGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsU1IachV01AppsOwnerNameAppNameAppleMappingGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/apple_mapping",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.Paths1F11J7YV01AppsOwnerNameAppNameAppleMappingDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body8,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/apple_mapping",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Paths1J6Tdl2V01AppsOwnerNameAppNameAppleMappingPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsRxnoxxV01AppsOwnerNameAppNameAppleMappingPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body12,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

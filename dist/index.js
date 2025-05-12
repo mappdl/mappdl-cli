@@ -1,1 +1,18 @@
-function _0x48b9(_0xaeb43a,_0x4e465c){const _0x504d6b=_0x504d();return _0x48b9=function(_0x48b9f3,_0x4a9f5e){_0x48b9f3=_0x48b9f3-0x117;let _0x2a7e27=_0x504d6b[_0x48b9f3];return _0x2a7e27;},_0x48b9(_0xaeb43a,_0x4e465c);}const _0x13d73a=_0x48b9;function _0x504d(){const _0x5158c7=['7351518mnKjqy','17QCbALl','chalk','defineProperty','2505545aXyjxA','1862241sjocGj','runner','failed','./util/interaction/io-options','slice','error','10oiavJz','5vusmJM','42022TejtnA','then','commands','48947292glrEHo','3416460DGSzez','errorCode','red','8301344JqEAAz','errorMessage','stringify','path','bold','argv','join','formatIsJson'];_0x504d=function(){return _0x5158c7;};return _0x504d();}(function(_0x18ca3c,_0x4c8ad8){const _0x246f58=_0x48b9,_0x551329=_0x18ca3c();while(!![]){try{const _0x74f9e6=parseInt(_0x246f58(0x121))/0x1*(-parseInt(_0x246f58(0x12d))/0x2)+-parseInt(_0x246f58(0x125))/0x3+parseInt(_0x246f58(0x131))/0x4*(-parseInt(_0x246f58(0x12c))/0x5)+-parseInt(_0x246f58(0x120))/0x6+-parseInt(_0x246f58(0x124))/0x7+-parseInt(_0x246f58(0x118))/0x8+parseInt(_0x246f58(0x130))/0x9*(parseInt(_0x246f58(0x12b))/0xa);if(_0x74f9e6===_0x4c8ad8)break;else _0x551329['push'](_0x551329['shift']());}catch(_0x422026){_0x551329['push'](_0x551329['shift']());}}}(_0x504d,0xf0a53),Object[_0x13d73a(0x123)](exports,'__esModule',{'value':!0x0}));let commandline_1=require('./util/commandline'),io_options_1=require(_0x13d73a(0x128)),path=require(_0x13d73a(0x11b)),chalk=require(_0x13d73a(0x122)),runner=commandline_1[_0x13d73a(0x126)](path[_0x13d73a(0x11e)](__dirname,_0x13d73a(0x12f)));runner(process[_0x13d73a(0x11d)][_0x13d73a(0x129)](0x2))[_0x13d73a(0x12e)](_0x1c5542=>{const _0x427a07=_0x13d73a;commandline_1[_0x427a07(0x127)](_0x1c5542)&&(io_options_1[_0x427a07(0x11f)]()?console[_0x427a07(0x12a)](''+chalk[_0x427a07(0x117)](JSON[_0x427a07(0x11a)](_0x1c5542))):console[_0x427a07(0x12a)](chalk[_0x427a07(0x11c)]['red']('Error:')+'\x20'+_0x1c5542[_0x427a07(0x119)]),process['exit'](_0x1c5542[_0x427a07(0x132)]));});
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const commandline_1 = require("./util/commandline");
+const io_options_1 = require("./util/interaction/io-options");
+const path = require("path");
+const chalk = require("chalk");
+const runner = commandline_1.runner(path.join(__dirname, "commands"));
+runner(process.argv.slice(2)).then((result) => {
+    if (commandline_1.failed(result)) {
+        if (io_options_1.formatIsJson()) {
+            console.error(`${chalk.red(JSON.stringify(result))}`);
+        }
+        else {
+            console.error(`${chalk.bold.red("Error:")} ${result.errorMessage}`);
+        }
+        process.exit(result.errorCode);
+    }
+});

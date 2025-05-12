@@ -1,1 +1,67 @@
-const _0xa02742=_0x52d9;function _0x2ce7(){const _0x48156b=['952201RSQjTS','env','path','join','243235OvTGLb','saveTelemetryOption','readFileSync','telemetryIsEnabled','telemetryEnabled.json','toLowerCase','24wGwJRR','../interaction','../misc','utf8','2824560beBcKx','stringify','8656928mAOwVi','getProfileDir','79206HrOoEr','MOBILE_CENTER_TELEMETRY','terminal','fileExistsSync','6272598ehZXCU','resolve','108pTPDqF','mkdirp','13134681DhyJpx'];_0x2ce7=function(){return _0x48156b;};return _0x2ce7();}(function(_0x5b324f,_0x24b750){const _0x158d82=_0x52d9,_0x28b3af=_0x5b324f();while(!![]){try{const _0x384e0f=parseInt(_0x158d82(0x8c))/0x1+parseInt(_0x158d82(0x9e))/0x2+-parseInt(_0x158d82(0x9a))/0x3+parseInt(_0x158d82(0x89))/0x4*(-parseInt(_0x158d82(0x90))/0x5)+-parseInt(_0x158d82(0x87))/0x6+-parseInt(_0x158d82(0x9c))/0x7+-parseInt(_0x158d82(0x96))/0x8*(-parseInt(_0x158d82(0x8b))/0x9);if(_0x384e0f===_0x24b750)break;else _0x28b3af['push'](_0x28b3af['shift']());}catch(_0x180483){_0x28b3af['push'](_0x28b3af['shift']());}}}(_0x2ce7,0xcb589),(Object['defineProperty'](exports,'__esModule',{'value':!0x0}),exports['saveTelemetryOption']=exports[_0xa02742(0x93)]=void 0x0));let fs=require('fs'),path=require(_0xa02742(0x8e)),mkdirp=require(_0xa02742(0x8a)),misc_1=require(_0xa02742(0x98)),interaction_1=require(_0xa02742(0x97)),telemetryOptionFile=_0xa02742(0x94),telemetryDisableEnvironmentVar=_0xa02742(0x84);function telemetryIsEnabled(_0x4ec733){const _0x3dcdea=_0xa02742;if(!_0x4ec733){if(process[_0x3dcdea(0x8d)][telemetryDisableEnvironmentVar])return Promise[_0x3dcdea(0x88)]('on'===process[_0x3dcdea(0x8d)][telemetryDisableEnvironmentVar][_0x3dcdea(0x95)]());if(hasTelemetryOptionSaved())return getSavedTelemetryOption();interaction_1[_0x3dcdea(0x85)]['isInteractive']()&&saveTelemetryOption(!0x1);}return Promise['resolve'](!0x1);}function telemetryFileName(){const _0x510626=_0xa02742;return path[_0x510626(0x8f)](misc_1[_0x510626(0x9d)](),telemetryOptionFile);}function hasTelemetryOptionSaved(){const _0x5c7280=_0xa02742;return misc_1[_0x5c7280(0x86)](telemetryFileName());}function getSavedTelemetryOption(){const _0x4aa671=_0xa02742;var _0x1ed847=fs[_0x4aa671(0x92)](telemetryFileName(),_0x4aa671(0x99)),_0x1ed847=JSON['parse'](_0x1ed847);return Promise[_0x4aa671(0x88)](!!_0x1ed847);}function _0x52d9(_0x4536aa,_0x366ca5){const _0x2ce71e=_0x2ce7();return _0x52d9=function(_0x52d956,_0x26e4e5){_0x52d956=_0x52d956-0x84;let _0x51cde0=_0x2ce71e[_0x52d956];return _0x51cde0;},_0x52d9(_0x4536aa,_0x366ca5);}function saveTelemetryOption(_0x6e0928){const _0xd4ea4b=_0xa02742;mkdirp['sync'](misc_1[_0xd4ea4b(0x9d)]()),fs['writeFileSync'](telemetryFileName(),JSON[_0xd4ea4b(0x9b)](_0x6e0928),{'encoding':'utf8'});}exports[_0xa02742(0x93)]=telemetryIsEnabled,exports[_0xa02742(0x91)]=saveTelemetryOption;
+"use strict";
+// Function to query and persist telemetry enabling settings
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.saveTelemetryOption = exports.telemetryIsEnabled = void 0;
+const fs = require("fs");
+// import * as os from "os";
+const path = require("path");
+const mkdirp = require("mkdirp");
+const misc_1 = require("../misc");
+const interaction_1 = require("../interaction");
+// import { out, prompt, terminal, isQuiet } from "../interaction";
+// import * as wrap from "wordwrap";
+const telemetryOptionFile = "telemetryEnabled.json";
+const telemetryDisableEnvironmentVar = "MOBILE_CENTER_TELEMETRY";
+// const telemetryPromptText =
+//   os.EOL +
+//   "MappDL CLI would like to collect data about how users use CLI commands " +
+//   "and some problems they encounter. Participation is voluntary and when you choose to participate your " +
+//   "device automatically sends information to MappDL about how you use MappDL CLI." +
+//   os.EOL +
+//   "For more information, please see our privacy policy at https://aka.ms/mobilecenterprivacy" +
+//   os.EOL;
+// function promptForTelemetryEnable(): Promise<boolean> {
+//   const width = terminal.columns() - 2;
+//   const promptText = wrap(width)(telemetryPromptText);
+//   if (!isQuiet()) {
+//     out.text(promptText);
+//   }
+//   return prompt.confirmWithTimeout("Enable telemetry? ", 30000, true);
+// }
+function telemetryIsEnabled(disableTelemetrySwitch) {
+    if (disableTelemetrySwitch) {
+        return Promise.resolve(false);
+    }
+    if (process.env[telemetryDisableEnvironmentVar]) {
+        return Promise.resolve(process.env[telemetryDisableEnvironmentVar].toLowerCase() === "on");
+    }
+    if (hasTelemetryOptionSaved()) {
+        return getSavedTelemetryOption();
+    }
+    if (!interaction_1.terminal.isInteractive()) {
+        return Promise.resolve(false);
+    }
+    // return promptForTelemetryEnable().then((enabled: boolean) => {
+    const enabled = false;
+    saveTelemetryOption(enabled);
+    return Promise.resolve(enabled);
+    // return enabled;
+    // });
+}
+exports.telemetryIsEnabled = telemetryIsEnabled;
+function telemetryFileName() {
+    return path.join(misc_1.getProfileDir(), telemetryOptionFile);
+}
+function hasTelemetryOptionSaved() {
+    return misc_1.fileExistsSync(telemetryFileName());
+}
+function getSavedTelemetryOption() {
+    const fileContents = fs.readFileSync(telemetryFileName(), "utf8");
+    const enabled = JSON.parse(fileContents);
+    return Promise.resolve(!!enabled);
+}
+function saveTelemetryOption(enabled) {
+    mkdirp.sync(misc_1.getProfileDir());
+    fs.writeFileSync(telemetryFileName(), JSON.stringify(enabled), { encoding: "utf8" });
+}
+exports.saveTelemetryOption = saveTelemetryOption;

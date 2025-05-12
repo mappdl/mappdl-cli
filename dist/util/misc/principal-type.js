@@ -1,1 +1,17 @@
-function _0xd295(){const _0x43a14e=['USER','ErrorCodes','1288485eBgpVy','includes','112602YWYVix','114wMNQuP','user','failure','520498pLUpQS','8456965CjNvlj','4532pBUnXG','validatePrincipalType','../commandline','__esModule','defineProperty','PrincipalType','12925540jylqbl','APP','join','24jpQOaX','allPrincipalTypes','2IqXEFR','2970804BFMnTd','2815AXTJEQ'];_0xd295=function(){return _0x43a14e;};return _0xd295();}const _0x4663a5=_0x1d6d;(function(_0x122015,_0x43740e){const _0x57eedb=_0x1d6d,_0x561de4=_0x122015();while(!![]){try{const _0x2a70f1=parseInt(_0x57eedb(0xd7))/0x1*(-parseInt(_0x57eedb(0xcc))/0x2)+parseInt(_0x57eedb(0xcd))/0x3+parseInt(_0x57eedb(0xc1))/0x4*(parseInt(_0x57eedb(0xce))/0x5)+-parseInt(_0x57eedb(0xd4))/0x6*(parseInt(_0x57eedb(0xd3))/0x7)+-parseInt(_0x57eedb(0xca))/0x8*(-parseInt(_0x57eedb(0xd1))/0x9)+-parseInt(_0x57eedb(0xc7))/0xa+parseInt(_0x57eedb(0xd8))/0xb;if(_0x2a70f1===_0x43740e)break;else _0x561de4['push'](_0x561de4['shift']());}catch(_0x5b5731){_0x561de4['push'](_0x561de4['shift']());}}}(_0xd295,0xaccbb),(Object[_0x4663a5(0xc5)](exports,_0x4663a5(0xc4),{'value':!0x0}),exports[_0x4663a5(0xc2)]=exports[_0x4663a5(0xcb)]=exports[_0x4663a5(0xc6)]=void 0x0));let commandline_1=require(_0x4663a5(0xc3));function _0x1d6d(_0x4dc372,_0x4b4c05){const _0xd295fb=_0xd295();return _0x1d6d=function(_0x1d6d29,_0x215452){_0x1d6d29=_0x1d6d29-0xc1;let _0x30b49f=_0xd295fb[_0x1d6d29];return _0x30b49f;},_0x1d6d(_0x4dc372,_0x4b4c05);}var PrincipalType;function validatePrincipalType(_0x50e810){const _0x5bf701=_0x4663a5;if(!exports['allPrincipalTypes'][_0x5bf701(0xd2)](_0x50e810))throw commandline_1[_0x5bf701(0xd6)](commandline_1[_0x5bf701(0xd0)]['InvalidParameter'],'Provided\x20token\x20type\x20is\x20invalid.\x20Should\x20be\x20one\x20of:\x20['+exports[_0x5bf701(0xcb)][_0x5bf701(0xc9)](',\x20')+']');}(_0x2078cf=>{const _0x1fef6e=_0x4663a5;_0x2078cf[_0x1fef6e(0xcf)]=_0x1fef6e(0xd5),_0x2078cf[_0x1fef6e(0xc8)]='app';})(PrincipalType=exports[_0x4663a5(0xc6)]||(exports[_0x4663a5(0xc6)]={})),exports[_0x4663a5(0xcb)]=[PrincipalType[_0x4663a5(0xcf)],PrincipalType[_0x4663a5(0xc8)]],exports[_0x4663a5(0xc2)]=validatePrincipalType;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.validatePrincipalType = exports.allPrincipalTypes = exports.PrincipalType = void 0;
+const commandline_1 = require("../commandline");
+var PrincipalType;
+(function (PrincipalType) {
+    PrincipalType["USER"] = "user";
+    PrincipalType["APP"] = "app";
+})(PrincipalType = exports.PrincipalType || (exports.PrincipalType = {}));
+exports.allPrincipalTypes = [PrincipalType.USER, PrincipalType.APP];
+function validatePrincipalType(principalType) {
+    if (exports.allPrincipalTypes.includes(principalType)) {
+        return;
+    }
+    throw commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, "Provided token type is invalid. Should be one of: [" + exports.allPrincipalTypes.join(", ") + "]");
+}
+exports.validatePrincipalType = validatePrincipalType;

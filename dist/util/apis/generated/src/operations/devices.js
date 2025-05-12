@@ -1,1 +1,290 @@
-const _0x30ef9b=_0x1ec9;(function(_0x2add3f,_0xcb9cc5){const _0x22eb45=_0x1ec9,_0x578d2d=_0x2add3f();while(!![]){try{const _0x3a7cd2=-parseInt(_0x22eb45(0x184))/0x1+-parseInt(_0x22eb45(0x1b4))/0x2+parseInt(_0x22eb45(0x1b0))/0x3+-parseInt(_0x22eb45(0x180))/0x4+-parseInt(_0x22eb45(0x1b7))/0x5+parseInt(_0x22eb45(0x188))/0x6*(parseInt(_0x22eb45(0x181))/0x7)+parseInt(_0x22eb45(0x191))/0x8;if(_0x3a7cd2===_0xcb9cc5)break;else _0x578d2d['push'](_0x578d2d['shift']());}catch(_0x3a1275){_0x578d2d['push'](_0x578d2d['shift']());}}}(_0x59a0,0x35e76),(Object[_0x30ef9b(0x1b1)](exports,_0x30ef9b(0x19b),{'value':!0x0}),exports['DevicesImpl']=void 0x0));function _0x59a0(){const _0x211a42=['Composite','Sequence','body','unprovisionedOnly','PathsSu173DV01UserDevicesGetResponses200ContentApplicationJsonSchemaItems','createSerializer','$host','PathsPetbu0V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses400ContentApplicationJsonSchema','Stream','1162080SncWNe','8449tHHPIv','distributionGroupName','releaseId','104880SJuowy','Paths8DvmvfV01UserDevicesDeviceUdidDeleteResponses404ContentApplicationJsonSchema','sendOperationRequest','Paths8WlmngV01UsersUserIdDevicesRegisterPostResponses200ContentApplicationJsonSchema','42zMkMrt','listCsvFormat','/v0.1/user/devices/{device_udid}','DevicesImpl','appName','/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/devices/download_devices_list','../models/mappers','contentType','Paths1Lf13O3V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses404ContentApplicationJsonSchema','8047416jMoZsx','resignId','installId','@azure/core-client','/v0.1/users/{user_id}/devices/register','../models/parameters','POST','PUT','PathsY65BgyV01UserDevicesGetResponses403ContentApplicationJsonSchema','userId','__esModule','GET','parsedResponse','includeProvisioningProfile','blockLogs','PathsTsc2V7V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses200ContentApplicationJsonSchemaItems','ownerName','client','Paths1LlermxV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses500ContentApplicationJsonSchema','PathsCls8YvV01UsersUserIdDevicesRegisterPostResponses404ContentApplicationJsonSchema','accept','PathsRigtgjV01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses404ContentApplicationJsonSchema','deviceUdid','String','Paths12Hwzd4V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses400ContentApplicationJsonSchema','PathsZ51JvlV01UserDevicesDeviceUdidGetResponses400ContentApplicationJsonSchema','json','list','removeUserDevice','userDevicesList','/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/devices','830730uFvYHY','defineProperty','registerUserForDevice','udids','811162Fydyuf','PathsWkyzigV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses404ContentApplicationJsonSchema','Paths1Cmt7BV01UserDevicesDeviceUdidGetResponses200ContentApplicationJsonSchema','1347575pXqcvQ','/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/update_devices/{resign_id}'];_0x59a0=function(){return _0x211a42;};return _0x59a0();}let coreClient=require(_0x30ef9b(0x194)),Mappers=require(_0x30ef9b(0x18e)),Parameters=require(_0x30ef9b(0x196));class DevicesImpl{constructor(_0x46654e){const _0x15428d=_0x30ef9b;this[_0x15428d(0x1a2)]=_0x46654e;}[_0x30ef9b(0x1b2)](_0x52577f,_0x3df99a,_0x276ce4){const _0x2e9f88=_0x30ef9b;return this[_0x2e9f88(0x1a2)][_0x2e9f88(0x186)]({'userId':_0x52577f,'body':_0x3df99a,'options':_0x276ce4},registerUserForDeviceOperationSpec);}['deviceDetails'](_0x28e648,_0x335c26){const _0x5bfb95=_0x30ef9b;return this[_0x5bfb95(0x1a2)][_0x5bfb95(0x186)]({'deviceUdid':_0x28e648,'options':_0x335c26},deviceDetailsOperationSpec);}[_0x30ef9b(0x1ad)](_0x3085c6,_0x286640){const _0x11b0d9=_0x30ef9b;return this[_0x11b0d9(0x1a2)][_0x11b0d9(0x186)]({'deviceUdid':_0x3085c6,'options':_0x286640},removeUserDeviceOperationSpec);}[_0x30ef9b(0x1ae)](_0x392097){const _0x2f3255=_0x30ef9b;return this[_0x2f3255(0x1a2)]['sendOperationRequest']({'options':_0x392097},userDevicesListOperationSpec);}['getReleaseUpdateDevicesStatus'](_0x244217,_0x39d2f1,_0x5d0d61,_0x54740b,_0x19bee0){const _0xe1fb02=_0x30ef9b;return this['client'][_0xe1fb02(0x186)]({'releaseId':_0x244217,'resignId':_0x39d2f1,'ownerName':_0x5d0d61,'appName':_0x54740b,'options':_0x19bee0},getReleaseUpdateDevicesStatusOperationSpec);}[_0x30ef9b(0x189)](_0x2ed485,_0x4ac1c1,_0x4756d7,_0x199d54){const _0x371b09=_0x30ef9b;return this[_0x371b09(0x1a2)]['sendOperationRequest']({'distributionGroupName':_0x2ed485,'ownerName':_0x4ac1c1,'appName':_0x4756d7,'options':_0x199d54},listCsvFormatOperationSpec);}[_0x30ef9b(0x1ac)](_0x1c3206,_0x121311,_0x110882,_0x3938bf){const _0x378e52=_0x30ef9b;return this[_0x378e52(0x1a2)]['sendOperationRequest']({'distributionGroupName':_0x1c3206,'ownerName':_0x121311,'appName':_0x110882,'options':_0x3938bf},listOperationSpec);}[_0x30ef9b(0x19f)](_0x97af3c,_0x3a2139,_0x3c0919,_0x1714f0){const _0x46560d=_0x30ef9b;return this[_0x46560d(0x1a2)][_0x46560d(0x186)]({'installId':_0x97af3c,'ownerName':_0x3a2139,'appName':_0x3c0919,'options':_0x1714f0},blockLogsOperationSpec);}}function _0x1ec9(_0x1aadf4,_0x497487){const _0x59a0b3=_0x59a0();return _0x1ec9=function(_0x1ec976,_0x574a9a){_0x1ec976=_0x1ec976-0x176;let _0x5b8db7=_0x59a0b3[_0x1ec976];return _0x5b8db7;},_0x1ec9(_0x1aadf4,_0x497487);}exports[_0x30ef9b(0x18b)]=DevicesImpl;let serializer=coreClient[_0x30ef9b(0x17c)](Mappers,!0x1),registerUserForDeviceOperationSpec={'path':_0x30ef9b(0x195),'httpMethod':_0x30ef9b(0x197),'responses':{0xc8:{'bodyMapper':Mappers[_0x30ef9b(0x187)]},0x194:{'bodyMapper':Mappers[_0x30ef9b(0x1a4)]}},'requestBody':Parameters[_0x30ef9b(0x179)],'urlParameters':[Parameters[_0x30ef9b(0x17d)],Parameters[_0x30ef9b(0x19a)]],'headerParameters':[Parameters[_0x30ef9b(0x18f)],Parameters[_0x30ef9b(0x1a5)]],'mediaType':_0x30ef9b(0x1ab),'serializer':serializer},deviceDetailsOperationSpec={'path':_0x30ef9b(0x18a),'httpMethod':_0x30ef9b(0x19c),'responses':{0xc8:{'bodyMapper':Mappers[_0x30ef9b(0x1b6)]},0x190:{'bodyMapper':Mappers[_0x30ef9b(0x1aa)]},0x193:{'bodyMapper':Mappers['Paths1Bbrb90V01UserDevicesDeviceUdidGetResponses403ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers['Paths1T6Akw2V01UserDevicesDeviceUdidGetResponses404ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x30ef9b(0x17d)],Parameters[_0x30ef9b(0x1a7)]],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer},removeUserDeviceOperationSpec={'path':_0x30ef9b(0x18a),'httpMethod':'DELETE','responses':{0xc8:{},0x193:{'bodyMapper':Mappers['PathsHdlzv9V01UserDevicesDeviceUdidDeleteResponses403ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x30ef9b(0x185)]}},'urlParameters':[Parameters[_0x30ef9b(0x17d)],Parameters[_0x30ef9b(0x1a7)]],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer},userDevicesListOperationSpec={'path':'/v0.1/user/devices','httpMethod':_0x30ef9b(0x19c),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x30ef9b(0x178),'element':{'type':{'name':_0x30ef9b(0x177),'className':_0x30ef9b(0x17b)}}}}},0x190:{'bodyMapper':Mappers['PathsUflabiV01UserDevicesGetResponses400ContentApplicationJsonSchema']},0x193:{'bodyMapper':Mappers[_0x30ef9b(0x199)]}},'urlParameters':[Parameters[_0x30ef9b(0x17d)]],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer},getReleaseUpdateDevicesStatusOperationSpec={'path':_0x30ef9b(0x176),'httpMethod':_0x30ef9b(0x19c),'responses':{0xc8:{'bodyMapper':Mappers['Paths13R6WlgV01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses200ContentApplicationJsonSchema']},0x190:{'bodyMapper':Mappers['Paths1O1G9I2V01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses400ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x30ef9b(0x1a6)]}},'queryParameters':[Parameters[_0x30ef9b(0x19e)]],'urlParameters':[Parameters[_0x30ef9b(0x17d)],Parameters[_0x30ef9b(0x183)],Parameters[_0x30ef9b(0x192)],Parameters[_0x30ef9b(0x1a1)],Parameters[_0x30ef9b(0x18c)]],'headerParameters':[Parameters['accept']],'serializer':serializer},listCsvFormatOperationSpec={'path':_0x30ef9b(0x18d),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x30ef9b(0x17f)},'serializedName':_0x30ef9b(0x19d)}},0x190:{'bodyMapper':Mappers[_0x30ef9b(0x17e)]},0x194:{'bodyMapper':Mappers[_0x30ef9b(0x190)]},0x1f4:{'bodyMapper':Mappers[_0x30ef9b(0x1a3)]}},'queryParameters':[Parameters[_0x30ef9b(0x17a)],Parameters[_0x30ef9b(0x1b3)]],'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x30ef9b(0x18c)],Parameters['distributionGroupName']],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer},listOperationSpec={'path':_0x30ef9b(0x1af),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x30ef9b(0x178),'element':{'type':{'name':_0x30ef9b(0x177),'className':_0x30ef9b(0x1a0)}}}}},0x190:{'bodyMapper':Mappers[_0x30ef9b(0x1a9)]},0x194:{'bodyMapper':Mappers[_0x30ef9b(0x1b5)]}},'queryParameters':[Parameters['releaseId1']],'urlParameters':[Parameters['$host'],Parameters[_0x30ef9b(0x1a1)],Parameters[_0x30ef9b(0x18c)],Parameters[_0x30ef9b(0x182)]],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer},blockLogsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/devices/block_logs/{install_id}','httpMethod':_0x30ef9b(0x198),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x30ef9b(0x1a8)}}}},'urlParameters':[Parameters[_0x30ef9b(0x17d)],Parameters[_0x30ef9b(0x1a1)],Parameters['appName'],Parameters[_0x30ef9b(0x193)]],'headerParameters':[Parameters[_0x30ef9b(0x1a5)]],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DevicesImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Devices operations. */
+class DevicesImpl {
+    /**
+     * Initialize a new instance of the class Devices class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Registers a user for an existing device
+     * @param userId The ID of the user
+     * @param body The device info.
+     * @param options The options parameters.
+     */
+    registerUserForDevice(userId, body, options) {
+        return this.client.sendOperationRequest({ userId, body, options }, registerUserForDeviceOperationSpec);
+    }
+    /**
+     * Returns the device details.
+     * @param deviceUdid The UDID of the device
+     * @param options The options parameters.
+     */
+    deviceDetails(deviceUdid, options) {
+        return this.client.sendOperationRequest({ deviceUdid, options }, deviceDetailsOperationSpec);
+    }
+    /**
+     * Removes an existing device from a user
+     * @param deviceUdid The UDID of the device
+     * @param options The options parameters.
+     */
+    removeUserDevice(deviceUdid, options) {
+        return this.client.sendOperationRequest({ deviceUdid, options }, removeUserDeviceOperationSpec);
+    }
+    /**
+     * Returns all devices associated with the given user.
+     * @param options The options parameters.
+     */
+    userDevicesList(options) {
+        return this.client.sendOperationRequest({ options }, userDevicesListOperationSpec);
+    }
+    /**
+     * Returns the resign status to the caller
+     * @param releaseId The ID of the release.
+     * @param resignId The ID of the resign operation.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getReleaseUpdateDevicesStatus(releaseId, resignId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ releaseId, resignId, ownerName, appName, options }, getReleaseUpdateDevicesStatusOperationSpec);
+    }
+    /**
+     * Returns all devices associated with the given distribution group.
+     * @param distributionGroupName The name of the distribution group.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listCsvFormat(distributionGroupName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ distributionGroupName, ownerName, appName, options }, listCsvFormatOperationSpec);
+    }
+    /**
+     * Returns all devices associated with the given distribution group
+     * @param distributionGroupName The name of the distribution group.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(distributionGroupName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ distributionGroupName, ownerName, appName, options }, listOperationSpec);
+    }
+    /**
+     * **Warning, this operation is not reversible.**
+     *
+     *  A successful call to this API will permanently stop ingesting any logs received via SDK for the
+     * given installation ID, and cannot be restored. We advise caution when using this API, it is designed
+     * to permanently disable collection from a specific installation of the app on a device, usually
+     * following the request from a user.
+     *
+     * @param installId The id of the device
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    blockLogs(installId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ installId, ownerName, appName, options }, blockLogsOperationSpec);
+    }
+}
+exports.DevicesImpl = DevicesImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const registerUserForDeviceOperationSpec = {
+    path: "/v0.1/users/{user_id}/devices/register",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths8WlmngV01UsersUserIdDevicesRegisterPostResponses200ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsCls8YvV01UsersUserIdDevicesRegisterPostResponses404ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body,
+    urlParameters: [Parameters.$host, Parameters.userId],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deviceDetailsOperationSpec = {
+    path: "/v0.1/user/devices/{device_udid}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Cmt7BV01UserDevicesDeviceUdidGetResponses200ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.PathsZ51JvlV01UserDevicesDeviceUdidGetResponses400ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.Paths1Bbrb90V01UserDevicesDeviceUdidGetResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1T6Akw2V01UserDevicesDeviceUdidGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.deviceUdid],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const removeUserDeviceOperationSpec = {
+    path: "/v0.1/user/devices/{device_udid}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        403: {
+            bodyMapper: Mappers.PathsHdlzv9V01UserDevicesDeviceUdidDeleteResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths8DvmvfV01UserDevicesDeviceUdidDeleteResponses404ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.deviceUdid],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const userDevicesListOperationSpec = {
+    path: "/v0.1/user/devices",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsSu173DV01UserDevicesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        400: {
+            bodyMapper: Mappers.PathsUflabiV01UserDevicesGetResponses400ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.PathsY65BgyV01UserDevicesGetResponses403ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getReleaseUpdateDevicesStatusOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/releases/{release_id}/update_devices/{resign_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths13R6WlgV01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses200ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.Paths1O1G9I2V01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsRigtgjV01AppsOwnerNameAppNameReleasesReleaseIdUpdateDevicesResignIdGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.includeProvisioningProfile],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.releaseId,
+        Parameters.resignId,
+        Parameters.ownerName,
+        Parameters.appName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listCsvFormatOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/devices/download_devices_list",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "Stream" }, serializedName: "parsedResponse" }
+        },
+        400: {
+            bodyMapper: Mappers.PathsPetbu0V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1Lf13O3V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.Paths1LlermxV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesDownloadDevicesListGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.unprovisionedOnly, Parameters.udids],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.distributionGroupName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_groups/{distribution_group_name}/devices",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsTsc2V7V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        400: {
+            bodyMapper: Mappers.Paths12Hwzd4V01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses400ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsWkyzigV01AppsOwnerNameAppNameDistributionGroupsDistributionGroupNameDevicesGetResponses404ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.releaseId1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.distributionGroupName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const blockLogsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/devices/block_logs/{install_id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "String" } }
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.installId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};

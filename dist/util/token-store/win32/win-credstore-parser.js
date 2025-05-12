@@ -1,1 +1,63 @@
-const _0x48b87b=_0x5605;(function(_0x260c1f,_0x222160){const _0x51fd38=_0x5605,_0x2f9686=_0x260c1f();while(!![]){try{const _0x1383f0=parseInt(_0x51fd38(0x1a2))/0x1+-parseInt(_0x51fd38(0x1b0))/0x2+-parseInt(_0x51fd38(0x1ac))/0x3+parseInt(_0x51fd38(0x1a6))/0x4*(parseInt(_0x51fd38(0x19f))/0x5)+parseInt(_0x51fd38(0x1a1))/0x6*(parseInt(_0x51fd38(0x1ad))/0x7)+parseInt(_0x51fd38(0x1a0))/0x8*(-parseInt(_0x51fd38(0x1b1))/0x9)+parseInt(_0x51fd38(0x1af))/0xa;if(_0x1383f0===_0x222160)break;else _0x2f9686['push'](_0x2f9686['shift']());}catch(_0x56bd26){_0x2f9686['push'](_0x2f9686['shift']());}}}(_0x3141,0x2691a),(Object[_0x48b87b(0x1a8)](exports,_0x48b87b(0x1a3),{'value':!0x0}),exports[_0x48b87b(0x1aa)]=void 0x0));let Pumpify=require(_0x48b87b(0x1ab)),split=require('split2'),stream_1=require(_0x48b87b(0x19b)),fieldRe=/^([^:]+):\s(.*)$/;function fieldNameToPropertyName(_0x4f0cea){const _0x80efaa=_0x48b87b;return _0x4f0cea=_0x4f0cea['split']('\x20'),(_0x4f0cea[0x0]=_0x4f0cea[0x0][_0x80efaa(0x19c)](),_0x4f0cea[_0x80efaa(0x1a4)](''));}class WinCredStoreParsingStream extends stream_1['Transform']{constructor(){super({'objectMode':!0x0}),this['currentEntry']=null;}['_transform'](_0x140aed,_0x4bc7d5,_0x57655a){const _0x1ea482=_0x48b87b;var _0x54b826,_0x140aed=_0x140aed[_0x1ea482(0x19e)]();return''===_0x140aed?this[_0x1ea482(0x1a5)]&&(this[_0x1ea482(0x1a9)](this[_0x1ea482(0x1a5)]),this[_0x1ea482(0x1a5)]=null):(this[_0x1ea482(0x1a5)]=this['currentEntry']||{},_0x54b826=fieldNameToPropertyName((_0x140aed=fieldRe[_0x1ea482(0x19d)](_0x140aed))[0x1]),_0x140aed=_0x140aed[0x2],this[_0x1ea482(0x1a5)][_0x54b826]=_0x140aed),_0x57655a();}[_0x48b87b(0x1a7)](_0x1436e7){const _0x5c67ea=_0x48b87b;this[_0x5c67ea(0x1a5)]&&(this[_0x5c67ea(0x1a9)](this[_0x5c67ea(0x1a5)]),this[_0x5c67ea(0x1a5)]=null),_0x1436e7();}}function _0x5605(_0x21d08a,_0xca1250){const _0x31414a=_0x3141();return _0x5605=function(_0x5605ae,_0x1ae584){_0x5605ae=_0x5605ae-0x19b;let _0x2d09d8=_0x31414a[_0x5605ae];return _0x2d09d8;},_0x5605(_0x21d08a,_0xca1250);}function createParsingStream(){const _0x24467e=_0x48b87b;return new Pumpify[(_0x24467e(0x1ae))](split(),new WinCredStoreParsingStream());}function _0x3141(){const _0xbc3fe6=['push','createParsingStream','pumpify','456720Ywwbvn','9261QeWtim','obj','1841200pNFevH','358942oefhIq','18YvZubR','stream','toLowerCase','exec','toString','83715jOrfIC','779568EQQQGa','1404chOlBP','174136cneTzs','__esModule','join','currentEntry','4XmWpxw','_flush','defineProperty'];_0x3141=function(){return _0xbc3fe6;};return _0x3141();}(createParsingStream=(exports[_0x48b87b(0x1aa)]=createParsingStream)||{})['ParsingStream']=WinCredStoreParsingStream,exports[_0x48b87b(0x1aa)]=createParsingStream;
+"use strict";
+//
+// Parser for the output of the creds.exe helper program.
+//
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createParsingStream = void 0;
+const Pumpify = require("pumpify");
+const split = require("split2");
+const stream_1 = require("stream");
+//
+// Regular expression to match the various fields in the input.
+//
+const fieldRe = /^([^:]+):\s(.*)$/;
+//
+// Convert space separated pascal caps ("Target Type")
+// to camel case no spaces ("targetType"). Used to Convert
+// field names to property names.
+//
+function fieldNameToPropertyName(fieldName) {
+    const parts = fieldName.split(" ");
+    parts[0] = parts[0].toLowerCase();
+    return parts.join("");
+}
+//
+// Simple streaming parser, splits lines, collects them into single objects.
+//
+class WinCredStoreParsingStream extends stream_1.Transform {
+    constructor() {
+        super({ objectMode: true });
+        this.currentEntry = null;
+    }
+    _transform(chunk, encoding, callback) {
+        const line = chunk.toString();
+        if (line === "") {
+            if (this.currentEntry) {
+                this.push(this.currentEntry);
+                this.currentEntry = null;
+            }
+            return callback();
+        }
+        this.currentEntry = this.currentEntry || {};
+        const match = fieldRe.exec(line);
+        const key = fieldNameToPropertyName(match[1]);
+        const value = match[2];
+        this.currentEntry[key] = value;
+        return callback();
+    }
+    _flush(callback) {
+        if (this.currentEntry) {
+            this.push(this.currentEntry);
+            this.currentEntry = null;
+        }
+        callback();
+    }
+}
+function createParsingStream() {
+    return new Pumpify.obj(split(), new WinCredStoreParsingStream());
+}
+exports.createParsingStream = createParsingStream;
+(function (createParsingStream) {
+    createParsingStream.ParsingStream = WinCredStoreParsingStream;
+})(createParsingStream || (createParsingStream = {}));
+exports.createParsingStream = createParsingStream;

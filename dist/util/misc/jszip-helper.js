@@ -1,1 +1,73 @@
-var _0x778346=_0x1090;(function(_0x5a7dd3,_0x42c3a9){var _0x4d9bb4=_0x1090,_0x47ed65=_0x5a7dd3();while(!![]){try{var _0x89b6ab=parseInt(_0x4d9bb4(0x13d))/0x1+parseInt(_0x4d9bb4(0x13c))/0x2+parseInt(_0x4d9bb4(0x132))/0x3*(parseInt(_0x4d9bb4(0x142))/0x4)+-parseInt(_0x4d9bb4(0x12f))/0x5*(parseInt(_0x4d9bb4(0x126))/0x6)+-parseInt(_0x4d9bb4(0x12b))/0x7+-parseInt(_0x4d9bb4(0x133))/0x8+parseInt(_0x4d9bb4(0x128))/0x9;if(_0x89b6ab===_0x42c3a9)break;else _0x47ed65['push'](_0x47ed65['shift']());}catch(_0x164a9f){_0x47ed65['push'](_0x47ed65['shift']());}}}(_0x133a,0xe36df));var __awaiter=this&&this[_0x778346(0x146)]||function(_0x242962,_0x582960,_0x4471a1,_0x2de31e){return new(_0x4471a1=_0x4471a1||Promise)(function(_0x3df43a,_0x4c6877){var _0x2fdfba=_0x1090;function _0x5af2a1(_0x8ad418){var _0x3f4fe4=_0x1090;try{_0x52b25a(_0x2de31e[_0x3f4fe4(0x13b)](_0x8ad418));}catch(_0x49e742){_0x4c6877(_0x49e742);}}function _0x4e117a(_0x436097){var _0x4aca00=_0x1090;try{_0x52b25a(_0x2de31e[_0x4aca00(0x136)](_0x436097));}catch(_0x49ae46){_0x4c6877(_0x49ae46);}}function _0x52b25a(_0x181521){var _0x2e8b76=_0x1090,_0x17990f;_0x181521['done']?_0x3df43a(_0x181521[_0x2e8b76(0x12d)]):((_0x17990f=_0x181521[_0x2e8b76(0x12d)])instanceof _0x4471a1?_0x17990f:new _0x4471a1(function(_0x3bf961){_0x3bf961(_0x17990f);}))[_0x2e8b76(0x134)](_0x5af2a1,_0x4e117a);}_0x52b25a((_0x2de31e=_0x2de31e['apply'](_0x242962,_0x582960||[]))[_0x2fdfba(0x13b)]());});};Object['defineProperty'](exports,_0x778346(0x12a),{'value':!0x0}),exports[_0x778346(0x124)]=exports[_0x778346(0x143)]=exports[_0x778346(0x139)]=void 0x0;let Path=require(_0x778346(0x144)),Pfs=require('./promisfied-fs'),fs=require('fs'),mkdirp=require('mkdirp');function unpackZipToPath(_0x48c333,_0x128b2e,_0x26d943=''){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x360b74=_0x1090,_0x255ebf;for(_0x255ebf of _0x128b2e[_0x360b74(0x12e)]((_0x11d409,_0x4f8bc2)=>_0x4f8bc2['name']['startsWith'](_0x26d943))){var _0x2cc1f7,_0x3df0f6,_0x1f7f4d=_0x255ebf[_0x360b74(0x145)][_0x360b74(0x125)](_0x26d943[_0x360b74(0x13a)]);_0x255ebf['dir']?yield mkdirp(Path['join'](_0x48c333,_0x1f7f4d)):(_0x2cc1f7=Path[_0x360b74(0x140)](_0x48c333,Path[_0x360b74(0x12c)](_0x1f7f4d)),yield mkdirp(_0x2cc1f7),_0x3df0f6=yield _0x255ebf[_0x360b74(0x127)](_0x360b74(0x137)),yield Pfs['writeFile'](Path[_0x360b74(0x140)](_0x2cc1f7,Path['basename'](_0x1f7f4d)),_0x3df0f6));}});}function writeZipToPath(_0x44bae5,_0x2d97f9,_0x181cfa){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x90e190=_0x1090,_0x2e2637=yield _0x2d97f9[_0x90e190(0x131)]({'type':_0x90e190(0x137),'compression':_0x181cfa});yield Pfs[_0x90e190(0x138)](_0x44bae5,_0x2e2637);});}function addFolderToZipRecursively(_0x22fc01,_0x578cab){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x408ee8=_0x1090,_0x226157,_0xd59a0f=yield Pfs[_0x408ee8(0x141)](_0x22fc01),_0x392fef=_0x578cab[_0x408ee8(0x130)](Path['basename'](_0x22fc01));for(_0x226157 of _0xd59a0f){var _0x27519d=Path[_0x408ee8(0x140)](_0x22fc01,_0x226157);(yield Pfs[_0x408ee8(0x13e)](_0x27519d))[_0x408ee8(0x129)]()?yield addFolderToZipRecursively(_0x27519d,_0x392fef):(_0x27519d=yield fs[_0x408ee8(0x135)](_0x27519d),_0x392fef[_0x408ee8(0x13f)](_0x226157,_0x27519d));}});}function _0x1090(_0x2c3859,_0xfc8eec){var _0x133ad4=_0x133a();return _0x1090=function(_0x1090d9,_0x408c97){_0x1090d9=_0x1090d9-0x124;var _0x61f4b4=_0x133ad4[_0x1090d9];return _0x61f4b4;},_0x1090(_0x2c3859,_0xfc8eec);}exports['unpackZipToPath']=unpackZipToPath,exports['writeZipToPath']=writeZipToPath,exports[_0x778346(0x124)]=addFolderToZipRecursively;function _0x133a(){var _0x299ff9=['unpackZipToPath','length','next','1956988PFBYaq','1414137yoLNnK','stat','file','join','readdir','609316KGNBsW','writeZipToPath','path','name','__awaiter','addFolderToZipRecursively','substring','138378bCmTHh','async','16517925cvrRLW','isDirectory','__esModule','7522291afaoSt','dirname','value','filter','395xgdPFW','folder','generateAsync','21qoKXhB','11728944RiMnKy','then','createReadStream','throw','nodebuffer','writeFile'];_0x133a=function(){return _0x299ff9;};return _0x133a();}
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.addFolderToZipRecursively = exports.writeZipToPath = exports.unpackZipToPath = void 0;
+const Path = require("path");
+const Pfs = require("./promisfied-fs");
+const fs = require("fs");
+const mkdirp = require("mkdirp");
+/**
+ * Unpacks ZIP file contents to the specified folder (it should already exist)
+ * root parameter can be used to extract specific folder from the zip archive
+ */
+function unpackZipToPath(path, zip, root = "") {
+    return __awaiter(this, void 0, void 0, function* () {
+        const entries = zip.filter((relativePath, file) => file.name.startsWith(root));
+        for (const entry of entries) {
+            const zipPath = entry.name.substring(root.length);
+            if (entry.dir) {
+                yield mkdirp(Path.join(path, zipPath));
+            }
+            else {
+                const fileDirPath = Path.join(path, Path.dirname(zipPath));
+                // Creating directory path if needed
+                yield mkdirp(fileDirPath);
+                const buffer = yield entry.async("nodebuffer");
+                yield Pfs.writeFile(Path.join(fileDirPath, Path.basename(zipPath)), buffer);
+            }
+        }
+    });
+}
+exports.unpackZipToPath = unpackZipToPath;
+/**
+ * Writes zip file to the specified location
+ */
+function writeZipToPath(path, zip, compression) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const zipBuffer = yield zip.generateAsync({
+            type: "nodebuffer",
+            compression,
+        });
+        yield Pfs.writeFile(path, zipBuffer);
+    });
+}
+exports.writeZipToPath = writeZipToPath;
+/**
+ * Adds the folder and it's content to the zip
+ */
+function addFolderToZipRecursively(path, zip) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const subEntitiesNames = yield Pfs.readdir(path);
+        const folderZip = zip.folder(Path.basename(path));
+        for (const subEntityName of subEntitiesNames) {
+            const subEntityPath = Path.join(path, subEntityName);
+            const subEntityStats = yield Pfs.stat(subEntityPath);
+            if (subEntityStats.isDirectory()) {
+                yield addFolderToZipRecursively(subEntityPath, folderZip);
+            }
+            else {
+                const fileStream = yield fs.createReadStream(subEntityPath);
+                folderZip.file(subEntityName, fileStream);
+            }
+        }
+    });
+}
+exports.addFolderToZipRecursively = addFolderToZipRecursively;

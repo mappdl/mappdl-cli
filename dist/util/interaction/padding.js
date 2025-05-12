@@ -1,1 +1,24 @@
-const _0x4d2689=_0x31d4;(function(_0x217999,_0x54aa83){const _0x9517fb=_0x31d4,_0x5b0133=_0x217999();while(!![]){try{const _0x4d9949=-parseInt(_0x9517fb(0xa9))/0x1*(parseInt(_0x9517fb(0xa0))/0x2)+parseInt(_0x9517fb(0xa7))/0x3+parseInt(_0x9517fb(0xa4))/0x4+parseInt(_0x9517fb(0xa6))/0x5+parseInt(_0x9517fb(0xa2))/0x6+parseInt(_0x9517fb(0xa3))/0x7+-parseInt(_0x9517fb(0x9e))/0x8;if(_0x4d9949===_0x54aa83)break;else _0x5b0133['push'](_0x5b0133['shift']());}catch(_0x30ea63){_0x5b0133['push'](_0x5b0133['shift']());}}}(_0x590c,0x32a4b),(Object[_0x4d2689(0xa1)](exports,_0x4d2689(0xaf),{'value':!0x0}),exports[_0x4d2689(0xab)]=exports['padLeft']=exports[_0x4d2689(0xa5)]=void 0x0));function _0x31d4(_0x383a17,_0x420818){const _0x590c7a=_0x590c();return _0x31d4=function(_0x31d4a0,_0x161f8e){_0x31d4a0=_0x31d4a0-0x9e;let _0x1269c0=_0x590c7a[_0x31d4a0];return _0x1269c0;},_0x31d4(_0x383a17,_0x420818);}let debug=require(_0x4d2689(0xa8))(_0x4d2689(0xac));function padding(_0x5ebf83,_0x5e9529){const _0x561211=_0x4d2689;return _0x5e9529=_0x5e9529[_0x561211(0x9f)],_0x5ebf83<=_0x5e9529?'':(debug(_0x561211(0xb0)+(_0x5ebf83-_0x5e9529+0x1)+_0x561211(0xaa)+_0x5ebf83),new Array(_0x5ebf83-_0x5e9529+0x1)[_0x561211(0xad)]('\x20'));}function padLeft(_0x346aac,_0x337fc4){return padding(_0x346aac,_0x337fc4)+_0x337fc4;}function padRight(_0x419e7d,_0xa31568){return _0xa31568+padding(_0x419e7d,_0xa31568);}exports[_0x4d2689(0xa5)]=padding,exports[_0x4d2689(0xae)]=padLeft,exports['padRight']=padRight;function _0x590c(){const _0x1f6f5b=['\x20spaces\x20of\x20padding\x20to\x20width\x20','padRight','mappdl-cli:util:interaction:padding','join','padLeft','__esModule','Adding\x20','7848064ScYtTm','length','6hjZJkn','defineProperty','2110866fAJoRu','2570554AwMAGF','1601816bJsYsC','padding','1757550UbpdSC','390675uzaBUA','debug','137593gLgLEU'];_0x590c=function(){return _0x1f6f5b;};return _0x590c();}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.padRight = exports.padLeft = exports.padding = void 0;
+//
+// Misc string padding - no npm disasters for us! :-)
+//
+const debug = require("debug")("mappdl-cli:util:interaction:padding");
+function padding(width, text) {
+    const len = text.length;
+    if (len >= width) {
+        return "";
+    }
+    debug(`Adding ${width - len + 1} spaces of padding to width ${width}`);
+    return new Array(width - len + 1).join(" ");
+}
+exports.padding = padding;
+function padLeft(width, text) {
+    return padding(width, text) + text;
+}
+exports.padLeft = padLeft;
+function padRight(width, text) {
+    return text + padding(width, text);
+}
+exports.padRight = padRight;

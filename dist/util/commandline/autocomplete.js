@@ -1,1 +1,171 @@
-var _0x724f=_0x3bc0;(function(_0x4898e8,_0x343b3b){var _0x4fac7e=_0x3bc0,_0x412a17=_0x4898e8();while(!![]){try{var _0x45de51=parseInt(_0x4fac7e(0x13c))/0x1+-parseInt(_0x4fac7e(0x14c))/0x2*(-parseInt(_0x4fac7e(0x151))/0x3)+parseInt(_0x4fac7e(0x144))/0x4*(-parseInt(_0x4fac7e(0x13a))/0x5)+-parseInt(_0x4fac7e(0x14e))/0x6+parseInt(_0x4fac7e(0x15d))/0x7*(-parseInt(_0x4fac7e(0x156))/0x8)+-parseInt(_0x4fac7e(0x135))/0x9+-parseInt(_0x4fac7e(0x15a))/0xa*(-parseInt(_0x4fac7e(0x13e))/0xb);if(_0x45de51===_0x343b3b)break;else _0x412a17['push'](_0x412a17['shift']());}catch(_0x246ccd){_0x412a17['push'](_0x412a17['shift']());}}}(_0x43fa,0x620e1),(Object['defineProperty'](exports,_0x724f(0x132),{'value':!0x0}),exports[_0x724f(0x146)]=exports[_0x724f(0x142)]=void 0x0));let Path=require(_0x724f(0x133)),Fs=require('fs'),misc_1=require(_0x724f(0x161)),omelette=require(_0x724f(0x160)),appName=misc_1[_0x724f(0x148)];function getAutoCompleteObject(){return omelette(appName);}function _0x43fa(){var _0x7ea4c4=['404874kugwOr','map','33kDMeLx','push','long','startsWith','executeAutoComplete','line','52afktZh','test','setupAutoCompleteForShell','setupShellInitFile','scriptName','autocomplete-tree.json','getActiveShell','\x20completion\x0a','2cmtBZj','begin\x20bash_completion\x20configuration','3827892uXSBiC','complete','short','160833RPaYqM',')\x20exist\x20and\x20you\x20have\x20write\x20permissions:\x20','\x20completion','utf-8','indexOf','1576nqQcyf','length','slice','help','6502520Jttstm','Can\x27t\x20read\x20init\x20file\x20(','\x20completion\x0a[\x20-f\x20/usr/local/etc/bash_completion\x20]\x20&&\x20.\x20/usr/local/etc/bash_completion\x0a[\x20-f\x20/usr/share/bash-completion/bash_completion\x20]\x20&&\x20.\x20/usr/share/bash-completion/bash_completion\x0a[\x20-f\x20/etc/bash_completion\x20]\x20&&\x20.\x20/etc/bash_completion\x0a#\x20end\x20bash_completion\x20configuration\x20for\x20','14749TaMPSR','utf8','):\x20','omelette','../misc','getDefaultShellInitFile','keys','__esModule','path','\x0a#\x20begin\x20bash_completion\x20configuration\x20for\x20','5820714jgmzpg','substring','shell','substr','bash','118385ZYmtZv','match'];_0x43fa=function(){return _0x7ea4c4;};return _0x43fa();}function executeAutoComplete(){var _0x2e1d12=_0x724f,_0xa4863f=getAutoCompleteObject();_0xa4863f['on'](_0x2e1d12(0x14f),function(_0x1cc370,_0x1768d3){var _0x39a559=_0x2e1d12,_0x4f0a9e=_0x1768d3[_0x39a559(0x143)],_0x1768d3=_0x1768d3['reply'],_0x5e829e=_0x4f0a9e[_0x39a559(0x136)](appName[_0x39a559(0x157)])[_0x39a559(0x13b)](/\S+/g)||[],_0x4f0a9e=/\s{1}/[_0x39a559(0x145)](last(_0x4f0a9e)),_0x2467bb=getAutoCompleteTreeWithExpandedHelp(JSON['parse'](Fs['readFileSync'](Path['join'](__dirname,'..','..',_0x39a559(0x149)),_0x39a559(0x15e))));_0x1768d3(getReplyHandler(_0x4f0a9e)(_0x5e829e,_0x2467bb));}),_0xa4863f['init']();}function setupAutoCompleteForShell(_0x10880d,_0x35d88b){var _0x50a285=_0x724f,_0x10967c,_0xd7102e=getAutoCompleteObject();let _0x1be22e=_0x10880d;_0xd7102e['shell']=_0x35d88b||_0xd7102e[_0x50a285(0x14a)](),_0x1be22e=_0x1be22e||_0xd7102e[_0x50a285(0x162)]();let _0x274714;try{_0x274714=Fs['readFileSync'](_0x1be22e,{'encoding':_0x50a285(0x154)});}catch(_0x60046f){throw _0x50a285(0x15b)+_0x1be22e+_0x50a285(0x15f)+_0x60046f;}try{_0x50a285(0x139)===_0xd7102e[_0x50a285(0x137)]&&-0x1===_0x274714[_0x50a285(0x155)](_0x50a285(0x14d))&&(_0x10967c=_0x50a285(0x134)+appName+_0x50a285(0x15c)+appName+_0x50a285(0x14b),Fs['appendFileSync'](_0x1be22e,_0x10967c)),-0x1===_0x274714[_0x50a285(0x155)]('begin\x20'+appName+_0x50a285(0x153))&&_0xd7102e[_0x50a285(0x147)](_0x1be22e);}catch(_0x416f63){throw'Can\x27t\x20setup\x20autocomplete.\x20Please\x20make\x20sure\x20that\x20init\x20file\x20('+_0x1be22e+_0x50a285(0x152)+_0x416f63;}}function getReplyHandler(_0xe03ac7){return function _0x1e36d6(_0x509c0f,_0x26a101){var _0x2758f0=_0x3bc0;let _0x28386f=head(_0x509c0f);var _0x4808dc=Object[_0x2758f0(0x131)](_0x26a101);return void 0x0===_0x28386f?_0x4808dc:(_0x26a101=_0x26a101[_0x28386f])?(_0x509c0f=tail(_0x509c0f))['length']||_0xe03ac7?(_0x26a101 instanceof Array?getCommandReplyHandler(_0xe03ac7):_0x1e36d6)(_0x509c0f,_0x26a101):[_0x28386f]:_0x4808dc['filter'](_0x47c003=>_0x47c003['startsWith'](_0x28386f));};}function _0x3bc0(_0x507e19,_0x312955){var _0x43fac8=_0x43fa();return _0x3bc0=function(_0x3bc080,_0x34c3c8){_0x3bc080=_0x3bc080-0x131;var _0x286a1a=_0x43fac8[_0x3bc080];return _0x286a1a;},_0x3bc0(_0x507e19,_0x312955);}function getCommandReplyHandler(_0x30fd1a){return function _0x4dd93a(_0x3af7cb,_0x1a1aa8){var _0xef406e=_0x3bc0;let _0x2e76ec=head(_0x3af7cb);if(void 0x0===_0x2e76ec)return _0x1a1aa8['map'](_0x57c573=>_0x57c573[_0xef406e(0x140)]||_0x57c573[_0xef406e(0x150)]);_0x3af7cb=tail(_0x3af7cb);if(_0x3af7cb[_0xef406e(0x157)]||_0x30fd1a)return _0x4dd93a(_0x3af7cb,_0x1a1aa8['filter'](_0x41699c=>_0x41699c[_0xef406e(0x140)]!==_0x2e76ec&&_0x41699c['short']!==_0x2e76ec));var _0x4116f4,_0x25d65c=[];for(_0x4116f4 of _0x1a1aa8)_0x4116f4['long']&&_0x4116f4['long']['startsWith'](_0x2e76ec)?_0x25d65c[_0xef406e(0x13f)](_0x4116f4[_0xef406e(0x140)]):_0x4116f4['short']&&_0x4116f4[_0xef406e(0x150)][_0xef406e(0x141)](_0x2e76ec)&&_0x25d65c[_0xef406e(0x13f)](_0x4116f4[_0xef406e(0x150)]);return _0x25d65c;};}function getAutoCompleteTreeWithExpandedHelp(_0x4a877c){var _0x4f4483=_0x724f,_0xeed1ed=cloneDeep(_0x4a877c,_0x1c996c=>_0x1c996c instanceof Array?cloneDeep(_0x4a877c['help']):void 0x0),_0x18afa9=(delete _0xeed1ed[_0x4f4483(0x159)],cloneDeep(_0x4a877c));return _0x18afa9[_0x4f4483(0x159)]=_0xeed1ed,_0x18afa9;}function last(_0x187a38){var _0x5a0736=_0x724f;return _0x187a38[_0x5a0736(0x138)](-0x1,0x1);}function head(_0xbea688){return _0xbea688[0x0];}function tail(_0x1ea1b7){var _0x247f45=_0x724f;return _0x1ea1b7[_0x247f45(0x158)](0x1);}function cloneDeep(..._0x135e70){var _0x3fd080=_0x724f,_0x18e310=_0x135e70[0x0];let _0x30d845=_0x135e70[0x1];_0x135e70=_0x30d845&&_0x30d845(_0x18e310);if(void 0x0!==_0x135e70)return _0x135e70;if(_0x18e310 instanceof Array)return _0x18e310[_0x3fd080(0x13d)](_0x549bab=>cloneDeep(_0x549bab,_0x30d845));if(_0x18e310 instanceof Object){var _0x3b8ba4,_0x8b2fdd={};for(_0x3b8ba4 of Object[_0x3fd080(0x131)](_0x18e310))_0x8b2fdd[_0x3b8ba4]=cloneDeep(_0x18e310[_0x3b8ba4],_0x30d845);return _0x8b2fdd;}return _0x18e310;}exports[_0x724f(0x142)]=executeAutoComplete,exports[_0x724f(0x146)]=setupAutoCompleteForShell;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.setupAutoCompleteForShell = exports.executeAutoComplete = void 0;
+const Path = require("path");
+const Fs = require("fs");
+const misc_1 = require("../misc");
+const omelette = require("omelette");
+const appName = misc_1.scriptName;
+function getAutoCompleteObject() {
+    return omelette(appName);
+}
+function executeAutoComplete() {
+    const autoCompleteObject = getAutoCompleteObject();
+    autoCompleteObject.on("complete", function (fragment, data) {
+        const line = data.line;
+        const reply = data.reply;
+        const argsLine = line.substring(appName.length);
+        const args = argsLine.match(/\S+/g) || [];
+        const lineEndsWithWhitespaceChar = /\s{1}/.test(last(line));
+        const autocompleteTree = JSON.parse(Fs.readFileSync(Path.join(__dirname, "..", "..", "autocomplete-tree.json"), "utf8"));
+        const expandedAutoCompleteTree = getAutoCompleteTreeWithExpandedHelp(autocompleteTree);
+        const getReply = getReplyHandler(lineEndsWithWhitespaceChar);
+        reply(getReply(args, expandedAutoCompleteTree));
+    });
+    autoCompleteObject.init();
+}
+exports.executeAutoComplete = executeAutoComplete;
+function setupAutoCompleteForShell(path, shell) {
+    const autoCompleteObject = getAutoCompleteObject();
+    let initFile = path;
+    if (shell) {
+        autoCompleteObject.shell = shell;
+    }
+    else {
+        autoCompleteObject.shell = autoCompleteObject.getActiveShell();
+    }
+    if (!initFile) {
+        initFile = autoCompleteObject.getDefaultShellInitFile();
+    }
+    let initFileContent;
+    try {
+        initFileContent = Fs.readFileSync(initFile, { encoding: "utf-8" });
+    }
+    catch (exception) {
+        throw `Can't read init file (${initFile}): ${exception}`;
+    }
+    try {
+        // For bash we need to enable bash_completion before mappdl cli completion
+        if (autoCompleteObject.shell === "bash" && initFileContent.indexOf("begin bash_completion configuration") === -1) {
+            const sources = `[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -f /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
+[ -f /etc/bash_completion ] && . /etc/bash_completion`;
+            const template = `
+# begin bash_completion configuration for ${appName} completion
+${sources}
+# end bash_completion configuration for ${appName} completion
+`;
+            Fs.appendFileSync(initFile, template);
+        }
+        if (initFileContent.indexOf(`begin ${appName} completion`) === -1) {
+            autoCompleteObject.setupShellInitFile(initFile);
+        }
+    }
+    catch (exception) {
+        throw `Can't setup autocomplete. Please make sure that init file (${initFile}) exist and you have write permissions: ${exception}`;
+    }
+}
+exports.setupAutoCompleteForShell = setupAutoCompleteForShell;
+function getReplyHandler(lineEndsWithWhitespaceChar) {
+    return function getReply(args, autocompleteTree) {
+        const currentArg = head(args);
+        const commandsAndCategories = Object.keys(autocompleteTree);
+        if (currentArg === undefined) {
+            // no more args - show all of the items at the current level
+            return commandsAndCategories;
+        }
+        else {
+            // check what arg points to
+            const entity = autocompleteTree[currentArg];
+            if (entity) {
+                // arg points to an existing command or category
+                const restOfArgs = tail(args);
+                if (restOfArgs.length || lineEndsWithWhitespaceChar) {
+                    if (entity instanceof Array) {
+                        // it is command
+                        const getCommandReply = getCommandReplyHandler(lineEndsWithWhitespaceChar);
+                        return getCommandReply(restOfArgs, entity);
+                    }
+                    else {
+                        // it is category
+                        return getReply(restOfArgs, entity);
+                    }
+                }
+                else {
+                    // if last arg has no trailing whitespace, it should be added
+                    return [currentArg];
+                }
+            }
+            else {
+                // arg points to nothing specific - return commands and categories which start with arg
+                return commandsAndCategories.filter((commandOrCategory) => commandOrCategory.startsWith(currentArg));
+            }
+        }
+    };
+}
+function getCommandReplyHandler(lineEndsWithWhitespaceChar) {
+    return function getCommandReply(args, optionsNames) {
+        const currentArg = head(args);
+        if (currentArg === undefined) {
+            // no more args, returning remaining optionsNames
+            return optionsNames.map((option) => option.long || option.short);
+        }
+        else {
+            const restOfArgs = tail(args);
+            if (restOfArgs.length || lineEndsWithWhitespaceChar) {
+                const filteredOptions = optionsNames.filter((option) => option.long !== currentArg && option.short !== currentArg);
+                return getCommandReply(restOfArgs, filteredOptions);
+            }
+            else {
+                const candidates = [];
+                for (const option of optionsNames) {
+                    if (option.long && option.long.startsWith(currentArg)) {
+                        candidates.push(option.long);
+                    }
+                    else if (option.short && option.short.startsWith(currentArg)) {
+                        candidates.push(option.short);
+                    }
+                }
+                return candidates;
+            }
+        }
+    };
+}
+function getAutoCompleteTreeWithExpandedHelp(originalTree) {
+    // "help" command prefixes command path to show help for it
+    const helpTree = cloneDeep(originalTree, (entry) => (entry instanceof Array ? cloneDeep(originalTree["help"]) : undefined));
+    delete helpTree["help"];
+    const expandedTree = cloneDeep(originalTree);
+    expandedTree["help"] = helpTree;
+    return expandedTree;
+}
+// utility functions (to avoid loading lodash for performance reasons)
+function last(line) {
+    return line.substr(-1, 1);
+}
+function head(array) {
+    return array[0];
+}
+function tail(array) {
+    return array.slice(1);
+}
+function cloneDeep(...args) {
+    const item = args[0];
+    const handler = args[1];
+    const handlerResult = handler && handler(item);
+    if (handlerResult !== undefined) {
+        return handlerResult;
+    }
+    if (item instanceof Array) {
+        return item.map((subItem) => cloneDeep(subItem, handler));
+    }
+    if (item instanceof Object) {
+        const cloneObject = {};
+        const keys = Object.keys(item);
+        for (const key of keys) {
+            cloneObject[key] = cloneDeep(item[key], handler);
+        }
+        return cloneObject;
+    }
+    return item;
+}

@@ -1,1 +1,105 @@
-var _0x63081=_0x4181;(function(_0x10cc1b,_0x12b7cb){var _0x283e40=_0x4181,_0x5d05e3=_0x10cc1b();while(!![]){try{var _0x9c27ed=-parseInt(_0x283e40(0x1db))/0x1*(parseInt(_0x283e40(0x1c5))/0x2)+parseInt(_0x283e40(0x1d8))/0x3*(parseInt(_0x283e40(0x1dd))/0x4)+-parseInt(_0x283e40(0x1d1))/0x5+-parseInt(_0x283e40(0x1bd))/0x6+parseInt(_0x283e40(0x1eb))/0x7+-parseInt(_0x283e40(0x1e0))/0x8+parseInt(_0x283e40(0x1c2))/0x9*(parseInt(_0x283e40(0x1c6))/0xa);if(_0x9c27ed===_0x12b7cb)break;else _0x5d05e3['push'](_0x5d05e3['shift']());}catch(_0x344952){_0x5d05e3['push'](_0x5d05e3['shift']());}}}(_0x2bbb,0x4e75f));var __awaiter=this&&this[_0x63081(0x1c3)]||function(_0xe70089,_0x2df6ce,_0x300a03,_0x3652bb){return new(_0x300a03=_0x300a03||Promise)(function(_0x40b296,_0x222501){var _0x34ec6f=_0x4181;function _0x364dd8(_0x39bbc3){try{_0x3bce54(_0x3652bb['next'](_0x39bbc3));}catch(_0x30f267){_0x222501(_0x30f267);}}function _0x1e6d2a(_0x316701){var _0x2aaec9=_0x4181;try{_0x3bce54(_0x3652bb[_0x2aaec9(0x1e9)](_0x316701));}catch(_0x369d8e){_0x222501(_0x369d8e);}}function _0x3bce54(_0x32de84){var _0x239bb2=_0x4181,_0x3c4627;_0x32de84['done']?_0x40b296(_0x32de84[_0x239bb2(0x1e8)]):((_0x3c4627=_0x32de84['value'])instanceof _0x300a03?_0x3c4627:new _0x300a03(function(_0x4dddd3){_0x4dddd3(_0x3c4627);}))[_0x239bb2(0x1de)](_0x364dd8,_0x1e6d2a);}_0x3bce54((_0x3652bb=_0x3652bb[_0x34ec6f(0x1e1)](_0xe70089,_0x2df6ce||[]))[_0x34ec6f(0x1bc)]());});};Object[_0x63081(0x1ca)](exports,_0x63081(0x1d7),{'value':!0x0}),exports[_0x63081(0x1bf)]=exports[_0x63081(0x1cd)]=exports['clientCall']=exports[_0x63081(0x1e4)]=void 0x0;let debug=require(_0x63081(0x1ba))(_0x63081(0x1d3)),util_1=require(_0x63081(0x1d9)),mappDLClient_1=require('./generated/src/mappDLClient'),user_agent_policy_1=require(_0x63081(0x1dc)),telemetry_policy_1=require(_0x63081(0x1c9)),command_result_1=require(_0x63081(0x1c1)),authorization_policy_1=require('./authorization-policy');function createMappDLClient(_0x4d12fa,_0x39beb4){function _0x179bfe(_0x59bc41){var _0x54243c=_0x4181;return{'additionalPolicies':[{'policy':telemetry_policy_1[_0x54243c(0x1c8)](_0x4d12fa[_0x54243c(0x1c4)]('\x20'),_0x39beb4),'position':_0x54243c(0x1c7)},{'policy':user_agent_policy_1['userAgentPolicy'](),'position':_0x54243c(0x1c7)},{'policy':authorization_policy_1['authorizationPolicy'](_0x59bc41),'position':_0x54243c(0x1c7)}],'allowInsecureConnection':!0x0};}return{'fromToken'(_0x58995a,_0x68b476){var _0x347706=_0x4181;debug(_0x347706(0x1e3)+_0x68b476);let _0x50b6d2;return _0x50b6d2=_0x347706(0x1ea)==typeof _0x58995a?(debug(_0x347706(0x1bb)),()=>Promise['resolve'](_0x58995a)):_0x347706(0x1d4)==typeof _0x58995a?(debug(_0x347706(0x1ce)),()=>_0x58995a):(debug(_0x347706(0x1e5)),_0x58995a),new mappDLClient_1[(_0x347706(0x1d0))](Object[_0x347706(0x1be)]({'endpoint':_0x68b476},_0x179bfe(_0x50b6d2())));},'fromProfile'(_0x960053){var _0x3c6c35=_0x4181;return _0x960053?(debug(_0x3c6c35(0x1cc)+util_1[_0x3c6c35(0x1d5)](_0x960053)),new mappDLClient_1['MappDLClient'](Object[_0x3c6c35(0x1be)]({'endpoint':_0x960053[_0x3c6c35(0x1cb)]},_0x179bfe(_0x960053[_0x3c6c35(0x1ec)])))):(debug(_0x3c6c35(0x1e6)),null);}};}function clientCall(_0x5eebb5){return new Promise((_0x3730ad,_0x5df256)=>{_0x5eebb5((_0x33dbb0,_0x310435)=>{_0x33dbb0?_0x5df256(_0x33dbb0):_0x3730ad(_0x310435);});});}function _0x2bbb(){var _0x3ca9e7=['3619328IhLicV','apply','clientCall','Creating\x20client\x20from\x20token\x20for\x20endpoint\x20','createMappDLClient','Creating\x20from\x20token\x20as\x20function','No\x20current\x20user,\x20not\x20creating\x20client','401\x20Error\x20received\x20from\x20api','value','throw','string','4211137iKQQZN','accessToken','failure','debug','Creating\x20from\x20token\x20as\x20string','next','702600wlDqPn','assign','clientRequest','NotLoggedIn','../../util/commandline/command-result','9pdzQgq','__awaiter','join','100956TBVXrO','1819310ogFYSU','perCall','telemetryPolicy','./telemetry-policy','defineProperty','endpoint','Creating\x20client\x20from\x20user\x20for\x20user\x20','handleHttpError','Creating\x20from\x20token\x20as\x20promise','404\x20Error\x20received\x20from\x20api','MappDLClient','678215xDQKNm','ErrorCodes','mappdl-cli:util:apis:create-client','object','inspect','statusCode','__esModule','3BHYRYC','util','Exception','3sVSwGj','./user-agent-policy','1577784klJOKa','then','InvalidParameter'];_0x2bbb=function(){return _0x3ca9e7;};return _0x2bbb();}function handleHttpError(_0x4ef15d,_0x3c2e77,_0x15d94c,_0x2fe74f=_0x63081(0x1cf),_0x5d1061=_0x63081(0x1e7)){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x3471c4=_0x4181;if(_0x3c2e77&&0x194===_0x4ef15d['statusCode'])throw command_result_1[_0x3471c4(0x1ed)](command_result_1[_0x3471c4(0x1d2)][_0x3471c4(0x1df)],_0x2fe74f);throw 0x191===_0x4ef15d[_0x3471c4(0x1d6)]?command_result_1[_0x3471c4(0x1ed)](command_result_1[_0x3471c4(0x1d2)][_0x3471c4(0x1c0)],_0x5d1061):(debug(_0x15d94c+'-\x20'+util_1[_0x3471c4(0x1d5)](_0x4ef15d)),command_result_1['failure'](command_result_1['ErrorCodes'][_0x3471c4(0x1da)],_0x15d94c));});}function clientRequest(_0x31543e){return new Promise((_0x1b66c6,_0x878e47)=>{_0x31543e((_0x59aae4,_0x3bb6e9,_0x3e34b5,_0x10ceaa)=>{_0x59aae4?_0x878e47(_0x59aae4):_0x1b66c6({'result':_0x3bb6e9,'response':_0x10ceaa});});});}function _0x4181(_0x424b48,_0x17b3c0){var _0x2bbb2f=_0x2bbb();return _0x4181=function(_0x418146,_0x5ba9ad){_0x418146=_0x418146-0x1ba;var _0x911b7=_0x2bbb2f[_0x418146];return _0x911b7;},_0x4181(_0x424b48,_0x17b3c0);}exports['createMappDLClient']=createMappDLClient,exports[_0x63081(0x1e2)]=clientCall,exports['handleHttpError']=handleHttpError,exports['clientRequest']=clientRequest;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.clientRequest = exports.handleHttpError = exports.clientCall = exports.createMappDLClient = void 0;
+// Helper function to create client objects
+const debug = require("debug")("mappdl-cli:util:apis:create-client");
+const util_1 = require("util");
+const mappDLClient_1 = require("./generated/src/mappDLClient");
+const user_agent_policy_1 = require("./user-agent-policy");
+const telemetry_policy_1 = require("./telemetry-policy");
+const command_result_1 = require("../../util/commandline/command-result");
+const authorization_policy_1 = require("./authorization-policy");
+function createMappDLClient(command, telemetryEnabled) {
+    function createClientOptions(token) {
+        const policies = [
+            { policy: telemetry_policy_1.telemetryPolicy(command.join(" "), telemetryEnabled), position: "perCall" },
+            { policy: user_agent_policy_1.userAgentPolicy(), position: "perCall" },
+            { policy: authorization_policy_1.authorizationPolicy(token), position: "perCall" },
+        ];
+        const serviceClientOptions = {
+            additionalPolicies: policies,
+            allowInsecureConnection: true,
+        };
+        return serviceClientOptions;
+    }
+    return {
+        fromToken(token, endpoint) {
+            debug(`Creating client from token for endpoint ${endpoint}`);
+            let tokenFunc;
+            if (typeof token === "string") {
+                debug("Creating from token as string");
+                tokenFunc = () => Promise.resolve(token);
+            }
+            else if (typeof token === "object") {
+                debug("Creating from token as promise");
+                tokenFunc = () => token;
+            }
+            else {
+                debug("Creating from token as function");
+                tokenFunc = token;
+            }
+            return new mappDLClient_1.MappDLClient(Object.assign({ endpoint: endpoint }, createClientOptions(tokenFunc())));
+        },
+        fromProfile(user) {
+            if (!user) {
+                debug(`No current user, not creating client`);
+                return null;
+            }
+            debug(`Creating client from user for user ${util_1.inspect(user)}`);
+            return new mappDLClient_1.MappDLClient(Object.assign({ endpoint: user.endpoint }, createClientOptions(user.accessToken)));
+        },
+    };
+}
+exports.createMappDLClient = createMappDLClient;
+// Helper function to wrap client calls into promises while maintaining some type safety.
+function clientCall(action) {
+    return new Promise((resolve, reject) => {
+        action((err, result) => {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve(result);
+            }
+        });
+    });
+}
+exports.clientCall = clientCall;
+function handleHttpError(error, check404, messageDefault, message404 = `404 Error received from api`, message401 = `401 Error received from api`) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (check404 && error.statusCode === 404) {
+            throw command_result_1.failure(command_result_1.ErrorCodes.InvalidParameter, message404);
+        }
+        if (error.statusCode === 401) {
+            throw command_result_1.failure(command_result_1.ErrorCodes.NotLoggedIn, message401);
+        }
+        else {
+            debug(`${messageDefault}- ${util_1.inspect(error)}`);
+            throw command_result_1.failure(command_result_1.ErrorCodes.Exception, messageDefault);
+        }
+    });
+}
+exports.handleHttpError = handleHttpError;
+// Helper function to wrap client calls into pormises and returning both HTTP response and parsed result
+function clientRequest(action) {
+    return new Promise((resolve, reject) => {
+        action((err, result, request, response) => {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve({ result, response });
+            }
+        });
+    });
+}
+exports.clientRequest = clientRequest;

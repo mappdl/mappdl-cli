@@ -1,1 +1,145 @@
-const _0x381aa6=_0x39da;(function(_0x2fdeb7,_0x1c6cc6){const _0xedfe3b=_0x39da,_0x5c2ec3=_0x2fdeb7();while(!![]){try{const _0x1bd558=parseInt(_0xedfe3b(0x174))/0x1*(-parseInt(_0xedfe3b(0x187))/0x2)+parseInt(_0xedfe3b(0x176))/0x3*(-parseInt(_0xedfe3b(0x167))/0x4)+-parseInt(_0xedfe3b(0x165))/0x5*(-parseInt(_0xedfe3b(0x16a))/0x6)+-parseInt(_0xedfe3b(0x18c))/0x7*(parseInt(_0xedfe3b(0x168))/0x8)+parseInt(_0xedfe3b(0x16d))/0x9*(-parseInt(_0xedfe3b(0x17e))/0xa)+parseInt(_0xedfe3b(0x16b))/0xb+parseInt(_0xedfe3b(0x172))/0xc;if(_0x1bd558===_0x1c6cc6)break;else _0x5c2ec3['push'](_0x5c2ec3['shift']());}catch(_0x194463){_0x5c2ec3['push'](_0x5c2ec3['shift']());}}}(_0x3745,0x25dd2),(Object['defineProperty'](exports,_0x381aa6(0x179),{'value':!0x0}),exports[_0x381aa6(0x16f)]=void 0x0));function _0x39da(_0x40bb42,_0x570886){const _0x3745e6=_0x3745();return _0x39da=function(_0x39da8f,_0x18fce3){_0x39da8f=_0x39da8f-0x163;let _0x45db2c=_0x3745e6[_0x39da8f];return _0x45db2c;},_0x39da(_0x40bb42,_0x570886);}let coreClient=require(_0x381aa6(0x163)),Mappers=require('../models/mappers'),Parameters=require(_0x381aa6(0x185));class DataImpl{constructor(_0x316fea){this['client']=_0x316fea;}[_0x381aa6(0x184)](_0x450a8b,_0x4e1753,_0x3b853c){const _0x17eed1=_0x381aa6;return this[_0x17eed1(0x17c)]['sendOperationRequest']({'ownerName':_0x450a8b,'appName':_0x4e1753,'options':_0x3b853c},getResourceProvisioningOperationSpec);}[_0x381aa6(0x17f)](_0x5c6da1,_0x288e72,_0x19c30f,_0x3d1cc5){const _0x1e51ed=_0x381aa6;return this[_0x1e51ed(0x17c)][_0x1e51ed(0x173)]({'aCAuthorizationARM':_0x5c6da1,'ownerName':_0x288e72,'appName':_0x19c30f,'options':_0x3d1cc5},postResourceProvisioningOperationSpec);}['getOverview'](_0x1a32f6,_0x90c8a9,_0x143559,_0x20e6d7){const _0x29a753=_0x381aa6;return this[_0x29a753(0x17c)][_0x29a753(0x173)]({'aCAuthorizationARM':_0x1a32f6,'ownerName':_0x90c8a9,'appName':_0x143559,'options':_0x20e6d7},getOverviewOperationSpec);}[_0x381aa6(0x17d)](_0x50a85b,_0x2200f9,_0x5e1fee,_0x1547b3,_0x3d99af){const _0x263f68=_0x381aa6;return this['client'][_0x263f68(0x173)]({'aCAuthorizationARM':_0x50a85b,'accountName':_0x2200f9,'ownerName':_0x5e1fee,'appName':_0x1547b3,'options':_0x3d99af},checkNameExistsOperationSpec);}}exports[_0x381aa6(0x16f)]=DataImpl;function _0x3745(){const _0x3e9885=['POST','ownerName','Stream','563066yxpRvC','/v0.1/apps/{owner_name}/{app_name}/data/resource_provisioning','@azure/core-client','accountName','18175YgHUWG','appName','39752KKlupU','8rntMya','PathsHml8V01AppsOwnerNameAppNameDataResourceProvisioningPostResponses400ContentApplicationJsonSchema','30flGypk','958375ceveaW','PathsWumnz0V01AppsOwnerNameAppNameDataResourceProvisioningGetResponses500ContentApplicationJsonSchema','9gDkcMi','PathsAv3L5YV01AppsOwnerNameAppNameDataResourceProvisioningPostResponses202ContentApplicationJsonSchema','DataImpl','$host','GET','6352392Wzbznj','sendOperationRequest','2sQxoKY','aCAuthorizationARM','54XhppOx','parsedResponse','/v0.1/apps/{owner_name}/{app_name}/data/overview','__esModule','Paths1Eig5LtV01AppsOwnerNameAppNameDataResourceProvisioningGetResponses404ContentApplicationJsonSchema','createSerializer','client','checkNameExists','1487680qTPWeA','postResourceProvisioning','json','Paths154Xl4EV01AppsOwnerNameAppNameDataOverviewGetResponses500ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/data/database_account_names/{accountName}','Paths2Bmy5KV01AppsOwnerNameAppNameDataResourceProvisioningPostResponses500ContentApplicationJsonSchema','getResourceProvisioning','../models/parameters','contentType','71486eUfmzM','accept'];_0x3745=function(){return _0x3e9885;};return _0x3745();}let serializer=coreClient[_0x381aa6(0x17b)](Mappers,!0x1),getResourceProvisioningOperationSpec={'path':_0x381aa6(0x18d),'httpMethod':_0x381aa6(0x171),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Stream'},'serializedName':'parsedResponse'}},0x194:{'bodyMapper':Mappers[_0x381aa6(0x17a)]},0x1f4:{'bodyMapper':Mappers[_0x381aa6(0x16c)]}},'urlParameters':[Parameters[_0x381aa6(0x170)],Parameters[_0x381aa6(0x18a)],Parameters[_0x381aa6(0x166)]],'headerParameters':[Parameters[_0x381aa6(0x188)]],'serializer':serializer},postResourceProvisioningOperationSpec={'path':_0x381aa6(0x18d),'httpMethod':_0x381aa6(0x189),'responses':{0xca:{'bodyMapper':Mappers[_0x381aa6(0x16e)]},0x190:{'bodyMapper':Mappers[_0x381aa6(0x169)]},0x1f4:{'bodyMapper':Mappers[_0x381aa6(0x183)]}},'requestBody':Parameters['provisionDatabaseParameters'],'urlParameters':[Parameters['$host'],Parameters[_0x381aa6(0x18a)],Parameters['appName']],'headerParameters':[Parameters[_0x381aa6(0x186)],Parameters['accept'],Parameters[_0x381aa6(0x175)]],'mediaType':_0x381aa6(0x180),'serializer':serializer},getOverviewOperationSpec={'path':_0x381aa6(0x178),'httpMethod':_0x381aa6(0x171),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x381aa6(0x18b)},'serializedName':'parsedResponse'}},0x1f4:{'bodyMapper':Mappers[_0x381aa6(0x181)]}},'urlParameters':[Parameters[_0x381aa6(0x170)],Parameters[_0x381aa6(0x18a)],Parameters[_0x381aa6(0x166)]],'headerParameters':[Parameters[_0x381aa6(0x188)],Parameters[_0x381aa6(0x175)]],'serializer':serializer},checkNameExistsOperationSpec={'path':_0x381aa6(0x182),'httpMethod':'HEAD','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x381aa6(0x18b)},'serializedName':_0x381aa6(0x177)}},0x190:{},0x191:{},0x194:{},0x1f4:{}},'urlParameters':[Parameters[_0x381aa6(0x170)],Parameters['ownerName'],Parameters[_0x381aa6(0x166)],Parameters[_0x381aa6(0x164)]],'headerParameters':[Parameters['accept'],Parameters['aCAuthorizationARM']],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DataImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Data operations. */
+class DataImpl {
+    /**
+     * Initialize a new instance of the class Data class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getResourceProvisioning(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getResourceProvisioningOperationSpec);
+    }
+    /**
+     * Creates Cosmos DB or attaches an existing one
+     * @param aCAuthorizationARM test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    postResourceProvisioning(aCAuthorizationARM, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ aCAuthorizationARM, ownerName, appName, options }, postResourceProvisioningOperationSpec);
+    }
+    /**
+     * Gets general data about the provisioned database
+     * @param aCAuthorizationARM ARM access token.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getOverview(aCAuthorizationARM, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ aCAuthorizationARM, ownerName, appName, options }, getOverviewOperationSpec);
+    }
+    /**
+     * Checks that the Azure Cosmos DB account name already exists. A valid account name may contain only
+     * lowercase letters, numbers, and the '-' character, and must be between 3 and 31 characters.
+     * @param aCAuthorizationARM ARM token
+     * @param accountName Account Name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    checkNameExists(aCAuthorizationARM, accountName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ aCAuthorizationARM, accountName, ownerName, appName, options }, checkNameExistsOperationSpec);
+    }
+}
+exports.DataImpl = DataImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getResourceProvisioningOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/data/resource_provisioning",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "Stream" }, serializedName: "parsedResponse" }
+        },
+        404: {
+            bodyMapper: Mappers.Paths1Eig5LtV01AppsOwnerNameAppNameDataResourceProvisioningGetResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.PathsWumnz0V01AppsOwnerNameAppNameDataResourceProvisioningGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const postResourceProvisioningOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/data/resource_provisioning",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.PathsAv3L5YV01AppsOwnerNameAppNameDataResourceProvisioningPostResponses202ContentApplicationJsonSchema
+        },
+        400: {
+            bodyMapper: Mappers.PathsHml8V01AppsOwnerNameAppNameDataResourceProvisioningPostResponses400ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.Paths2Bmy5KV01AppsOwnerNameAppNameDataResourceProvisioningPostResponses500ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.provisionDatabaseParameters,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [
+        Parameters.contentType,
+        Parameters.accept,
+        Parameters.aCAuthorizationARM
+    ],
+    mediaType: "json",
+    serializer
+};
+const getOverviewOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/data/overview",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "Stream" }, serializedName: "parsedResponse" }
+        },
+        500: {
+            bodyMapper: Mappers.Paths154Xl4EV01AppsOwnerNameAppNameDataOverviewGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept, Parameters.aCAuthorizationARM],
+    serializer
+};
+const checkNameExistsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/data/database_account_names/{accountName}",
+    httpMethod: "HEAD",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "Stream" }, serializedName: "parsedResponse" }
+        },
+        400: {},
+        401: {},
+        404: {},
+        500: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.accountName
+    ],
+    headerParameters: [Parameters.accept, Parameters.aCAuthorizationARM],
+    serializer
+};

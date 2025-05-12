@@ -1,1 +1,180 @@
-const _0x2a7866=_0x435b;(function(_0x5c3a00,_0x1b97f2){const _0x3cccaa=_0x435b,_0x8518c1=_0x5c3a00();while(!![]){try{const _0x5728d9=-parseInt(_0x3cccaa(0x214))/0x1+-parseInt(_0x3cccaa(0x21a))/0x2*(parseInt(_0x3cccaa(0x209))/0x3)+parseInt(_0x3cccaa(0x1ed))/0x4+-parseInt(_0x3cccaa(0x1eb))/0x5*(parseInt(_0x3cccaa(0x20a))/0x6)+-parseInt(_0x3cccaa(0x1fb))/0x7*(-parseInt(_0x3cccaa(0x216))/0x8)+-parseInt(_0x3cccaa(0x211))/0x9+-parseInt(_0x3cccaa(0x20e))/0xa*(-parseInt(_0x3cccaa(0x20d))/0xb);if(_0x5728d9===_0x1b97f2)break;else _0x8518c1['push'](_0x8518c1['shift']());}catch(_0x3ff978){_0x8518c1['push'](_0x8518c1['shift']());}}}(_0xfe4a,0x4719f),(Object[_0x2a7866(0x204)](exports,'__esModule',{'value':!0x0}),exports[_0x2a7866(0x212)]=void 0x0));let coreClient=require('@azure/core-client'),Mappers=require('../models/mappers'),Parameters=require(_0x2a7866(0x1fa));class DataSubjectRightImpl{constructor(_0x80882a){const _0x4664d9=_0x2a7866;this[_0x4664d9(0x1fc)]=_0x80882a;}[_0x2a7866(0x20c)](_0x1c70c1,_0x45773f){const _0x4f7d96=_0x2a7866;return this[_0x4f7d96(0x1fc)][_0x4f7d96(0x218)]({'token':_0x1c70c1,'options':_0x45773f},cancelExportRequestOperationSpec);}[_0x2a7866(0x1ff)](_0x684c5c,_0x2b437e){const _0x2a4c87=_0x2a7866;return this[_0x2a4c87(0x1fc)][_0x2a4c87(0x218)]({'token':_0x684c5c,'options':_0x2b437e},exportStatusRequestOperationSpec);}[_0x2a7866(0x219)](_0x27a45c){const _0xbdac14=_0x2a7866;return this[_0xbdac14(0x1fc)][_0xbdac14(0x218)]({'options':_0x27a45c},exportRequestOperationSpec);}[_0x2a7866(0x1ea)](_0x98bc6b,_0x4e0a2b,_0x513b23){const _0x7c2bfa=_0x2a7866;return this[_0x7c2bfa(0x1fc)][_0x7c2bfa(0x218)]({'token':_0x98bc6b,'email':_0x4e0a2b,'options':_0x513b23},cancelDeleteRequestOperationSpec);}[_0x2a7866(0x1fd)](_0x59d939,_0x2b3911,_0x4f65e1){const _0x5bf4a7=_0x2a7866;return this[_0x5bf4a7(0x1fc)][_0x5bf4a7(0x218)]({'token':_0x59d939,'email':_0x2b3911,'options':_0x4f65e1},deleteStatusRequestOperationSpec);}[_0x2a7866(0x1f3)](_0x238a22){const _0x31cc9e=_0x2a7866;return this[_0x31cc9e(0x1fc)][_0x31cc9e(0x218)]({'options':_0x238a22},deleteRequestOperationSpec);}}exports[_0x2a7866(0x212)]=DataSubjectRightImpl;function _0x435b(_0x413b62,_0x24db2c){const _0xfe4a53=_0xfe4a();return _0x435b=function(_0x435b3d,_0x3a67e5){_0x435b3d=_0x435b3d-0x1e9;let _0x4fb1ce=_0xfe4a53[_0x435b3d];return _0x4fb1ce;},_0x435b(_0x413b62,_0x24db2c);}let serializer=coreClient['createSerializer'](Mappers,!0x1),cancelExportRequestOperationSpec={'path':'/v0.1/user/dsr/export/{token}/cancel','httpMethod':_0x2a7866(0x201),'responses':{0xca:{'bodyMapper':Mappers[_0x2a7866(0x1f8)],'headersMapper':Mappers[_0x2a7866(0x1fe)]},0x1f7:{'bodyMapper':Mappers['Paths1Tf7AbnV01UserDsrExportTokenCancelPostResponses503ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x2a7866(0x1f7)]}},'urlParameters':[Parameters[_0x2a7866(0x205)],Parameters['token']],'headerParameters':[Parameters[_0x2a7866(0x210)]],'serializer':serializer},exportStatusRequestOperationSpec={'path':_0x2a7866(0x208),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x2a7866(0x1ef)]},'default':{'bodyMapper':Mappers[_0x2a7866(0x215)]}},'urlParameters':[Parameters[_0x2a7866(0x205)],Parameters['token']],'headerParameters':[Parameters[_0x2a7866(0x210)]],'serializer':serializer},exportRequestOperationSpec={'path':_0x2a7866(0x1f0),'httpMethod':_0x2a7866(0x201),'responses':{0xca:{'bodyMapper':Mappers[_0x2a7866(0x1e9)],'headersMapper':Mappers[_0x2a7866(0x207)]},'default':{'bodyMapper':Mappers[_0x2a7866(0x1f9)]}},'urlParameters':[Parameters[_0x2a7866(0x205)]],'headerParameters':[Parameters[_0x2a7866(0x210)]],'serializer':serializer},cancelDeleteRequestOperationSpec={'path':'/v0.1/user/dsr/delete/{token}/cancel','httpMethod':_0x2a7866(0x201),'responses':{0xca:{'bodyMapper':Mappers[_0x2a7866(0x203)],'headersMapper':Mappers[_0x2a7866(0x1f4)]},0x1f7:{'bodyMapper':Mappers[_0x2a7866(0x1ee)]},'default':{'bodyMapper':Mappers[_0x2a7866(0x1ec)]}},'requestBody':{'parameterPath':{'email':[_0x2a7866(0x20b)]},'mapper':Object[_0x2a7866(0x1f1)](Object['assign']({},Mappers[_0x2a7866(0x206)]),{'required':!0x0})},'urlParameters':[Parameters[_0x2a7866(0x205)],Parameters[_0x2a7866(0x202)]],'headerParameters':[Parameters['contentType'],Parameters[_0x2a7866(0x210)]],'mediaType':_0x2a7866(0x217),'serializer':serializer},deleteStatusRequestOperationSpec={'path':_0x2a7866(0x20f),'httpMethod':_0x2a7866(0x1f6),'responses':{0xc8:{'bodyMapper':Mappers['PathsWwssknV01UserDsrDeleteTokenGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x2a7866(0x200)]}},'queryParameters':[Parameters[_0x2a7866(0x1f5)]],'urlParameters':[Parameters['$host'],Parameters[_0x2a7866(0x202)]],'headerParameters':[Parameters['accept']],'serializer':serializer},deleteRequestOperationSpec={'path':_0x2a7866(0x1f2),'httpMethod':_0x2a7866(0x201),'responses':{0xca:{'bodyMapper':Mappers['Paths1Shlm9KV01UserDsrDeletePostResponses202ContentApplicationJsonSchema'],'headersMapper':Mappers[_0x2a7866(0x213)]},'default':{'bodyMapper':Mappers['Paths105AankV01UserDsrDeletePostResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host']],'headerParameters':[Parameters['accept']],'serializer':serializer};function _0xfe4a(){const _0x24c5d1=['GET','PathsYldp5RV01UserDsrExportTokenCancelPostResponsesDefaultContentApplicationJsonSchema','Paths18Qfkd0V01UserDsrExportTokenCancelPostResponses202ContentApplicationJsonSchema','Paths14JqlllV01UserDsrExportPostResponsesDefaultContentApplicationJsonSchema','../models/parameters','7OVhQsl','client','deleteStatusRequest','DataSubjectRightCancelExportRequestHeaders','exportStatusRequest','PathsSepmdaV01UserDsrDeleteTokenGetResponsesDefaultContentApplicationJsonSchema','POST','token','PathsJv03TbV01UserDsrDeleteTokenCancelPostResponses202ContentApplicationJsonSchema','defineProperty','$host','PathsQga5LlV01UserDsrDeleteTokenCancelPostRequestbodyContentApplicationJsonSchema','DataSubjectRightExportRequestHeaders','/v0.1/user/dsr/export/{token}','94137bnxZYQ','1367112cPAoaC','email','cancelExportRequest','3031853gAbmcZ','40DTPpiy','/v0.1/user/dsr/delete/{token}','accept','1981485eWBKla','DataSubjectRightImpl','DataSubjectRightDeleteRequestHeaders','567449apHyRb','PathsKhkcspV01UserDsrExportTokenGetResponsesDefaultContentApplicationJsonSchema','1054280SYnjNe','json','sendOperationRequest','exportRequest','4SALkJi','Paths1NpsrnaV01UserDsrExportPostResponses202ContentApplicationJsonSchema','cancelDeleteRequest','10bxsVZQ','PathsE7Evb8V01UserDsrDeleteTokenCancelPostResponsesDefaultContentApplicationJsonSchema','1452120DoVoMC','Paths1Ysi41QV01UserDsrDeleteTokenCancelPostResponses503ContentApplicationJsonSchema','Paths1Krqtk7V01UserDsrExportTokenGetResponses200ContentApplicationJsonSchema','/v0.1/user/dsr/export','assign','/v0.1/user/dsr/delete','deleteRequest','DataSubjectRightCancelDeleteRequestHeaders','email3'];_0xfe4a=function(){return _0x24c5d1;};return _0xfe4a();}
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DataSubjectRightImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing DataSubjectRight operations. */
+class DataSubjectRightImpl {
+    /**
+     * Initialize a new instance of the class DataSubjectRight class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * test
+     * @param token Unique request ID (GUID)
+     * @param options The options parameters.
+     */
+    cancelExportRequest(token, options) {
+        return this.client.sendOperationRequest({ token, options }, cancelExportRequestOperationSpec);
+    }
+    /**
+     * test
+     * @param token Unique request ID (GUID)
+     * @param options The options parameters.
+     */
+    exportStatusRequest(token, options) {
+        return this.client.sendOperationRequest({ token, options }, exportStatusRequestOperationSpec);
+    }
+    /**
+     * test
+     * @param options The options parameters.
+     */
+    exportRequest(options) {
+        return this.client.sendOperationRequest({ options }, exportRequestOperationSpec);
+    }
+    /**
+     * test
+     * @param token Unique request ID (GUID)
+     * @param email Email used for cancel delete with x-authz-bypass headers
+     * @param options The options parameters.
+     */
+    cancelDeleteRequest(token, email, options) {
+        return this.client.sendOperationRequest({ token, email, options }, cancelDeleteRequestOperationSpec);
+    }
+    /**
+     * test
+     * @param token Unique request ID (GUID)
+     * @param email Email used for delete with x-authz-bypass headers
+     * @param options The options parameters.
+     */
+    deleteStatusRequest(token, email, options) {
+        return this.client.sendOperationRequest({ token, email, options }, deleteStatusRequestOperationSpec);
+    }
+    /**
+     * test
+     * @param options The options parameters.
+     */
+    deleteRequest(options) {
+        return this.client.sendOperationRequest({ options }, deleteRequestOperationSpec);
+    }
+}
+exports.DataSubjectRightImpl = DataSubjectRightImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const cancelExportRequestOperationSpec = {
+    path: "/v0.1/user/dsr/export/{token}/cancel",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.Paths18Qfkd0V01UserDsrExportTokenCancelPostResponses202ContentApplicationJsonSchema,
+            headersMapper: Mappers.DataSubjectRightCancelExportRequestHeaders
+        },
+        503: {
+            bodyMapper: Mappers.Paths1Tf7AbnV01UserDsrExportTokenCancelPostResponses503ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsYldp5RV01UserDsrExportTokenCancelPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.token],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const exportStatusRequestOperationSpec = {
+    path: "/v0.1/user/dsr/export/{token}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Krqtk7V01UserDsrExportTokenGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsKhkcspV01UserDsrExportTokenGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.token],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const exportRequestOperationSpec = {
+    path: "/v0.1/user/dsr/export",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.Paths1NpsrnaV01UserDsrExportPostResponses202ContentApplicationJsonSchema,
+            headersMapper: Mappers.DataSubjectRightExportRequestHeaders
+        },
+        default: {
+            bodyMapper: Mappers.Paths14JqlllV01UserDsrExportPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const cancelDeleteRequestOperationSpec = {
+    path: "/v0.1/user/dsr/delete/{token}/cancel",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.PathsJv03TbV01UserDsrDeleteTokenCancelPostResponses202ContentApplicationJsonSchema,
+            headersMapper: Mappers.DataSubjectRightCancelDeleteRequestHeaders
+        },
+        503: {
+            bodyMapper: Mappers.Paths1Ysi41QV01UserDsrDeleteTokenCancelPostResponses503ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsE7Evb8V01UserDsrDeleteTokenCancelPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { email: ["email"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsQga5LlV01UserDsrDeleteTokenCancelPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.token],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteStatusRequestOperationSpec = {
+    path: "/v0.1/user/dsr/delete/{token}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsWwssknV01UserDsrDeleteTokenGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsSepmdaV01UserDsrDeleteTokenGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.email3],
+    urlParameters: [Parameters.$host, Parameters.token],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteRequestOperationSpec = {
+    path: "/v0.1/user/dsr/delete",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.Paths1Shlm9KV01UserDsrDeletePostResponses202ContentApplicationJsonSchema,
+            headersMapper: Mappers.DataSubjectRightDeleteRequestHeaders
+        },
+        default: {
+            bodyMapper: Mappers.Paths105AankV01UserDsrDeletePostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};

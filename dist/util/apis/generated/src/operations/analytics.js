@@ -1,1 +1,1162 @@
-const _0x16ab3d=_0x4346;(function(_0x2dd5c5,_0x105719){const _0x55033c=_0x4346,_0x5de1d7=_0x2dd5c5();while(!![]){try{const _0x2d19ac=parseInt(_0x55033c(0x1a2))/0x1*(parseInt(_0x55033c(0x1b9))/0x2)+parseInt(_0x55033c(0x15e))/0x3+-parseInt(_0x55033c(0x1be))/0x4+parseInt(_0x55033c(0x166))/0x5+-parseInt(_0x55033c(0x187))/0x6+parseInt(_0x55033c(0x14f))/0x7*(parseInt(_0x55033c(0x15c))/0x8)+parseInt(_0x55033c(0x158))/0x9*(-parseInt(_0x55033c(0x144))/0xa);if(_0x2d19ac===_0x105719)break;else _0x5de1d7['push'](_0x5de1d7['shift']());}catch(_0x1e3f4d){_0x5de1d7['push'](_0x5de1d7['shift']());}}}(_0x2cf8,0x81217),(Object[_0x16ab3d(0x167)](exports,_0x16ab3d(0x14d),{'value':!0x0}),exports[_0x16ab3d(0x198)]=void 0x0));let coreClient=require(_0x16ab3d(0x1a1)),Mappers=require(_0x16ab3d(0x1b6)),Parameters=require(_0x16ab3d(0x136));class AnalyticsImpl{constructor(_0x1a3cd1){const _0xa29483=_0x16ab3d;this[_0xa29483(0x157)]=_0x1a3cd1;}[_0x16ab3d(0x147)](_0x218f02,_0x4893c3,_0xa2a500,_0x201594){const _0x5f1edb=_0x16ab3d;return this[_0x5f1edb(0x157)][_0x5f1edb(0x1c0)]({'start':_0x218f02,'ownerName':_0x4893c3,'appName':_0xa2a500,'options':_0x201594},versionsOperationSpec);}['perDeviceCounts'](_0x1b8038,_0xe01f83,_0x425950,_0x30aaf8,_0x1724c4){const _0x45608e=_0x16ab3d;return this['client'][_0x45608e(0x1c0)]({'start':_0x1b8038,'interval':_0xe01f83,'ownerName':_0x425950,'appName':_0x30aaf8,'options':_0x1724c4},perDeviceCountsOperationSpec);}['sessionDurationsDistribution'](_0x4cc54e,_0x31db4a,_0x156f35,_0x20073f){const _0x5ebffe=_0x16ab3d;return this[_0x5ebffe(0x157)][_0x5ebffe(0x1c0)]({'start':_0x4cc54e,'ownerName':_0x31db4a,'appName':_0x156f35,'options':_0x20073f},sessionDurationsDistributionOperationSpec);}[_0x16ab3d(0x1a4)](_0x562315,_0x232ac2,_0x388994,_0x215527,_0x60ac8a){const _0xdf2783=_0x16ab3d;return this[_0xdf2783(0x157)][_0xdf2783(0x1c0)]({'start':_0x562315,'interval':_0x232ac2,'ownerName':_0x388994,'appName':_0x215527,'options':_0x60ac8a},sessionCountsOperationSpec);}['placeCounts'](_0x2e6e18,_0x476762,_0x39a420,_0x1b81ae){const _0x9bfe0e=_0x16ab3d;return this[_0x9bfe0e(0x157)][_0x9bfe0e(0x1c0)]({'start':_0x2e6e18,'ownerName':_0x476762,'appName':_0x39a420,'options':_0x1b81ae},placeCountsOperationSpec);}[_0x16ab3d(0x19f)](_0x56f503,_0x3bf906,_0x165954,_0x2e794c){const _0x56252c=_0x16ab3d;return this[_0x56252c(0x157)][_0x56252c(0x1c0)]({'start':_0x56f503,'ownerName':_0x3bf906,'appName':_0x165954,'options':_0x2e794c},operatingSystemCountsOperationSpec);}[_0x16ab3d(0x1ae)](_0x2482e7,_0x1c71e4,_0x221631,_0x19e52f){const _0x2b8db6=_0x16ab3d;return this[_0x2b8db6(0x157)][_0x2b8db6(0x1c0)]({'start':_0x2482e7,'ownerName':_0x1c71e4,'appName':_0x221631,'options':_0x19e52f},modelCountsOperationSpec);}[_0x16ab3d(0x1bf)](_0x4a5ab6,_0x516592,_0x521c2b){const _0x37e878=_0x16ab3d;return this[_0x37e878(0x157)]['sendOperationRequest']({'ownerName':_0x4a5ab6,'appName':_0x516592,'options':_0x521c2b},logFlowOperationSpec);}[_0x16ab3d(0x19b)](_0x43331b,_0x3322bd,_0x321ed0,_0x273d31){const _0x115827=_0x16ab3d;return this[_0x115827(0x157)][_0x115827(0x1c0)]({'start':_0x43331b,'ownerName':_0x3322bd,'appName':_0x321ed0,'options':_0x273d31},languageCountsOperationSpec);}['genericLogFlow'](_0x4063f2,_0x9f05ef,_0x2bca91){return this['client']['sendOperationRequest']({'ownerName':_0x4063f2,'appName':_0x9f05ef,'options':_0x2bca91},genericLogFlowOperationSpec);}[_0x16ab3d(0x12f)](_0xf36f7b,_0x17552f,_0x9c25ca,_0x56a857,_0x5e509b,_0x51b816){const _0x398046=_0x16ab3d;return this[_0x398046(0x157)][_0x398046(0x1c0)]({'eventName':_0xf36f7b,'eventPropertyName':_0x17552f,'start':_0x9c25ca,'ownerName':_0x56a857,'appName':_0x5e509b,'options':_0x51b816},eventPropertyCountsOperationSpec);}[_0x16ab3d(0x1b5)](_0x44421a,_0x299cb6,_0x1fe0ba,_0x3a7d57){const _0xefa9f0=_0x16ab3d;return this[_0xefa9f0(0x157)][_0xefa9f0(0x1c0)]({'eventName':_0x44421a,'ownerName':_0x299cb6,'appName':_0x1fe0ba,'options':_0x3a7d57},eventPropertiesOperationSpec);}[_0x16ab3d(0x12e)](_0xa5e5f8,_0x1d2b2d,_0x156948,_0x672f01,_0x1d7ee2){const _0x3f3b85=_0x16ab3d;return this[_0x3f3b85(0x157)][_0x3f3b85(0x1c0)]({'eventName':_0xa5e5f8,'start':_0x1d2b2d,'ownerName':_0x156948,'appName':_0x672f01,'options':_0x1d7ee2},eventCountOperationSpec);}[_0x16ab3d(0x153)](_0x18365a,_0x9e5069,_0x1aa8cf,_0x5f01e7,_0x407638){const _0x4c92d0=_0x16ab3d;return this[_0x4c92d0(0x157)]['sendOperationRequest']({'eventName':_0x18365a,'start':_0x9e5069,'ownerName':_0x1aa8cf,'appName':_0x5f01e7,'options':_0x407638},eventDeviceCountOperationSpec);}[_0x16ab3d(0x123)](_0x29a6d4,_0x72eab8,_0x53f564,_0x44fc3b,_0x20aae0){const _0x72cb82=_0x16ab3d;return this['client'][_0x72cb82(0x1c0)]({'eventName':_0x29a6d4,'start':_0x72eab8,'ownerName':_0x53f564,'appName':_0x44fc3b,'options':_0x20aae0},eventPerSessionCountOperationSpec);}[_0x16ab3d(0x1ab)](_0x74f5ee,_0xb96f3a,_0x4e4ad0,_0x124434,_0x1f365c){return this['client']['sendOperationRequest']({'eventName':_0x74f5ee,'start':_0xb96f3a,'ownerName':_0x4e4ad0,'appName':_0x124434,'options':_0x1f365c},eventPerDeviceCountOperationSpec);}[_0x16ab3d(0x181)](_0x2b1ee4,_0x59a496,_0x4183a9,_0x4b04ea){const _0x405145=_0x16ab3d;return this[_0x405145(0x157)][_0x405145(0x1c0)]({'eventName':_0x2b1ee4,'ownerName':_0x59a496,'appName':_0x4183a9,'options':_0x4b04ea},eventsDeleteOperationSpec);}[_0x16ab3d(0x195)](_0x26936f,_0x47dc79,_0x5434f1,_0x40ea99){const _0x5be6f8=_0x16ab3d;return this['client'][_0x5be6f8(0x1c0)]({'start':_0x26936f,'ownerName':_0x47dc79,'appName':_0x5434f1,'options':_0x40ea99},eventsOperationSpec);}['eventsDeleteLogs'](_0x2f1077,_0x37db64,_0x2bac7f,_0xb86778){const _0x2ff409=_0x16ab3d;return this[_0x2ff409(0x157)][_0x2ff409(0x1c0)]({'eventName':_0x2f1077,'ownerName':_0x37db64,'appName':_0x2bac7f,'options':_0xb86778},eventsDeleteLogsOperationSpec);}[_0x16ab3d(0x17e)](_0x1bd5f4,_0x31b451,_0x3acb98,_0x5a136a){const _0x13b223=_0x16ab3d;return this['client'][_0x13b223(0x1c0)]({'ownerName':_0x1bd5f4,'appName':_0x31b451,'releases':_0x3acb98,'options':_0x5a136a},distributionReleaseCountsOperationSpec);}[_0x16ab3d(0x143)](_0x35b841,_0x6f0f8a,_0x4dd689,_0x288858,_0x2a0469){const _0x561b64=_0x16ab3d;return this[_0x561b64(0x157)][_0x561b64(0x1c0)]({'start':_0x35b841,'version':_0x6f0f8a,'ownerName':_0x4dd689,'appName':_0x288858,'options':_0x2a0469},crashFreeDevicePercentagesOperationSpec);}['crashGroupTotals'](_0x2775d6,_0x49db9c,_0x24eec8,_0x4be402,_0x24639d){const _0x23c746=_0x16ab3d;return this[_0x23c746(0x157)][_0x23c746(0x1c0)]({'crashGroupId':_0x2775d6,'version':_0x49db9c,'ownerName':_0x24eec8,'appName':_0x4be402,'options':_0x24639d},crashGroupTotalsOperationSpec);}[_0x16ab3d(0x177)](_0x541973,_0xdfadcb,_0x124955,_0x4661d4,_0x4fdb22){const _0x294749=_0x16ab3d;return this[_0x294749(0x157)]['sendOperationRequest']({'crashGroupId':_0x541973,'version':_0xdfadcb,'ownerName':_0x124955,'appName':_0x4661d4,'options':_0x4fdb22},crashGroupOperatingSystemCountsOperationSpec);}[_0x16ab3d(0x180)](_0xcbc275,_0x299fa0,_0x217a5b,_0xc9faac,_0x357ff2){const _0x2ea148=_0x16ab3d;return this['client'][_0x2ea148(0x1c0)]({'crashGroupId':_0xcbc275,'version':_0x299fa0,'ownerName':_0x217a5b,'appName':_0xc9faac,'options':_0x357ff2},crashGroupModelCountsOperationSpec);}['crashGroupCounts'](_0x5948eb,_0x26967c,_0x40417c,_0x5b7737,_0x2cb9f4,_0x2aaadc){const _0x51f794=_0x16ab3d;return this[_0x51f794(0x157)][_0x51f794(0x1c0)]({'crashGroupId':_0x5948eb,'version':_0x26967c,'start':_0x40417c,'ownerName':_0x5b7737,'appName':_0x2cb9f4,'options':_0x2aaadc},crashGroupCountsOperationSpec);}['crashGroupsTotals'](_0x51cc7c,_0x207013,_0x32fbc1,_0x1ee7e2){const _0x31b3fc=_0x16ab3d;return this[_0x31b3fc(0x157)]['sendOperationRequest']({'ownerName':_0x51cc7c,'appName':_0x207013,'crashGroups':_0x32fbc1,'options':_0x1ee7e2},crashGroupsTotalsOperationSpec);}[_0x16ab3d(0x151)](_0x4daf1c,_0x490395,_0x2e969c,_0x42969b){const _0x524f40=_0x16ab3d;return this[_0x524f40(0x157)]['sendOperationRequest']({'start':_0x4daf1c,'ownerName':_0x490395,'appName':_0x2e969c,'options':_0x42969b},crashCountsOperationSpec);}[_0x16ab3d(0x1b0)](_0x226729,_0x4bf5d5,_0x5b6743,_0x51f251){const _0x415d4b=_0x16ab3d;return this[_0x415d4b(0x157)][_0x415d4b(0x1c0)]({'audienceName':_0x226729,'ownerName':_0x4bf5d5,'appName':_0x5b6743,'options':_0x51f251},audienceNameExistsOperationSpec);}['deleteAudience'](_0x595299,_0x1a5b5f,_0x2f89fa,_0x4e5cc7){const _0x126488=_0x16ab3d;return this[_0x126488(0x157)]['sendOperationRequest']({'audienceName':_0x595299,'ownerName':_0x1a5b5f,'appName':_0x2f89fa,'options':_0x4e5cc7},deleteAudienceOperationSpec);}[_0x16ab3d(0x146)](_0x1e2295,_0x174e0b,_0x411652,_0x9e2e43){const _0x41811=_0x16ab3d;return this[_0x41811(0x157)][_0x41811(0x1c0)]({'audienceName':_0x1e2295,'ownerName':_0x174e0b,'appName':_0x411652,'options':_0x9e2e43},getAudienceOperationSpec);}[_0x16ab3d(0x125)](_0x5698e2,_0x11d5f9,_0x1b03ad,_0x1317d0,_0x1ec201){const _0x185e71=_0x16ab3d;return this['client'][_0x185e71(0x1c0)]({'audienceName':_0x5698e2,'ownerName':_0x11d5f9,'appName':_0x1b03ad,'audience':_0x1317d0,'options':_0x1ec201},createOrUpdateAudienceOperationSpec);}[_0x16ab3d(0x16e)](_0x472ecb,_0xf333bf,_0x4abcb2,_0x37f719){const _0x439f33=_0x16ab3d;return this['client'][_0x439f33(0x1c0)]({'propertyName':_0x472ecb,'ownerName':_0xf333bf,'appName':_0x4abcb2,'options':_0x37f719},listDevicePropertyValuesOperationSpec);}[_0x16ab3d(0x194)](_0x42c34b,_0xbe7c0c,_0x42cf0b){const _0x43ddf7=_0x16ab3d;return this[_0x43ddf7(0x157)][_0x43ddf7(0x1c0)]({'ownerName':_0x42c34b,'appName':_0xbe7c0c,'options':_0x42cf0b},listDevicePropertiesOperationSpec);}['listCustomProperties'](_0x532fc4,_0x2ca054,_0x38ba2e){const _0x160837=_0x16ab3d;return this[_0x160837(0x157)][_0x160837(0x1c0)]({'ownerName':_0x532fc4,'appName':_0x2ca054,'options':_0x38ba2e},listCustomPropertiesOperationSpec);}[_0x16ab3d(0x16d)](_0x498428,_0x2ad42b,_0x4b528a,_0x3b7c62){const _0x4cb1a6=_0x16ab3d;return this[_0x4cb1a6(0x157)][_0x4cb1a6(0x1c0)]({'ownerName':_0x498428,'appName':_0x2ad42b,'audience':_0x4b528a,'options':_0x3b7c62},testAudienceOperationSpec);}[_0x16ab3d(0x1a3)](_0x543f2b,_0x4e4264,_0x2c22cb){const _0x31815a=_0x16ab3d;return this['client'][_0x31815a(0x1c0)]({'ownerName':_0x543f2b,'appName':_0x4e4264,'options':_0x2c22cb},listAudiencesOperationSpec);}[_0x16ab3d(0x168)](_0x273569,_0x290d25,_0x65e29b,_0x18ca0b,_0x3695bd){const _0x2ad649=_0x16ab3d;return this[_0x2ad649(0x157)][_0x2ad649(0x1c0)]({'start':_0x273569,'appBuild':_0x290d25,'ownerName':_0x65e29b,'appName':_0x18ca0b,'options':_0x3695bd},deviceCountsOperationSpec);}}exports[_0x16ab3d(0x198)]=AnalyticsImpl;function _0x4346(_0x8c1b81,_0x3eba20){const _0x2cf808=_0x2cf8();return _0x4346=function(_0x4346c6,_0x4db65a){_0x4346c6=_0x4346c6-0x120;let _0x5f2ad1=_0x2cf808[_0x4346c6];return _0x5f2ad1;},_0x4346(_0x8c1b81,_0x3eba20);}let serializer=coreClient[_0x16ab3d(0x172)](Mappers,!0x1),versionsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/versions','httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x192)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x149)]}},'queryParameters':[Parameters[_0x16ab3d(0x1bb)],Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},perDeviceCountsOperationSpec={'path':_0x16ab3d(0x1b1),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x1a5)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x1a0)]}},'queryParameters':[Parameters['start'],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)],Parameters[_0x16ab3d(0x1bd)]],'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},sessionDurationsDistributionOperationSpec={'path':_0x16ab3d(0x19a),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['PathsLck9IlV01AppsOwnerNameAppNameAnalyticsSessionDurationsDistributionGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x178)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters['versions']],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters['appName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},sessionCountsOperationSpec={'path':_0x16ab3d(0x199),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x16ab3d(0x141),'element':{'type':{'name':_0x16ab3d(0x16c),'className':'Paths1Exxd1EV01AppsOwnerNameAppNameAnalyticsSessionCountsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers[_0x16ab3d(0x188)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)],Parameters[_0x16ab3d(0x1bd)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters['appName']],'headerParameters':[Parameters['accept']],'serializer':serializer},placeCountsOperationSpec={'path':_0x16ab3d(0x18f),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['PathsRxbv8DV01AppsOwnerNameAppNameAnalyticsPlacesGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x190)]}},'queryParameters':[Parameters['top1'],Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},operatingSystemCountsOperationSpec={'path':_0x16ab3d(0x18a),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x19e)]},'default':{'bodyMapper':Mappers['Paths1G1UvgvV01AppsOwnerNameAppNameAnalyticsOsesGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x16ab3d(0x1bb)],Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},modelCountsOperationSpec={'path':_0x16ab3d(0x13b),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x155)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x186)]}},'queryParameters':[Parameters['top1'],Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},logFlowOperationSpec={'path':_0x16ab3d(0x154),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x18d)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x15d)]}},'queryParameters':[Parameters[_0x16ab3d(0x137)]],'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters['accept']],'serializer':serializer},languageCountsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/languages','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x13d)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x173)]}},'queryParameters':[Parameters[_0x16ab3d(0x1bb)],Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters['versions']],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},genericLogFlowOperationSpec={'path':_0x16ab3d(0x124),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x13a)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x18e)]}},'queryParameters':[Parameters[_0x16ab3d(0x137)]],'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters['accept']],'serializer':serializer},eventPropertyCountsOperationSpec={'path':_0x16ab3d(0x17f),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x16a)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x163)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters[_0x16ab3d(0x147)],Parameters['top4']],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x14b)],Parameters[_0x16ab3d(0x12b)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventPropertiesOperationSpec={'path':_0x16ab3d(0x139),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['PathsU48L8WV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x176)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters['eventName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventCountOperationSpec={'path':_0x16ab3d(0x19c),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x145)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x132)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters['eventName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventDeviceCountOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/device_count','httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x185)]},'default':{'bodyMapper':Mappers['PathsBei5L3V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeviceCountGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x14b)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventPerSessionCountOperationSpec={'path':_0x16ab3d(0x1ad),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['Paths1Ggxk2EV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerSessionGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x14c)]}},'queryParameters':[Parameters['start'],Parameters['end'],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)],Parameters['eventName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventPerDeviceCountOperationSpec={'path':_0x16ab3d(0x189),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x129)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x142)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x14b)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventsDeleteOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}','httpMethod':'DELETE','responses':{0xc8:{},'default':{'bodyMapper':Mappers[_0x16ab3d(0x18c)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x14b)]],'headerParameters':[Parameters['accept']],'serializer':serializer},eventsOperationSpec={'path':_0x16ab3d(0x12c),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x1bc)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x1a6)]}},'queryParameters':[Parameters['top1'],Parameters[_0x16ab3d(0x12a)],Parameters[_0x16ab3d(0x138)],Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters['versions'],Parameters[_0x16ab3d(0x1ac)],Parameters[_0x16ab3d(0x169)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},eventsDeleteLogsOperationSpec={'path':_0x16ab3d(0x159),'httpMethod':_0x16ab3d(0x1b3),'responses':{0xc8:{},'default':{'bodyMapper':Mappers[_0x16ab3d(0x150)]}},'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x14b)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},distributionReleaseCountsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/distribution/release_counts','httpMethod':'POST','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x12d)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x165)]}},'requestBody':{'parameterPath':{'releases':['releases']},'mapper':Object[_0x16ab3d(0x182)](Object[_0x16ab3d(0x182)]({},Mappers['Paths1Pzxl78V01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x120)],Parameters[_0x16ab3d(0x171)]],'mediaType':'json','serializer':serializer},crashFreeDevicePercentagesOperationSpec={'path':_0x16ab3d(0x179),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['Paths1Evy1PhV01AppsOwnerNameAppNameAnalyticsCrashfreeDevicePercentagesGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x1b4)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters['version1']],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters['accept']],'serializer':serializer},crashGroupTotalsOperationSpec={'path':_0x16ab3d(0x170),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x193)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x19d)]}},'queryParameters':[Parameters[_0x16ab3d(0x126)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x1b7)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},crashGroupOperatingSystemCountsOperationSpec={'path':_0x16ab3d(0x1b2),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x184)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x197)]}},'queryParameters':[Parameters['top1'],Parameters[_0x16ab3d(0x126)]],'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x1b7)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},crashGroupModelCountsOperationSpec={'path':_0x16ab3d(0x183),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x160)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x156)]}},'queryParameters':[Parameters[_0x16ab3d(0x1bb)],Parameters[_0x16ab3d(0x126)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x1b7)]],'headerParameters':[Parameters['accept']],'serializer':serializer},crashGroupCountsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/crash_counts','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x164)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x17a)]}},'queryParameters':[Parameters['start'],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x126)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)],Parameters['crashGroupId']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},crashGroupsTotalsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups','httpMethod':_0x16ab3d(0x174),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x16ab3d(0x141),'element':{'type':{'name':'Composite','className':'PathsP18M6YV01AppsOwnerNameAppNameAnalyticsCrashGroupsPostResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers['PathsCy68FjV01AppsOwnerNameAppNameAnalyticsCrashGroupsPostResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'crashGroups':[_0x16ab3d(0x130)]},'mapper':Object[_0x16ab3d(0x182)](Object['assign']({},Mappers[_0x16ab3d(0x175)]),{'required':!0x0})},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters['contentType'],Parameters[_0x16ab3d(0x171)]],'mediaType':_0x16ab3d(0x135),'serializer':serializer},crashCountsOperationSpec={'path':_0x16ab3d(0x14e),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x13c)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x17b)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters['end'],Parameters['versions']],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},audienceNameExistsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}','httpMethod':'HEAD','responses':{0xcc:{},0x194:{},'default':{'bodyMapper':Mappers[_0x16ab3d(0x1af)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x148)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},deleteAudienceOperationSpec={'path':_0x16ab3d(0x1ba),'httpMethod':_0x16ab3d(0x1b3),'responses':{0xcc:{},0x194:{},'default':{'bodyMapper':Mappers[_0x16ab3d(0x162)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x148)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},getAudienceOperationSpec={'path':_0x16ab3d(0x1ba),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x17c)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x128)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x148)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},createOrUpdateAudienceOperationSpec={'path':_0x16ab3d(0x1ba),'httpMethod':'PUT','responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x1a8)]},'default':{'bodyMapper':Mappers['Paths1Tedeb8V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNamePutResponsesDefaultContentApplicationJsonSchema']}},'requestBody':Parameters[_0x16ab3d(0x16f)],'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x148)]],'headerParameters':[Parameters[_0x16ab3d(0x120)],Parameters[_0x16ab3d(0x171)]],'mediaType':_0x16ab3d(0x135),'serializer':serializer},listDevicePropertyValuesOperationSpec={'path':_0x16ab3d(0x16b),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x161)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x134)]}},'queryParameters':[Parameters[_0x16ab3d(0x152)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)],Parameters[_0x16ab3d(0x15b)]],'headerParameters':[Parameters['accept']],'serializer':serializer},listDevicePropertiesOperationSpec={'path':_0x16ab3d(0x1aa),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x133)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x127)]}},'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters['appName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},listCustomPropertiesOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/custom_properties','httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x131)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x196)]}},'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters['appName']],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},testAudienceOperationSpec={'path':_0x16ab3d(0x1a9),'httpMethod':_0x16ab3d(0x174),'responses':{0xc8:{'bodyMapper':Mappers[_0x16ab3d(0x17d)]},'default':{'bodyMapper':Mappers[_0x16ab3d(0x191)]}},'requestBody':Parameters[_0x16ab3d(0x1b8)],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters['contentType'],Parameters[_0x16ab3d(0x171)]],'mediaType':_0x16ab3d(0x135),'serializer':serializer},listAudiencesOperationSpec={'path':_0x16ab3d(0x18b),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers['PathsTx3PmsV01AppsOwnerNameAppNameAnalyticsAudiencesGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers['PathsEq5Uq6V01AppsOwnerNameAppNameAnalyticsAudiencesGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x16ab3d(0x15a)]],'urlParameters':[Parameters[_0x16ab3d(0x1a7)],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer},deviceCountsOperationSpec={'path':_0x16ab3d(0x13f),'httpMethod':_0x16ab3d(0x122),'responses':{0xc8:{'bodyMapper':Mappers['PathsKudmomV01AppsOwnerNameAppNameAnalyticsActiveDeviceCountsGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x16ab3d(0x121)]}},'queryParameters':[Parameters[_0x16ab3d(0x15f)],Parameters[_0x16ab3d(0x14a)],Parameters[_0x16ab3d(0x147)],Parameters['appBuild1']],'urlParameters':[Parameters['$host'],Parameters[_0x16ab3d(0x140)],Parameters[_0x16ab3d(0x13e)]],'headerParameters':[Parameters[_0x16ab3d(0x171)]],'serializer':serializer};function _0x2cf8(){const _0x515ba7=['PathsE2Fo6FV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerSessionGetResponsesDefaultContentApplicationJsonSchema','__esModule','/v0.1/apps/{owner_name}/{app_name}/analytics/crash_counts','84DuNDns','PathsH4Oq3ZV01AppsOwnerNameAppNameAnalyticsEventLogsEventNameDeleteResponsesDefaultContentApplicationJsonSchema','crashCounts','contains','eventDeviceCount','/v0.1/apps/{owner_name}/{app_name}/analytics/log_flow','Paths814LkhV01AppsOwnerNameAppNameAnalyticsModelsGetResponses200ContentApplicationJsonSchema','Paths1Tx0U3UV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdModelsGetResponsesDefaultContentApplicationJsonSchema','client','8449533WfMgCK','/v0.1/apps/{owner_name}/{app_name}/analytics/event_logs/{event_name}','includeDisabled','propertyName','118920qtfmGJ','PathsYucxmuV01AppsOwnerNameAppNameAnalyticsLogFlowGetResponsesDefaultContentApplicationJsonSchema','622404zVRiHZ','start','Paths130SxupV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdModelsGetResponses200ContentApplicationJsonSchema','PathsOw62VsV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesPropertyNameValuesGetResponses200ContentApplicationJsonSchema','Paths1Bu61Q9V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameDeleteResponsesDefaultContentApplicationJsonSchema','Paths10Zy7X0V01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesEventPropertyNameCountsGetResponsesDefaultContentApplicationJsonSchema','Paths1NileprV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdCrashCountsGetResponses200ContentApplicationJsonSchema','Paths12681XzV01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostResponsesDefaultContentApplicationJsonSchema','2956820BPmxbu','defineProperty','deviceCounts','inlinecount2','PathsC87RxV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesEventPropertyNameCountsGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/device_properties/{property_name}/values','Composite','testAudience','listDevicePropertyValues','audience','/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/overall','accept','createSerializer','Paths1MghrhbV01AppsOwnerNameAppNameAnalyticsLanguagesGetResponsesDefaultContentApplicationJsonSchema','POST','PathsDc3Tj4V01AppsOwnerNameAppNameAnalyticsCrashGroupsPostRequestbodyContentApplicationJsonSchema','PathsAk50KdV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesGetResponsesDefaultContentApplicationJsonSchema','crashGroupOperatingSystemCounts','PathsE9HufsV01AppsOwnerNameAppNameAnalyticsSessionDurationsDistributionGetResponsesDefaultContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/crashfree_device_percentages','PathsYwx8WzV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdCrashCountsGetResponsesDefaultContentApplicationJsonSchema','PathsY5XlfzV01AppsOwnerNameAppNameAnalyticsCrashCountsGetResponsesDefaultContentApplicationJsonSchema','Paths1Tl18ZeV01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameGetResponses200ContentApplicationJsonSchema','Paths3SvqoyV01AppsOwnerNameAppNameAnalyticsAudiencesDefinitionTestPostResponses200ContentApplicationJsonSchema','distributionReleaseCounts','/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/properties/{event_property_name}/counts','crashGroupModelCounts','eventsDelete','assign','/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/models','Paths1U5H2EiV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOperatingSystemsGetResponses200ContentApplicationJsonSchema','PathsZz2O50V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeviceCountGetResponses200ContentApplicationJsonSchema','PathsGaffajV01AppsOwnerNameAppNameAnalyticsModelsGetResponsesDefaultContentApplicationJsonSchema','2980284xNOwWp','PathsOfz5BuV01AppsOwnerNameAppNameAnalyticsSessionCountsGetResponsesDefaultContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/count_per_device','/v0.1/apps/{owner_name}/{app_name}/analytics/oses','/v0.1/apps/{owner_name}/{app_name}/analytics/audiences','Paths1Al4Sp3V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeleteResponsesDefaultContentApplicationJsonSchema','PathsW9Dr0CV01AppsOwnerNameAppNameAnalyticsLogFlowGetResponses200ContentApplicationJsonSchema','Paths1McyotlV01AppsOwnerNameAppNameAnalyticsGenericLogFlowGetResponsesDefaultContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/places','Paths1B7RutuV01AppsOwnerNameAppNameAnalyticsPlacesGetResponsesDefaultContentApplicationJsonSchema','Paths1Wwaiu3V01AppsOwnerNameAppNameAnalyticsAudiencesDefinitionTestPostResponsesDefaultContentApplicationJsonSchema','Paths1Lu7Qn2V01AppsOwnerNameAppNameAnalyticsVersionsGetResponses200ContentApplicationJsonSchema','PathsBb6J7UV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOverallGetResponses200ContentApplicationJsonSchema','listDeviceProperties','events','Paths1X2Ro5DV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataCustomPropertiesGetResponsesDefaultContentApplicationJsonSchema','Paths19Xl0HvV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOperatingSystemsGetResponsesDefaultContentApplicationJsonSchema','AnalyticsImpl','/v0.1/apps/{owner_name}/{app_name}/analytics/session_counts','/v0.1/apps/{owner_name}/{app_name}/analytics/session_durations_distribution','languageCounts','/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/event_count','Paths167FplzV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOverallGetResponsesDefaultContentApplicationJsonSchema','Paths19DmkkdV01AppsOwnerNameAppNameAnalyticsOsesGetResponses200ContentApplicationJsonSchema','operatingSystemCounts','PathsXdv8KgV01AppsOwnerNameAppNameAnalyticsSessionsPerDeviceGetResponsesDefaultContentApplicationJsonSchema','@azure/core-client','571eJavuf','listAudiences','sessionCounts','PathsG2CzwV01AppsOwnerNameAppNameAnalyticsSessionsPerDeviceGetResponses200ContentApplicationJsonSchema','Paths1L7Des7V01AppsOwnerNameAppNameAnalyticsEventsGetResponsesDefaultContentApplicationJsonSchema','$host','PathsAem3LcV01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNamePutResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/definition/test','/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/device_properties','eventPerDeviceCount','eventName1','/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/count_per_session','modelCounts','Paths14Gegw4V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameHeadResponsesDefaultContentApplicationJsonSchema','audienceNameExists','/v0.1/apps/{owner_name}/{app_name}/analytics/sessions_per_device','/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/operating_systems','DELETE','Paths10VcmexV01AppsOwnerNameAppNameAnalyticsCrashfreeDevicePercentagesGetResponsesDefaultContentApplicationJsonSchema','eventProperties','../models/mappers','crashGroupId','audience1','3610VionLE','/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}','top1','PathsDtblk4V01AppsOwnerNameAppNameAnalyticsEventsGetResponses200ContentApplicationJsonSchema','interval','173588DpdHgM','logFlow','sendOperationRequest','contentType','Paths1Lned21V01AppsOwnerNameAppNameAnalyticsActiveDeviceCountsGetResponsesDefaultContentApplicationJsonSchema','GET','eventPerSessionCount','/v0.1/apps/{owner_name}/{app_name}/analytics/generic_log_flow','createOrUpdateAudience','version1','PathsW9NyjxV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesGetResponsesDefaultContentApplicationJsonSchema','PathsIepcj0V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameGetResponsesDefaultContentApplicationJsonSchema','Paths1Eiee2V01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerDeviceGetResponses200ContentApplicationJsonSchema','orderby','eventPropertyName','/v0.1/apps/{owner_name}/{app_name}/analytics/events','Paths1Vmnk7OV01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostResponses200ContentApplicationJsonSchema','eventCount','eventPropertyCounts','crashGroups','Paths6Mckw0V01AppsOwnerNameAppNameAnalyticsAudiencesMetadataCustomPropertiesGetResponses200ContentApplicationJsonSchema','PathsJjlrfvV01AppsOwnerNameAppNameAnalyticsEventsEventNameEventCountGetResponsesDefaultContentApplicationJsonSchema','Paths3Bwm02V01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesGetResponses200ContentApplicationJsonSchema','Paths1IjxfyzV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesPropertyNameValuesGetResponsesDefaultContentApplicationJsonSchema','json','../models/parameters','start1','skip','/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/properties','Paths14I7I2XV01AppsOwnerNameAppNameAnalyticsGenericLogFlowGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/analytics/models','Paths5Ga8JpV01AppsOwnerNameAppNameAnalyticsCrashCountsGetResponses200ContentApplicationJsonSchema','PathsD2NxbnV01AppsOwnerNameAppNameAnalyticsLanguagesGetResponses200ContentApplicationJsonSchema','appName','/v0.1/apps/{owner_name}/{app_name}/analytics/active_device_counts','ownerName','Sequence','Paths1Z0SaeV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerDeviceGetResponsesDefaultContentApplicationJsonSchema','crashFreeDevicePercentages','10bcecdm','PathsTigd7TV01AppsOwnerNameAppNameAnalyticsEventsEventNameEventCountGetResponses200ContentApplicationJsonSchema','getAudience','versions','audienceName','Paths1M0Rs3DV01AppsOwnerNameAppNameAnalyticsVersionsGetResponsesDefaultContentApplicationJsonSchema','end','eventName'];_0x2cf8=function(){return _0x515ba7;};return _0x2cf8();}
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AnalyticsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Analytics operations. */
+class AnalyticsImpl {
+    /**
+     * Initialize a new instance of the class Analytics class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Count of active versions in the time range ordered by version.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    versions(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, versionsOperationSpec);
+    }
+    /**
+     * Count of sessions per device in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param interval Size of interval in ISO 8601 duration format. (PnYnMnDTnHnMnS|PnW|P<date>T<time>).
+     *                 The valid durations are 1 day (P1D), 1 week (P1W), and 30 days (P30D).
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    perDeviceCounts(start, interval, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, interval, ownerName, appName, options }, perDeviceCountsOperationSpec);
+    }
+    /**
+     * Gets session duration.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    sessionDurationsDistribution(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, sessionDurationsDistributionOperationSpec);
+    }
+    /**
+     * Count of sessions in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param interval Size of interval in ISO 8601 duration format. (PnYnMnDTnHnMnS|PnW|P<date>T<time>).
+     *                 The valid durations are 1 day (P1D), 1 week (P1W), and 30 days (P30D).
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    sessionCounts(start, interval, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, interval, ownerName, appName, options }, sessionCountsOperationSpec);
+    }
+    /**
+     * Places in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    placeCounts(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, placeCountsOperationSpec);
+    }
+    /**
+     * OSes in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    operatingSystemCounts(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, operatingSystemCountsOperationSpec);
+    }
+    /**
+     * Models in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    modelCounts(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, modelCountsOperationSpec);
+    }
+    /**
+     * Logs received between the specified start time and the current time. The API will return a maximum
+     * of 100 logs per call.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    logFlow(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, logFlowOperationSpec);
+    }
+    /**
+     * Languages in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    languageCounts(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, languageCountsOperationSpec);
+    }
+    /**
+     * Logs received between the specified start time and the current time. The API will return a maximum
+     * of 100 logs per call.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    genericLogFlow(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, genericLogFlowOperationSpec);
+    }
+    /**
+     * Event properties value counts during the time range in descending order.
+     * @param eventName The id of the event.
+     * @param eventPropertyName The id of the event property.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventPropertyCounts(eventName, eventPropertyName, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, eventPropertyName, start, ownerName, appName, options }, eventPropertyCountsOperationSpec);
+    }
+    /**
+     * Event properties.
+     * @param eventName The id of the event.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventProperties(eventName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, ownerName, appName, options }, eventPropertiesOperationSpec);
+    }
+    /**
+     * Count of events by interval in the time range.
+     * @param eventName The id of the event.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventCount(eventName, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, start, ownerName, appName, options }, eventCountOperationSpec);
+    }
+    /**
+     * Count of devices for an event by interval in the time range.
+     * @param eventName The id of the event.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventDeviceCount(eventName, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, start, ownerName, appName, options }, eventDeviceCountOperationSpec);
+    }
+    /**
+     * Count of events per session by interval in the time range.
+     * @param eventName The id of the event.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventPerSessionCount(eventName, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, start, ownerName, appName, options }, eventPerSessionCountOperationSpec);
+    }
+    /**
+     * Count of events per device by interval in the time range.
+     * @param eventName The id of the event.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventPerDeviceCount(eventName, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, start, ownerName, appName, options }, eventPerDeviceCountOperationSpec);
+    }
+    /**
+     * Delete the set of Events with the specified event names.
+     * @param eventName The id of the event.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventsDelete(eventName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, ownerName, appName, options }, eventsDeleteOperationSpec);
+    }
+    /**
+     * Count of active events in the time range ordered by event.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    events(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, eventsOperationSpec);
+    }
+    /**
+     * Delete the set of Events with the specified event names.
+     * @param eventName The id of the event.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    eventsDeleteLogs(eventName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ eventName, ownerName, appName, options }, eventsDeleteLogsOperationSpec);
+    }
+    /**
+     * Count of total downloads for the provided distribution releases.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param releases Array of post-content-schema-releasesItem
+     * @param options The options parameters.
+     */
+    distributionReleaseCounts(ownerName, appName, releases, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, releases, options }, distributionReleaseCountsOperationSpec);
+    }
+    /**
+     * Percentage of crash-free device by day in the time range based on the selected versions. Api will
+     * return -1 if crash devices is greater than active devices.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param version test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashFreeDevicePercentages(start, version, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, version, ownerName, appName, options }, crashFreeDevicePercentagesOperationSpec);
+    }
+    /**
+     * Overall crashes and affected users count of the selected crash group with selected version.
+     * Available for UWP apps only.
+     * @param crashGroupId The id of the crash group.
+     * @param version test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashGroupTotals(crashGroupId, version, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, version, ownerName, appName, options }, crashGroupTotalsOperationSpec);
+    }
+    /**
+     * Top OSes of the selected crash group with selected version. Available for UWP apps only.
+     * @param crashGroupId The id of the crash group.
+     * @param version test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashGroupOperatingSystemCounts(crashGroupId, version, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, version, ownerName, appName, options }, crashGroupOperatingSystemCountsOperationSpec);
+    }
+    /**
+     * Top models of the selected crash group with selected version. Available for UWP apps only.
+     * @param crashGroupId The id of the crash group.
+     * @param version test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashGroupModelCounts(crashGroupId, version, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, version, ownerName, appName, options }, crashGroupModelCountsOperationSpec);
+    }
+    /**
+     * Count of crashes by day in the time range of the selected crash group with selected version.
+     * Available for UWP apps only.
+     * @param crashGroupId The id of the crash group.
+     * @param version test
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashGroupCounts(crashGroupId, version, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, version, start, ownerName, appName, options }, crashGroupCountsOperationSpec);
+    }
+    /**
+     * Overall crashes and affected users count of the selected crash groups with selected versions.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param crashGroups Array of post-content-schema-crash_groupsItem
+     * @param options The options parameters.
+     */
+    crashGroupsTotals(ownerName, appName, crashGroups, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, crashGroups, options }, crashGroupsTotalsOperationSpec);
+    }
+    /**
+     * Count of crashes by day in the time range based the selected versions. Available for UWP apps only.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    crashCounts(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, crashCountsOperationSpec);
+    }
+    /**
+     * Returns whether audience definition exists.
+     * @param audienceName The name of the audience
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    audienceNameExists(audienceName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ audienceName, ownerName, appName, options }, audienceNameExistsOperationSpec);
+    }
+    /**
+     * Deletes audience definition.
+     * @param audienceName The name of the audience
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteAudience(audienceName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ audienceName, ownerName, appName, options }, deleteAudienceOperationSpec);
+    }
+    /**
+     * Gets audience definition.
+     * @param audienceName The name of the audience
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getAudience(audienceName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ audienceName, ownerName, appName, options }, getAudienceOperationSpec);
+    }
+    /**
+     * Creates or updates audience definition.
+     * @param audienceName The name of the audience
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param audience Audience definition
+     * @param options The options parameters.
+     */
+    createOrUpdateAudience(audienceName, ownerName, appName, audience, options) {
+        return this.client.sendOperationRequest({ audienceName, ownerName, appName, audience, options }, createOrUpdateAudienceOperationSpec);
+    }
+    /**
+     * Get list of device property values.
+     * @param propertyName Device property
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listDevicePropertyValues(propertyName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ propertyName, ownerName, appName, options }, listDevicePropertyValuesOperationSpec);
+    }
+    /**
+     * Get list of device properties.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listDeviceProperties(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listDevicePropertiesOperationSpec);
+    }
+    /**
+     * Get list of custom properties.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listCustomProperties(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listCustomPropertiesOperationSpec);
+    }
+    /**
+     * Tests audience definition.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param audience Audience definition
+     * @param options The options parameters.
+     */
+    testAudience(ownerName, appName, audience, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, audience, options }, testAudienceOperationSpec);
+    }
+    /**
+     * Get list of audiences.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listAudiences(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listAudiencesOperationSpec);
+    }
+    /**
+     * Count of active devices by interval in the time range.
+     * @param start Start date time in data in ISO 8601 date time format.
+     * @param appBuild test
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deviceCounts(start, appBuild, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, appBuild, ownerName, appName, options }, deviceCountsOperationSpec);
+    }
+}
+exports.AnalyticsImpl = AnalyticsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const versionsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/versions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Lu7Qn2V01AppsOwnerNameAppNameAnalyticsVersionsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1M0Rs3DV01AppsOwnerNameAppNameAnalyticsVersionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const perDeviceCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/sessions_per_device",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsG2CzwV01AppsOwnerNameAppNameAnalyticsSessionsPerDeviceGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsXdv8KgV01AppsOwnerNameAppNameAnalyticsSessionsPerDeviceGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.interval
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const sessionDurationsDistributionOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/session_durations_distribution",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsLck9IlV01AppsOwnerNameAppNameAnalyticsSessionDurationsDistributionGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsE9HufsV01AppsOwnerNameAppNameAnalyticsSessionDurationsDistributionGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const sessionCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/session_counts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Exxd1EV01AppsOwnerNameAppNameAnalyticsSessionCountsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsOfz5BuV01AppsOwnerNameAppNameAnalyticsSessionCountsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.interval
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const placeCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/places",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsRxbv8DV01AppsOwnerNameAppNameAnalyticsPlacesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1B7RutuV01AppsOwnerNameAppNameAnalyticsPlacesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const operatingSystemCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/oses",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths19DmkkdV01AppsOwnerNameAppNameAnalyticsOsesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1G1UvgvV01AppsOwnerNameAppNameAnalyticsOsesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const modelCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/models",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths814LkhV01AppsOwnerNameAppNameAnalyticsModelsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsGaffajV01AppsOwnerNameAppNameAnalyticsModelsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const logFlowOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/log_flow",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsW9Dr0CV01AppsOwnerNameAppNameAnalyticsLogFlowGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsYucxmuV01AppsOwnerNameAppNameAnalyticsLogFlowGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start1],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const languageCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/languages",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsD2NxbnV01AppsOwnerNameAppNameAnalyticsLanguagesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1MghrhbV01AppsOwnerNameAppNameAnalyticsLanguagesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const genericLogFlowOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/generic_log_flow",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths14I7I2XV01AppsOwnerNameAppNameAnalyticsGenericLogFlowGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1McyotlV01AppsOwnerNameAppNameAnalyticsGenericLogFlowGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start1],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventPropertyCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/properties/{event_property_name}/counts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsC87RxV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesEventPropertyNameCountsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths10Zy7X0V01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesEventPropertyNameCountsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.top4
+    ],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName,
+        Parameters.eventPropertyName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventPropertiesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/properties",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsU48L8WV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsAk50KdV01AppsOwnerNameAppNameAnalyticsEventsEventNamePropertiesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventCountOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/event_count",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsTigd7TV01AppsOwnerNameAppNameAnalyticsEventsEventNameEventCountGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsJjlrfvV01AppsOwnerNameAppNameAnalyticsEventsEventNameEventCountGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventDeviceCountOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/device_count",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsZz2O50V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeviceCountGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsBei5L3V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeviceCountGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventPerSessionCountOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/count_per_session",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Ggxk2EV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerSessionGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsE2Fo6FV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerSessionGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventPerDeviceCountOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}/count_per_device",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Eiee2V01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerDeviceGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Z0SaeV01AppsOwnerNameAppNameAnalyticsEventsEventNameCountPerDeviceGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventsDeleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events/{event_name}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.Paths1Al4Sp3V01AppsOwnerNameAppNameAnalyticsEventsEventNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/events",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsDtblk4V01AppsOwnerNameAppNameAnalyticsEventsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1L7Des7V01AppsOwnerNameAppNameAnalyticsEventsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.orderby,
+        Parameters.skip,
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.eventName1,
+        Parameters.inlinecount2
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const eventsDeleteLogsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/event_logs/{event_name}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.PathsH4Oq3ZV01AppsOwnerNameAppNameAnalyticsEventLogsEventNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.eventName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const distributionReleaseCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/distribution/release_counts",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Vmnk7OV01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths12681XzV01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { releases: ["releases"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Pzxl78V01AppsOwnerNameAppNameAnalyticsDistributionReleaseCountsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const crashFreeDevicePercentagesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crashfree_device_percentages",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Evy1PhV01AppsOwnerNameAppNameAnalyticsCrashfreeDevicePercentagesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths10VcmexV01AppsOwnerNameAppNameAnalyticsCrashfreeDevicePercentagesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.version1],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const crashGroupTotalsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/overall",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsBb6J7UV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOverallGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths167FplzV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOverallGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.version1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const crashGroupOperatingSystemCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/operating_systems",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1U5H2EiV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOperatingSystemsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths19Xl0HvV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdOperatingSystemsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.top1, Parameters.version1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const crashGroupModelCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/models",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths130SxupV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdModelsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Tx0U3UV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdModelsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.top1, Parameters.version1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const crashGroupCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups/{crash_group_id}/crash_counts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1NileprV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdCrashCountsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsYwx8WzV01AppsOwnerNameAppNameAnalyticsCrashGroupsCrashGroupIdCrashCountsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.version1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const crashGroupsTotalsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_groups",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsP18M6YV01AppsOwnerNameAppNameAnalyticsCrashGroupsPostResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsCy68FjV01AppsOwnerNameAppNameAnalyticsCrashGroupsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { crashGroups: ["crashGroups"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsDc3Tj4V01AppsOwnerNameAppNameAnalyticsCrashGroupsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const crashCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/crash_counts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths5Ga8JpV01AppsOwnerNameAppNameAnalyticsCrashCountsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsY5XlfzV01AppsOwnerNameAppNameAnalyticsCrashCountsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.versions],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const audienceNameExistsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}",
+    httpMethod: "HEAD",
+    responses: {
+        204: {},
+        404: {},
+        default: {
+            bodyMapper: Mappers.Paths14Gegw4V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameHeadResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.audienceName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteAudienceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        404: {},
+        default: {
+            bodyMapper: Mappers.Paths1Bu61Q9V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.audienceName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getAudienceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Tl18ZeV01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsIepcj0V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNameGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.audienceName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOrUpdateAudienceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/{audience_name}",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsAem3LcV01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNamePutResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Tedeb8V01AppsOwnerNameAppNameAnalyticsAudiencesAudienceNamePutResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.audience,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.audienceName
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listDevicePropertyValuesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/device_properties/{property_name}/values",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsOw62VsV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesPropertyNameValuesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1IjxfyzV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesPropertyNameValuesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.contains],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.propertyName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listDevicePropertiesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/device_properties",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths3Bwm02V01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsW9NyjxV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataDevicePropertiesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listCustomPropertiesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/metadata/custom_properties",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths6Mckw0V01AppsOwnerNameAppNameAnalyticsAudiencesMetadataCustomPropertiesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1X2Ro5DV01AppsOwnerNameAppNameAnalyticsAudiencesMetadataCustomPropertiesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const testAudienceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences/definition/test",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths3SvqoyV01AppsOwnerNameAppNameAnalyticsAudiencesDefinitionTestPostResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Wwaiu3V01AppsOwnerNameAppNameAnalyticsAudiencesDefinitionTestPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.audience1,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listAudiencesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/audiences",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsTx3PmsV01AppsOwnerNameAppNameAnalyticsAudiencesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsEq5Uq6V01AppsOwnerNameAppNameAnalyticsAudiencesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.includeDisabled],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deviceCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/analytics/active_device_counts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsKudmomV01AppsOwnerNameAppNameAnalyticsActiveDeviceCountsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Lned21V01AppsOwnerNameAppNameAnalyticsActiveDeviceCountsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.appBuild1
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

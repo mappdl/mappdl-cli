@@ -1,1 +1,334 @@
-const _0x213d67=_0x4126;function _0x4f7e(){const _0x506efe=['Paths18Cvs3GV01AppsOwnerNameAppNamePushDeviceExportsExportIdGetResponsesDefaultContentApplicationJsonSchema','__esModule','PUT','sendOperationRequest','/v0.1/apps/{owner_name}/{app_name}/push/notifications','631885iruoWP','865308AIgQza','Paths13Dzhd2V01AppsOwnerNameAppNamePushNotificationsPostRequestbodyContentApplicationJsonSchema','Paths801PuuV01AppsOwnerNameAppNamePushDeviceExportsPostResponsesDefaultContentApplicationJsonSchema','setConfig','deleteConfig','blobContainerSasUri','orderby','get','deleteInstallId','DELETE','notificationId','2501947FyLPwn','PushSendHeaders','PathsKpnezyV01AppsOwnerNameAppNamePushNotificationsPostResponses202ContentApplicationJsonSchema','Paths1Hot65IV01AppsOwnerNameAppNamePushNotificationsConfigHeadResponsesDefaultContentApplicationJsonSchema','json','accept','Paths11E7Jh9V01AppsOwnerNameAppNamePushDevicesInstallIdDeleteResponsesDefaultContentApplicationJsonSchema','Paths176Xq3CV01AppsOwnerNameAppNamePushNotificationsConfigPutResponses200ContentApplicationJsonSchema','assign','properties1','list','3gizPHg','Paths1Ua4CuvV01AppsOwnerNameAppNamePushNotificationsGetResponsesDefaultContentApplicationJsonSchema','Paths1Kwjsi2V01AppsOwnerNameAppNamePushNotificationsPostResponsesDefaultContentApplicationJsonSchema','ownerName','inlinecount','/v0.1/apps/{owner_name}/{app_name}/push/device_exports/{export_id}','client','notificationTarget','Paths11Qat48V01AppsOwnerNameAppNamePushDeviceExportsPostResponses202ContentApplicationJsonSchema','exportId','skiptoken','$host','1108644KlzpQg','7264250lKXUZm','appName','2507208FJWKVr','9fGSTKW','/v0.1/apps/{owner_name}/{app_name}/push/devices/{install_id}','send','HEAD','notificationContent','delete','exportDevicesStatus','456238WCjFnm','Paths1UomvgvV01AppsOwnerNameAppNamePushDeviceExportsExportIdGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/push/notifications_config','Paths1YjfjrmV01AppsOwnerNameAppNamePushNotificationsGetResponses200ContentApplicationJsonSchema','Paths1C7Oun7V01AppsOwnerNameAppNamePushNotificationsConfigGetResponses200ContentApplicationJsonSchema','top1','includeArchived','6JEyapt','../models/parameters','PushImpl','contentType','options','PathsO0Ll17V01AppsOwnerNameAppNamePushNotificationsConfigGetResponsesDefaultContentApplicationJsonSchema','exportDevices','GET','values','/v0.1/apps/{owner_name}/{app_name}/push/notifications/{notification_id}','configExists'];_0x4f7e=function(){return _0x506efe;};return _0x4f7e();}(function(_0x53c073,_0x3cbcf6){const _0xda93cb=_0x4126,_0x29f0f6=_0x53c073();while(!![]){try{const _0x3a72ec=-parseInt(_0xda93cb(0x141))/0x1+parseInt(_0xda93cb(0x159))/0x2+-parseInt(_0xda93cb(0x16f))/0x3*(-parseInt(_0xda93cb(0x136))/0x4)+parseInt(_0xda93cb(0x158))/0x5+-parseInt(_0xda93cb(0x148))/0x6*(-parseInt(_0xda93cb(0x164))/0x7)+parseInt(_0xda93cb(0x139))/0x8+-parseInt(_0xda93cb(0x13a))/0x9*(parseInt(_0xda93cb(0x137))/0xa);if(_0x3a72ec===_0x3cbcf6)break;else _0x29f0f6['push'](_0x29f0f6['shift']());}catch(_0xcefbf4){_0x29f0f6['push'](_0x29f0f6['shift']());}}}(_0x4f7e,0x4f2ff),(Object['defineProperty'](exports,_0x213d67(0x154),{'value':!0x0}),exports[_0x213d67(0x14a)]=void 0x0));let coreClient=require('@azure/core-client'),Mappers=require('../models/mappers'),Parameters=require(_0x213d67(0x149));class PushImpl{constructor(_0x36fb4b){const _0x5229ad=_0x213d67;this[_0x5229ad(0x175)]=_0x36fb4b;}[_0x213d67(0x152)](_0x2d6b54,_0x4cac59,_0x40f0a5){const _0x39f4bf=_0x213d67;return this[_0x39f4bf(0x175)]['sendOperationRequest']({'ownerName':_0x2d6b54,'appName':_0x4cac59,'options':_0x40f0a5},configExistsOperationSpec);}['getConfig'](_0x513067,_0x218c49,_0x14d98d){const _0x57a0ca=_0x213d67;return this[_0x57a0ca(0x175)][_0x57a0ca(0x156)]({'ownerName':_0x513067,'appName':_0x218c49,'options':_0x14d98d},getConfigOperationSpec);}[_0x213d67(0x15c)](_0x36cc2f,_0x2ee264,_0x15663e,_0x41ce35){const _0x658858=_0x213d67;return this['client'][_0x658858(0x156)]({'ownerName':_0x36cc2f,'appName':_0x2ee264,'properties':_0x15663e,'options':_0x41ce35},setConfigOperationSpec);}[_0x213d67(0x15d)](_0x1a3e93,_0x1bb950,_0x16ca01){const _0xcb0abf=_0x213d67;return this[_0xcb0abf(0x175)][_0xcb0abf(0x156)]({'ownerName':_0x1a3e93,'appName':_0x1bb950,'options':_0x16ca01},deleteConfigOperationSpec);}[_0x213d67(0x160)](_0x4781b7,_0x3d2e8f,_0x263b35,_0x3177e9){const _0x40a0d6=_0x213d67;return this[_0x40a0d6(0x175)][_0x40a0d6(0x156)]({'notificationId':_0x4781b7,'ownerName':_0x3d2e8f,'appName':_0x263b35,'options':_0x3177e9},getOperationSpec);}[_0x213d67(0x16e)](_0x18d680,_0x4620bb,_0x3da3cb){const _0x40d075=_0x213d67;return this[_0x40d075(0x175)][_0x40d075(0x156)]({'ownerName':_0x18d680,'appName':_0x4620bb,'options':_0x3da3cb},listOperationSpec);}[_0x213d67(0x13c)](_0x4173e0,_0x57c925,_0x6fea83,_0x4cfb6e){return this['client']['sendOperationRequest']({'ownerName':_0x4173e0,'appName':_0x57c925,'notificationContent':_0x6fea83,'options':_0x4cfb6e},sendOperationSpec);}[_0x213d67(0x13f)](_0x2735f7,_0x3fcfa7,_0x23d3f9,_0x305772){const _0x106238=_0x213d67;return this[_0x106238(0x175)][_0x106238(0x156)]({'ownerName':_0x2735f7,'appName':_0x3fcfa7,'values':_0x23d3f9,'options':_0x305772},deleteOperationSpec);}[_0x213d67(0x161)](_0x3fd187,_0x377d71,_0x9436d3,_0x552785){const _0x2f7f1d=_0x213d67;return this[_0x2f7f1d(0x175)][_0x2f7f1d(0x156)]({'installId':_0x3fd187,'ownerName':_0x377d71,'appName':_0x9436d3,'options':_0x552785},deleteInstallIdOperationSpec);}[_0x213d67(0x140)](_0xbd7680,_0x1fb07b,_0x4caf59,_0x3bf04e){return this['client']['sendOperationRequest']({'exportId':_0xbd7680,'ownerName':_0x1fb07b,'appName':_0x4caf59,'options':_0x3bf04e},exportDevicesStatusOperationSpec);}[_0x213d67(0x14e)](_0x5758f1,_0x8eb047,_0xb456cb,_0x44ca22){const _0xa23177=_0x213d67;return this[_0xa23177(0x175)]['sendOperationRequest']({'ownerName':_0x5758f1,'appName':_0x8eb047,'blobContainerSasUri':_0xb456cb,'options':_0x44ca22},exportDevicesOperationSpec);}}exports[_0x213d67(0x14a)]=PushImpl;function _0x4126(_0x4250f5,_0x11898f){const _0x4f7e10=_0x4f7e();return _0x4126=function(_0x41265f,_0x501b04){_0x41265f=_0x41265f-0x135;let _0x1102e7=_0x4f7e10[_0x41265f];return _0x1102e7;},_0x4126(_0x4250f5,_0x11898f);}let serializer=coreClient['createSerializer'](Mappers,!0x1),configExistsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/push/notifications_config','httpMethod':_0x213d67(0x13d),'responses':{0xcc:{},0x194:{},'default':{'bodyMapper':Mappers[_0x213d67(0x167)]}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters['appName']],'headerParameters':[Parameters['accept']],'serializer':serializer},getConfigOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/push/notifications_config','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x213d67(0x145)]},'default':{'bodyMapper':Mappers[_0x213d67(0x14d)]}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters['ownerName'],Parameters[_0x213d67(0x138)]],'headerParameters':[Parameters['accept']],'serializer':serializer},setConfigOperationSpec={'path':_0x213d67(0x143),'httpMethod':_0x213d67(0x155),'responses':{0xc8:{'bodyMapper':Mappers[_0x213d67(0x16b)]},'default':{'bodyMapper':Mappers['PathsFgy7YfV01AppsOwnerNameAppNamePushNotificationsConfigPutResponsesDefaultContentApplicationJsonSchema']}},'requestBody':Parameters[_0x213d67(0x16d)],'urlParameters':[Parameters['$host'],Parameters[_0x213d67(0x172)],Parameters['appName']],'headerParameters':[Parameters[_0x213d67(0x14b)],Parameters[_0x213d67(0x169)]],'mediaType':_0x213d67(0x168),'serializer':serializer},deleteConfigOperationSpec={'path':_0x213d67(0x143),'httpMethod':_0x213d67(0x162),'responses':{0xc8:{},'default':{'bodyMapper':Mappers['PathsFm6Bs9V01AppsOwnerNameAppNamePushNotificationsConfigDeleteResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters[_0x213d67(0x138)]],'headerParameters':[Parameters[_0x213d67(0x169)]],'serializer':serializer},getOperationSpec={'path':_0x213d67(0x151),'httpMethod':_0x213d67(0x14f),'responses':{0xc8:{'bodyMapper':Mappers['Paths1NjrudiV01AppsOwnerNameAppNamePushNotificationsNotificationIdGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers['PathsY2MpnfV01AppsOwnerNameAppNamePushNotificationsNotificationIdGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters['ownerName'],Parameters['appName'],Parameters[_0x213d67(0x163)]],'headerParameters':[Parameters['accept']],'serializer':serializer},listOperationSpec={'path':_0x213d67(0x157),'httpMethod':_0x213d67(0x14f),'responses':{0xc8:{'bodyMapper':Mappers[_0x213d67(0x144)]},'default':{'bodyMapper':Mappers[_0x213d67(0x170)]}},'queryParameters':[Parameters[_0x213d67(0x146)],Parameters[_0x213d67(0x179)],Parameters[_0x213d67(0x15f)],Parameters[_0x213d67(0x173)],Parameters[_0x213d67(0x147)]],'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters[_0x213d67(0x138)]],'headerParameters':[Parameters[_0x213d67(0x169)]],'serializer':serializer},sendOperationSpec={'path':_0x213d67(0x157),'httpMethod':'POST','responses':{0xca:{'bodyMapper':Mappers[_0x213d67(0x166)],'headersMapper':Mappers[_0x213d67(0x165)]},'default':{'bodyMapper':Mappers[_0x213d67(0x171)]}},'requestBody':{'parameterPath':{'notificationTarget':[_0x213d67(0x14c),_0x213d67(0x176)],'notificationContent':[_0x213d67(0x13e)]},'mapper':Object[_0x213d67(0x16c)](Object['assign']({},Mappers[_0x213d67(0x15a)]),{'required':!0x0})},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters[_0x213d67(0x138)]],'headerParameters':[Parameters['contentType'],Parameters[_0x213d67(0x169)]],'mediaType':_0x213d67(0x168),'serializer':serializer},deleteOperationSpec={'path':_0x213d67(0x157),'httpMethod':'DELETE','responses':{0xc8:{},'default':{'bodyMapper':Mappers['PathsC8NkptV01AppsOwnerNameAppNamePushNotificationsDeleteResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'values':[_0x213d67(0x150)]},'mapper':Object['assign'](Object[_0x213d67(0x16c)]({},Mappers['Paths5M7Cf2V01AppsOwnerNameAppNamePushNotificationsDeleteRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters[_0x213d67(0x138)]],'headerParameters':[Parameters['contentType'],Parameters[_0x213d67(0x169)]],'mediaType':_0x213d67(0x168),'serializer':serializer},deleteInstallIdOperationSpec={'path':_0x213d67(0x13b),'httpMethod':_0x213d67(0x162),'responses':{0xc8:{},'default':{'bodyMapper':Mappers[_0x213d67(0x16a)]}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters[_0x213d67(0x172)],Parameters['appName'],Parameters['installId']],'headerParameters':[Parameters[_0x213d67(0x169)]],'serializer':serializer},exportDevicesStatusOperationSpec={'path':_0x213d67(0x174),'httpMethod':_0x213d67(0x14f),'responses':{0xc8:{'bodyMapper':Mappers[_0x213d67(0x142)]},'default':{'bodyMapper':Mappers[_0x213d67(0x153)]}},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters['ownerName'],Parameters['appName'],Parameters[_0x213d67(0x178)]],'headerParameters':[Parameters[_0x213d67(0x169)]],'serializer':serializer},exportDevicesOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/push/device_exports','httpMethod':'POST','responses':{0xca:{'bodyMapper':Mappers[_0x213d67(0x177)]},'default':{'bodyMapper':Mappers[_0x213d67(0x15b)]}},'requestBody':{'parameterPath':{'blobContainerSasUri':[_0x213d67(0x15e)]},'mapper':Object[_0x213d67(0x16c)](Object[_0x213d67(0x16c)]({},Mappers['Paths1H0K4SgV01AppsOwnerNameAppNamePushDeviceExportsPostRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x213d67(0x135)],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x213d67(0x14b)],Parameters[_0x213d67(0x169)]],'mediaType':_0x213d67(0x168),'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PushImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Push operations. */
+class PushImpl {
+    /**
+     * Initialize a new instance of the class Push class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Returns whether a push configuration exists for the selected app.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    configExists(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, configExistsOperationSpec);
+    }
+    /**
+     * Get the push configuration for the selected app.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getConfig(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getConfigOperationSpec);
+    }
+    /**
+     * Set the push configuration for the selected app.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param properties Notification configurations.
+     * @param options The options parameters.
+     */
+    setConfig(ownerName, appName, properties, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, properties, options }, setConfigOperationSpec);
+    }
+    /**
+     * Delete the push configuration for the selected app.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteConfig(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, deleteConfigOperationSpec);
+    }
+    /**
+     * Get details about a specific notification.
+     * @param notificationId The id of the notification.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(notificationId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ notificationId, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Get a list of notifications from the service.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+    /**
+     * Send a notification to one or more devices.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param notificationContent Notification definition object
+     * @param options The options parameters.
+     */
+    send(ownerName, appName, notificationContent, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, notificationContent, options }, sendOperationSpec);
+    }
+    /**
+     * Delete a notification.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param values List of notification Ids.
+     * @param options The options parameters.
+     */
+    delete(ownerName, appName, values, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, values, options }, deleteOperationSpec);
+    }
+    /**
+     * Delete a device with the selected installId.
+     * @param installId device install id
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteInstallId(installId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ installId, ownerName, appName, options }, deleteInstallIdOperationSpec);
+    }
+    /**
+     * Get the status of an export operation.
+     * @param exportId The id of the export.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    exportDevicesStatus(exportId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ exportId, ownerName, appName, options }, exportDevicesStatusOperationSpec);
+    }
+    /**
+     * Exports information for all devices using Push to Azure Blob Storage
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param blobContainerSasUri A shared access signature (SAS) URI with Read, Write and Delete
+     *                            permissions on a container.
+     * @param options The options parameters.
+     */
+    exportDevices(ownerName, appName, blobContainerSasUri, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, blobContainerSasUri, options }, exportDevicesOperationSpec);
+    }
+}
+exports.PushImpl = PushImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const configExistsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications_config",
+    httpMethod: "HEAD",
+    responses: {
+        204: {},
+        404: {},
+        default: {
+            bodyMapper: Mappers.Paths1Hot65IV01AppsOwnerNameAppNamePushNotificationsConfigHeadResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getConfigOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications_config",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1C7Oun7V01AppsOwnerNameAppNamePushNotificationsConfigGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsO0Ll17V01AppsOwnerNameAppNamePushNotificationsConfigGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const setConfigOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications_config",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths176Xq3CV01AppsOwnerNameAppNamePushNotificationsConfigPutResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsFgy7YfV01AppsOwnerNameAppNamePushNotificationsConfigPutResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.properties1,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteConfigOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications_config",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.PathsFm6Bs9V01AppsOwnerNameAppNamePushNotificationsConfigDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications/{notification_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1NjrudiV01AppsOwnerNameAppNamePushNotificationsNotificationIdGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsY2MpnfV01AppsOwnerNameAppNamePushNotificationsNotificationIdGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.notificationId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1YjfjrmV01AppsOwnerNameAppNamePushNotificationsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Ua4CuvV01AppsOwnerNameAppNamePushNotificationsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.skiptoken,
+        Parameters.orderby,
+        Parameters.inlinecount,
+        Parameters.includeArchived
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const sendOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.PathsKpnezyV01AppsOwnerNameAppNamePushNotificationsPostResponses202ContentApplicationJsonSchema,
+            headersMapper: Mappers.PushSendHeaders
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Kwjsi2V01AppsOwnerNameAppNamePushNotificationsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            notificationTarget: ["options", "notificationTarget"],
+            notificationContent: ["notificationContent"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths13Dzhd2V01AppsOwnerNameAppNamePushNotificationsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/notifications",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.PathsC8NkptV01AppsOwnerNameAppNamePushNotificationsDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { values: ["values"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths5M7Cf2V01AppsOwnerNameAppNamePushNotificationsDeleteRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteInstallIdOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/devices/{install_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.Paths11E7Jh9V01AppsOwnerNameAppNamePushDevicesInstallIdDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.installId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const exportDevicesStatusOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/device_exports/{export_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1UomvgvV01AppsOwnerNameAppNamePushDeviceExportsExportIdGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths18Cvs3GV01AppsOwnerNameAppNamePushDeviceExportsExportIdGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.exportId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const exportDevicesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/push/device_exports",
+    httpMethod: "POST",
+    responses: {
+        202: {
+            bodyMapper: Mappers.Paths11Qat48V01AppsOwnerNameAppNamePushDeviceExportsPostResponses202ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths801PuuV01AppsOwnerNameAppNamePushDeviceExportsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { blobContainerSasUri: ["blobContainerSasUri"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1H0K4SgV01AppsOwnerNameAppNamePushDeviceExportsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

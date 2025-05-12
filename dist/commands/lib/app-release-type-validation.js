@@ -1,1 +1,13 @@
-var _0x326c40=_0x3c23;(function(_0x3a8654,_0x3b1f9d){var _0x104aed=_0x3c23,_0x3dfbb8=_0x3a8654();while(!![]){try{var _0x5591c7=-parseInt(_0x104aed(0x87))/0x1*(parseInt(_0x104aed(0x86))/0x2)+-parseInt(_0x104aed(0x83))/0x3+-parseInt(_0x104aed(0x89))/0x4+-parseInt(_0x104aed(0x7d))/0x5+-parseInt(_0x104aed(0x82))/0x6*(parseInt(_0x104aed(0x80))/0x7)+-parseInt(_0x104aed(0x81))/0x8*(-parseInt(_0x104aed(0x84))/0x9)+-parseInt(_0x104aed(0x88))/0xa*(-parseInt(_0x104aed(0x7f))/0xb);if(_0x5591c7===_0x3b1f9d)break;else _0x3dfbb8['push'](_0x3dfbb8['shift']());}catch(_0x14a719){_0x3dfbb8['push'](_0x3dfbb8['shift']());}}}(_0x40ee,0x269ff),(Object['defineProperty'](exports,'__esModule',{'value':!0x0}),exports[_0x326c40(0x8a)]=void 0x0,exports[_0x326c40(0x8a)]={'maxLength':{'rule':0x64,'errorMessage':_0x326c40(0x7e)},'matchRegexp':{'rule':/^$|^[A-Z0-9][a-z0-9]*$/,'errorMessage':_0x326c40(0x85)}}));function _0x3c23(_0x4fc892,_0x20ca0a){var _0x40eeb9=_0x40ee();return _0x3c23=function(_0x3c237a,_0x1c5bdc){_0x3c237a=_0x3c237a-0x7d;var _0x324849=_0x40eeb9[_0x3c237a];return _0x324849;},_0x3c23(_0x4fc892,_0x20ca0a);}function _0x40ee(){var _0x84ec0b=['67753XfkrxY','327224YalJni','90SssYMI','875172iPgTcX','45dydxoQ','release-type\x20must\x20be\x20a\x20single\x20word\x20starting\x20with\x20a\x20capital\x20letter\x20or\x20number,\x20followed\x20by\x20lowercase','2tqVjLf','314217nIIQIp','9361740TEoldo','506884MUrKWl','APP_RELEASE_TYPE_VALIDATIONS','523175fXbdGO','release-type\x20length\x20must\x20be\x20100\x20characters\x20or\x20less','11isYGJW'];_0x40ee=function(){return _0x84ec0b;};return _0x40ee();}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.APP_RELEASE_TYPE_VALIDATIONS = void 0;
+exports.APP_RELEASE_TYPE_VALIDATIONS = {
+    maxLength: {
+        rule: 100,
+        errorMessage: `release-type length must be 100 characters or less`,
+    },
+    matchRegexp: {
+        rule: /^$|^[A-Z0-9][a-z0-9]*$/,
+        errorMessage: `release-type must be a single word starting with a capital letter or number, followed by lowercase`,
+    },
+};

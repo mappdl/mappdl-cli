@@ -1,1 +1,901 @@
-function _0x3c5a(_0x373042,_0x528aa0){const _0x12be3e=_0x12be();return _0x3c5a=function(_0x3c5aab,_0x436538){_0x3c5aab=_0x3c5aab-0x1e7;let _0x1ed4cd=_0x12be3e[_0x3c5aab];return _0x1ed4cd;},_0x3c5a(_0x373042,_0x528aa0);}const _0x222775=_0x3c5a;(function(_0x443725,_0x3c9ed7){const _0x2336c5=_0x3c5a,_0x59f945=_0x443725();while(!![]){try{const _0x51f506=-parseInt(_0x2336c5(0x25b))/0x1*(parseInt(_0x2336c5(0x1f4))/0x2)+parseInt(_0x2336c5(0x1ec))/0x3+-parseInt(_0x2336c5(0x229))/0x4*(parseInt(_0x2336c5(0x234))/0x5)+parseInt(_0x2336c5(0x200))/0x6*(-parseInt(_0x2336c5(0x255))/0x7)+parseInt(_0x2336c5(0x236))/0x8*(-parseInt(_0x2336c5(0x271))/0x9)+-parseInt(_0x2336c5(0x22e))/0xa*(-parseInt(_0x2336c5(0x21a))/0xb)+parseInt(_0x2336c5(0x239))/0xc;if(_0x51f506===_0x3c9ed7)break;else _0x59f945['push'](_0x59f945['shift']());}catch(_0x38ca5a){_0x59f945['push'](_0x59f945['shift']());}}}(_0x12be,0xe74dd),(Object[_0x222775(0x21b)](exports,_0x222775(0x1e7),{'value':!0x0}),exports['ErrorsImpl']=void 0x0));function _0x12be(){const _0x1653f4=['13383UJPeJb','Stream','__esModule','PathsAhgr5MV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidOperatingsystemsGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/errors/retention_settings','version','model','4459251MnqrKo','PathsNvwrx0V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidModelsGetResponses200ContentApplicationJsonSchema','appName','Paths1Wi49JqV01AppsOwnerNameAppNameErrorsAvailableVersionsGetResponses200ContentApplicationJsonSchema','errorStackTrace','DiagnosticsStackTrace','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}','accept','256134Kdlpul','Paths10KtxpjV01AppsOwnerNameAppNameErrorsErrorgroupsGetResponses200ContentApplicationJsonSchema','errorDownload','PathsN8QcejV01AppsOwnerNameAppNameErrorsErrorcountsperdayGetResponsesDefaultContentApplicationJsonSchema','sort','Paths1Pujyq9V01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidLocationGetResponses200ContentApplicationJsonSchema','errorAttachmentLocation','groupOperatingSystemCounts','Paths1J3SejwV01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidTextGetResponsesDefaultContentApplicationJsonSchema','end','Paths1EgnpuqV01AppsOwnerNameAppNameErrorsRetentionSettingsGetResponsesDefaultContentApplicationJsonSchema','errorId','78aOkuMc','errorFreeDevicePercentages','PathsUwsddyV01AppsOwnerNameAppNameErrorsErrorgroupsGetResponsesDefaultContentApplicationJsonSchema','state','/v0.1/apps/{owner_name}/{app_name}/errors/availableAppBuilds','sort1','PathsW5Guk3V01AppsOwnerNameAppNameErrorsRetentionSettingsPutResponses200ContentApplicationJsonSchema','Paths1Cq491NV01AppsOwnerNameAppNameErrorsAvailableappbuildsGetResponses200ContentApplicationJsonSchema','PathsXb2Xr7V01AppsOwnerNameAppNameErrorsErrorfreedevicepercentagesGetResponses200ContentApplicationJsonSchema','ownerName','Paths11Dw7J1V01AppsOwnerNameAppNameErrorsErrorfreedevicepercentagesGetResponsesDefaultContentApplicationJsonSchema','getRetentionSettings','PathsPwx6QwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridLocationGetResponses200ContentApplicationJsonSchema','top1','json','order1','listForGroup','Paths10EnauhV01AppsOwnerNameAppNameErrorsSearchGetResponses200ContentApplicationJsonSchema','availableVersions','PathsA2E4EkV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidStacktraceGetResponsesDefaultContentApplicationJsonSchema','Paths1Eek5ByV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorfreedevicepercentagesGetResponses200ContentApplicationJsonSchema','Paths11EzzhyV01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidTextGetResponses200ContentApplicationJsonSchema','Paths1Mu5I03V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchResponsesDefaultContentApplicationJsonSchema','Paths1Loji0OV01AppsOwnerNameAppNameErrorsAvailableappbuildsGetResponsesDefaultContentApplicationJsonSchema','../models/mappers','inlinecount1','11SIHQnk','defineProperty','updateState','/v0.1/apps/{owner_name}/{app_name}/errors/search','groupList','Paths1O2Ld6PV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorcountsperdayGetResponses200ContentApplicationJsonSchema','filter','os1','PathsGggyq9V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorfreedevicepercentagesGetResponsesDefaultContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/stacktrace','format','getErrorDetails','Paths12BwkkqV01AppsOwnerNameAppNameErrorsSearchGetResponsesDefaultContentApplicationJsonSchema','Paths1U63Q3BV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDeleteResponsesDefaultContentApplicationJsonSchema','top2','1536JdkajQ','$host','PathsNve630V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidGetResponsesDefaultContentApplicationJsonSchema','PathsB1HukrV01AppsOwnerNameAppNameErrorsErroridAttachmentsGetResponsesDefaultContentApplicationJsonSchema','options','18485990ThBxWG','errorAttachmentText','Paths1GvcgvwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridGetResponses200ContentApplicationJsonSchema','Paths1V83InnV01AppsOwnerNameAppNameErrorsRetentionSettingsPutRequestbodyContentApplicationJsonSchema','Paths1Bug1WoV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridGetResponsesDefaultContentApplicationJsonSchema','filter1','4105TrJLzh','ErrorsImpl','6088lGFQJK','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/models','PathsSjngesV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorcountsperdayGetResponsesDefaultContentApplicationJsonSchema','9063540HOzpyb','deleteError','retentionInDays','GET','Paths1Jybj3TV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridStacktraceGetResponsesDefaultContentApplicationJsonSchema','version1','Paths1W42Yn6V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments/{attachmentId}/location','Paths4IzvtlV01AppsOwnerNameAppNameErrorsRetentionSettingsGetResponses200ContentApplicationJsonSchema','date','Paths15I10UwV01AppsOwnerNameAppNameErrorsErrorgroupsSearchGetResponsesDefaultContentApplicationJsonSchema','PathsBfc8KpV01AppsOwnerNameAppNameErrorsErroridSessionlogsGetResponses200ContentApplicationJsonSchema','errorType5','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors','Paths14Y18DhV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsLatestGetResponsesDefaultContentApplicationJsonSchema','skip','Paths3Uj0Q0V01AppsOwnerNameAppNameErrorsErrorgroupsSearchGetResponses200ContentApplicationJsonSchema','Paths18I7702V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsGetResponses200ContentApplicationJsonSchema','Sequence','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/download','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/location','errorGroupId','countsPerDay','DELETE','appBuild','errorType1','parsedResponse','annotation','16772uuXixG','contentType','PathsL404BsV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDownloadGetResponsesDefaultContentApplicationJsonSchema','Paths5X19N2V01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidLocationGetResponsesDefaultContentApplicationJsonSchema','versions','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups','13VyUbfN','putRetentionSettings','Paths5Bnd9KV01AppsOwnerNameAppNameErrorsErrorcountsperdayGetResponses200ContentApplicationJsonSchema','@azure/core-client','/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/sessionLogs','client','assign','Paths1LbtbuwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridLocationGetResponsesDefaultContentApplicationJsonSchema','groupModelCounts','start','errorGroupsSearch','PathsNvbd0FV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDeleteResponses200ContentApplicationJsonSchema','groupErrorStackTrace','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}','sendOperationRequest','errorAttachments','errorType3','errorSearch','Paths1Opz894V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidModelsGetResponsesDefaultContentApplicationJsonSchema','attachmentId1','/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errorfreeDevicePercentages','groupState'];_0x12be=function(){return _0x1653f4;};return _0x12be();}let coreClient=require(_0x222775(0x25e)),Mappers=require(_0x222775(0x218)),Parameters=require('../models/parameters');class ErrorsImpl{constructor(_0x286bf4){const _0x489c12=_0x222775;this[_0x489c12(0x260)]=_0x286bf4;}['listSessionLogs'](_0x5d064a,_0x401a68,_0x1e64fb,_0x2212a){const _0x183636=_0x222775;return this[_0x183636(0x260)][_0x183636(0x269)]({'errorId':_0x5d064a,'ownerName':_0x401a68,'appName':_0x1e64fb,'options':_0x2212a},listSessionLogsOperationSpec);}[_0x222775(0x22f)](_0x1ed543,_0x27b7ad,_0x1c0940,_0xae05c5,_0x555d36){return this['client']['sendOperationRequest']({'errorId':_0x1ed543,'attachmentId':_0x27b7ad,'ownerName':_0x1c0940,'appName':_0xae05c5,'options':_0x555d36},errorAttachmentTextOperationSpec);}[_0x222775(0x1fa)](_0x3eb240,_0xaf73fb,_0x270574,_0x178e3a,_0x501375){const _0x3ae2ac=_0x222775;return this[_0x3ae2ac(0x260)]['sendOperationRequest']({'errorId':_0x3eb240,'attachmentId':_0xaf73fb,'ownerName':_0x270574,'appName':_0x178e3a,'options':_0x501375},errorAttachmentLocationOperationSpec);}[_0x222775(0x26a)](_0x50ac38,_0xf9affc,_0x4b6b68,_0x3b59aa){const _0x29fd73=_0x222775;return this[_0x29fd73(0x260)]['sendOperationRequest']({'errorId':_0x50ac38,'ownerName':_0xf9affc,'appName':_0x4b6b68,'options':_0x3b59aa},errorAttachmentsOperationSpec);}[_0x222775(0x26c)](_0x1094ad,_0x72f289,_0x217408){const _0x20ce5d=_0x222775;return this[_0x20ce5d(0x260)][_0x20ce5d(0x269)]({'ownerName':_0x1094ad,'appName':_0x72f289,'options':_0x217408},errorSearchOperationSpec);}[_0x222775(0x25c)](_0x5dfcff,_0x23da8e,_0x218923,_0x397759){const _0x2a5232=_0x222775;return this[_0x2a5232(0x260)][_0x2a5232(0x269)]({'ownerName':_0x5dfcff,'appName':_0x23da8e,'retentionInDays':_0x218923,'options':_0x397759},putRetentionSettingsOperationSpec);}[_0x222775(0x20b)](_0x5975f0,_0x1821ef,_0x595794){const _0x41460a=_0x222775;return this[_0x41460a(0x260)][_0x41460a(0x269)]({'ownerName':_0x5975f0,'appName':_0x1821ef,'options':_0x595794},getRetentionSettingsOperationSpec);}[_0x222775(0x201)](_0x3a1187,_0x302322,_0x50716a,_0x1a8976){const _0x194b73=_0x222775;return this[_0x194b73(0x260)]['sendOperationRequest']({'start':_0x3a1187,'ownerName':_0x302322,'appName':_0x50716a,'options':_0x1a8976},errorFreeDevicePercentagesOperationSpec);}[_0x222775(0x267)](_0x440a17,_0x3659a2,_0x43fda9,_0x5410f9){const _0x51fc49=_0x222775;return this[_0x51fc49(0x260)][_0x51fc49(0x269)]({'errorGroupId':_0x440a17,'ownerName':_0x3659a2,'appName':_0x43fda9,'options':_0x5410f9},groupErrorStackTraceOperationSpec);}[_0x222775(0x1fb)](_0x5d79cd,_0x525a8d,_0xcf7037,_0x221a10){const _0x206fac=_0x222775;return this[_0x206fac(0x260)]['sendOperationRequest']({'errorGroupId':_0x5d79cd,'ownerName':_0x525a8d,'appName':_0xcf7037,'options':_0x221a10},groupOperatingSystemCountsOperationSpec);}[_0x222775(0x263)](_0x32c8cf,_0x2ca94f,_0x5415b2,_0x2bedfc){const _0x3e0510=_0x222775;return this['client'][_0x3e0510(0x269)]({'errorGroupId':_0x32c8cf,'ownerName':_0x2ca94f,'appName':_0x5415b2,'options':_0x2bedfc},groupModelCountsOperationSpec);}[_0x222775(0x1f0)](_0x172dca,_0x58188a,_0x29bd43,_0x1f7bdd,_0x2e4b5c){const _0x166490=_0x222775;return this[_0x166490(0x260)][_0x166490(0x269)]({'errorGroupId':_0x172dca,'errorId':_0x58188a,'ownerName':_0x29bd43,'appName':_0x1f7bdd,'options':_0x2e4b5c},errorStackTraceOperationSpec);}['errorLocation'](_0x2f0264,_0x2efab2,_0x1842db,_0x507f7d,_0x52e3f6){const _0x46259=_0x222775;return this[_0x46259(0x260)][_0x46259(0x269)]({'errorGroupId':_0x2f0264,'errorId':_0x2efab2,'ownerName':_0x1842db,'appName':_0x507f7d,'options':_0x52e3f6},errorLocationOperationSpec);}[_0x222775(0x1f6)](_0x2b1c6b,_0x4f0272,_0x341ea1,_0x97f732,_0x3ea54e){const _0x5ca4b9=_0x222775;return this['client'][_0x5ca4b9(0x269)]({'errorGroupId':_0x2b1c6b,'errorId':_0x4f0272,'ownerName':_0x341ea1,'appName':_0x97f732,'options':_0x3ea54e},errorDownloadOperationSpec);}[_0x222775(0x225)](_0x143598,_0x960128,_0x22250c,_0x3c7d9f,_0x28bdb0){const _0x44fe91=_0x222775;return this[_0x44fe91(0x260)][_0x44fe91(0x269)]({'errorGroupId':_0x143598,'errorId':_0x960128,'ownerName':_0x22250c,'appName':_0x3c7d9f,'options':_0x28bdb0},getErrorDetailsOperationSpec);}[_0x222775(0x23a)](_0x52285a,_0x2c089f,_0x12d295,_0x36956d,_0x2cd141){return this['client']['sendOperationRequest']({'errorGroupId':_0x52285a,'errorId':_0x2c089f,'ownerName':_0x12d295,'appName':_0x36956d,'options':_0x2cd141},deleteErrorOperationSpec);}['latestErrorDetails'](_0xa06848,_0x220016,_0x520d70,_0x4e310b){const _0x4cb113=_0x222775;return this[_0x4cb113(0x260)][_0x4cb113(0x269)]({'errorGroupId':_0xa06848,'ownerName':_0x220016,'appName':_0x520d70,'options':_0x4e310b},latestErrorDetailsOperationSpec);}[_0x222775(0x210)](_0x17eb38,_0x2d022e,_0x482e0c,_0x546dfc,_0x5513a4){const _0x247ce8=_0x222775;return this[_0x247ce8(0x260)][_0x247ce8(0x269)]({'errorGroupId':_0x17eb38,'start':_0x2d022e,'ownerName':_0x482e0c,'appName':_0x546dfc,'options':_0x5513a4},listForGroupOperationSpec);}['groupErrorFreeDevicePercentages'](_0x3a149a,_0x2c9452,_0x285866,_0x47433f,_0xe983c0){const _0x27e452=_0x222775;return this['client'][_0x27e452(0x269)]({'errorGroupId':_0x3a149a,'start':_0x2c9452,'ownerName':_0x285866,'appName':_0x47433f,'options':_0xe983c0},groupErrorFreeDevicePercentagesOperationSpec);}['groupCountsPerDay'](_0x1ed388,_0x169a18,_0x5f0987,_0x1fa597,_0x5c20b2){const _0x2e2ef0=_0x222775;return this[_0x2e2ef0(0x260)]['sendOperationRequest']({'errorGroupId':_0x1ed388,'start':_0x169a18,'ownerName':_0x5f0987,'appName':_0x1fa597,'options':_0x5c20b2},groupCountsPerDayOperationSpec);}['groupDetails'](_0x54a843,_0x2c2dde,_0x58e331,_0x347e99){return this['client']['sendOperationRequest']({'errorGroupId':_0x54a843,'ownerName':_0x2c2dde,'appName':_0x58e331,'options':_0x347e99},groupDetailsOperationSpec);}[_0x222775(0x21c)](_0x8cce1c,_0x3e78d3,_0x1f2a92,_0x23eba0,_0x2de973){const _0x331b09=_0x222775;return this['client'][_0x331b09(0x269)]({'errorGroupId':_0x8cce1c,'ownerName':_0x3e78d3,'appName':_0x1f2a92,'state':_0x23eba0,'options':_0x2de973},updateStateOperationSpec);}[_0x222775(0x265)](_0x449618,_0x59aa48,_0x510cda){const _0x2d1779=_0x222775;return this[_0x2d1779(0x260)]['sendOperationRequest']({'ownerName':_0x449618,'appName':_0x59aa48,'options':_0x510cda},errorGroupsSearchOperationSpec);}[_0x222775(0x21e)](_0x5d1c52,_0x3a59c0,_0x4d3889,_0x465d19){const _0xef1703=_0x222775;return this['client'][_0xef1703(0x269)]({'start':_0x5d1c52,'ownerName':_0x3a59c0,'appName':_0x4d3889,'options':_0x465d19},groupListOperationSpec);}[_0x222775(0x24f)](_0xddcae,_0x2d0407,_0x83122c,_0x33a21c){const _0x3c7ccf=_0x222775;return this[_0x3c7ccf(0x260)][_0x3c7ccf(0x269)]({'start':_0xddcae,'ownerName':_0x2d0407,'appName':_0x83122c,'options':_0x33a21c},countsPerDayOperationSpec);}[_0x222775(0x212)](_0x18079f,_0x2c1c46,_0x95b3d6,_0x5df5a4){const _0x2b1ffd=_0x222775;return this[_0x2b1ffd(0x260)][_0x2b1ffd(0x269)]({'start':_0x18079f,'ownerName':_0x2c1c46,'appName':_0x95b3d6,'options':_0x5df5a4},availableVersionsOperationSpec);}['appBuildsList'](_0x1a23ab,_0x56833e,_0x122d82,_0x504894,_0x2c37ae){const _0x20d43d=_0x222775;return this[_0x20d43d(0x260)][_0x20d43d(0x269)]({'version':_0x1a23ab,'start':_0x56833e,'ownerName':_0x122d82,'appName':_0x504894,'options':_0x2c37ae},appBuildsListOperationSpec);}}exports[_0x222775(0x235)]=ErrorsImpl;let serializer=coreClient['createSerializer'](Mappers,!0x1),listSessionLogsOperationSpec={'path':_0x222775(0x25f),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x244)]},'default':{'bodyMapper':Mappers['Paths1DhmnxtV01AppsOwnerNameAppNameErrorsErroridSessionlogsGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x222775(0x242)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorAttachmentTextOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments/{attachmentId}/text','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x215)]},'default':{'bodyMapper':Mappers[_0x222775(0x1fc)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)],Parameters[_0x222775(0x26e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorAttachmentLocationOperationSpec={'path':_0x222775(0x240),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1f9)]},'default':{'bodyMapper':Mappers[_0x222775(0x258)]}},'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)],Parameters[_0x222775(0x26e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorAttachmentsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x222775(0x24b),'element':{'type':{'name':'Composite','className':'Paths1M1B7O1V01AppsOwnerNameAppNameErrorsErroridAttachmentsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers[_0x222775(0x22c)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters['errorId']],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorSearchOperationSpec={'path':_0x222775(0x21d),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x211)]},'default':{'bodyMapper':Mappers[_0x222775(0x226)]}},'queryParameters':[Parameters[_0x222775(0x220)],Parameters['q'],Parameters['order'],Parameters[_0x222775(0x1f8)],Parameters[_0x222775(0x228)],Parameters[_0x222775(0x248)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},putRetentionSettingsOperationSpec={'path':_0x222775(0x1e9),'httpMethod':'PUT','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x206)]},'default':{'bodyMapper':Mappers['Paths1Pjyuj9V01AppsOwnerNameAppNameErrorsRetentionSettingsPutResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'retentionInDays':[_0x222775(0x23b)]},'mapper':Object[_0x222775(0x261)](Object[_0x222775(0x261)]({},Mappers[_0x222775(0x231)]),{'required':!0x0})},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x256)],Parameters[_0x222775(0x1f3)]],'mediaType':'json','serializer':serializer},getRetentionSettingsOperationSpec={'path':_0x222775(0x1e9),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x241)]},'default':{'bodyMapper':Mappers[_0x222775(0x1fe)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorFreeDevicePercentagesOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorfreeDevicePercentages','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x208)]},'default':{'bodyMapper':Mappers[_0x222775(0x20a)]}},'queryParameters':[Parameters['start'],Parameters[_0x222775(0x1fd)],Parameters[_0x222775(0x259)],Parameters[_0x222775(0x251)],Parameters[_0x222775(0x252)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters['accept']],'serializer':serializer},groupErrorStackTraceOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/stacktrace','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers['DiagnosticsStackTrace']},'default':{'bodyMapper':Mappers[_0x222775(0x213)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},groupOperatingSystemCountsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/operatingSystems','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1e8)]},'default':{'bodyMapper':Mappers['Paths1K006VjV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidOperatingsystemsGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x222775(0x20d)]],'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters['errorGroupId']],'headerParameters':[Parameters['accept']],'serializer':serializer},groupModelCountsOperationSpec={'path':_0x222775(0x237),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1ed)]},'default':{'bodyMapper':Mappers[_0x222775(0x26d)]}},'queryParameters':[Parameters[_0x222775(0x20d)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters['accept']],'serializer':serializer},errorStackTraceOperationSpec={'path':_0x222775(0x223),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1f1)]},'default':{'bodyMapper':Mappers[_0x222775(0x23d)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorLocationOperationSpec={'path':_0x222775(0x24d),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x20c)]},'default':{'bodyMapper':Mappers[_0x222775(0x262)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)],Parameters['errorId'],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},errorDownloadOperationSpec={'path':_0x222775(0x24c),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x222775(0x272)},'serializedName':_0x222775(0x253)}},'default':{'bodyMapper':Mappers[_0x222775(0x257)]}},'queryParameters':[Parameters[_0x222775(0x224)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)],Parameters['errorGroupId']],'headerParameters':[Parameters['accept']],'serializer':serializer},getErrorDetailsOperationSpec={'path':_0x222775(0x268),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x230)]},'default':{'bodyMapper':Mappers[_0x222775(0x232)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x1ff)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},deleteErrorOperationSpec={'path':_0x222775(0x268),'httpMethod':_0x222775(0x250),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x266)]},'default':{'bodyMapper':Mappers[_0x222775(0x227)]}},'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters['errorId'],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},latestErrorDetailsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/latest','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers['Paths134SdxmV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsLatestGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x222775(0x247)]}},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters['errorGroupId']],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},listForGroupOperationSpec={'path':_0x222775(0x246),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x24a)]},'default':{'bodyMapper':Mappers['Paths6Yh9NlV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters['top1'],Parameters[_0x222775(0x264)],Parameters[_0x222775(0x1fd)],Parameters[_0x222775(0x1eb)],Parameters[_0x222775(0x221)]],'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},groupErrorFreeDevicePercentagesOperationSpec={'path':_0x222775(0x26f),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x214)]},'default':{'bodyMapper':Mappers[_0x222775(0x222)]}},'queryParameters':[Parameters[_0x222775(0x264)],Parameters[_0x222775(0x1fd)]],'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters['accept']],'serializer':serializer},groupCountsPerDayOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errorCountsPerDay','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x21f)]},'default':{'bodyMapper':Mappers[_0x222775(0x238)]}},'queryParameters':[Parameters[_0x222775(0x264)],Parameters['end'],Parameters[_0x222775(0x1ea)]],'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},groupDetailsOperationSpec={'path':_0x222775(0x1f2),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers['Paths1Xy5MxmV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x222775(0x22b)]}},'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x222775(0x1ee)],Parameters['errorGroupId']],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},updateStateOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}','httpMethod':'PATCH','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x23f)]},'default':{'bodyMapper':Mappers[_0x222775(0x216)]}},'requestBody':{'parameterPath':{'state':[_0x222775(0x203)],'annotation':[_0x222775(0x22d),_0x222775(0x254)]},'mapper':Object[_0x222775(0x261)](Object[_0x222775(0x261)]({},Mappers['PathsHpm6KuV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)],Parameters[_0x222775(0x24e)]],'headerParameters':[Parameters[_0x222775(0x256)],Parameters[_0x222775(0x1f3)]],'mediaType':_0x222775(0x20e),'serializer':serializer},errorGroupsSearchOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/search','httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x249)]},'default':{'bodyMapper':Mappers[_0x222775(0x243)]}},'queryParameters':[Parameters[_0x222775(0x220)],Parameters['q'],Parameters[_0x222775(0x228)],Parameters[_0x222775(0x248)],Parameters[_0x222775(0x20f)],Parameters[_0x222775(0x205)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},groupListOperationSpec={'path':_0x222775(0x25a),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1f5)]},'default':{'bodyMapper':Mappers[_0x222775(0x202)]}},'queryParameters':[Parameters['top1'],Parameters['orderby'],Parameters[_0x222775(0x264)],Parameters[_0x222775(0x1fd)],Parameters[_0x222775(0x251)],Parameters['version'],Parameters[_0x222775(0x270)],Parameters['errorType2']],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters['accept']],'serializer':serializer},countsPerDayOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/errorCountsPerDay','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x25d)]},'default':{'bodyMapper':Mappers[_0x222775(0x1f7)]}},'queryParameters':[Parameters['start'],Parameters[_0x222775(0x1fd)],Parameters[_0x222775(0x251)],Parameters[_0x222775(0x1ea)],Parameters[_0x222775(0x26b)]],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},availableVersionsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/errors/available_versions','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x1ef)]},'default':{'bodyMapper':Mappers['Paths13Rlhb7V01AppsOwnerNameAppNameErrorsAvailableVersionsGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x222775(0x20d)],Parameters['skip'],Parameters[_0x222775(0x264)],Parameters[_0x222775(0x1fd)],Parameters[_0x222775(0x233)],Parameters[_0x222775(0x219)],Parameters['errorType4']],'urlParameters':[Parameters[_0x222775(0x22a)],Parameters['ownerName'],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer},appBuildsListOperationSpec={'path':_0x222775(0x204),'httpMethod':_0x222775(0x23c),'responses':{0xc8:{'bodyMapper':Mappers[_0x222775(0x207)]},'default':{'bodyMapper':Mappers[_0x222775(0x217)]}},'queryParameters':[Parameters['top1'],Parameters['start'],Parameters['end'],Parameters[_0x222775(0x23e)],Parameters[_0x222775(0x245)]],'urlParameters':[Parameters['$host'],Parameters[_0x222775(0x209)],Parameters[_0x222775(0x1ee)]],'headerParameters':[Parameters[_0x222775(0x1f3)]],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ErrorsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Errors operations. */
+class ErrorsImpl {
+    /**
+     * Initialize a new instance of the class Errors class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Get session logs by error ID
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listSessionLogs(errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorId, ownerName, appName, options }, listSessionLogsOperationSpec);
+    }
+    /**
+     * Error attachment text.
+     * @param errorId The id of the error
+     * @param attachmentId Error attachment id.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorAttachmentText(errorId, attachmentId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorId, attachmentId, ownerName, appName, options }, errorAttachmentTextOperationSpec);
+    }
+    /**
+     * Error attachment location.
+     * @param errorId The id of the error
+     * @param attachmentId Error attachment id.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorAttachmentLocation(errorId, attachmentId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorId, attachmentId, ownerName, appName, options }, errorAttachmentLocationOperationSpec);
+    }
+    /**
+     * List error attachments.
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorAttachments(errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorId, ownerName, appName, options }, errorAttachmentsOperationSpec);
+    }
+    /**
+     * Errors list based on search parameters
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorSearch(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, errorSearchOperationSpec);
+    }
+    /**
+     * Creates and updates the retention settings in days
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param retentionInDays
+     * @param options The options parameters.
+     */
+    putRetentionSettings(ownerName, appName, retentionInDays, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, retentionInDays, options }, putRetentionSettingsOperationSpec);
+    }
+    /**
+     * gets the retention settings in days
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getRetentionSettings(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getRetentionSettingsOperationSpec);
+    }
+    /**
+     * Percentage of error-free devices by day in the time range based on the selected versions. If
+     * SingleErrorTypeParameter is not provided, defaults to handlederror. API will return -1 if crash
+     * devices is greater than active devices
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorFreeDevicePercentages(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, errorFreeDevicePercentagesOperationSpec);
+    }
+    /**
+     * Gets the stack trace for the error group.
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupErrorStackTrace(errorGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, options }, groupErrorStackTraceOperationSpec);
+    }
+    /**
+     * Top OSes of the selected error group.
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupOperatingSystemCounts(errorGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, options }, groupOperatingSystemCountsOperationSpec);
+    }
+    /**
+     * Top models of the selected error group.
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupModelCounts(errorGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, options }, groupModelCountsOperationSpec);
+    }
+    /**
+     * Error Stacktrace details.
+     * @param errorGroupId The id of the error group
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorStackTrace(errorGroupId, errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, errorId, ownerName, appName, options }, errorStackTraceOperationSpec);
+    }
+    /**
+     * Error location.
+     * @param errorGroupId The id of the error group
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorLocation(errorGroupId, errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, errorId, ownerName, appName, options }, errorLocationOperationSpec);
+    }
+    /**
+     * Download details for a specific error.
+     * @param errorGroupId The id of the error group
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorDownload(errorGroupId, errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, errorId, ownerName, appName, options }, errorDownloadOperationSpec);
+    }
+    /**
+     * Error details.
+     * @param errorGroupId The id of the error group
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getErrorDetails(errorGroupId, errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, errorId, ownerName, appName, options }, getErrorDetailsOperationSpec);
+    }
+    /**
+     * Delete a specific error and related attachments and blobs for an app. Searchable data will not be
+     * deleted immediately and may take up to 30 days.
+     * @param errorGroupId The id of the error group
+     * @param errorId The id of the error
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteError(errorGroupId, errorId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, errorId, ownerName, appName, options }, deleteErrorOperationSpec);
+    }
+    /**
+     * Latest error details.
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    latestErrorDetails(errorGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, options }, latestErrorDetailsOperationSpec);
+    }
+    /**
+     * Get all errors for group
+     * @param errorGroupId The id of the error group
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listForGroup(errorGroupId, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, start, ownerName, appName, options }, listForGroupOperationSpec);
+    }
+    /**
+     * Percentage of error-free devices by day in the time range. Api will return -1 if crash devices is
+     * greater than active devices
+     * @param errorGroupId The id of the error group
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupErrorFreeDevicePercentages(errorGroupId, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, start, ownerName, appName, options }, groupErrorFreeDevicePercentagesOperationSpec);
+    }
+    /**
+     * Count of errors by day in the time range of the selected error group with selected version
+     * @param errorGroupId The id of the error group
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupCountsPerDay(errorGroupId, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, start, ownerName, appName, options }, groupCountsPerDayOperationSpec);
+    }
+    /**
+     * Error group details
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupDetails(errorGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, options }, groupDetailsOperationSpec);
+    }
+    /**
+     * Update error group state
+     * @param errorGroupId The id of the error group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param state
+     * @param options The options parameters.
+     */
+    updateState(errorGroupId, ownerName, appName, state, options) {
+        return this.client.sendOperationRequest({ errorGroupId, ownerName, appName, state, options }, updateStateOperationSpec);
+    }
+    /**
+     * Error groups list based on search parameters
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    errorGroupsSearch(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, errorGroupsSearchOperationSpec);
+    }
+    /**
+     * List of error groups
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    groupList(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, groupListOperationSpec);
+    }
+    /**
+     * Count of crashes or errors by day in the time range based the selected versions. If
+     * SingleErrorTypeParameter is not provided, defaults to handlederror.
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    countsPerDay(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, countsPerDayOperationSpec);
+    }
+    /**
+     * Get all available versions in the time range.
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    availableVersions(start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ start, ownerName, appName, options }, availableVersionsOperationSpec);
+    }
+    /**
+     * List of app builds
+     * @param version test
+     * @param start Start date time in data in ISO 8601 date time format
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    appBuildsList(version, start, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ version, start, ownerName, appName, options }, appBuildsListOperationSpec);
+    }
+}
+exports.ErrorsImpl = ErrorsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const listSessionLogsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/sessionLogs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsBfc8KpV01AppsOwnerNameAppNameErrorsErroridSessionlogsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1DhmnxtV01AppsOwnerNameAppNameErrorsErroridSessionlogsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.date],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorAttachmentTextOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments/{attachmentId}/text",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths11EzzhyV01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidTextGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1J3SejwV01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidTextGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.attachmentId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorAttachmentLocationOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments/{attachmentId}/location",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Pujyq9V01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidLocationGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths5X19N2V01AppsOwnerNameAppNameErrorsErroridAttachmentsAttachmentidLocationGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.attachmentId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorAttachmentsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/{errorId}/attachments",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1M1B7O1V01AppsOwnerNameAppNameErrorsErroridAttachmentsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsB1HukrV01AppsOwnerNameAppNameErrorsErroridAttachmentsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorSearchOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/search",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths10EnauhV01AppsOwnerNameAppNameErrorsSearchGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths12BwkkqV01AppsOwnerNameAppNameErrorsSearchGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.filter,
+        Parameters.q,
+        Parameters.order,
+        Parameters.sort,
+        Parameters.top2,
+        Parameters.skip
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const putRetentionSettingsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/retention_settings",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsW5Guk3V01AppsOwnerNameAppNameErrorsRetentionSettingsPutResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Pjyuj9V01AppsOwnerNameAppNameErrorsRetentionSettingsPutResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { retentionInDays: ["retentionInDays"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1V83InnV01AppsOwnerNameAppNameErrorsRetentionSettingsPutRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getRetentionSettingsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/retention_settings",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths4IzvtlV01AppsOwnerNameAppNameErrorsRetentionSettingsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1EgnpuqV01AppsOwnerNameAppNameErrorsRetentionSettingsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorFreeDevicePercentagesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorfreeDevicePercentages",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsXb2Xr7V01AppsOwnerNameAppNameErrorsErrorfreedevicepercentagesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths11Dw7J1V01AppsOwnerNameAppNameErrorsErrorfreedevicepercentagesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.versions,
+        Parameters.appBuild,
+        Parameters.errorType1
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupErrorStackTraceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/stacktrace",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DiagnosticsStackTrace
+        },
+        default: {
+            bodyMapper: Mappers.PathsA2E4EkV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidStacktraceGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupOperatingSystemCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/operatingSystems",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsAhgr5MV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidOperatingsystemsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1K006VjV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidOperatingsystemsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.top1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupModelCountsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/models",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsNvwrx0V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidModelsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Opz894V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidModelsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.top1],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorStackTraceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/stacktrace",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DiagnosticsStackTrace
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Jybj3TV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridStacktraceGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorLocationOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/location",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsPwx6QwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridLocationGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1LbtbuwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridLocationGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const errorDownloadOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}/download",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: { type: { name: "Stream" }, serializedName: "parsedResponse" }
+        },
+        default: {
+            bodyMapper: Mappers.PathsL404BsV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDownloadGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.format],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getErrorDetailsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1GvcgvwV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Bug1WoV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteErrorOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/{errorId}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsNvbd0FV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDeleteResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1U63Q3BV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsErroridDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorId,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const latestErrorDetailsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors/latest",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths134SdxmV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsLatestGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths14Y18DhV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsLatestGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listForGroupOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errors",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths18I7702V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths6Yh9NlV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.model,
+        Parameters.os1
+    ],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupErrorFreeDevicePercentagesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errorfreeDevicePercentages",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Eek5ByV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorfreedevicepercentagesGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsGggyq9V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorfreedevicepercentagesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupCountsPerDayOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}/errorCountsPerDay",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1O2Ld6PV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorcountsperdayGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsSjngesV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidErrorcountsperdayGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.start, Parameters.end, Parameters.version],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupDetailsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Xy5MxmV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsNve630V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateStateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/{errorGroupId}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1W42Yn6V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Mu5I03V01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { state: ["state"], annotation: ["options", "annotation"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsHpm6KuV01AppsOwnerNameAppNameErrorsErrorgroupsErrorgroupidPatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.errorGroupId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const errorGroupsSearchOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups/search",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths3Uj0Q0V01AppsOwnerNameAppNameErrorsErrorgroupsSearchGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths15I10UwV01AppsOwnerNameAppNameErrorsErrorgroupsSearchGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.filter,
+        Parameters.q,
+        Parameters.top2,
+        Parameters.skip,
+        Parameters.order1,
+        Parameters.sort1
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const groupListOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorGroups",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths10KtxpjV01AppsOwnerNameAppNameErrorsErrorgroupsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsUwsddyV01AppsOwnerNameAppNameErrorsErrorgroupsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.orderby,
+        Parameters.start,
+        Parameters.end,
+        Parameters.appBuild,
+        Parameters.version,
+        Parameters.groupState,
+        Parameters.errorType2
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const countsPerDayOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/errorCountsPerDay",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths5Bnd9KV01AppsOwnerNameAppNameErrorsErrorcountsperdayGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsN8QcejV01AppsOwnerNameAppNameErrorsErrorcountsperdayGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.start,
+        Parameters.end,
+        Parameters.appBuild,
+        Parameters.version,
+        Parameters.errorType3
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const availableVersionsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/available_versions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Wi49JqV01AppsOwnerNameAppNameErrorsAvailableVersionsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths13Rlhb7V01AppsOwnerNameAppNameErrorsAvailableVersionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.skip,
+        Parameters.start,
+        Parameters.end,
+        Parameters.filter1,
+        Parameters.inlinecount1,
+        Parameters.errorType4
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const appBuildsListOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/errors/availableAppBuilds",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Cq491NV01AppsOwnerNameAppNameErrorsAvailableappbuildsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Loji0OV01AppsOwnerNameAppNameErrorsAvailableappbuildsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.top1,
+        Parameters.start,
+        Parameters.end,
+        Parameters.version1,
+        Parameters.errorType5
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

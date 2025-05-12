@@ -1,1 +1,214 @@
-const _0x27cd9e=_0x5f5c;(function(_0x383395,_0x2627df){const _0x23c297=_0x5f5c,_0x236465=_0x383395();while(!![]){try{const _0xf53153=-parseInt(_0x23c297(0xcc))/0x1+parseInt(_0x23c297(0xe3))/0x2+parseInt(_0x23c297(0xc4))/0x3*(parseInt(_0x23c297(0xd6))/0x4)+parseInt(_0x23c297(0xbf))/0x5+-parseInt(_0x23c297(0xc1))/0x6+parseInt(_0x23c297(0xc7))/0x7*(-parseInt(_0x23c297(0xe4))/0x8)+parseInt(_0x23c297(0xbc))/0x9*(parseInt(_0x23c297(0xc5))/0xa);if(_0xf53153===_0x2627df)break;else _0x236465['push'](_0x236465['shift']());}catch(_0x4949c1){_0x236465['push'](_0x236465['shift']());}}}(_0x5b35,0xd2d52),(Object[_0x27cd9e(0xdd)](exports,_0x27cd9e(0xde),{'value':!0x0}),exports[_0x27cd9e(0xe0)]=void 0x0));let coreClient=require(_0x27cd9e(0xbe)),Mappers=require(_0x27cd9e(0xc3)),Parameters=require('../models/parameters');class CodePushDeploymentsImpl{constructor(_0x5646e7){const _0x4e171e=_0x27cd9e;this[_0x4e171e(0xc0)]=_0x5646e7;}[_0x27cd9e(0xd7)](_0x548796,_0x3173e2,_0x2a31ab,_0x539c71){const _0x9060c9=_0x27cd9e;return this[_0x9060c9(0xc0)][_0x9060c9(0xe8)]({'promoteDeploymentName':_0x548796,'ownerName':_0x3173e2,'appName':_0x2a31ab,'options':_0x539c71},promoteOperationSpec);}[_0x27cd9e(0xd9)](_0x42a498,_0x50b53c,_0x4e4711){const _0x127d3b=_0x27cd9e;return this[_0x127d3b(0xc0)][_0x127d3b(0xe8)]({'ownerName':_0x42a498,'appName':_0x50b53c,'options':_0x4e4711},deleteOperationSpec);}['get'](_0x4440f9,_0x2d9570,_0x1a5578){const _0x5cae6e=_0x27cd9e;return this[_0x5cae6e(0xc0)][_0x5cae6e(0xe8)]({'ownerName':_0x4440f9,'appName':_0x2d9570,'options':_0x1a5578},getOperationSpec);}['update'](_0x4e387c,_0x2f2101,_0x115287,_0xdeda68){const _0x597701=_0x27cd9e;return this['client'][_0x597701(0xe8)]({'ownerName':_0x4e387c,'appName':_0x2f2101,'name':_0x115287,'options':_0xdeda68},updateOperationSpec);}[_0x27cd9e(0xcb)](_0x3baf55,_0x502248,_0x319a5d){const _0x14c747=_0x27cd9e;return this[_0x14c747(0xc0)]['sendOperationRequest']({'ownerName':_0x3baf55,'appName':_0x502248,'options':_0x319a5d},listOperationSpec);}[_0x27cd9e(0xc9)](_0xb7f2cf,_0x3d3ceb,_0x40fdc5,_0x45af2f){const _0xa8274c=_0x27cd9e;return this[_0xa8274c(0xc0)][_0xa8274c(0xe8)]({'ownerName':_0xb7f2cf,'appName':_0x3d3ceb,'name':_0x40fdc5,'options':_0x45af2f},createOperationSpec);}}function _0x5f5c(_0x4058ef,_0x2de74e){const _0x5b3586=_0x5b35();return _0x5f5c=function(_0x5f5c02,_0x5b2a40){_0x5f5c02=_0x5f5c02-0xbc;let _0xbde515=_0x5b3586[_0x5f5c02];return _0xbde515;},_0x5f5c(_0x4058ef,_0x2de74e);}function _0x5b35(){const _0x415c7=['defineProperty','__esModule','json','CodePushDeploymentsImpl','DELETE','Paths2Je1MzV01AppsOwnerNameAppNameDeploymentsDeploymentNameGetResponsesDefaultContentApplicationJsonSchema','844218cAmbtB','2844752YGCuml','promoteDeploymentName','accept','PathsPwjhi2V01AppsOwnerNameAppNameDeploymentsPostResponses201ContentApplicationJsonSchema','sendOperationRequest','ownerName','Paths1Qz2Z0EV01AppsOwnerNameAppNameDeploymentsDeploymentNamePromoteReleasePromoteDeploymentNamePostResponsesDefaultContentApplicationJsonSchema','PathsIui0NlV01AppsOwnerNameAppNameDeploymentsPostResponsesDefaultContentApplicationJsonSchema','PathsUaqn8EV01AppsOwnerNameAppNameDeploymentsDeploymentNamePatchRequestbodyContentApplicationJsonSchema','9siAtQn','/v0.1/apps/{owner_name}/{app_name}/deployments/promote_release/{promote_deployment_name}','@azure/core-client','6611145OjcDQY','client','8032776tbCfPx','/v0.1/apps/{owner_name}/{app_name}/deployments','../models/mappers','725328TxsIqp','10418630MfYTLT','contentType','14LBGMzI','GET','create','appName','list','1081527nzyUvP','Composite','createSerializer','Paths1Fgvm7MV01AppsOwnerNameAppNameDeploymentsPostRequestbodyContentApplicationJsonSchema','key','assign','Paths1O9H9InV01AppsOwnerNameAppNameDeploymentsDeploymentNamePatchResponsesDefaultContentApplicationJsonSchema','body11','options','Sequence','20VhviHZ','promote','Paths1Ou643ZV01AppsOwnerNameAppNameDeploymentsDeploymentNamePromoteReleasePromoteDeploymentNamePostResponses200ContentApplicationJsonSchema','delete','release1','$host','Paths3Tai91V01AppsOwnerNameAppNameDeploymentsDeploymentNameDeleteResponsesDefaultContentApplicationJsonSchema'];_0x5b35=function(){return _0x415c7;};return _0x5b35();}exports[_0x27cd9e(0xe0)]=CodePushDeploymentsImpl;let serializer=coreClient[_0x27cd9e(0xce)](Mappers,!0x1),promoteOperationSpec={'path':_0x27cd9e(0xbd),'httpMethod':'POST','responses':{0xc8:{'bodyMapper':Mappers[_0x27cd9e(0xd8)]},'default':{'bodyMapper':Mappers[_0x27cd9e(0xea)]}},'requestBody':Parameters[_0x27cd9e(0xda)],'urlParameters':[Parameters[_0x27cd9e(0xdb)],Parameters[_0x27cd9e(0xe9)],Parameters[_0x27cd9e(0xca)],Parameters[_0x27cd9e(0xe5)]],'headerParameters':[Parameters[_0x27cd9e(0xc6)],Parameters[_0x27cd9e(0xe6)]],'mediaType':'json','serializer':serializer},deleteOperationSpec={'path':_0x27cd9e(0xc2),'httpMethod':_0x27cd9e(0xe1),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x27cd9e(0xdc)]}},'requestBody':Parameters[_0x27cd9e(0xd3)],'urlParameters':[Parameters['$host'],Parameters[_0x27cd9e(0xe9)],Parameters[_0x27cd9e(0xca)]],'headerParameters':[Parameters[_0x27cd9e(0xc6)],Parameters[_0x27cd9e(0xe6)]],'mediaType':'json','serializer':serializer},getOperationSpec={'path':_0x27cd9e(0xc2),'httpMethod':_0x27cd9e(0xc8),'responses':{0xc8:{'bodyMapper':Mappers['PathsP17HdtV01AppsOwnerNameAppNameDeploymentsDeploymentNameGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x27cd9e(0xe2)]}},'urlParameters':[Parameters[_0x27cd9e(0xdb)],Parameters[_0x27cd9e(0xe9)],Parameters['appName']],'headerParameters':[Parameters['accept']],'serializer':serializer},updateOperationSpec={'path':_0x27cd9e(0xc2),'httpMethod':'PATCH','responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x27cd9e(0xd2)]}},'requestBody':{'parameterPath':{'name':['name']},'mapper':Object['assign'](Object[_0x27cd9e(0xd1)]({},Mappers[_0x27cd9e(0xec)]),{'required':!0x0})},'urlParameters':[Parameters[_0x27cd9e(0xdb)],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x27cd9e(0xc6)],Parameters[_0x27cd9e(0xe6)]],'mediaType':_0x27cd9e(0xdf),'serializer':serializer},listOperationSpec={'path':_0x27cd9e(0xc2),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x27cd9e(0xd5),'element':{'type':{'name':_0x27cd9e(0xcd),'className':'Paths1Hq3VntV01AppsOwnerNameAppNameDeploymentsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers['PathsBg34XwV01AppsOwnerNameAppNameDeploymentsGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x27cd9e(0xdb)],Parameters[_0x27cd9e(0xe9)],Parameters['appName']],'headerParameters':[Parameters[_0x27cd9e(0xe6)]],'serializer':serializer},createOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/deployments','httpMethod':'POST','responses':{0xc9:{'bodyMapper':Mappers[_0x27cd9e(0xe7)]},'default':{'bodyMapper':Mappers[_0x27cd9e(0xeb)]}},'requestBody':{'parameterPath':{'key':['options',_0x27cd9e(0xd0)],'name':['name'],'latestRelease':[_0x27cd9e(0xd4),'latestRelease']},'mapper':Object['assign'](Object[_0x27cd9e(0xd1)]({},Mappers[_0x27cd9e(0xcf)]),{'required':!0x0})},'urlParameters':[Parameters[_0x27cd9e(0xdb)],Parameters[_0x27cd9e(0xe9)],Parameters[_0x27cd9e(0xca)]],'headerParameters':[Parameters[_0x27cd9e(0xc6)],Parameters[_0x27cd9e(0xe6)]],'mediaType':'json','serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CodePushDeploymentsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing CodePushDeployments operations. */
+class CodePushDeploymentsImpl {
+    /**
+     * Initialize a new instance of the class CodePushDeployments class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Promote one release (default latest one) from one deployment to another
+     * @param promoteDeploymentName deployment name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    promote(promoteDeploymentName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ promoteDeploymentName, ownerName, appName, options }, promoteOperationSpec);
+    }
+    /**
+     * Deletes a CodePush Deployment for the given app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    delete(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, deleteOperationSpec);
+    }
+    /**
+     * Gets a CodePush Deployment for the given app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Modifies a CodePush Deployment for the given app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param name
+     * @param options The options parameters.
+     */
+    update(ownerName, appName, name, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, name, options }, updateOperationSpec);
+    }
+    /**
+     * Gets a list of CodePush deployments for the given app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+    /**
+     * Creates a CodePush Deployment for the given app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param name
+     * @param options The options parameters.
+     */
+    create(ownerName, appName, name, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, name, options }, createOperationSpec);
+    }
+}
+exports.CodePushDeploymentsImpl = CodePushDeploymentsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const promoteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments/promote_release/{promote_deployment_name}",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Ou643ZV01AppsOwnerNameAppNameDeploymentsDeploymentNamePromoteReleasePromoteDeploymentNamePostResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Qz2Z0EV01AppsOwnerNameAppNameDeploymentsDeploymentNamePromoteReleasePromoteDeploymentNamePostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.release1,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.promoteDeploymentName
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths3Tai91V01AppsOwnerNameAppNameDeploymentsDeploymentNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body11,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsP17HdtV01AppsOwnerNameAppNameDeploymentsDeploymentNameGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths2Je1MzV01AppsOwnerNameAppNameDeploymentsDeploymentNameGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments",
+    httpMethod: "PATCH",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths1O9H9InV01AppsOwnerNameAppNameDeploymentsDeploymentNamePatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsUaqn8EV01AppsOwnerNameAppNameDeploymentsDeploymentNamePatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Hq3VntV01AppsOwnerNameAppNameDeploymentsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsBg34XwV01AppsOwnerNameAppNameDeploymentsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/deployments",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.PathsPwjhi2V01AppsOwnerNameAppNameDeploymentsPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsIui0NlV01AppsOwnerNameAppNameDeploymentsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            key: ["options", "key"],
+            name: ["name"],
+            latestRelease: ["options", "latestRelease"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Fgvm7MV01AppsOwnerNameAppNameDeploymentsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

@@ -1,1 +1,178 @@
-var _0x43d403=_0x1a33;(function(_0x4b3a95,_0x14b56a){var _0x1ff1d7=_0x1a33,_0x358547=_0x4b3a95();while(!![]){try{var _0x33eec6=-parseInt(_0x1ff1d7(0x1ab))/0x1*(parseInt(_0x1ff1d7(0x196))/0x2)+-parseInt(_0x1ff1d7(0x19f))/0x3*(-parseInt(_0x1ff1d7(0x1b6))/0x4)+-parseInt(_0x1ff1d7(0x1a5))/0x5*(parseInt(_0x1ff1d7(0x1b3))/0x6)+parseInt(_0x1ff1d7(0x1bd))/0x7*(parseInt(_0x1ff1d7(0x19c))/0x8)+parseInt(_0x1ff1d7(0x1c1))/0x9*(-parseInt(_0x1ff1d7(0x19b))/0xa)+-parseInt(_0x1ff1d7(0x1a2))/0xb+parseInt(_0x1ff1d7(0x1a9))/0xc;if(_0x33eec6===_0x14b56a)break;else _0x358547['push'](_0x358547['shift']());}catch(_0x521ecc){_0x358547['push'](_0x358547['shift']());}}}(_0x3404,0xafaba),(Object[_0x43d403(0x1c2)](exports,_0x43d403(0x1bf),{'value':!0x0}),exports['help']=exports[_0x43d403(0x199)]=exports[_0x43d403(0x1a6)]=exports[_0x43d403(0x1a3)]=exports[_0x43d403(0x1c3)]=exports['common']=exports[_0x43d403(0x1af)]=exports['longName']=exports[_0x43d403(0x19e)]=exports[_0x43d403(0x19a)]=exports[_0x43d403(0x1bb)]=exports[_0x43d403(0x1ba)]=exports[_0x43d403(0x1a7)]=void 0x0));let util_1=require(_0x43d403(0x1be)),lodash_1=require(_0x43d403(0x194)),debug=require(_0x43d403(0x1b0))(_0x43d403(0x195)),optionDescriptionKey=Symbol('OptionParameters'),positionalDescriptionKey=Symbol('PositionalParameters'),unknownRequiredsKey=Symbol(_0x43d403(0x1a8)),unknownDefaultValueKey=Symbol(_0x43d403(0x1ad)),unknownHelpTextKey=Symbol(_0x43d403(0x1b4));function _0x3404(){var _0x482795=['propertyName','shortName','1233963WukKvz','assign','helpText','12108184FNuPxT','name','toString','65FXzMWz','required','classHelpTextKey','UnknownRequireds','30085884BxcvCw','common','95305PpuceJ','hasOwnProperty','UnknownDefaultValues','length','hasArg','debug','delete','has','387654AmVooy','UnknownDescription','@help\x20decorator\x20called\x20with\x20','8tWdtQv','set','longName','getPrototypeOf','getOptionsDescription','getPositionalOptionsDescription','find','14mssISe','util','__esModule','\x20arguments:\x20','27fdRgzz','defineProperty','position','lodash','mappdl-cli:util:commandline:option-decorators','22ygYrHN','ClassHelpText','get','defaultValue','getClassHelpText','268190eZyJCF','1836880NmnrvK'];_0x3404=function(){return _0x482795;};return _0x3404();}function getOptionsDescription(_0x230a24){return function _0x35342d(_0x47c94d,_0x1e757b){var _0xfd3d23=_0x1a33;return _0x1e757b&&(_0x35342d(_0x47c94d,Object[_0xfd3d23(0x1b9)](_0x1e757b)),_0x1e757b[_0xfd3d23(0x1ac)](optionDescriptionKey))&&lodash_1[_0xfd3d23(0x1a0)](_0x47c94d,_0x1e757b[optionDescriptionKey]),_0x47c94d;}({},_0x230a24);}function getLocalOptionsDescription(_0x2beaa5){var _0xa9679f=_0x43d403;return _0x2beaa5[_0xa9679f(0x1ac)](optionDescriptionKey)||(_0x2beaa5[optionDescriptionKey]={}),_0x2beaa5[optionDescriptionKey];}function getPositionalOptionsDescription(_0x50ac15){return function _0x354b39(_0x229c0b,_0x1a7ca5){var _0x38de86=_0x1a33;if(!_0x1a7ca5||!_0x1a7ca5[_0x38de86(0x1ac)](positionalDescriptionKey))return _0x229c0b;let _0x3ae452=[];return _0x354b39((_0x3ae452=_0x1a7ca5[_0x38de86(0x1ac)](positionalDescriptionKey)?_0x1a7ca5[positionalDescriptionKey]:_0x3ae452)['concat'](_0x229c0b),Object[_0x38de86(0x1b9)](_0x1a7ca5));}([],_0x50ac15);}function getLocalPositionalOptionsDescription(_0x13069b){var _0x3fce37=_0x43d403;return _0x13069b[_0x3fce37(0x1ac)](positionalDescriptionKey)||(_0x13069b[positionalDescriptionKey]=[]),_0x13069b[positionalDescriptionKey];}function getClassHelpText(_0x2e135b){var _0x51b81e=_0x43d403;return _0x2e135b[exports[_0x51b81e(0x1a7)]];}function _0x1a33(_0x126a0e,_0x580be8){var _0x34047b=_0x3404();return _0x1a33=function(_0x1a334d,_0x22d98f){_0x1a334d=_0x1a334d-0x194;var _0x57c4db=_0x34047b[_0x1a334d];return _0x57c4db;},_0x1a33(_0x126a0e,_0x580be8);}function updateUnknownRequireds(_0x57f031,_0x194d1e,_0xca3491){var _0x51c22e=_0x43d403;_0xca3491[unknownRequiredsKey]&&_0xca3491[unknownRequiredsKey][_0x51c22e(0x1b2)](_0x194d1e)&&(_0x57f031[_0x51c22e(0x1a6)]=!0x0,_0xca3491[unknownRequiredsKey][_0x51c22e(0x1b1)](_0x194d1e));}function updateUnknownDefaultValues(_0x4f0478,_0x2f7654,_0x5b4799){var _0x54f3fc=_0x43d403;_0x5b4799[unknownDefaultValueKey]&&_0x5b4799[unknownDefaultValueKey][_0x54f3fc(0x1b2)](_0x2f7654)&&(_0x4f0478[_0x54f3fc(0x199)]=_0x5b4799[unknownDefaultValueKey][_0x54f3fc(0x198)](_0x2f7654),_0x5b4799[unknownDefaultValueKey]['delete'](_0x2f7654));}function updateUnknownHelpTexts(_0x475c76,_0x8f44b5,_0x2ddc7a){var _0xded90c=_0x43d403;_0x2ddc7a[unknownHelpTextKey]&&_0x2ddc7a[unknownHelpTextKey][_0xded90c(0x1b2)](_0x8f44b5)&&(_0x475c76[_0xded90c(0x1a1)]=_0x2ddc7a[unknownHelpTextKey][_0xded90c(0x198)](_0x8f44b5),_0x2ddc7a[unknownHelpTextKey][_0xded90c(0x1b1)](_0x8f44b5));}function updateUnknowns(_0x2b376f,_0x4d3c12,_0x264033){updateUnknownRequireds(_0x2b376f,_0x4d3c12,_0x264033),updateUnknownDefaultValues(_0x2b376f,_0x4d3c12,_0x264033),updateUnknownHelpTexts(_0x2b376f,_0x4d3c12,_0x264033);}function makeStringDecorator(_0x21068d){return function(_0x45020){return function(_0x1fde17,_0x2080da){var _0x4e1539=getLocalOptionsDescription(_0x1fde17),_0x3a01cb=_0x4e1539[_0x2080da]||{};_0x3a01cb[_0x21068d]=_0x45020,updateUnknowns(_0x3a01cb,_0x2080da,_0x1fde17),_0x4e1539[_0x2080da]=_0x3a01cb;};};}function makeBoolDecorator(_0x1759c8){return function(_0x2ec149,_0x3bd01c){var _0x3d78f3=getLocalOptionsDescription(_0x2ec149),_0x2f9936=_0x3d78f3[_0x3bd01c]||{};_0x2f9936[_0x1759c8]=!0x0,updateUnknowns(_0x2f9936,_0x3bd01c,_0x2ec149),_0x3d78f3[_0x3bd01c]=_0x2f9936;};}function makePositionalDecorator(_0x561f87){return function(_0x364978){return function(_0xa05d7,_0x2d095b){var _0x412b56=_0x1a33,_0x1053ca=getLocalPositionalOptionsDescription(_0xa05d7);let _0x4d089b=_0x1053ca[_0x412b56(0x1bc)](_0x3ee1dc=>_0x3ee1dc[_0x412b56(0x19d)]===_0x2d095b);void 0x0===_0x4d089b&&(_0x4d089b={'propertyName':_0x2d095b,'name':'','position':-0x1},_0x1053ca['push'](_0x4d089b),updateUnknowns(_0x4d089b,_0x2d095b,_0xa05d7)),_0x4d089b[_0x561f87]=_0x364978;};};}function saveDecoratedValue(_0x50a6d4,_0x588ceb,_0xd2a189,_0x4b540b,_0x4c7713){var _0x28c88d=_0x43d403,_0x59b052=getLocalOptionsDescription(_0x50a6d4);_0x59b052[_0x28c88d(0x1ac)](_0x588ceb[_0x28c88d(0x1a4)]())?_0x59b052[_0x588ceb[_0x28c88d(0x1a4)]()][_0xd2a189]=_0x4b540b:void 0x0!==(_0x59b052=getLocalPositionalOptionsDescription(_0x50a6d4)[_0x28c88d(0x1bc)](_0x2e20fd=>_0x2e20fd[_0x28c88d(0x19d)]===_0x588ceb))?_0x59b052[_0xd2a189]=_0x4b540b:(_0x50a6d4[_0x4c7713]=_0x50a6d4[_0x4c7713]||new Map())[_0x28c88d(0x1b7)](_0x588ceb[_0x28c88d(0x1a4)](),_0x4b540b);}function required(_0x2b1ab7,_0x38d33f){var _0x282fe6=_0x43d403;saveDecoratedValue(_0x2b1ab7,_0x38d33f,_0x282fe6(0x1a6),!0x0,unknownRequiredsKey);}function defaultValue(_0x1a8d79){return function(_0x344703,_0x4bb211){var _0xac812=_0x1a33;saveDecoratedValue(_0x344703,_0x4bb211,_0xac812(0x199),_0x1a8d79,unknownDefaultValueKey);};}function help(_0x1f2b28){return function(..._0x8ee43c){var _0x595393=_0x1a33,_0x46d494;if(debug(_0x595393(0x1b5)+_0x8ee43c[_0x595393(0x1ae)]+_0x595393(0x1c0)+util_1['inspect'](_0x8ee43c)),0x1===_0x8ee43c[_0x595393(0x1ae)])return(_0x46d494=_0x8ee43c[0x0])[exports[_0x595393(0x1a7)]]=_0x1f2b28,_0x46d494;if(0x3===_0x8ee43c[_0x595393(0x1ae)]&&'object'==typeof _0x8ee43c[0x0]&&void 0x0===_0x8ee43c[0x2])return saveDecoratedValue(_0x8ee43c[0x0],_0x8ee43c[0x1],_0x595393(0x1a1),_0x1f2b28,unknownHelpTextKey);throw new Error('@help\x20not\x20valid\x20in\x20this\x20location');};}exports[_0x43d403(0x1a7)]=Symbol(_0x43d403(0x197)),exports[_0x43d403(0x1ba)]=getOptionsDescription,exports[_0x43d403(0x1bb)]=getPositionalOptionsDescription,exports['getClassHelpText']=getClassHelpText,exports['shortName']=makeStringDecorator(_0x43d403(0x19e)),exports[_0x43d403(0x1b8)]=makeStringDecorator(_0x43d403(0x1b8)),exports['hasArg']=makeBoolDecorator(_0x43d403(0x1af)),exports['common']=makeBoolDecorator(_0x43d403(0x1aa)),exports['position']=makePositionalDecorator(_0x43d403(0x1c3)),exports[_0x43d403(0x1a3)]=makePositionalDecorator(_0x43d403(0x1a3)),exports[_0x43d403(0x1a6)]=required,exports[_0x43d403(0x199)]=defaultValue,exports['help']=help;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.help = exports.defaultValue = exports.required = exports.name = exports.position = exports.common = exports.hasArg = exports.longName = exports.shortName = exports.getClassHelpText = exports.getPositionalOptionsDescription = exports.getOptionsDescription = exports.classHelpTextKey = void 0;
+const util_1 = require("util");
+const lodash_1 = require("lodash");
+const debug = require("debug")("mappdl-cli:util:commandline:option-decorators");
+const optionDescriptionKey = Symbol("OptionParameters");
+const positionalDescriptionKey = Symbol("PositionalParameters");
+const unknownRequiredsKey = Symbol("UnknownRequireds");
+const unknownDefaultValueKey = Symbol("UnknownDefaultValues");
+const unknownHelpTextKey = Symbol("UnknownDescription");
+exports.classHelpTextKey = Symbol("ClassHelpText");
+function getOptionsDescription(target) {
+    // option description can be overridden in children class
+    function getRecursive(accumulator, target) {
+        if (target) {
+            getRecursive(accumulator, Object.getPrototypeOf(target));
+        }
+        else {
+            return accumulator;
+        }
+        if (target.hasOwnProperty(optionDescriptionKey)) {
+            lodash_1.assign(accumulator, target[optionDescriptionKey]);
+        }
+        return accumulator;
+    }
+    return getRecursive({}, target);
+}
+exports.getOptionsDescription = getOptionsDescription;
+function getLocalOptionsDescription(target) {
+    if (!target.hasOwnProperty(optionDescriptionKey)) {
+        target[optionDescriptionKey] = {};
+    }
+    return target[optionDescriptionKey];
+}
+function getPositionalOptionsDescription(target) {
+    function getRecursive(accumulator, target) {
+        if (!target || !target.hasOwnProperty(positionalDescriptionKey)) {
+            return accumulator;
+        }
+        let newOpts = [];
+        if (target.hasOwnProperty(positionalDescriptionKey)) {
+            newOpts = target[positionalDescriptionKey];
+        }
+        return getRecursive(newOpts.concat(accumulator), Object.getPrototypeOf(target));
+    }
+    return getRecursive([], target);
+}
+exports.getPositionalOptionsDescription = getPositionalOptionsDescription;
+function getLocalPositionalOptionsDescription(target) {
+    if (!target.hasOwnProperty(positionalDescriptionKey)) {
+        target[positionalDescriptionKey] = [];
+    }
+    return target[positionalDescriptionKey];
+}
+function getClassHelpText(target) {
+    return target[exports.classHelpTextKey];
+}
+exports.getClassHelpText = getClassHelpText;
+function updateUnknownRequireds(option, propertyKey, proto) {
+    if (proto[unknownRequiredsKey] && proto[unknownRequiredsKey].has(propertyKey)) {
+        option.required = true;
+        proto[unknownRequiredsKey].delete(propertyKey);
+    }
+}
+function updateUnknownDefaultValues(option, propertyKey, proto) {
+    if (proto[unknownDefaultValueKey] && proto[unknownDefaultValueKey].has(propertyKey)) {
+        option.defaultValue = proto[unknownDefaultValueKey].get(propertyKey);
+        proto[unknownDefaultValueKey].delete(propertyKey);
+    }
+}
+function updateUnknownHelpTexts(option, propertyKey, proto) {
+    if (proto[unknownHelpTextKey] && proto[unknownHelpTextKey].has(propertyKey)) {
+        option.helpText = proto[unknownHelpTextKey].get(propertyKey);
+        proto[unknownHelpTextKey].delete(propertyKey);
+    }
+}
+function updateUnknowns(option, propertyKey, proto) {
+    updateUnknownRequireds(option, propertyKey, proto);
+    updateUnknownDefaultValues(option, propertyKey, proto);
+    updateUnknownHelpTexts(option, propertyKey, proto);
+}
+function makeStringDecorator(descriptionFieldName) {
+    return function decoratorBuilder(name) {
+        return function paramDecorator(proto, propertyKey) {
+            const optionsDescription = getLocalOptionsDescription(proto);
+            const option = optionsDescription[propertyKey] || {};
+            option[descriptionFieldName] = name;
+            updateUnknowns(option, propertyKey, proto);
+            optionsDescription[propertyKey] = option;
+        };
+    };
+}
+function makeBoolDecorator(descriptionFieldName) {
+    return function paramDecorator(proto, propertyKey) {
+        const optionsDescription = getLocalOptionsDescription(proto);
+        const option = optionsDescription[propertyKey] || {};
+        option[descriptionFieldName] = true;
+        updateUnknowns(option, propertyKey, proto);
+        optionsDescription[propertyKey] = option;
+    };
+}
+// Short and long name decorators
+exports.shortName = makeStringDecorator("shortName");
+exports.longName = makeStringDecorator("longName");
+exports.hasArg = makeBoolDecorator("hasArg");
+exports.common = makeBoolDecorator("common");
+function makePositionalDecorator(descriptionFieldName) {
+    return function positionalDecoratorBuilder(value) {
+        return function positionalDecorator(proto, propertyKey) {
+            const optionsDescription = getLocalPositionalOptionsDescription(proto);
+            let option = optionsDescription.find((opt) => opt.propertyName === propertyKey);
+            if (option === undefined) {
+                option = { propertyName: propertyKey, name: "", position: -1 };
+                optionsDescription.push(option);
+                updateUnknowns(option, propertyKey, proto);
+            }
+            option[descriptionFieldName] = value;
+        };
+    };
+}
+exports.position = makePositionalDecorator("position");
+exports.name = makePositionalDecorator("name");
+//
+// Logic or handling decorators that apply to both positional and
+// flag arguments. Needs to be slightly special since we may not
+// know which one the parameter is until a later decorator runs.
+//
+function saveDecoratedValue(proto, propertyKey, descriptionProperty, value, unknownFieldKey) {
+    const flagOpts = getLocalOptionsDescription(proto);
+    if (flagOpts.hasOwnProperty(propertyKey.toString())) {
+        flagOpts[propertyKey.toString()][descriptionProperty] = value;
+        return;
+    }
+    const positionalOpts = getLocalPositionalOptionsDescription(proto);
+    const opt = positionalOpts.find((opt) => opt.propertyName === propertyKey);
+    if (opt !== undefined) {
+        opt[descriptionProperty] = value;
+        return;
+    }
+    const unknownValues = (proto[unknownFieldKey] = proto[unknownFieldKey] || new Map());
+    unknownValues.set(propertyKey.toString(), value);
+}
+// Required is special, since it has to work on both flag and positional parameters.
+// If it's the first decorator, stick name in a set to check later once we know
+// which one it is
+function required(proto, propertyKey) {
+    saveDecoratedValue(proto, propertyKey, "required", true, unknownRequiredsKey);
+}
+exports.required = required;
+// DefaultValue is also special, since it has to work with both as well. Same
+// basic logic
+function defaultValue(value) {
+    return function defaultValueDecorator(proto, propertyKey) {
+        saveDecoratedValue(proto, propertyKey, "defaultValue", value, unknownDefaultValueKey);
+    };
+}
+exports.defaultValue = defaultValue;
+// Decorator factory to give a consolidated helptext API across class & parameter
+function help(helpText) {
+    return function helpDecoratorFactory(...args) {
+        debug(`@help decorator called with ${args.length} arguments: ${util_1.inspect(args)}`);
+        if (args.length === 1) {
+            const ctor = args[0];
+            ctor[exports.classHelpTextKey] = helpText;
+            return ctor;
+        }
+        // Typescript docs are incorrect - property decorators get three args, and the last one is
+        // undefined
+        if (args.length === 3 && typeof args[0] === "object" && args[2] === undefined) {
+            const proto = args[0];
+            const propertyName = args[1];
+            return saveDecoratedValue(proto, propertyName, "helpText", helpText, unknownHelpTextKey);
+        }
+        throw new Error("@help not valid in this location");
+    };
+}
+exports.help = help;

@@ -1,1 +1,32 @@
-var _0x46fd78=_0x5b3e;(function(_0x3e0a4a,_0x363e35){var _0x2d0653=_0x5b3e,_0x2fd891=_0x3e0a4a();while(!![]){try{var _0x9b0648=parseInt(_0x2d0653(0x7d))/0x1*(-parseInt(_0x2d0653(0x8e))/0x2)+-parseInt(_0x2d0653(0x87))/0x3+parseInt(_0x2d0653(0x81))/0x4+parseInt(_0x2d0653(0x89))/0x5+parseInt(_0x2d0653(0x80))/0x6*(parseInt(_0x2d0653(0x83))/0x7)+-parseInt(_0x2d0653(0x8c))/0x8+parseInt(_0x2d0653(0x82))/0x9;if(_0x9b0648===_0x363e35)break;else _0x2fd891['push'](_0x2fd891['shift']());}catch(_0x59fa49){_0x2fd891['push'](_0x2fd891['shift']());}}}(_0x9ea9,0x90624));var __awaiter=this&&this[_0x46fd78(0x8a)]||function(_0x1cac44,_0x46cf43,_0x7dc507,_0x213ddb){return new(_0x7dc507=_0x7dc507||Promise)(function(_0x26b775,_0x14c366){var _0x105cae=_0x5b3e;function _0x518d33(_0x13db31){var _0x59ad63=_0x5b3e;try{_0xb57e4d(_0x213ddb[_0x59ad63(0x92)](_0x13db31));}catch(_0x405490){_0x14c366(_0x405490);}}function _0x108fbd(_0x4daa1e){var _0xfcefa0=_0x5b3e;try{_0xb57e4d(_0x213ddb[_0xfcefa0(0x93)](_0x4daa1e));}catch(_0x3165ca){_0x14c366(_0x3165ca);}}function _0xb57e4d(_0x4bd0c6){var _0x5c9eca=_0x5b3e,_0x566641;_0x4bd0c6['done']?_0x26b775(_0x4bd0c6[_0x5c9eca(0x88)]):((_0x566641=_0x4bd0c6[_0x5c9eca(0x88)])instanceof _0x7dc507?_0x566641:new _0x7dc507(function(_0x55b666){_0x55b666(_0x566641);}))[_0x5c9eca(0x8b)](_0x518d33,_0x108fbd);}_0xb57e4d((_0x213ddb=_0x213ddb[_0x105cae(0x7f)](_0x1cac44,_0x46cf43||[]))[_0x105cae(0x92)]());});};Object[_0x46fd78(0x8d)](exports,_0x46fd78(0x95),{'value':!0x0}),exports['telemetryPolicy']=void 0x0;let uuid=require(_0x46fd78(0x86)),profile_1=require(_0x46fd78(0x7e)),sessionId=uuid['v4'](),sessionHeaderName=_0x46fd78(0x96),commandNameHeaderName=_0x46fd78(0x94);function _0x9ea9(){var _0x431b0a=['17053XQHlNj','../profile','apply','1764TBVBsv','1424884ipMUoH','17345790KGHDBA','63rzzXgb','set','headers','uuid','650589mXSyWS','value','2217320PhvDdX','__awaiter','then','8686280mXshnh','defineProperty','98XstQHk','cli','getTelemetrySourceFromEnvironmentVar','telemetryPolicy','next','throw','cli-command-name','__esModule','diagnostic-context','internal-request-source'];_0x9ea9=function(){return _0x431b0a;};return _0x9ea9();}function telemetryPolicy(_0xa1ba23,_0x1169fb){var _0x4e40cc=_0x46fd78;let _0x2d5ffd=profile_1[_0x4e40cc(0x90)]()||_0x4e40cc(0x8f);return{'name':_0x4e40cc(0x91),'sendRequest':(_0x4f9900,_0x17754e)=>__awaiter(this,void 0x0,void 0x0,function*(){var _0xa1d2ba=_0x4e40cc;return _0x1169fb&&(_0x4f9900['headers'][_0xa1d2ba(0x84)](_0xa1d2ba(0x97),_0x2d5ffd),_0x4f9900[_0xa1d2ba(0x85)]['set'](sessionHeaderName,sessionId),_0x4f9900[_0xa1d2ba(0x85)]['set'](commandNameHeaderName,_0xa1ba23)),_0x17754e(_0x4f9900);})};}function _0x5b3e(_0x54e45f,_0x272849){var _0x9ea9d2=_0x9ea9();return _0x5b3e=function(_0x5b3e5d,_0xb53d56){_0x5b3e5d=_0x5b3e5d-0x7d;var _0x20b446=_0x9ea9d2[_0x5b3e5d];return _0x20b446;},_0x5b3e(_0x54e45f,_0x272849);}exports[_0x46fd78(0x91)]=telemetryPolicy;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.telemetryPolicy = void 0;
+const uuid = require("uuid");
+const profile_1 = require("../profile");
+const sessionId = uuid.v4();
+const sessionHeaderName = "diagnostic-context";
+const commandNameHeaderName = "cli-command-name";
+function telemetryPolicy(commandName, telemetryIsEnabled) {
+    const telemetrySource = profile_1.getTelemetrySourceFromEnvironmentVar() || "cli";
+    return {
+        name: "telemetryPolicy",
+        sendRequest: (request, next) => __awaiter(this, void 0, void 0, function* () {
+            if (telemetryIsEnabled) {
+                request.headers.set("internal-request-source", telemetrySource);
+                request.headers.set(sessionHeaderName, sessionId);
+                request.headers.set(commandNameHeaderName, commandName);
+            }
+            return next(request);
+        }),
+    };
+}
+exports.telemetryPolicy = telemetryPolicy;

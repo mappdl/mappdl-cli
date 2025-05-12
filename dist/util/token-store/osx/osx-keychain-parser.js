@@ -1,1 +1,104 @@
-const _0x4654b3=_0x50a0;(function(_0x11463b,_0x473fab){const _0x345f43=_0x50a0,_0x4353d=_0x11463b();while(!![]){try{const _0x4a451e=-parseInt(_0x345f43(0x1c8))/0x1*(parseInt(_0x345f43(0x1ca))/0x2)+-parseInt(_0x345f43(0x1da))/0x3*(parseInt(_0x345f43(0x1e5))/0x4)+-parseInt(_0x345f43(0x1d6))/0x5*(-parseInt(_0x345f43(0x1e1))/0x6)+parseInt(_0x345f43(0x1d2))/0x7+parseInt(_0x345f43(0x1d3))/0x8+-parseInt(_0x345f43(0x1ce))/0x9*(-parseInt(_0x345f43(0x1e4))/0xa)+parseInt(_0x345f43(0x1db))/0xb*(parseInt(_0x345f43(0x1d1))/0xc);if(_0x4a451e===_0x473fab)break;else _0x4353d['push'](_0x4353d['shift']());}catch(_0x575782){_0x4353d['push'](_0x4353d['shift']());}}}(_0xf201,0x43b40),(Object['defineProperty'](exports,_0x4654b3(0x1d4),{'value':!0x0}),exports[_0x4654b3(0x1cf)]=exports['OsxSecurityParsingStream']=void 0x0));let Pumpify=require(_0x4654b3(0x1e8)),split=require('split2'),stream=require(_0x4654b3(0x1de)),debug=require(_0x4654b3(0x1e3))('mappdl-cli:util:token-store:osx:osx-keychain-parser'),rootFieldRe=/^([^: \t]+):(?: (?:"([^"]+)")|(.*))?$/,attrRe=/^    (?:(0x[0-9a-fA-F]+) |"([a-z]{4})")<[^>]+>=(?:(<NULL>)|"([^"]+)"|(0x[0-9a-fA-F]+)(?:  "([^"]+)")|(.*)?)/;function _0x50a0(_0x541cf7,_0x56df95){const _0xf201b0=_0xf201();return _0x50a0=function(_0x50a0ae,_0x20f49f){_0x50a0ae=_0x50a0ae-0x1c5;let _0x59df6e=_0xf201b0[_0x50a0ae];return _0x59df6e;},_0x50a0(_0x541cf7,_0x56df95);}function _0xf201(){const _0x2ceb05=['emitCurrentEntry','was\x20in\x20attributes,\x20emitting','stream','\x20to\x20object','\x20with\x20value\x20','42ExTZdU','processRootLine','debug','50WkyCLb','4ebkVlc','toString','_flush','pumpify','inAttributes','match','currentEntry','6xwDUBp','Transform','24058CELddP','now\x20in\x20attributes','adding\x20root\x20attribute\x20','adding\x20attribute\x20','440865zvHSMp','createOsxSecurityParsingStream','processAttributeLine','780HCelbQ','128030ZvLIHx','1139352tjeyfm','__esModule','OsxSecurityParsingStream','74785aYFIIb','_transform','matched\x20root\x20line','attributes','1073001ahGvMC','33308IguRzx'];_0xf201=function(){return _0x2ceb05;};return _0xf201();}class OsxSecurityParsingStream extends stream[_0x4654b3(0x1c9)]{constructor(){const _0x4842fd=_0x4654b3;super({'objectMode':!0x0}),this['currentEntry']=null,this[_0x4842fd(0x1c5)]=!0x1;}[_0x4654b3(0x1d7)](_0x30871a,_0xc8f862,_0x347ee4){const _0x4fb360=_0x4654b3;var _0x30871a=_0x30871a[_0x4fb360(0x1e6)](),_0x12b67e=(debug('Parsing\x20line\x20['+_0x30871a+']'),_0x30871a[_0x4fb360(0x1c6)](rootFieldRe));_0x12b67e?this[_0x4fb360(0x1e2)](_0x12b67e[0x1],_0x12b67e[0x2]||_0x12b67e[0x3]):(_0x12b67e=_0x30871a[_0x4fb360(0x1c6)](attrRe))&&_0x12b67e[0x2]&&(_0x30871a=_0x12b67e[0x6]||_0x12b67e[0x4])&&this[_0x4fb360(0x1d0)](_0x12b67e[0x2],_0x30871a),_0x347ee4();}[_0x4654b3(0x1e7)](_0x46ce4d){this['emitCurrentEntry'](),_0x46ce4d();}[_0x4654b3(0x1dc)](){const _0xfaec2b=_0x4654b3;this[_0xfaec2b(0x1c7)]&&(this['push'](this[_0xfaec2b(0x1c7)]),this[_0xfaec2b(0x1c7)]=null);}[_0x4654b3(0x1e2)](_0x50766c,_0x5a2865){const _0x16a843=_0x4654b3;debug(_0x16a843(0x1d8)),this['inAttributes']&&(debug(_0x16a843(0x1dd)),this[_0x16a843(0x1dc)](),this[_0x16a843(0x1c5)]=!0x1),_0x16a843(0x1d9)===_0x50766c?(debug(_0x16a843(0x1cb)),this[_0x16a843(0x1c5)]=!0x0):(debug(_0x16a843(0x1cc)+_0x50766c+_0x16a843(0x1e0)+_0x5a2865+'\x20to\x20object'),this[_0x16a843(0x1c7)]=this[_0x16a843(0x1c7)]||{},this[_0x16a843(0x1c7)][_0x50766c]=_0x5a2865);}[_0x4654b3(0x1d0)](_0x103b46,_0x185a9d){const _0x4e5fd1=_0x4654b3;debug(_0x4e5fd1(0x1cd)+_0x103b46+_0x4e5fd1(0x1e0)+_0x185a9d+_0x4e5fd1(0x1df)),this[_0x4e5fd1(0x1c7)][_0x103b46]=_0x185a9d;}}function createOsxSecurityParsingStream(){return new Pumpify['obj'](split(),new OsxSecurityParsingStream());}exports[_0x4654b3(0x1d5)]=OsxSecurityParsingStream,exports['createOsxSecurityParsingStream']=createOsxSecurityParsingStream;
+"use strict";
+/**
+ * Copyright (c) MappDL.  All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createOsxSecurityParsingStream = exports.OsxSecurityParsingStream = void 0;
+const Pumpify = require("pumpify");
+const split = require("split2");
+const stream = require("stream");
+const debug = require("debug")("mappdl-cli:util:token-store:osx:osx-keychain-parser");
+//
+// Regular expressions that match the various fields in the input
+//
+// Fields at the root - not attributes
+const rootFieldRe = /^([^: \t]+):(?: (?:"([^"]+)")|(.*))?$/;
+// Attribute values, this gets a little more complicated
+const attrRe = /^    (?:(0x[0-9a-fA-F]+) |"([a-z]{4})")<[^>]+>=(?:(<NULL>)|"([^"]+)"|(0x[0-9a-fA-F]+)(?:  "([^"]+)")|(.*)?)/;
+//
+// Stream based parser for the OSX security(1) program output.
+// Implements a simple state machine. States are:
+//
+//   0 - Waiting for the initial "keychain" string.
+//   1 - Waiting for the "attributes" string. adds any properties to the
+//       current entry object being parsed while waiting.
+//   2 - reading attributes. Continues adding the attributes to the
+//       current entry object until we hit either a non-indented line
+//       or end. At which point we emit.
+//
+class OsxSecurityParsingStream extends stream.Transform {
+    constructor() {
+        super({ objectMode: true });
+        this.currentEntry = null;
+        this.inAttributes = false;
+    }
+    _transform(chunk, encoding, callback) {
+        const line = chunk.toString();
+        debug(`Parsing line [${line}]`);
+        const rootMatch = line.match(rootFieldRe);
+        if (rootMatch) {
+            this.processRootLine(rootMatch[1], rootMatch[2] || rootMatch[3]);
+        }
+        else {
+            const attrMatch = line.match(attrRe);
+            if (attrMatch) {
+                // Did we match a four-char named field? We don't care about hex fields
+                if (attrMatch[2]) {
+                    // We skip nulls, and grab text rather than hex encoded versions of value
+                    const value = attrMatch[6] || attrMatch[4];
+                    if (value) {
+                        this.processAttributeLine(attrMatch[2], value);
+                    }
+                }
+            }
+        }
+        callback();
+    }
+    _flush(callback) {
+        this.emitCurrentEntry();
+        callback();
+    }
+    emitCurrentEntry() {
+        if (this.currentEntry) {
+            this.push(this.currentEntry);
+            this.currentEntry = null;
+        }
+    }
+    processRootLine(key, value) {
+        debug(`matched root line`);
+        if (this.inAttributes) {
+            debug(`was in attributes, emitting`);
+            this.emitCurrentEntry();
+            this.inAttributes = false;
+        }
+        if (key === "attributes") {
+            debug(`now in attributes`);
+            this.inAttributes = true;
+        }
+        else {
+            debug(`adding root attribute ${key} with value ${value} to object`);
+            this.currentEntry = this.currentEntry || {};
+            this.currentEntry[key] = value;
+        }
+    }
+    processAttributeLine(key, value) {
+        debug(`adding attribute ${key} with value ${value} to object`);
+        this.currentEntry[key] = value;
+    }
+}
+exports.OsxSecurityParsingStream = OsxSecurityParsingStream;
+function createOsxSecurityParsingStream() {
+    return new Pumpify.obj(split(), new OsxSecurityParsingStream());
+}
+exports.createOsxSecurityParsingStream = createOsxSecurityParsingStream;

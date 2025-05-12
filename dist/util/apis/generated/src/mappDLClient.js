@@ -1,1 +1,94 @@
-function _0xf94f(_0x51b3b7,_0x226f63){const _0x229a65=_0x229a();return _0xf94f=function(_0x4b2164,_0x1c1e4a){_0x4b2164=_0x4b2164-0x176;let _0x1c4f4b=_0x229a65[_0x4b2164];return _0x1c4f4b;},_0xf94f(_0x51b3b7,_0x226f63);}const _0x5e4f75=_0xf94f;(function(_0x5cf459,_0x21de04){const _0x3dae96=_0xf94f,_0x575add=_0x5cf459();while(!![]){try{const _0x2604b1=-parseInt(_0x3dae96(0x1ba))/0x1+parseInt(_0x3dae96(0x19e))/0x2*(-parseInt(_0x3dae96(0x1b9))/0x3)+-parseInt(_0x3dae96(0x1c0))/0x4+parseInt(_0x3dae96(0x1a7))/0x5*(parseInt(_0x3dae96(0x19c))/0x6)+-parseInt(_0x3dae96(0x1a3))/0x7+-parseInt(_0x3dae96(0x1ac))/0x8+parseInt(_0x3dae96(0x177))/0x9;if(_0x2604b1===_0x21de04)break;else _0x575add['push'](_0x575add['shift']());}catch(_0x39c151){_0x575add['push'](_0x575add['shift']());}}}(_0x229a,0x25a3e),(Object['defineProperty'](exports,_0x5e4f75(0x1d6),{'value':!0x0}),exports[_0x5e4f75(0x19a)]=void 0x0));let coreClient=require(_0x5e4f75(0x1d8)),operations_1=require(_0x5e4f75(0x197)),codePushDeploymentFileUpload_1=require(_0x5e4f75(0x18d));class MappDLClient extends coreClient['ServiceClient']{constructor(_0x5be4b7){const _0x155fca=_0x5e4f75;var _0x3e34c1=_0x155fca(0x189),_0x3e34c1=(_0x5be4b7=_0x5be4b7||{})[_0x155fca(0x176)]&&_0x5be4b7['userAgentOptions'][_0x155fca(0x1a4)]?_0x5be4b7['userAgentOptions'][_0x155fca(0x1a4)]+'\x20'+_0x3e34c1:_0x3e34c1;super(Object[_0x155fca(0x1aa)](Object[_0x155fca(0x1aa)](Object['assign']({},{'requestContentType':'application/json;\x20charset=utf-8'}),_0x5be4b7),{'userAgentOptions':{'userAgentPrefix':_0x3e34c1},'endpoint':null!=(_0x3e34c1=_0x5be4b7[_0x155fca(0x1cd)])?_0x3e34c1:'https://api.mappdl.com'})),this[_0x155fca(0x1da)]=_0x5be4b7['$host']||_0x155fca(0x1d3),this[_0x155fca(0x199)]=new operations_1['DevicesImpl'](this),this[_0x155fca(0x1c9)]=new operations_1['NotificationsImpl'](this),this[_0x155fca(0x17b)]=new operations_1[(_0x155fca(0x17c))](this),this[_0x155fca(0x17a)]=new operations_1['OrgInvitationsImpl'](this),this[_0x155fca(0x1a0)]=new operations_1[(_0x155fca(0x1d0))](this),this['appInvitations']=new operations_1[(_0x155fca(0x180))](this),this[_0x155fca(0x1be)]=new operations_1[(_0x155fca(0x182))](this),this[_0x155fca(0x19f)]=new operations_1[(_0x155fca(0x1b8))](this),this[_0x155fca(0x18e)]=new operations_1[(_0x155fca(0x19b))](this),this[_0x155fca(0x196)]=new operations_1['AppsImpl'](this),this[_0x155fca(0x1bc)]=new operations_1[(_0x155fca(0x1cc))](this),this[_0x155fca(0x192)]=new operations_1[(_0x155fca(0x1b7))](this),this[_0x155fca(0x1a5)]=new operations_1[(_0x155fca(0x1d5))](this),this['organization']=new operations_1[(_0x155fca(0x1ad))](this),this[_0x155fca(0x1b1)]=new operations_1[(_0x155fca(0x1d4))](this),this['billingAggregatedInformation']=new operations_1[(_0x155fca(0x194))](this),this[_0x155fca(0x1d7)]=new operations_1[(_0x155fca(0x1c4))](this),this[_0x155fca(0x18f)]=new operations_1[(_0x155fca(0x1b5))](this),this[_0x155fca(0x193)]=new operations_1[(_0x155fca(0x1cb))](this),this['webhooks']=new operations_1[(_0x155fca(0x1c2))](this),this[_0x155fca(0x185)]=new operations_1[(_0x155fca(0x1cf))](this),this[_0x155fca(0x1c3)]=new operations_1['TestImpl'](this),this[_0x155fca(0x179)]=new operations_1['SymbolsImpl'](this),this['symbolUploads']=new operations_1[(_0x155fca(0x184))](this),this[_0x155fca(0x17d)]=new operations_1[(_0x155fca(0x1b3))](this),this[_0x155fca(0x1b6)]=new operations_1['RepositoriesImpl'](this),this[_0x155fca(0x183)]=new operations_1[(_0x155fca(0x1a1))](this),this['provisioning']=new operations_1[(_0x155fca(0x1a6))](this),this['push']=new operations_1[(_0x155fca(0x1b2))](this),this[_0x155fca(0x1ab)]=new operations_1['FileAssetsImpl'](this),this['exportConfigurations']=new operations_1[(_0x155fca(0x18b))](this),this['errors']=new operations_1['ErrorsImpl'](this),this['storeReleases']=new operations_1[(_0x155fca(0x1a9))](this),this[_0x155fca(0x1bd)]=new operations_1[(_0x155fca(0x1bf))](this),this['stores']=new operations_1[(_0x155fca(0x1ca))](this),this[_0x155fca(0x1a2)]=new operations_1['MissingSymbolGroupsImpl'](this),this[_0x155fca(0x1bb)]=new operations_1[(_0x155fca(0x17e))](this),this['codePushDeploymentUpload']=new operations_1[(_0x155fca(0x191))](this),this[_0x155fca(0x1b0)]=new codePushDeploymentFileUpload_1[(_0x155fca(0x1c8))](this),this[_0x155fca(0x195)]=new operations_1[(_0x155fca(0x186))](this),this[_0x155fca(0x1c1)]=new operations_1['DeploymentReleasesImpl'](this),this[_0x155fca(0x1c6)]=new operations_1[(_0x155fca(0x181))](this),this['codePushDeployments']=new operations_1[(_0x155fca(0x1d2))](this),this[_0x155fca(0x178)]=new operations_1['CodePushDeploymentMetricsImpl'](this),this[_0x155fca(0x1d1)]=new operations_1[(_0x155fca(0x18a))](this),this[_0x155fca(0x188)]=new operations_1[(_0x155fca(0x1c5))](this),this[_0x155fca(0x1af)]=new operations_1[(_0x155fca(0x187))](this),this[_0x155fca(0x1ae)]=new operations_1[(_0x155fca(0x18c))](this),this[_0x155fca(0x1ce)]=new operations_1[(_0x155fca(0x198))](this),this[_0x155fca(0x1a8)]=new operations_1[(_0x155fca(0x17f))](this),this['appleMapping']=new operations_1['AppleMappingImpl'](this),this[_0x155fca(0x1b4)]=new operations_1[(_0x155fca(0x19d))](this),this[_0x155fca(0x190)]=new operations_1[(_0x155fca(0x1d9))](this),this[_0x155fca(0x1c7)]=new operations_1[(_0x155fca(0x1db))](this);}}function _0x229a(){const _0x42e8f3=['AppApiTokensImpl','4TNpUyj','dataSubjectRight','distributionGroupInvitations','RepositoryConfigurationsImpl','missingSymbolGroups','1864730JwHHeL','userAgentPrefix','azureSubscription','ProvisioningImpl','261265lmaBDY','identity','StoreReleasesImpl','assign','fileAssets','1349528fkmruJ','OrganizationImpl','bugTracker','commits','codePushDeploymentFileUpload','organizations','PushImpl','StoreNotificationsImpl','appApiTokens','InvitationsImpl','repositories','TeamsImpl','DataSubjectRightImpl','168879RpQKJx','276723slxLZT','app','distributionGroups','storeReleasePublishLogs','sharedconnection','StoreReleasePublishLogsImpl','545044rXpble','deploymentReleases','WebhooksImpl','test','LegacyCodePushAcquisitionImpl','CrashGroupsImpl','codePushDeploymentReleases','userApiTokens','codePushDeploymentFileUploadImpl','notifications','StoresImpl','BuildsImpl','DistributionGroupsImpl','endpoint','branchConfigurations','CrashesImpl','DistributionGroupInvitationsImpl','data','CodePushDeploymentsImpl','https://api.mappdl.com','OrganizationsImpl','AzureSubscriptionImpl','__esModule','legacyCodePushAcquisition','@azure/core-client','AnalyticsImpl','$host','UserApiTokensImpl','userAgentOptions','9563148GEVOMt','codePushDeploymentMetrics','symbols','orgInvitations','users','UsersImpl','storeNotifications','AppImpl','IdentityImpl','AppInvitationsImpl','CodePushDeploymentReleasesImpl','SharedconnectionImpl','repositoryConfigurations','SymbolUploadsImpl','crashes','CodePushDeploymentReleaseImpl','CommitsImpl','crashGroups','azsdk-js-mappDLClient/1.0.0-beta.1','DataImpl','ExportConfigurationsImpl','BugTrackerImpl','./operations/codePushDeploymentFileUpload','releases','invitations','analytics','CodePushDeploymentUploadImpl','teams','builds','BillingAggregatedInformationImpl','codePushDeploymentRelease','apps','./operations','BranchConfigurationsImpl','devices','MappDLClient','ReleasesImpl','6WXflWB'];_0x229a=function(){return _0x42e8f3;};return _0x229a();}exports[_0x5e4f75(0x19a)]=MappDLClient;
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MappDLClient = void 0;
+const coreClient = require("@azure/core-client");
+const operations_1 = require("./operations");
+const codePushDeploymentFileUpload_1 = require("./operations/codePushDeploymentFileUpload");
+class MappDLClient extends coreClient.ServiceClient {
+    /**
+     * Initializes a new instance of the MappDLClient class.
+     * @param options The parameter options
+     */
+    constructor(options) {
+        var _a;
+        // Initializing default values for options
+        if (!options) {
+            options = {};
+        }
+        const defaults = {
+            requestContentType: "application/json; charset=utf-8"
+        };
+        const packageDetails = `azsdk-js-mappDLClient/1.0.0-beta.1`;
+        const userAgentPrefix = options.userAgentOptions && options.userAgentOptions.userAgentPrefix
+            ? `${options.userAgentOptions.userAgentPrefix} ${packageDetails}`
+            : `${packageDetails}`;
+        const optionsWithDefaults = Object.assign(Object.assign(Object.assign({}, defaults), options), { userAgentOptions: {
+                userAgentPrefix
+            }, endpoint: (_a = options.endpoint) !== null && _a !== void 0 ? _a : "https://api.mappdl.com" });
+        super(optionsWithDefaults);
+        // Assigning values to Constant parameters
+        this.$host = options.$host || "https://api.mappdl.com";
+        this.devices = new operations_1.DevicesImpl(this);
+        this.notifications = new operations_1.NotificationsImpl(this);
+        this.users = new operations_1.UsersImpl(this);
+        this.orgInvitations = new operations_1.OrgInvitationsImpl(this);
+        this.distributionGroupInvitations = new operations_1.DistributionGroupInvitationsImpl(this);
+        this.appInvitations = new operations_1.AppInvitationsImpl(this);
+        this.sharedconnection = new operations_1.SharedconnectionImpl(this);
+        this.dataSubjectRight = new operations_1.DataSubjectRightImpl(this);
+        this.releases = new operations_1.ReleasesImpl(this);
+        this.apps = new operations_1.AppsImpl(this);
+        this.distributionGroups = new operations_1.DistributionGroupsImpl(this);
+        this.teams = new operations_1.TeamsImpl(this);
+        this.azureSubscription = new operations_1.AzureSubscriptionImpl(this);
+        this.organization = new operations_1.OrganizationImpl(this);
+        this.organizations = new operations_1.OrganizationsImpl(this);
+        this.billingAggregatedInformation = new operations_1.BillingAggregatedInformationImpl(this);
+        this.legacyCodePushAcquisition = new operations_1.LegacyCodePushAcquisitionImpl(this);
+        this.invitations = new operations_1.InvitationsImpl(this);
+        this.builds = new operations_1.BuildsImpl(this);
+        this.webhooks = new operations_1.WebhooksImpl(this);
+        this.crashes = new operations_1.CrashesImpl(this);
+        this.test = new operations_1.TestImpl(this);
+        this.symbols = new operations_1.SymbolsImpl(this);
+        this.symbolUploads = new operations_1.SymbolUploadsImpl(this);
+        this.storeNotifications = new operations_1.StoreNotificationsImpl(this);
+        this.repositories = new operations_1.RepositoriesImpl(this);
+        this.repositoryConfigurations = new operations_1.RepositoryConfigurationsImpl(this);
+        this.provisioning = new operations_1.ProvisioningImpl(this);
+        this.push = new operations_1.PushImpl(this);
+        this.fileAssets = new operations_1.FileAssetsImpl(this);
+        this.exportConfigurations = new operations_1.ExportConfigurationsImpl(this);
+        this.errors = new operations_1.ErrorsImpl(this);
+        this.storeReleases = new operations_1.StoreReleasesImpl(this);
+        this.storeReleasePublishLogs = new operations_1.StoreReleasePublishLogsImpl(this);
+        this.stores = new operations_1.StoresImpl(this);
+        this.missingSymbolGroups = new operations_1.MissingSymbolGroupsImpl(this);
+        this.app = new operations_1.AppImpl(this);
+        this.codePushDeploymentUpload = new operations_1.CodePushDeploymentUploadImpl(this);
+        this.codePushDeploymentFileUpload = new codePushDeploymentFileUpload_1.codePushDeploymentFileUploadImpl(this);
+        this.codePushDeploymentRelease = new operations_1.CodePushDeploymentReleaseImpl(this);
+        this.deploymentReleases = new operations_1.DeploymentReleasesImpl(this);
+        this.codePushDeploymentReleases = new operations_1.CodePushDeploymentReleasesImpl(this);
+        this.codePushDeployments = new operations_1.CodePushDeploymentsImpl(this);
+        this.codePushDeploymentMetrics = new operations_1.CodePushDeploymentMetricsImpl(this);
+        this.data = new operations_1.DataImpl(this);
+        this.crashGroups = new operations_1.CrashGroupsImpl(this);
+        this.commits = new operations_1.CommitsImpl(this);
+        this.bugTracker = new operations_1.BugTrackerImpl(this);
+        this.branchConfigurations = new operations_1.BranchConfigurationsImpl(this);
+        this.identity = new operations_1.IdentityImpl(this);
+        this.appleMapping = new operations_1.AppleMappingImpl(this);
+        this.appApiTokens = new operations_1.AppApiTokensImpl(this);
+        this.analytics = new operations_1.AnalyticsImpl(this);
+        this.userApiTokens = new operations_1.UserApiTokensImpl(this);
+    }
+}
+exports.MappDLClient = MappDLClient;

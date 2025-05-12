@@ -1,1 +1,207 @@
-function _0x2f69(){const _0x1ebf65=['symbolId','PathsAi9SksV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses404ContentApplicationJsonSchema','Paths1OloyvoV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses500ContentApplicationJsonSchema','Paths1DykrkvV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses404ContentApplicationJsonSchema','Composite','2923192vaouJU','/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}','Paths1K4YzazV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses200ContentApplicationJsonSchema','Paths10EfwkV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses403ContentApplicationJsonSchema','PathsZwg80MV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses200ContentApplicationJsonSchema','ignore','getLocation','3114200FUkhQy','sendOperationRequest','$host','3478222zVDMQM','Paths1PukseV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses200ContentApplicationJsonSchema','PathsVqx0ExV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses500ContentApplicationJsonSchema','ownerName','46206648uJeDos','accept','/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/ignore','get','Paths1YawolbV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses403ContentApplicationJsonSchema','client','Sequence','1243062clgQct','../models/parameters','createSerializer','PathsX0B659V01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses500ContentApplicationJsonSchema','Paths3NgdjqV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses404ContentApplicationJsonSchema','6VEdomr','__esModule','Paths1CjrzdcV01AppsOwnerNameAppNameSymbolsGetResponses500ContentApplicationJsonSchema','POST','Paths1Vhz9IlV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses403ContentApplicationJsonSchema','../models/mappers','5296960tVfAJf','SymbolsImpl','GET','/v0.1/apps/{owner_name}/{app_name}/symbols','PathsK9XnpbV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses200ContentApplicationJsonSchema','list','PathsRp7XckV01AppsOwnerNameAppNameSymbolsGetResponses200ContentApplicationJsonSchemaItems','@azure/core-client','3tpwUMj','/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/status','getStatus','appName','9202459UFtJLj'];_0x2f69=function(){return _0x1ebf65;};return _0x2f69();}const _0x486007=_0x44e4;function _0x44e4(_0x35af38,_0x8dbb0){const _0x2f6960=_0x2f69();return _0x44e4=function(_0x44e438,_0x388395){_0x44e438=_0x44e438-0x10c;let _0x397c62=_0x2f6960[_0x44e438];return _0x397c62;},_0x44e4(_0x35af38,_0x8dbb0);}(function(_0x67377a,_0x2a342f){const _0x2d1e03=_0x44e4,_0x28dfc9=_0x67377a();while(!![]){try{const _0x5e6ab3=-parseInt(_0x2d1e03(0x12f))/0x1+-parseInt(_0x2d1e03(0x124))/0x2+-parseInt(_0x2d1e03(0x110))/0x3*(-parseInt(_0x2d1e03(0x121))/0x4)+-parseInt(_0x2d1e03(0x13a))/0x5*(parseInt(_0x2d1e03(0x134))/0x6)+-parseInt(_0x2d1e03(0x114))/0x7+parseInt(_0x2d1e03(0x11a))/0x8+parseInt(_0x2d1e03(0x128))/0x9;if(_0x5e6ab3===_0x2a342f)break;else _0x28dfc9['push'](_0x28dfc9['shift']());}catch(_0x44862f){_0x28dfc9['push'](_0x28dfc9['shift']());}}}(_0x2f69,0xe10db),(Object['defineProperty'](exports,_0x486007(0x135),{'value':!0x0}),exports[_0x486007(0x13b)]=void 0x0));let coreClient=require(_0x486007(0x10f)),Mappers=require(_0x486007(0x139)),Parameters=require(_0x486007(0x130));class SymbolsImpl{constructor(_0x5bd0cc){const _0x5000ea=_0x486007;this[_0x5000ea(0x12d)]=_0x5bd0cc;}[_0x486007(0x112)](_0x4fa60e,_0x269cd7,_0x898500,_0x498836){const _0x36a232=_0x486007;return this[_0x36a232(0x12d)][_0x36a232(0x122)]({'symbolId':_0x4fa60e,'ownerName':_0x269cd7,'appName':_0x898500,'options':_0x498836},getStatusOperationSpec);}[_0x486007(0x120)](_0x27a3f9,_0x1be7bf,_0x26a9b0,_0x540059){const _0x3b3838=_0x486007;return this[_0x3b3838(0x12d)][_0x3b3838(0x122)]({'symbolId':_0x27a3f9,'ownerName':_0x1be7bf,'appName':_0x26a9b0,'options':_0x540059},getLocationOperationSpec);}[_0x486007(0x11f)](_0x5c6d80,_0x2dfa30,_0x403c38,_0x52536e){const _0x3cc1e8=_0x486007;return this['client'][_0x3cc1e8(0x122)]({'symbolId':_0x5c6d80,'ownerName':_0x2dfa30,'appName':_0x403c38,'options':_0x52536e},ignoreOperationSpec);}[_0x486007(0x12b)](_0x340b7a,_0x578b02,_0xc0a0ff,_0x41a87f){const _0x51e93d=_0x486007;return this[_0x51e93d(0x12d)][_0x51e93d(0x122)]({'symbolId':_0x340b7a,'ownerName':_0x578b02,'appName':_0xc0a0ff,'options':_0x41a87f},getOperationSpec);}[_0x486007(0x10d)](_0x241dd0,_0x1a76dc,_0x27d54f){const _0x24af67=_0x486007;return this['client'][_0x24af67(0x122)]({'ownerName':_0x241dd0,'appName':_0x1a76dc,'options':_0x27d54f},listOperationSpec);}}exports[_0x486007(0x13b)]=SymbolsImpl;let serializer=coreClient[_0x486007(0x131)](Mappers,!0x1),getStatusOperationSpec={'path':_0x486007(0x111),'httpMethod':_0x486007(0x13c),'responses':{0xc8:{'bodyMapper':Mappers[_0x486007(0x11e)]},0x193:{'bodyMapper':Mappers['PathsRm34DsV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses403ContentApplicationJsonSchema']},0x194:{'bodyMapper':Mappers[_0x486007(0x133)]},0x1f4:{'bodyMapper':Mappers['PathsZyl9UsV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses500ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x486007(0x123)],Parameters[_0x486007(0x127)],Parameters[_0x486007(0x113)],Parameters[_0x486007(0x115)]],'headerParameters':[Parameters['accept']],'serializer':serializer},getLocationOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/location','httpMethod':_0x486007(0x13c),'responses':{0xc8:{'bodyMapper':Mappers[_0x486007(0x125)]},0x193:{'bodyMapper':Mappers[_0x486007(0x11d)]},0x194:{'bodyMapper':Mappers[_0x486007(0x116)]},0x1f4:{'bodyMapper':Mappers[_0x486007(0x117)]}},'urlParameters':[Parameters['$host'],Parameters[_0x486007(0x127)],Parameters[_0x486007(0x113)],Parameters[_0x486007(0x115)]],'headerParameters':[Parameters[_0x486007(0x129)]],'serializer':serializer},ignoreOperationSpec={'path':_0x486007(0x12a),'httpMethod':_0x486007(0x137),'responses':{0xc8:{'bodyMapper':Mappers[_0x486007(0x11c)]},0x193:{'bodyMapper':Mappers[_0x486007(0x12c)]},0x194:{'bodyMapper':Mappers['Paths1RxhxhnV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses404ContentApplicationJsonSchema']},0x1f4:{'bodyMapper':Mappers[_0x486007(0x132)]}},'urlParameters':[Parameters[_0x486007(0x123)],Parameters[_0x486007(0x127)],Parameters[_0x486007(0x113)],Parameters[_0x486007(0x115)]],'headerParameters':[Parameters[_0x486007(0x129)]],'serializer':serializer},getOperationSpec={'path':_0x486007(0x11b),'httpMethod':_0x486007(0x13c),'responses':{0xc8:{'bodyMapper':Mappers[_0x486007(0x10c)]},0x193:{'bodyMapper':Mappers[_0x486007(0x138)]},0x194:{'bodyMapper':Mappers[_0x486007(0x118)]},0x1f4:{'bodyMapper':Mappers[_0x486007(0x126)]}},'urlParameters':[Parameters[_0x486007(0x123)],Parameters['ownerName'],Parameters[_0x486007(0x113)],Parameters['symbolId']],'headerParameters':[Parameters[_0x486007(0x129)]],'serializer':serializer},listOperationSpec={'path':_0x486007(0x13d),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x486007(0x12e),'element':{'type':{'name':_0x486007(0x119),'className':_0x486007(0x10e)}}}}},0x193:{'bodyMapper':Mappers['PathsZha4ZiV01AppsOwnerNameAppNameSymbolsGetResponses403ContentApplicationJsonSchema']},0x1f4:{'bodyMapper':Mappers[_0x486007(0x136)]}},'urlParameters':[Parameters[_0x486007(0x123)],Parameters['ownerName'],Parameters[_0x486007(0x113)]],'headerParameters':[Parameters[_0x486007(0x129)]],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SymbolsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Symbols operations. */
+class SymbolsImpl {
+    /**
+     * Initialize a new instance of the class Symbols class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Returns a particular symbol by id (uuid) for the provided application
+     * @param symbolId The ID of the symbol (uuid of the symbol)
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getStatus(symbolId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ symbolId, ownerName, appName, options }, getStatusOperationSpec);
+    }
+    /**
+     * Gets the URL to download the symbol
+     * @param symbolId The ID of the symbol (uuid of the symbol)
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getLocation(symbolId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ symbolId, ownerName, appName, options }, getLocationOperationSpec);
+    }
+    /**
+     * Marks a symbol by id (uuid) as ignored
+     * @param symbolId The ID of the symbol (uuid of the symbol)
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    ignore(symbolId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ symbolId, ownerName, appName, options }, ignoreOperationSpec);
+    }
+    /**
+     * Returns a particular symbol by id (uuid) for the provided application
+     * @param symbolId The ID of the symbol (uuid of the symbol)
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(symbolId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ symbolId, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Returns the list of all symbols for the provided application
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+}
+exports.SymbolsImpl = SymbolsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getStatusOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/status",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsZwg80MV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses200ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.PathsRm34DsV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths3NgdjqV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.PathsZyl9UsV01AppsOwnerNameAppNameSymbolsSymbolIdStatusGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.symbolId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getLocationOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/location",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1PukseV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses200ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.Paths10EfwkV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.PathsAi9SksV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.Paths1OloyvoV01AppsOwnerNameAppNameSymbolsSymbolIdLocationGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.symbolId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const ignoreOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}/ignore",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1K4YzazV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses200ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.Paths1YawolbV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1RxhxhnV01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.PathsX0B659V01AppsOwnerNameAppNameSymbolsSymbolIdIgnorePostResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.symbolId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/symbols/{symbol_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsK9XnpbV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses200ContentApplicationJsonSchema
+        },
+        403: {
+            bodyMapper: Mappers.Paths1Vhz9IlV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses403ContentApplicationJsonSchema
+        },
+        404: {
+            bodyMapper: Mappers.Paths1DykrkvV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses404ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.PathsVqx0ExV01AppsOwnerNameAppNameSymbolsSymbolIdGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.symbolId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/symbols",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsRp7XckV01AppsOwnerNameAppNameSymbolsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        403: {
+            bodyMapper: Mappers.PathsZha4ZiV01AppsOwnerNameAppNameSymbolsGetResponses403ContentApplicationJsonSchema
+        },
+        500: {
+            bodyMapper: Mappers.Paths1CjrzdcV01AppsOwnerNameAppNameSymbolsGetResponses500ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

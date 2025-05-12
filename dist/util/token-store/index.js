@@ -1,1 +1,36 @@
-function _0x5bee(_0x1b9243,_0x2cbbae){const _0x317a4e=_0x317a();return _0x5bee=function(_0x5beef9,_0x174396){_0x5beef9=_0x5beef9-0xb6;let _0x226e5c=_0x317a4e[_0x5beef9];return _0x226e5c;},_0x5bee(_0x1b9243,_0x2cbbae);}const _0x219ab3=_0x5bee;(function(_0x2179c1,_0x264c70){const _0x5d5864=_0x5bee,_0x10d432=_0x2179c1();while(!![]){try{const _0x5655c7=-parseInt(_0x5d5864(0xb9))/0x1+parseInt(_0x5d5864(0xbd))/0x2*(-parseInt(_0x5d5864(0xc2))/0x3)+-parseInt(_0x5d5864(0xb7))/0x4+-parseInt(_0x5d5864(0xba))/0x5+-parseInt(_0x5d5864(0xbc))/0x6+-parseInt(_0x5d5864(0xc6))/0x7*(parseInt(_0x5d5864(0xc4))/0x8)+parseInt(_0x5d5864(0xc7))/0x9;if(_0x5655c7===_0x264c70)break;else _0x10d432['push'](_0x10d432['shift']());}catch(_0x1bf76a){_0x10d432['push'](_0x10d432['shift']());}}}(_0x317a,0x5292b));var __createBinding=this&&this[_0x219ab3(0xc3)]||(Object['create']?function(_0x3632cf,_0xae6ced,_0x5d4c2f,_0x56b123){void 0x0===_0x56b123&&(_0x56b123=_0x5d4c2f),Object['defineProperty'](_0x3632cf,_0x56b123,{'enumerable':!0x0,'get':function(){return _0xae6ced[_0x5d4c2f];}});}:function(_0x40e50c,_0x182b78,_0x483507,_0x124ec4){_0x40e50c[_0x124ec4=void 0x0===_0x124ec4?_0x483507:_0x124ec4]=_0x182b78[_0x483507];}),__exportStar=this&&this[_0x219ab3(0xc5)]||function(_0x52e766,_0x2663cd){const _0x3c15a5=_0x219ab3;for(var _0x223bc8 in _0x52e766)'default'===_0x223bc8||Object[_0x3c15a5(0xbb)]['hasOwnProperty'][_0x3c15a5(0xcd)](_0x2663cd,_0x223bc8)||__createBinding(_0x2663cd,_0x52e766,_0x223bc8);};Object[_0x219ab3(0xb6)](exports,_0x219ab3(0xcb),{'value':!0x0}),exports[_0x219ab3(0xca)]=void 0x0;let os=require('os'),path=require(_0x219ab3(0xbe)),file_token_store_1=require(_0x219ab3(0xc9)),win_token_store_1=require(_0x219ab3(0xb8)),osx_token_store_1=require(_0x219ab3(0xc8)),misc_1=require(_0x219ab3(0xd0));__exportStar(require('./token-store'),exports);function _0x317a(){const _0x53074e=['371263ZeZLyE','384945Jaxgsk','prototype','2668488SiNHQe','6UpjxOR','path','createWinTokenStore','join','createFileTokenStore','140235waVlAk','__createBinding','19848GHloGO','__exportStar','1393HwloyZ','17024958JHpssu','./osx/osx-token-store','./file/file-token-store','tokenStore','__esModule','getProfileDir','call','win32','createOsxTokenStore','../misc','platform','defineProperty','105956UEGaYW','./win32/win-token-store'];_0x317a=function(){return _0x53074e;};return _0x317a();}let store;if(_0x219ab3(0xce)===os[_0x219ab3(0xd1)]())store=win_token_store_1[_0x219ab3(0xbf)]();else{if('darwin'===os[_0x219ab3(0xd1)]())store=osx_token_store_1[_0x219ab3(0xcf)]();else{let e=path[_0x219ab3(0xc0)](misc_1[_0x219ab3(0xcc)](),misc_1['tokenFile']);store=file_token_store_1[_0x219ab3(0xc1)](e);}}exports[_0x219ab3(0xca)]=store;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.tokenStore = void 0;
+const os = require("os");
+const path = require("path");
+const file_token_store_1 = require("./file/file-token-store");
+const win_token_store_1 = require("./win32/win-token-store");
+const osx_token_store_1 = require("./osx/osx-token-store");
+const misc_1 = require("../misc");
+__exportStar(require("./token-store"), exports);
+// Create default token store based on OS
+//
+// For now, every OS uses file
+//
+let store;
+if (os.platform() === "win32") {
+    store = win_token_store_1.createWinTokenStore();
+}
+else if (os.platform() === "darwin") {
+    store = osx_token_store_1.createOsxTokenStore();
+}
+else {
+    const tokenFilePath = path.join(misc_1.getProfileDir(), misc_1.tokenFile);
+    store = file_token_store_1.createFileTokenStore(tokenFilePath);
+}
+exports.tokenStore = store;

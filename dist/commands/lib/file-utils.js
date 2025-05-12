@@ -1,1 +1,104 @@
-var _0x2123a0=_0x45aa;(function(_0x150c00,_0x425d33){var _0x2c180e=_0x45aa,_0x3b371c=_0x150c00();while(!![]){try{var _0x2ba6c2=parseInt(_0x2c180e(0x121))/0x1*(-parseInt(_0x2c180e(0x12b))/0x2)+-parseInt(_0x2c180e(0x10f))/0x3*(parseInt(_0x2c180e(0x11a))/0x4)+parseInt(_0x2c180e(0x129))/0x5+-parseInt(_0x2c180e(0x104))/0x6+parseInt(_0x2c180e(0x118))/0x7+parseInt(_0x2c180e(0x116))/0x8+parseInt(_0x2c180e(0x11e))/0x9*(parseInt(_0x2c180e(0x11c))/0xa);if(_0x2ba6c2===_0x425d33)break;else _0x3b371c['push'](_0x3b371c['shift']());}catch(_0x1835b2){_0x3b371c['push'](_0x3b371c['shift']());}}}(_0x16b5,0x8cc2e));function _0x16b5(){var _0xf55682=['basename','CodePush','5GnUVWg','path','filter','then','removeReactTmpDir','/react-*','isDirectory','charAt','5029360asiyQL','apply','283336qgeyip','fileDoesNotExistOrIsDirectory','rimraf','__awaiter','generateRandomFilename','isBinary','../../util/misc/promisfied-fs','getLastFolderInPath','tmpdir','isBinaryOrZip','5001606VzsyLU','split','moveReleaseFilesInTmpFolder','createEmptyTmpReleaseFolder','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','code-push','search','normalizePath','statSync','throw','value','243aMhbtx','defineProperty','readFileSync','temp','random','mkdirSync','sync','7472272wurQje','base','6100500KGEODV','next','48100QQjbRI','join','30KlSjEp','done','843354KcqsVF'];_0x16b5=function(){return _0xf55682;};return _0x16b5();}var __awaiter=this&&this[_0x2123a0(0xfd)]||function(_0x13ca43,_0x43e99a,_0x3c8018,_0x2b1a74){return new(_0x3c8018=_0x3c8018||Promise)(function(_0x293c23,_0x45998d){var _0x41b466=_0x45aa;function _0x15dcb2(_0x53b984){var _0x91f794=_0x45aa;try{_0x30c8e9(_0x2b1a74[_0x91f794(0x119)](_0x53b984));}catch(_0x37bbcc){_0x45998d(_0x37bbcc);}}function _0xb7ea5c(_0x12f3e3){var _0x2f2617=_0x45aa;try{_0x30c8e9(_0x2b1a74[_0x2f2617(0x10d)](_0x12f3e3));}catch(_0x10ead7){_0x45998d(_0x10ead7);}}function _0x30c8e9(_0x57ec2b){var _0x1c862b=_0x45aa,_0x4b2a20;_0x57ec2b[_0x1c862b(0x11d)]?_0x293c23(_0x57ec2b[_0x1c862b(0x10e)]):((_0x4b2a20=_0x57ec2b[_0x1c862b(0x10e)])instanceof _0x3c8018?_0x4b2a20:new _0x3c8018(function(_0x5de40d){_0x5de40d(_0x4b2a20);}))[_0x1c862b(0x124)](_0x15dcb2,_0xb7ea5c);}_0x30c8e9((_0x2b1a74=_0x2b1a74[_0x41b466(0x12a)](_0x13ca43,_0x43e99a||[]))['next']());});};Object[_0x2123a0(0x110)](exports,'__esModule',{'value':!0x0}),exports[_0x2123a0(0x10b)]=exports[_0x2123a0(0x125)]=exports[_0x2123a0(0x107)]=exports[_0x2123a0(0x12c)]=exports[_0x2123a0(0xfe)]=exports[_0x2123a0(0x101)]=exports['moveReleaseFilesInTmpFolder']=exports['copyFileToTmpDir']=exports[_0x2123a0(0x127)]=exports[_0x2123a0(0xff)]=exports[_0x2123a0(0x103)]=void 0x0;let fs=require('fs'),path=require(_0x2123a0(0x122)),os=require('os'),rimraf=require(_0x2123a0(0x12d)),temp=require(_0x2123a0(0x112)),pfs=require(_0x2123a0(0x100));function isBinaryOrZip(_0x317078){var _0x5f1f0c=_0x2123a0;return-0x1!==_0x317078[_0x5f1f0c(0x10a)](/\.zip$/i)||-0x1!==_0x317078[_0x5f1f0c(0x10a)](/\.apk$/i)||-0x1!==_0x317078[_0x5f1f0c(0x10a)](/\.ipa$/i);}function isBinary(_0x4709db){var _0x103eee=_0x2123a0;return-0x1!==_0x4709db[_0x103eee(0x10a)](/\.apk$/i)||-0x1!==_0x4709db[_0x103eee(0x10a)](/\.ipa$/i);}function isDirectory(_0x39b7ac){var _0x12e2c7=_0x2123a0;return fs[_0x12e2c7(0x10c)](_0x39b7ac)[_0x12e2c7(0x127)]();}function copyFileToTmpDir(_0x33927c){var _0x3a2618=_0x2123a0,_0x212984,_0x676072;if(!isDirectory(_0x33927c))return _0x212984=temp['mkdirSync'](_0x3a2618(0x109)),rimraf[_0x3a2618(0x115)](_0x212984),fs[_0x3a2618(0x114)](_0x212984),_0x676072=path[_0x3a2618(0x11b)](_0x212984,path[_0x3a2618(0x11f)](_0x33927c)),fs['writeFileSync'](_0x676072,fs[_0x3a2618(0x111)](_0x33927c)),_0x212984;}function moveReleaseFilesInTmpFolder(_0x57cfdc){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x303335=_0x45aa,_0x1dd752,_0x4c2ed0=temp['mkdirSync'](_0x303335(0x109)),_0x4c2ed0=path[_0x303335(0x11b)](_0x4c2ed0,_0x303335(0x120));return fs[_0x303335(0x114)](_0x4c2ed0),isDirectory(_0x57cfdc)?yield pfs['cp'](normalizePath(_0x57cfdc),normalizePath(_0x4c2ed0)):(_0x1dd752=path['parse'](_0x57cfdc)[_0x303335(0x117)],yield pfs['cpFile'](normalizePath(_0x57cfdc),path['join'](_0x4c2ed0,_0x1dd752))),_0x4c2ed0;});}function getLastFolderInPath(_0x39f7a2){var _0x15ff20=_0x2123a0,_0x1493b3=normalizePath(_0x39f7a2)[_0x15ff20(0x105)]('/')[_0x15ff20(0x123)](_0x1edf51=>''!==_0x1edf51);return isDirectory(_0x39f7a2)?_0x1493b3[_0x1493b3['length']-0x1]:_0x1493b3[_0x1493b3['length']-0x2];}function generateRandomFilename(_0x1424c){var _0xc32cec=_0x2123a0;let _0x472fc6='';var _0x5c4ee7=_0xc32cec(0x108);for(let _0x2530c2=0x0;_0x2530c2<_0x1424c;_0x2530c2++)_0x472fc6+=_0x5c4ee7[_0xc32cec(0x128)](Math['floor'](Math[_0xc32cec(0x113)]()*_0x5c4ee7['length']));return _0x472fc6;}function fileDoesNotExistOrIsDirectory(_0x427f2a){try{return isDirectory(_0x427f2a);}catch(_0x4f484f){return!0x0;}}function createEmptyTmpReleaseFolder(_0x20350e){var _0x4295ea=_0x2123a0;rimraf['sync'](_0x20350e),fs[_0x4295ea(0x114)](_0x20350e);}function _0x45aa(_0x264521,_0x293f1d){var _0x16b593=_0x16b5();return _0x45aa=function(_0x45aa5e,_0x3fba99){_0x45aa5e=_0x45aa5e-0xfd;var _0x3200ed=_0x16b593[_0x45aa5e];return _0x3200ed;},_0x45aa(_0x264521,_0x293f1d);}function removeReactTmpDir(){var _0x5da61c=_0x2123a0;rimraf[_0x5da61c(0x115)](os[_0x5da61c(0x102)]()+_0x5da61c(0x126));}function normalizePath(_0x142145){return _0x142145['replace'](/\\/g,'/');}exports[_0x2123a0(0x103)]=isBinaryOrZip,exports[_0x2123a0(0xff)]=isBinary,exports[_0x2123a0(0x127)]=isDirectory,exports['copyFileToTmpDir']=copyFileToTmpDir,exports[_0x2123a0(0x106)]=moveReleaseFilesInTmpFolder,exports[_0x2123a0(0x101)]=getLastFolderInPath,exports[_0x2123a0(0xfe)]=generateRandomFilename,exports[_0x2123a0(0x12c)]=fileDoesNotExistOrIsDirectory,exports[_0x2123a0(0x107)]=createEmptyTmpReleaseFolder,exports[_0x2123a0(0x125)]=removeReactTmpDir,exports[_0x2123a0(0x10b)]=normalizePath;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.normalizePath = exports.removeReactTmpDir = exports.createEmptyTmpReleaseFolder = exports.fileDoesNotExistOrIsDirectory = exports.generateRandomFilename = exports.getLastFolderInPath = exports.moveReleaseFilesInTmpFolder = exports.copyFileToTmpDir = exports.isDirectory = exports.isBinary = exports.isBinaryOrZip = void 0;
+const fs = require("fs");
+const path = require("path");
+const os = require("os");
+const rimraf = require("rimraf");
+const temp = require("temp");
+const pfs = require("../../util/misc/promisfied-fs");
+function isBinaryOrZip(path) {
+    return path.search(/\.zip$/i) !== -1 || path.search(/\.apk$/i) !== -1 || path.search(/\.ipa$/i) !== -1;
+}
+exports.isBinaryOrZip = isBinaryOrZip;
+function isBinary(path) {
+    return path.search(/\.apk$/i) !== -1 || path.search(/\.ipa$/i) !== -1;
+}
+exports.isBinary = isBinary;
+function isDirectory(path) {
+    return fs.statSync(path).isDirectory();
+}
+exports.isDirectory = isDirectory;
+function copyFileToTmpDir(filePath) {
+    if (!isDirectory(filePath)) {
+        const outputFolderPath = temp.mkdirSync("code-push");
+        rimraf.sync(outputFolderPath);
+        fs.mkdirSync(outputFolderPath);
+        const outputFilePath = path.join(outputFolderPath, path.basename(filePath));
+        fs.writeFileSync(outputFilePath, fs.readFileSync(filePath));
+        return outputFolderPath;
+    }
+}
+exports.copyFileToTmpDir = copyFileToTmpDir;
+function moveReleaseFilesInTmpFolder(updateContentsPath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        let tmpUpdateContentsPath = temp.mkdirSync("code-push");
+        tmpUpdateContentsPath = path.join(tmpUpdateContentsPath, "CodePush");
+        fs.mkdirSync(tmpUpdateContentsPath);
+        if (isDirectory(updateContentsPath)) {
+            yield pfs.cp(normalizePath(updateContentsPath), normalizePath(tmpUpdateContentsPath));
+        }
+        else {
+            const targetFileName = path.parse(updateContentsPath).base;
+            yield pfs.cpFile(normalizePath(updateContentsPath), path.join(tmpUpdateContentsPath, targetFileName));
+        }
+        return tmpUpdateContentsPath;
+    });
+}
+exports.moveReleaseFilesInTmpFolder = moveReleaseFilesInTmpFolder;
+function getLastFolderInPath(path) {
+    const splittedPath = normalizePath(path)
+        .split("/")
+        .filter((el) => {
+        return el !== "";
+    });
+    if (isDirectory(path)) {
+        return splittedPath[splittedPath.length - 1];
+    }
+    else {
+        return splittedPath[splittedPath.length - 2];
+    }
+}
+exports.getLastFolderInPath = getLastFolderInPath;
+function generateRandomFilename(length) {
+    let filename = "";
+    const validChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for (let i = 0; i < length; i++) {
+        // eslint-disable-next-line no-restricted-properties
+        filename += validChar.charAt(Math.floor(Math.random() * validChar.length));
+    }
+    return filename;
+}
+exports.generateRandomFilename = generateRandomFilename;
+function fileDoesNotExistOrIsDirectory(path) {
+    try {
+        return isDirectory(path);
+    }
+    catch (error) {
+        return true;
+    }
+}
+exports.fileDoesNotExistOrIsDirectory = fileDoesNotExistOrIsDirectory;
+function createEmptyTmpReleaseFolder(folderPath) {
+    rimraf.sync(folderPath);
+    fs.mkdirSync(folderPath);
+}
+exports.createEmptyTmpReleaseFolder = createEmptyTmpReleaseFolder;
+function removeReactTmpDir() {
+    rimraf.sync(`${os.tmpdir()}/react-*`);
+}
+exports.removeReactTmpDir = removeReactTmpDir;
+function normalizePath(filePath) {
+    //replace all backslashes coming from cli running on windows machines by slashes
+    return filePath.replace(/\\/g, "/");
+}
+exports.normalizePath = normalizePath;

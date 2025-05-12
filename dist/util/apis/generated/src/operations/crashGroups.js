@@ -1,1 +1,159 @@
-const _0x2c4acb=_0x4efd;(function(_0x1bda1a,_0x2067c8){const _0x20e15a=_0x4efd,_0x20be1f=_0x1bda1a();while(!![]){try{const _0x28ebf0=-parseInt(_0x20e15a(0x130))/0x1*(parseInt(_0x20e15a(0x148))/0x2)+parseInt(_0x20e15a(0x13e))/0x3+-parseInt(_0x20e15a(0x124))/0x4+parseInt(_0x20e15a(0x131))/0x5*(parseInt(_0x20e15a(0x126))/0x6)+parseInt(_0x20e15a(0x14c))/0x7*(-parseInt(_0x20e15a(0x133))/0x8)+parseInt(_0x20e15a(0x11e))/0x9+parseInt(_0x20e15a(0x147))/0xa;if(_0x28ebf0===_0x2067c8)break;else _0x20be1f['push'](_0x20be1f['shift']());}catch(_0x3d7979){_0x20be1f['push'](_0x20be1f['shift']());}}}(_0x2eec,0x18a76),(Object['defineProperty'](exports,_0x2c4acb(0x127),{'value':!0x0}),exports['CrashGroupsImpl']=void 0x0));let coreClient=require(_0x2c4acb(0x120)),Mappers=require(_0x2c4acb(0x136)),Parameters=require(_0x2c4acb(0x12a));class CrashGroupsImpl{constructor(_0x2c86b7){const _0x51ad21=_0x2c4acb;this[_0x51ad21(0x123)]=_0x2c86b7;}[_0x2c4acb(0x11f)](_0x475b3a,_0x30a7e0,_0x3cb2b5,_0x129071){const _0x18660a=_0x2c4acb;return this[_0x18660a(0x123)][_0x18660a(0x13d)]({'crashGroupId':_0x475b3a,'ownerName':_0x30a7e0,'appName':_0x3cb2b5,'options':_0x129071},getStacktraceOperationSpec);}['get'](_0x21ae35,_0x4e649d,_0x5e3c45,_0x1c0ecb){const _0x3c6f5b=_0x2c4acb;return this[_0x3c6f5b(0x123)][_0x3c6f5b(0x13d)]({'crashGroupId':_0x21ae35,'ownerName':_0x4e649d,'appName':_0x5e3c45,'options':_0x1c0ecb},getOperationSpec);}[_0x2c4acb(0x12b)](_0x13a280,_0x55d844,_0x8bcdf8,_0x3ca288){const _0x12aa00=_0x2c4acb;return this[_0x12aa00(0x123)][_0x12aa00(0x13d)]({'crashGroupId':_0x13a280,'ownerName':_0x55d844,'appName':_0x8bcdf8,'options':_0x3ca288},updateOperationSpec);}[_0x2c4acb(0x138)](_0x3cd33a,_0x364497,_0x2915fe){const _0x4b1a90=_0x2c4acb;return this[_0x4b1a90(0x123)][_0x4b1a90(0x13d)]({'ownerName':_0x3cd33a,'appName':_0x364497,'options':_0x2915fe},listOperationSpec);}}exports[_0x2c4acb(0x132)]=CrashGroupsImpl;function _0x2eec(){const _0xe1b9f6=['contentType','client','619436qfRrQp','appName','37356ngamKz','__esModule','lastOccurrenceFrom','continuationToken','../models/parameters','update','annotation','groupType','appVersion1','options','32XUcQUa','155HyLAAm','CrashGroupsImpl','229128pVBtto','PathsNzisgxV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdGetResponsesDefaultContentApplicationJsonSchema','Paths1D54ZerV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchResponsesDefaultContentApplicationJsonSchema','../models/mappers','$host','list','accept','lastOccurrenceTo','crashGroupId','PathsScc799V01AppsOwnerNameAppNameCrashGroupsGetResponses200ContentApplicationJsonSchema','sendOperationRequest','235962xPPPQJ','PathsHnvr1EV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdGetResponses200ContentApplicationJsonSchema','Paths11Adk1LV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdStacktraceGetResponsesDefaultContentApplicationJsonSchema','groupTextSearch','groupStatus','json','GET','/v0.1/apps/{owner_name}/{app_name}/crash_groups/{crash_group_id}','/v0.1/apps/{owner_name}/{app_name}/crash_groups','502780xMQXEq','4996QHggVn','groupingOnly','Paths6Qmpl3V01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/crash_groups/{crash_group_id}/stacktrace','35JgsBET','orderby1','1413396VQkHWY','getStacktrace','@azure/core-client','ownerName'];_0x2eec=function(){return _0xe1b9f6;};return _0x2eec();}function _0x4efd(_0x48876c,_0x2851f8){const _0x2eec6a=_0x2eec();return _0x4efd=function(_0x4efd3f,_0x3f72fc){_0x4efd3f=_0x4efd3f-0x11d;let _0x3d0573=_0x2eec6a[_0x4efd3f];return _0x3d0573;},_0x4efd(_0x48876c,_0x2851f8);}let serializer=coreClient['createSerializer'](Mappers,!0x1),getStacktraceOperationSpec={'path':_0x2c4acb(0x14b),'httpMethod':_0x2c4acb(0x144),'responses':{0xc8:{'bodyMapper':Mappers['Stacktrace']},'default':{'bodyMapper':Mappers[_0x2c4acb(0x140)]}},'queryParameters':[Parameters[_0x2c4acb(0x149)]],'urlParameters':[Parameters[_0x2c4acb(0x137)],Parameters[_0x2c4acb(0x121)],Parameters[_0x2c4acb(0x125)],Parameters[_0x2c4acb(0x13b)]],'headerParameters':[Parameters['accept']],'serializer':serializer},getOperationSpec={'path':_0x2c4acb(0x145),'httpMethod':_0x2c4acb(0x144),'responses':{0xc8:{'bodyMapper':Mappers[_0x2c4acb(0x13f)]},'default':{'bodyMapper':Mappers[_0x2c4acb(0x134)]}},'urlParameters':[Parameters[_0x2c4acb(0x137)],Parameters['ownerName'],Parameters[_0x2c4acb(0x125)],Parameters[_0x2c4acb(0x13b)]],'headerParameters':[Parameters[_0x2c4acb(0x139)]],'serializer':serializer},updateOperationSpec={'path':_0x2c4acb(0x145),'httpMethod':'PATCH','responses':{0xc8:{'bodyMapper':Mappers[_0x2c4acb(0x14a)]},'default':{'bodyMapper':Mappers[_0x2c4acb(0x135)]}},'requestBody':{'parameterPath':{'status':['options','status'],'annotation':[_0x2c4acb(0x12f),_0x2c4acb(0x12c)]},'mapper':Object['assign'](Object['assign']({},Mappers['PathsT60UxpV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x2c4acb(0x137)],Parameters['ownerName'],Parameters['appName'],Parameters[_0x2c4acb(0x13b)]],'headerParameters':[Parameters[_0x2c4acb(0x122)],Parameters['accept']],'mediaType':_0x2c4acb(0x143),'serializer':serializer},listOperationSpec={'path':_0x2c4acb(0x146),'httpMethod':_0x2c4acb(0x144),'responses':{0xc8:{'bodyMapper':Mappers[_0x2c4acb(0x13c)]},'default':{'bodyMapper':Mappers['PathsFkuj51V01AppsOwnerNameAppNameCrashGroupsGetResponsesDefaultContentApplicationJsonSchema']}},'queryParameters':[Parameters[_0x2c4acb(0x12e)],Parameters[_0x2c4acb(0x128)],Parameters[_0x2c4acb(0x13a)],Parameters[_0x2c4acb(0x12d)],Parameters[_0x2c4acb(0x142)],Parameters[_0x2c4acb(0x141)],Parameters[_0x2c4acb(0x11d)],Parameters[_0x2c4acb(0x129)]],'urlParameters':[Parameters[_0x2c4acb(0x137)],Parameters[_0x2c4acb(0x121)],Parameters['appName']],'headerParameters':[Parameters['accept']],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CrashGroupsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing CrashGroups operations. */
+class CrashGroupsImpl {
+    /**
+     * Initialize a new instance of the class CrashGroups class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Gets a stacktrace for a specific crash.
+     * @param crashGroupId id of a specific group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getStacktrace(crashGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, ownerName, appName, options }, getStacktraceOperationSpec);
+    }
+    /**
+     * Gets a specific group.
+     * @param crashGroupId id of a specific group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(crashGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Updates a group.
+     * @param crashGroupId id of a specific group
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    update(crashGroupId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ crashGroupId, ownerName, appName, options }, updateOperationSpec);
+    }
+    /**
+     * Gets a list of crash groups and whether the list contains all available groups.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+}
+exports.CrashGroupsImpl = CrashGroupsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getStacktraceOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/crash_groups/{crash_group_id}/stacktrace",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Stacktrace
+        },
+        default: {
+            bodyMapper: Mappers.Paths11Adk1LV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdStacktraceGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.groupingOnly],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/crash_groups/{crash_group_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsHnvr1EV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsNzisgxV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/crash_groups/{crash_group_id}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths6Qmpl3V01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1D54ZerV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            status: ["options", "status"],
+            annotation: ["options", "annotation"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsT60UxpV01AppsOwnerNameAppNameCrashGroupsCrashGroupIdPatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.crashGroupId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/crash_groups",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsScc799V01AppsOwnerNameAppNameCrashGroupsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsFkuj51V01AppsOwnerNameAppNameCrashGroupsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.appVersion1,
+        Parameters.lastOccurrenceFrom,
+        Parameters.lastOccurrenceTo,
+        Parameters.groupType,
+        Parameters.groupStatus,
+        Parameters.groupTextSearch,
+        Parameters.orderby1,
+        Parameters.continuationToken
+    ],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

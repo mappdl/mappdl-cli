@@ -1,1 +1,64 @@
-const _0x1c17c3=_0x160e;(function(_0x1efccd,_0x4e758f){const _0x1a792d=_0x160e,_0x4b99ea=_0x1efccd();while(!![]){try{const _0x2ab0d1=parseInt(_0x1a792d(0x1ef))/0x1*(parseInt(_0x1a792d(0x20b))/0x2)+-parseInt(_0x1a792d(0x1f4))/0x3*(-parseInt(_0x1a792d(0x1f0))/0x4)+-parseInt(_0x1a792d(0x1fa))/0x5+-parseInt(_0x1a792d(0x1f2))/0x6*(-parseInt(_0x1a792d(0x1f7))/0x7)+parseInt(_0x1a792d(0x207))/0x8+-parseInt(_0x1a792d(0x201))/0x9*(-parseInt(_0x1a792d(0x203))/0xa)+parseInt(_0x1a792d(0x1f1))/0xb*(-parseInt(_0x1a792d(0x1fc))/0xc);if(_0x2ab0d1===_0x4e758f)break;else _0x4b99ea['push'](_0x4b99ea['shift']());}catch(_0xfe7979){_0x4b99ea['push'](_0x4b99ea['shift']());}}}(_0xa6d4,0xb99e9));function _0xa6d4(){const _0x378d2c=['next','defineProperty','join','finder','inspect','log','illegal','206qiObJi','40hUJlTW','7318014gOWzDR','6yrbYfk','done','137238SLDUAc','apply','throw','612836fzONxJ','util','loader','2767620IHZnWf','then','48MfYziz','__awaiter','Command\x20Failure\x20at\x20','runner','../interaction','333gvWzfF','__esModule','272410OEzrAJ','Command\x20loading\x20completed,\x20result\x20=\x20','mappdl-cli:util:commandline:command-runner','stack','7315872zRdIOU','debug','./command-result','execute','14636tukhcC','notFound','exception'];_0xa6d4=function(){return _0x378d2c;};return _0xa6d4();}var __awaiter=this&&this[_0x1c17c3(0x1fd)]||function(_0x1aa342,_0x31c87e,_0x47cd49,_0x156c2a){return new(_0x47cd49=_0x47cd49||Promise)(function(_0x1b7f37,_0x18cc8d){const _0x55280e=_0x160e;function _0x1b9478(_0x30a914){const _0x51ad0b=_0x160e;try{_0x44d27a(_0x156c2a[_0x51ad0b(0x1e8)](_0x30a914));}catch(_0x4989e3){_0x18cc8d(_0x4989e3);}}function _0x3ae307(_0x140f51){const _0x525835=_0x160e;try{_0x44d27a(_0x156c2a[_0x525835(0x1f6)](_0x140f51));}catch(_0x155ab9){_0x18cc8d(_0x155ab9);}}function _0x44d27a(_0x4704b7){const _0x3b5372=_0x160e;var _0x25abf1;_0x4704b7[_0x3b5372(0x1f3)]?_0x1b7f37(_0x4704b7['value']):((_0x25abf1=_0x4704b7['value'])instanceof _0x47cd49?_0x25abf1:new _0x47cd49(function(_0xeecd3e){_0xeecd3e(_0x25abf1);}))[_0x3b5372(0x1fb)](_0x1b9478,_0x3ae307);}_0x44d27a((_0x156c2a=_0x156c2a[_0x55280e(0x1f5)](_0x1aa342,_0x31c87e||[]))[_0x55280e(0x1e8)]());});};Object[_0x1c17c3(0x1e9)](exports,_0x1c17c3(0x202),{'value':!0x0}),exports[_0x1c17c3(0x1ff)]=void 0x0;function _0x160e(_0x548e99,_0x2b6020){const _0xa6d4d6=_0xa6d4();return _0x160e=function(_0x160e43,_0x445954){_0x160e43=_0x160e43-0x1e8;let _0x507034=_0xa6d4d6[_0x160e43];return _0x507034;},_0x160e(_0x548e99,_0x2b6020);}let command_result_1=require(_0x1c17c3(0x209)),Finder=require('./command-finder'),Loader=require('./command-loader'),interaction_1=require(_0x1c17c3(0x200)),debug=require(_0x1c17c3(0x208))(_0x1c17c3(0x205)),util_1=require(_0x1c17c3(0x1f8));function runner(_0x270356){const _0x34a923=_0x1c17c3;let _0x32d4ac;return _0x32d4ac='string'==typeof _0x270356?Loader[_0x34a923(0x1f9)](Finder[_0x34a923(0x1eb)](_0x270356)):_0x270356,function(_0x3509b8){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x2ffef2=_0x160e;let _0x13a7fa,_0x314bcd,_0x11d040,_0x57f419;try{debug('Loading\x20command\x20'+_0x3509b8);var _0x2d4137=_0x32d4ac(_0x3509b8);if(debug(_0x2ffef2(0x204)+util_1[_0x2ffef2(0x1ec)](_0x2d4137)),null===_0x2d4137)return command_result_1[_0x2ffef2(0x20c)](_0x3509b8['join']('\x20'));({commandFactory:_0x13a7fa,commandParts:_0x314bcd,args:_0x11d040,commandPath:_0x57f419}=_0x2d4137);}catch(_0x1646a3){return debug('Command\x20loading\x20failed,\x20exception\x20=\x20'+_0x1646a3),command_result_1[_0x2ffef2(0x1ee)](_0x3509b8['join']('\x20'));}try{return yield new _0x13a7fa({'command':_0x314bcd,'args':_0x11d040,'commandPath':_0x57f419})[_0x2ffef2(0x20a)]();}catch(_0x3b256a){return command_result_1['isCommandFailedResult'](_0x3b256a)?_0x3b256a:(interaction_1['isDebug']()&&console[_0x2ffef2(0x1ed)](_0x2ffef2(0x1fe)+_0x3b256a[_0x2ffef2(0x206)]),command_result_1[_0x2ffef2(0x20d)](_0x3509b8[_0x2ffef2(0x1ea)]('\x20'),_0x3b256a));}});};}exports[_0x1c17c3(0x1ff)]=runner;
+"use strict";
+// logic that reads a command line, extracts the actual command, and loads it.
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.runner = void 0;
+const command_result_1 = require("./command-result");
+const Finder = require("./command-finder");
+const Loader = require("./command-loader");
+const interaction_1 = require("../interaction");
+const debug = require("debug")("mappdl-cli:util:commandline:command-runner");
+const util_1 = require("util");
+function runner(arg) {
+    let loader;
+    if (typeof arg === "string") {
+        loader = Loader.loader(Finder.finder(arg));
+    }
+    else {
+        loader = arg;
+    }
+    return function commandRunner(command) {
+        return __awaiter(this, void 0, void 0, function* () {
+            let factory;
+            let newCommand;
+            let args;
+            let commandPath;
+            try {
+                debug(`Loading command ${command}`);
+                const result = loader(command);
+                debug(`Command loading completed, result = ${util_1.inspect(result)}`);
+                if (result === null) {
+                    return command_result_1.notFound(command.join(" "));
+                }
+                ({ commandFactory: factory, commandParts: newCommand, args, commandPath } = result);
+            }
+            catch (ex) {
+                debug(`Command loading failed, exception = ${ex}`);
+                // If we got an exception here, it was an illegal command
+                return command_result_1.illegal(command.join(" "));
+            }
+            try {
+                const commandObj = new factory({ command: newCommand, args, commandPath });
+                return yield commandObj.execute();
+            }
+            catch (ex) {
+                if (command_result_1.isCommandFailedResult(ex)) {
+                    return ex;
+                }
+                if (interaction_1.isDebug()) {
+                    console.log(`Command Failure at ${ex.stack}`);
+                }
+                return command_result_1.exception(command.join(" "), ex);
+            }
+        });
+    };
+}
+exports.runner = runner;

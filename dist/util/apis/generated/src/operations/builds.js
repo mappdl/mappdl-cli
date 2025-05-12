@@ -1,1 +1,426 @@
-const _0x1e6d87=_0x2a6f;(function(_0x2d3657,_0x41628c){const _0x2fb25f=_0x2a6f,_0x477f5e=_0x2d3657();while(!![]){try{const _0x2ce52e=parseInt(_0x2fb25f(0x1eb))/0x1*(parseInt(_0x2fb25f(0x1f7))/0x2)+parseInt(_0x2fb25f(0x1e8))/0x3*(parseInt(_0x2fb25f(0x223))/0x4)+parseInt(_0x2fb25f(0x224))/0x5+-parseInt(_0x2fb25f(0x1f6))/0x6+parseInt(_0x2fb25f(0x211))/0x7*(-parseInt(_0x2fb25f(0x1e2))/0x8)+parseInt(_0x2fb25f(0x1e6))/0x9+-parseInt(_0x2fb25f(0x1fe))/0xa*(-parseInt(_0x2fb25f(0x21f))/0xb);if(_0x2ce52e===_0x41628c)break;else _0x477f5e['push'](_0x477f5e['shift']());}catch(_0x53f039){_0x477f5e['push'](_0x477f5e['shift']());}}}(_0x2644,0x32a09),(Object[_0x1e6d87(0x21c)](exports,_0x1e6d87(0x220),{'value':!0x0}),exports['BuildsImpl']=void 0x0));function _0x2644(){const _0xe60217=['options','listXamarinSDKBundles','/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/distribute','/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/toolset_projects','PathsIgnnsjV01AppsOwnerNameAppNameBranchesBranchBuildsPostResponses200ContentApplicationJsonSchema','PathsN3VrpV01AppsOwnerNameAppNameBuildsBuildIdGetResponses200ContentApplicationJsonSchema','10iEZtEG','createSerializer','BuildsImpl','listByBranch','$host','Paths5Mg2CrV01AppsOwnerNameAppNameBranchesGetResponses200ContentApplicationJsonSchemaItems','PathsQ75XzuV01AppsOwnerNameAppNameBuildsBuildIdDownloadsDownloadTypeGetResponses200ContentApplicationJsonSchema','PathsPo7UnwV01AppsOwnerNameAppNameBuildServiceStatusGetResponses200ContentApplicationJsonSchema','Paths1Jgsne9V01AppsOwnerNameAppNameBranchesBranchBuildsPostRequestbodyContentApplicationJsonSchema','Sequence','contentType','appName','sourceVersion','@azure/core-client','PathsRyxelmV01AppsOwnerNameAppNameBranchesBranchBuildsGetResponses200ContentApplicationJsonSchemaItems','Paths1WpnegrV01AppsOwnerNameAppNameBranchesGetResponsesDefaultContentApplicationJsonSchema','debug','../models/parameters','listToolsets','2093pdiOLp','listBranches','Paths1Nv9E3SV01AppsOwnerNameAppNameXamarinSdkBundlesGetResponses200ContentApplicationJsonSchemaItems','accept','tools','Composite','/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/downloads/{download_type}','buildId','client','assign','PathsFcn32WV01AppsOwnerNameAppNameBuildsBuildIdPatchRequestbodyContentApplicationJsonSchema','defineProperty','create','sendOperationRequest','332101ssnWWh','__esModule','status','Paths9Yy0MkV01AppsOwnerNameAppNameXcodeVersionsGetResponsesDefaultContentApplicationJsonSchema','2068eeCnzq','99515ouKBsl','ownerName','2488OBsvre','Paths1Dh1CmbV01AppsOwnerNameAppNameToolsetsGetResponsesDefaultContentApplicationJsonSchema','platform','Paths17D5VcoV01AppsOwnerNameAppNameBranchesBranchToolsetProjectsGetResponses200ContentApplicationJsonSchema','2800278mvMYDI','maxSearchDepth','453YqVECy','/v0.1/apps/{owner_name}/{app_name}/xamarin_sdk_bundles','branch','3846WXnaAH','Paths1D42Nj4V01AppsOwnerNameAppNameBuildsBuildIdDistributePostResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/xcode_versions','json','distributeInfo','update','get','GET','getDownloadUri','POST','PATCH','2472066PWOUsI','142KbeyQe'];_0x2644=function(){return _0xe60217;};return _0x2644();}let coreClient=require(_0x1e6d87(0x20b)),Mappers=require('../models/mappers'),Parameters=require(_0x1e6d87(0x20f));function _0x2a6f(_0x3faa2c,_0x3c1b3b){const _0x264429=_0x2644();return _0x2a6f=function(_0x2a6fa0,_0xe7392c){_0x2a6fa0=_0x2a6fa0-0x1e1;let _0x119ab3=_0x264429[_0x2a6fa0];return _0x119ab3;},_0x2a6f(_0x3faa2c,_0x3c1b3b);}class BuildsImpl{constructor(_0x438958){const _0x495d66=_0x1e6d87;this[_0x495d66(0x219)]=_0x438958;}['listXcodeVersions'](_0x37c04c,_0x564cc1,_0x224c61){const _0x2c0209=_0x1e6d87;return this['client'][_0x2c0209(0x21e)]({'ownerName':_0x37c04c,'appName':_0x564cc1,'options':_0x224c61},listXcodeVersionsOperationSpec);}[_0x1e6d87(0x1f9)](_0x238fbe,_0x32844a,_0xbdcd76){const _0x19d7e9=_0x1e6d87;return this[_0x19d7e9(0x219)][_0x19d7e9(0x21e)]({'ownerName':_0x238fbe,'appName':_0x32844a,'options':_0xbdcd76},listXamarinSDKBundlesOperationSpec);}[_0x1e6d87(0x210)](_0x576c34,_0x1ab3d9,_0xf5585b){const _0x2c4363=_0x1e6d87;return this[_0x2c4363(0x219)]['sendOperationRequest']({'ownerName':_0x576c34,'appName':_0x1ab3d9,'options':_0xf5585b},listToolsetsOperationSpec);}['getLog'](_0x5de700,_0x5d4219,_0x2188bf,_0x53b39a){const _0x10858e=_0x1e6d87;return this[_0x10858e(0x219)][_0x10858e(0x21e)]({'buildId':_0x5de700,'ownerName':_0x5d4219,'appName':_0x2188bf,'options':_0x53b39a},getLogOperationSpec);}[_0x1e6d87(0x1f3)](_0x37df05,_0x1769bf,_0x48149e,_0x11c387,_0x32ce57){return this['client']['sendOperationRequest']({'buildId':_0x37df05,'downloadType':_0x1769bf,'ownerName':_0x48149e,'appName':_0x11c387,'options':_0x32ce57},getDownloadUriOperationSpec);}['distribute'](_0x1140af,_0x35bed5,_0x3c9ff7,_0x27149a,_0x1e7581){const _0x66d7b8=_0x1e6d87;return this[_0x66d7b8(0x219)][_0x66d7b8(0x21e)]({'buildId':_0x1140af,'ownerName':_0x35bed5,'appName':_0x3c9ff7,'distributeInfo':_0x27149a,'options':_0x1e7581},distributeOperationSpec);}[_0x1e6d87(0x1f1)](_0x267fe6,_0xc4d44d,_0x5e03dc,_0x572ac9){const _0x43d9fc=_0x1e6d87;return this[_0x43d9fc(0x219)][_0x43d9fc(0x21e)]({'buildId':_0x267fe6,'ownerName':_0xc4d44d,'appName':_0x5e03dc,'options':_0x572ac9},getOperationSpec);}[_0x1e6d87(0x1f0)](_0x39dbab,_0x292a53,_0xd26355,_0x194c05){const _0x125d0f=_0x1e6d87;return this[_0x125d0f(0x219)][_0x125d0f(0x21e)]({'buildId':_0x39dbab,'ownerName':_0x292a53,'appName':_0xd26355,'options':_0x194c05},updateOperationSpec);}['getStatusByAppId'](_0x5250da,_0x3c65e9,_0x495059){const _0x3345f4=_0x1e6d87;return this[_0x3345f4(0x219)][_0x3345f4(0x21e)]({'ownerName':_0x5250da,'appName':_0x3c65e9,'options':_0x495059},getStatusByAppIdOperationSpec);}['listToolsetProjects'](_0x2146a7,_0x3fc2b9,_0x417fe3,_0xd3ea7e,_0x2c6560,_0x202d22){const _0x5e8bfa=_0x1e6d87;return this['client'][_0x5e8bfa(0x21e)]({'branch':_0x2146a7,'os':_0x3fc2b9,'platform':_0x417fe3,'ownerName':_0xd3ea7e,'appName':_0x2c6560,'options':_0x202d22},listToolsetProjectsOperationSpec);}[_0x1e6d87(0x201)](_0x18b718,_0x21a62e,_0x19840f,_0x8a86fe){const _0x51c246=_0x1e6d87;return this[_0x51c246(0x219)][_0x51c246(0x21e)]({'branch':_0x18b718,'ownerName':_0x21a62e,'appName':_0x19840f,'options':_0x8a86fe},listByBranchOperationSpec);}[_0x1e6d87(0x21d)](_0xc06664,_0x3d3fad,_0x18315f,_0x1097e5){const _0x2481db=_0x1e6d87;return this['client'][_0x2481db(0x21e)]({'branch':_0xc06664,'ownerName':_0x3d3fad,'appName':_0x18315f,'options':_0x1097e5},createOperationSpec);}[_0x1e6d87(0x212)](_0x4f9826,_0x242ec9,_0x13452a){const _0x3d853c=_0x1e6d87;return this[_0x3d853c(0x219)][_0x3d853c(0x21e)]({'ownerName':_0x4f9826,'appName':_0x242ec9,'options':_0x13452a},listBranchesOperationSpec);}}exports[_0x1e6d87(0x200)]=BuildsImpl;let serializer=coreClient[_0x1e6d87(0x1ff)](Mappers,!0x1),listXcodeVersionsOperationSpec={'path':_0x1e6d87(0x1ed),'httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x1e6d87(0x207),'element':{'type':{'name':_0x1e6d87(0x216),'className':'PathsSnbseaV01AppsOwnerNameAppNameXcodeVersionsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers[_0x1e6d87(0x222)]}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)]],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},listXamarinSDKBundlesOperationSpec={'path':_0x1e6d87(0x1e9),'httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x1e6d87(0x207),'element':{'type':{'name':_0x1e6d87(0x216),'className':_0x1e6d87(0x213)}}}}},'default':{'bodyMapper':Mappers['Paths1G32ByzV01AppsOwnerNameAppNameXamarinSdkBundlesGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters['ownerName'],Parameters[_0x1e6d87(0x209)]],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},listToolsetsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/toolsets','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers['PathsJw4J38V01AppsOwnerNameAppNameToolsetsGetResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x1e6d87(0x1e3)]}},'queryParameters':[Parameters[_0x1e6d87(0x215)]],'urlParameters':[Parameters['$host'],Parameters[_0x1e6d87(0x1e1)],Parameters['appName']],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},getLogOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/logs','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers['Paths1A4WxwuV01AppsOwnerNameAppNameBuildsBuildIdLogsGetResponses200ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x218)]],'headerParameters':[Parameters['accept']],'serializer':serializer},getDownloadUriOperationSpec={'path':_0x1e6d87(0x217),'httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x204)]}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x218)],Parameters['downloadType']],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},distributeOperationSpec={'path':_0x1e6d87(0x1fa),'httpMethod':_0x1e6d87(0x1f4),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x1ec)]}},'requestBody':Parameters[_0x1e6d87(0x1ef)],'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters['appName'],Parameters[_0x1e6d87(0x218)]],'headerParameters':[Parameters['contentType'],Parameters[_0x1e6d87(0x214)]],'mediaType':'json','serializer':serializer},getOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x1fd)]}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x218)]],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},updateOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}','httpMethod':_0x1e6d87(0x1f5),'responses':{0xc8:{'bodyMapper':Mappers['Paths1Kppxb1V01AppsOwnerNameAppNameBuildsBuildIdPatchResponses200ContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'status':[_0x1e6d87(0x1f8),_0x1e6d87(0x221)]},'mapper':Object[_0x1e6d87(0x21a)](Object[_0x1e6d87(0x21a)]({},Mappers[_0x1e6d87(0x21b)]),{'required':!0x0})},'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x1e6d87(0x209)],Parameters['buildId']],'headerParameters':[Parameters[_0x1e6d87(0x208)],Parameters[_0x1e6d87(0x214)]],'mediaType':_0x1e6d87(0x1ee),'serializer':serializer},getStatusByAppIdOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/build_service_status','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x205)]},'default':{}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters['ownerName'],Parameters[_0x1e6d87(0x209)]],'headerParameters':[Parameters['accept']],'serializer':serializer},listToolsetProjectsOperationSpec={'path':_0x1e6d87(0x1fb),'httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x1e5)]}},'queryParameters':[Parameters['os'],Parameters[_0x1e6d87(0x1e4)],Parameters[_0x1e6d87(0x1e7)]],'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x1ea)]],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},listByBranchOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/builds','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x1e6d87(0x207),'element':{'type':{'name':_0x1e6d87(0x216),'className':_0x1e6d87(0x20c)}}}}}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x1ea)]],'headerParameters':[Parameters[_0x1e6d87(0x214)]],'serializer':serializer},createOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/builds','httpMethod':_0x1e6d87(0x1f4),'responses':{0xc8:{'bodyMapper':Mappers[_0x1e6d87(0x1fc)]}},'requestBody':{'parameterPath':{'sourceVersion':[_0x1e6d87(0x1f8),_0x1e6d87(0x20a)],'debug':[_0x1e6d87(0x1f8),_0x1e6d87(0x20e)]},'mapper':Mappers[_0x1e6d87(0x206)]},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)],Parameters[_0x1e6d87(0x1ea)]],'headerParameters':[Parameters[_0x1e6d87(0x208)],Parameters[_0x1e6d87(0x214)]],'mediaType':'json','serializer':serializer},listBranchesOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/branches','httpMethod':_0x1e6d87(0x1f2),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x1e6d87(0x207),'element':{'type':{'name':'Composite','className':_0x1e6d87(0x203)}}}}},'default':{'bodyMapper':Mappers[_0x1e6d87(0x20d)]}},'urlParameters':[Parameters[_0x1e6d87(0x202)],Parameters[_0x1e6d87(0x1e1)],Parameters[_0x1e6d87(0x209)]],'headerParameters':[Parameters['accept']],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BuildsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Builds operations. */
+class BuildsImpl {
+    /**
+     * Initialize a new instance of the class Builds class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Gets the Xcode versions available to this app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listXcodeVersions(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listXcodeVersionsOperationSpec);
+    }
+    /**
+     * Gets the Xamarin SDK bundles available to this app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listXamarinSDKBundles(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listXamarinSDKBundlesOperationSpec);
+    }
+    /**
+     * Returns available toolsets for application
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listToolsets(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listToolsetsOperationSpec);
+    }
+    /**
+     * Get the build log
+     * @param buildId The build ID
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getLog(buildId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ buildId, ownerName, appName, options }, getLogOperationSpec);
+    }
+    /**
+     * Gets the download URI
+     * @param buildId The build ID
+     * @param downloadType The download type
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getDownloadUri(buildId, downloadType, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ buildId, downloadType, ownerName, appName, options }, getDownloadUriOperationSpec);
+    }
+    /**
+     * Distribute a build
+     * @param buildId The build ID
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param distributeInfo The distribution details
+     * @param options The options parameters.
+     */
+    distribute(buildId, ownerName, appName, distributeInfo, options) {
+        return this.client.sendOperationRequest({ buildId, ownerName, appName, distributeInfo, options }, distributeOperationSpec);
+    }
+    /**
+     * Returns the build detail for the given build ID
+     * @param buildId The build ID
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(buildId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ buildId, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Cancels a build
+     * @param buildId The build ID
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    update(buildId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ buildId, ownerName, appName, options }, updateOperationSpec);
+    }
+    /**
+     * Application specific build service status
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getStatusByAppId(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getStatusByAppIdOperationSpec);
+    }
+    /**
+     * Returns the projects in the repository for the branch, for all toolsets
+     * @param branch The branch name
+     * @param os The desired OS for the project scan; normally the same as the app OS
+     * @param platform The desired platform for the project scan
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listToolsetProjects(branch, os, platform, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ branch, os, platform, ownerName, appName, options }, listToolsetProjectsOperationSpec);
+    }
+    /**
+     * Returns the list of builds for the branch
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listByBranch(branch, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, options }, listByBranchOperationSpec);
+    }
+    /**
+     * Create a build
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    create(branch, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, options }, createOperationSpec);
+    }
+    /**
+     * Returns the list of Git branches for this application
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listBranches(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listBranchesOperationSpec);
+    }
+}
+exports.BuildsImpl = BuildsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const listXcodeVersionsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/xcode_versions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsSnbseaV01AppsOwnerNameAppNameXcodeVersionsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths9Yy0MkV01AppsOwnerNameAppNameXcodeVersionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listXamarinSDKBundlesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/xamarin_sdk_bundles",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Nv9E3SV01AppsOwnerNameAppNameXamarinSdkBundlesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths1G32ByzV01AppsOwnerNameAppNameXamarinSdkBundlesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listToolsetsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/toolsets",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsJw4J38V01AppsOwnerNameAppNameToolsetsGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Dh1CmbV01AppsOwnerNameAppNameToolsetsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [Parameters.tools],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getLogOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/logs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1A4WxwuV01AppsOwnerNameAppNameBuildsBuildIdLogsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.buildId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getDownloadUriOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/downloads/{download_type}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsQ75XzuV01AppsOwnerNameAppNameBuildsBuildIdDownloadsDownloadTypeGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.buildId,
+        Parameters.downloadType
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const distributeOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}/distribute",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1D42Nj4V01AppsOwnerNameAppNameBuildsBuildIdDistributePostResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.distributeInfo,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.buildId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsN3VrpV01AppsOwnerNameAppNameBuildsBuildIdGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.buildId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/builds/{build_id}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1Kppxb1V01AppsOwnerNameAppNameBuildsBuildIdPatchResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { status: ["options", "status"] },
+        mapper: Object.assign(Object.assign({}, Mappers.PathsFcn32WV01AppsOwnerNameAppNameBuildsBuildIdPatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.buildId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getStatusByAppIdOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/build_service_status",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsPo7UnwV01AppsOwnerNameAppNameBuildServiceStatusGetResponses200ContentApplicationJsonSchema
+        },
+        default: {}
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listToolsetProjectsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/toolset_projects",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths17D5VcoV01AppsOwnerNameAppNameBranchesBranchToolsetProjectsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    queryParameters: [
+        Parameters.os,
+        Parameters.platform,
+        Parameters.maxSearchDepth
+    ],
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listByBranchOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/builds",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsRyxelmV01AppsOwnerNameAppNameBranchesBranchBuildsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/builds",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsIgnnsjV01AppsOwnerNameAppNameBranchesBranchBuildsPostResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            sourceVersion: ["options", "sourceVersion"],
+            debug: ["options", "debug"]
+        },
+        mapper: Mappers.Paths1Jgsne9V01AppsOwnerNameAppNameBranchesBranchBuildsPostRequestbodyContentApplicationJsonSchema
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listBranchesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths5Mg2CrV01AppsOwnerNameAppNameBranchesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths1WpnegrV01AppsOwnerNameAppNameBranchesGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

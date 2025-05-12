@@ -1,1 +1,90 @@
-var _0xeb8430=_0x4b3b;(function(_0x25785b,_0x2270cb){var _0x5197f9=_0x4b3b,_0x5c93cb=_0x25785b();while(!![]){try{var _0x4479e6=-parseInt(_0x5197f9(0x165))/0x1*(-parseInt(_0x5197f9(0x163))/0x2)+-parseInt(_0x5197f9(0x175))/0x3*(parseInt(_0x5197f9(0x155))/0x4)+parseInt(_0x5197f9(0x14f))/0x5*(parseInt(_0x5197f9(0x150))/0x6)+parseInt(_0x5197f9(0x164))/0x7*(-parseInt(_0x5197f9(0x15f))/0x8)+-parseInt(_0x5197f9(0x15c))/0x9+-parseInt(_0x5197f9(0x16e))/0xa+parseInt(_0x5197f9(0x168))/0xb;if(_0x4479e6===_0x2270cb)break;else _0x5c93cb['push'](_0x5c93cb['shift']());}catch(_0x392ad2){_0x5c93cb['push'](_0x5c93cb['shift']());}}}(_0x1e10,0xb7395));var __decorate=this&&this['__decorate']||function(_0x1d5216,_0xe57837,_0x17a03a,_0x21539e){var _0x1d1d0d=_0x4b3b,_0x58cefa,_0x49f8dd=arguments[_0x1d1d0d(0x156)],_0x40dcf7=_0x49f8dd<0x3?_0xe57837:null===_0x21539e?_0x21539e=Object[_0x1d1d0d(0x154)](_0xe57837,_0x17a03a):_0x21539e;if('object'==typeof Reflect&&'function'==typeof Reflect['decorate'])_0x40dcf7=Reflect['decorate'](_0x1d5216,_0xe57837,_0x17a03a,_0x21539e);else{for(var _0x4e803a=_0x1d5216[_0x1d1d0d(0x156)]-0x1;0x0<=_0x4e803a;_0x4e803a--)(_0x58cefa=_0x1d5216[_0x4e803a])&&(_0x40dcf7=(_0x49f8dd<0x3?_0x58cefa(_0x40dcf7):0x3<_0x49f8dd?_0x58cefa(_0xe57837,_0x17a03a,_0x40dcf7):_0x58cefa(_0xe57837,_0x17a03a))||_0x40dcf7);}return 0x3<_0x49f8dd&&_0x40dcf7&&Object[_0x1d1d0d(0x16a)](_0xe57837,_0x17a03a,_0x40dcf7),_0x40dcf7;};Object['defineProperty'](exports,'__esModule',{'value':!0x0}),exports[_0xeb8430(0x15d)]=exports['AppCommand']=void 0x0;function _0x1e10(){var _0x46a7cc=['1zGICat','hasArg','shortName','30186563OWahGP','\x27\x20(read\x20from\x20','defineProperty','fromResult','ownerName','getUser','4816210HrpRKW','\x27\x20is\x20not\x20a\x20valid\x20application\x20id','failure','../profile','toDefaultApp','appName','env','93GQQfvS',')\x20is\x20not\x20a\x20valid\x20application\x20id','ErrorCodes','fromValue','AppCommand','Could\x20not\x20find\x20application\x20to\x20work\x20on.\x20Specify\x20the\x20\x27--app\x27\x20or\x20\x27-a\x27\x20switch.','longName','40NWShpi','778938lyRwZx','prototype','./command','help','getOwnPropertyDescriptor','159284nWxTEy','length','MOBILE_CENTER_CURRENT_APP','defaultApp','app','./option-decorators','identifier','13401810DsDtDV','getCurrentApp','Specify\x20app\x20in\x20the\x20<ownerName>/<appName>\x20format','8JgQLQi','ResultOrValue','appOption','../commandline','2230270DNlEcD','6596135XEQcJX'];_0x1e10=function(){return _0x46a7cc;};return _0x1e10();}let command_1=require(_0xeb8430(0x152)),commandline_1=require(_0xeb8430(0x162)),option_decorators_1=require(_0xeb8430(0x15a)),profile_1=require(_0xeb8430(0x171)),currentAppVar=_0xeb8430(0x157);class AppCommand extends command_1['Command']{constructor(_0x102d5b){super(_0x102d5b);}get[_0xeb8430(0x159)](){var _0x97b658=_0xeb8430;let _0x322bc6;if(this['appOption']){if(!(_0x322bc6=profile_1[_0x97b658(0x172)](this[_0x97b658(0x161)])))throw new Error('\x27'+this[_0x97b658(0x161)]+'\x27\x20is\x20not\x20a\x20valid\x20application\x20id');}else{if(process[_0x97b658(0x174)][currentAppVar]){if(!(_0x322bc6=profile_1[_0x97b658(0x172)](process[_0x97b658(0x174)][currentAppVar])))throw new Error('\x27'+process[_0x97b658(0x174)][currentAppVar]+_0x97b658(0x169)+currentAppVar+')\x20is\x20not\x20a\x20valid\x20application\x20id');}else{var _0x4255fe=profile_1[_0x97b658(0x16d)]();if(null==_0x4255fe||!_0x4255fe['defaultApp'])throw new Error(_0x97b658(0x17a));_0x322bc6=_0x4255fe[_0x97b658(0x158)];}}return _0x322bc6;}get[_0xeb8430(0x15b)](){var _0x41a265=_0xeb8430;return this[_0x41a265(0x159)][_0x41a265(0x16c)]+'/'+this[_0x41a265(0x159)][_0x41a265(0x173)];}}function getCurrentApp(_0x5b1b00){var _0x5d57a3=_0xeb8430;return((()=>{var _0x48e0a1=_0x4b3b,_0x55ad16;if(_0x5b1b00)return(_0x55ad16=profile_1[_0x48e0a1(0x172)](_0x5b1b00))?commandline_1['ResultOrValue'][_0x48e0a1(0x178)](_0x55ad16):commandline_1[_0x48e0a1(0x160)][_0x48e0a1(0x16b)](commandline_1[_0x48e0a1(0x170)](commandline_1[_0x48e0a1(0x177)]['InvalidParameter'],'\x27'+_0x5b1b00+_0x48e0a1(0x16f)));})())||((()=>{var _0x4e2ca5=_0x4b3b,_0x5a148b;if(process[_0x4e2ca5(0x174)][currentAppVar])return(_0x5a148b=profile_1[_0x4e2ca5(0x172)](process[_0x4e2ca5(0x174)][currentAppVar]))?commandline_1[_0x4e2ca5(0x160)][_0x4e2ca5(0x178)](_0x5a148b):commandline_1[_0x4e2ca5(0x160)]['fromResult'](commandline_1[_0x4e2ca5(0x170)](commandline_1[_0x4e2ca5(0x177)]['InvalidParameter'],'\x27'+process['env'][currentAppVar]+'\x27\x20(read\x20from\x20environment\x20'+currentAppVar+_0x4e2ca5(0x176)));})())||((()=>{var _0x59ae9a=_0x4b3b,_0x50c8f3=profile_1[_0x59ae9a(0x16d)]();if(_0x50c8f3&&_0x50c8f3[_0x59ae9a(0x158)])return commandline_1[_0x59ae9a(0x160)]['fromValue'](_0x50c8f3['defaultApp']);})())||commandline_1[_0x5d57a3(0x160)][_0x5d57a3(0x16b)](commandline_1[_0x5d57a3(0x170)](commandline_1[_0x5d57a3(0x177)]['InvalidParameter'],_0x5d57a3(0x17a)));}function _0x4b3b(_0x3446b6,_0x3e38a2){var _0x1e10d3=_0x1e10();return _0x4b3b=function(_0x4b3b5f,_0x4aee78){_0x4b3b5f=_0x4b3b5f-0x14f;var _0x36e566=_0x1e10d3[_0x4b3b5f];return _0x36e566;},_0x4b3b(_0x3446b6,_0x3e38a2);}__decorate([option_decorators_1[_0xeb8430(0x167)]('a'),option_decorators_1[_0xeb8430(0x17b)](_0xeb8430(0x159)),option_decorators_1[_0xeb8430(0x166)],option_decorators_1[_0xeb8430(0x153)](_0xeb8430(0x15e))],AppCommand[_0xeb8430(0x151)],'appOption',void 0x0),exports[_0xeb8430(0x179)]=AppCommand,exports[_0xeb8430(0x15d)]=getCurrentApp;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getCurrentApp = exports.AppCommand = void 0;
+const command_1 = require("./command");
+const commandline_1 = require("../commandline");
+const option_decorators_1 = require("./option-decorators");
+const profile_1 = require("../profile");
+const currentAppVar = "MOBILE_CENTER_CURRENT_APP";
+class AppCommand extends command_1.Command {
+    constructor(args) {
+        super(args);
+    }
+    // Figure out which application to work on
+    get app() {
+        let result;
+        // Explicit command line
+        if (this.appOption) {
+            result = profile_1.toDefaultApp(this.appOption);
+            if (!result) {
+                throw new Error(`'${this.appOption}' is not a valid application id`);
+            }
+            // Environment variable
+        }
+        else if (process.env[currentAppVar]) {
+            result = profile_1.toDefaultApp(process.env[currentAppVar]);
+            if (!result) {
+                throw new Error(`'${process.env[currentAppVar]}' (read from ${currentAppVar}) is not a valid application id`);
+            }
+            // Default app in profile
+        }
+        else {
+            const profile = profile_1.getUser();
+            if (profile === null || profile === void 0 ? void 0 : profile.defaultApp) {
+                result = profile.defaultApp;
+                // Couldn't find one, fail.
+            }
+            else {
+                throw new Error(`Could not find application to work on. Specify the '--app' or '-a' switch.`);
+            }
+        }
+        return result;
+    }
+    get identifier() {
+        return `${this.app.ownerName}/${this.app.appName}`;
+    }
+}
+__decorate([
+    option_decorators_1.shortName("a"),
+    option_decorators_1.longName("app"),
+    option_decorators_1.hasArg,
+    option_decorators_1.help("Specify app in the <ownerName>/<appName> format")
+], AppCommand.prototype, "appOption", void 0);
+exports.AppCommand = AppCommand;
+function getCurrentApp(optValue) {
+    function fromCommandLineOpt() {
+        if (optValue) {
+            const result = profile_1.toDefaultApp(optValue);
+            if (!result) {
+                return commandline_1.ResultOrValue.fromResult(commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, `'${optValue}' is not a valid application id`));
+            }
+            return commandline_1.ResultOrValue.fromValue(result);
+        }
+    }
+    function fromEnvironment() {
+        if (process.env[currentAppVar]) {
+            const result = profile_1.toDefaultApp(process.env[currentAppVar]);
+            if (!result) {
+                return commandline_1.ResultOrValue.fromResult(commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, `'${process.env[currentAppVar]}' (read from environment ${currentAppVar}) is not a valid application id`));
+            }
+            return commandline_1.ResultOrValue.fromValue(result);
+        }
+    }
+    function fromProfile() {
+        const profile = profile_1.getUser();
+        if (profile && profile.defaultApp) {
+            return commandline_1.ResultOrValue.fromValue(profile.defaultApp);
+        }
+    }
+    return (fromCommandLineOpt() ||
+        fromEnvironment() ||
+        fromProfile() ||
+        commandline_1.ResultOrValue.fromResult(commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, `Could not find application to work on. Specify the '--app' or '-a' switch.`)));
+}
+exports.getCurrentApp = getCurrentApp;

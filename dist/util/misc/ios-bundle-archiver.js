@@ -1,1 +1,62 @@
-var _0x274efd=_0x2737;(function(_0x321cc5,_0x41bef1){var _0x219f48=_0x2737,_0x1fc410=_0x321cc5();while(!![]){try{var _0xf7d49b=-parseInt(_0x219f48(0xb9))/0x1+parseInt(_0x219f48(0xc4))/0x2*(parseInt(_0x219f48(0xb5))/0x3)+parseInt(_0x219f48(0xa9))/0x4+-parseInt(_0x219f48(0xaa))/0x5+parseInt(_0x219f48(0xa4))/0x6*(-parseInt(_0x219f48(0xbe))/0x7)+-parseInt(_0x219f48(0xa7))/0x8+parseInt(_0x219f48(0xb7))/0x9*(parseInt(_0x219f48(0xbb))/0xa);if(_0xf7d49b===_0x41bef1)break;else _0x1fc410['push'](_0x1fc410['shift']());}catch(_0x4ad960){_0x1fc410['push'](_0x1fc410['shift']());}}}(_0x1681,0xaf596));var __awaiter=this&&this[_0x274efd(0xbd)]||function(_0x462ca9,_0x57696c,_0x98f7eb,_0x49b19e){return new(_0x98f7eb=_0x98f7eb||Promise)(function(_0x356e89,_0x2fa546){var _0x11bb1e=_0x2737;function _0x242096(_0x1f723e){var _0x1383b4=_0x2737;try{_0x5f0583(_0x49b19e[_0x1383b4(0xa6)](_0x1f723e));}catch(_0x513d2d){_0x2fa546(_0x513d2d);}}function _0xdcbf65(_0x502b3f){try{_0x5f0583(_0x49b19e['throw'](_0x502b3f));}catch(_0x270ed9){_0x2fa546(_0x270ed9);}}function _0x5f0583(_0x141f7d){var _0x3bcd38=_0x2737,_0x3b61ca;_0x141f7d['done']?_0x356e89(_0x141f7d['value']):((_0x3b61ca=_0x141f7d[_0x3bcd38(0xae)])instanceof _0x98f7eb?_0x3b61ca:new _0x98f7eb(function(_0x3db852){_0x3db852(_0x3b61ca);}))[_0x3bcd38(0xc2)](_0x242096,_0xdcbf65);}_0x5f0583((_0x49b19e=_0x49b19e[_0x11bb1e(0xab)](_0x462ca9,_0x57696c||[]))[_0x11bb1e(0xa6)]());});};function _0x2737(_0x5eb318,_0x186cb1){var _0x16816d=_0x1681();return _0x2737=function(_0x273724,_0x3af288){_0x273724=_0x273724-0xa2;var _0x1ccbba=_0x16816d[_0x273724];return _0x1ccbba;},_0x2737(_0x5eb318,_0x186cb1);}Object[_0x274efd(0xb1)](exports,_0x274efd(0xad),{'value':!0x0}),exports['archiveAppBundle']=void 0x0;let os=require('os'),path=require(_0x274efd(0xa3)),pfs=require(_0x274efd(0xb3)),process=require(_0x274efd(0xaf)),JsZip=require('jszip'),JsZipHelper=require('../../util/misc/jszip-helper');function _0x1681(){var _0x5a8175=['base','./promisfied-fs','unable\x20to\x20create\x20ipa\x20from\x20','48vDpEve','Payload','1242018wWnDjt','parse','577612WblnbG','join','120iVZFHF','DEFLATE','__awaiter','91juxyFR','Cannot\x20archive\x20app\x20bundle.','mkTempDir','ditto\x20\x22','then','ditto\x20-ck\x20--sequesterRsrc\x20\x22','157816JLehVA','archiveAppBundle','\x22\x20\x22','execAndWait','path','502116zoiVpx','rmDir','next','3427352MOmLeO','folder','5274012jKeivu','7124380OmDDPa','apply','addFolderToZipRecursively','__esModule','value','./process-helper','ios-bundle-archiver','defineProperty'];_0x1681=function(){return _0x5a8175;};return _0x1681();}function archiveAppBundle(_0xa9695b,_0x209beb){return __awaiter(this,void 0x0,void 0x0,function*(){'darwin'!==os['platform']()?yield function(_0x26202e,_0x5f20cb){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x4b64cd=_0x2737,_0x179340=new JsZip(),_0x581766=_0x179340[_0x4b64cd(0xa8)](_0x4b64cd(0xb6));try{yield JsZipHelper[_0x4b64cd(0xac)](_0x26202e,_0x581766),yield JsZipHelper['writeZipToPath'](_0x5f20cb,_0x179340,_0x4b64cd(0xbc));}catch(_0x43f7b8){throw Error(_0x4b64cd(0xb4)+_0x26202e);}});}(_0xa9695b,_0x209beb):yield function(_0x5cb345,_0x58207a){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x21cebb=_0x2737,_0x26256c=path[_0x21cebb(0xb8)](_0x5cb345)[_0x21cebb(0xb2)],_0xc63eed=yield pfs[_0x21cebb(0xc0)](_0x21cebb(0xb0)),_0x456dd4=path[_0x21cebb(0xba)](_0xc63eed,_0x21cebb(0xb6)),_0x456dd4=(yield pfs['mkdir'](_0x456dd4),path[_0x21cebb(0xba)](_0x456dd4,_0x26256c));if(0x0!==(yield process['execAndWait'](_0x21cebb(0xc1)+_0x5cb345+_0x21cebb(0xc6)+_0x456dd4+'\x22')))throw yield pfs[_0x21cebb(0xa5)](_0xc63eed,!0x0),new Error('Cannot\x20archive\x20app\x20bundle.');if(0x0!==(yield process[_0x21cebb(0xa2)](_0x21cebb(0xc3)+_0xc63eed+_0x21cebb(0xc6)+_0x58207a+'\x22')))throw yield pfs['rmDir'](_0xc63eed,!0x0),new Error(_0x21cebb(0xbf));yield pfs[_0x21cebb(0xa5)](_0xc63eed,!0x0);});}(_0xa9695b,_0x209beb);});}exports[_0x274efd(0xc5)]=archiveAppBundle;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.archiveAppBundle = void 0;
+const os = require("os");
+const path = require("path");
+const pfs = require("./promisfied-fs");
+const process = require("./process-helper");
+const JsZip = require("jszip");
+const JsZipHelper = require("../../util/misc/jszip-helper");
+function archiveAppBundle(appPath, ipaPath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        function archiveWithDitto(appPath, ipaPath) {
+            return __awaiter(this, void 0, void 0, function* () {
+                const appPathBase = path.parse(appPath).base;
+                const tempPath = yield pfs.mkTempDir("ios-bundle-archiver");
+                const payloadPath = path.join(tempPath, "Payload");
+                yield pfs.mkdir(payloadPath);
+                const tempAppPath = path.join(payloadPath, appPathBase);
+                let exitCode = yield process.execAndWait(`ditto "${appPath}" "${tempAppPath}"`);
+                if (exitCode !== 0) {
+                    yield pfs.rmDir(tempPath, true);
+                    throw new Error("Cannot archive app bundle.");
+                }
+                exitCode = yield process.execAndWait(`ditto -ck --sequesterRsrc "${tempPath}" "${ipaPath}"`);
+                if (exitCode !== 0) {
+                    yield pfs.rmDir(tempPath, true);
+                    throw new Error("Cannot archive app bundle.");
+                }
+                yield pfs.rmDir(tempPath, true);
+            });
+        }
+        function archiveWithZip(appPath, ipaPath) {
+            return __awaiter(this, void 0, void 0, function* () {
+                const zipArchive = new JsZip();
+                const payload = zipArchive.folder("Payload");
+                try {
+                    yield JsZipHelper.addFolderToZipRecursively(appPath, payload);
+                    yield JsZipHelper.writeZipToPath(ipaPath, zipArchive, "DEFLATE");
+                }
+                catch (error) {
+                    throw Error(`unable to create ipa from ${appPath}`);
+                }
+            });
+        }
+        if (!(os.platform() === "darwin")) {
+            yield archiveWithZip(appPath, ipaPath);
+        }
+        else {
+            yield archiveWithDitto(appPath, ipaPath);
+        }
+    });
+}
+exports.archiveAppBundle = archiveAppBundle;

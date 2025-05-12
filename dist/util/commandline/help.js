@@ -1,1 +1,188 @@
-var _0x39b83c=_0x3e13;(function(_0x4cacce,_0x350eb7){var _0x176184=_0x3e13,_0x438c99=_0x4cacce();while(!![]){try{var _0x270c94=-parseInt(_0x176184(0x133))/0x1*(-parseInt(_0x176184(0x11f))/0x2)+-parseInt(_0x176184(0x142))/0x3+parseInt(_0x176184(0x12e))/0x4+parseInt(_0x176184(0x11d))/0x5+-parseInt(_0x176184(0x147))/0x6+-parseInt(_0x176184(0x14a))/0x7*(-parseInt(_0x176184(0x121))/0x8)+-parseInt(_0x176184(0x129))/0x9*(parseInt(_0x176184(0x139))/0xa);if(_0x270c94===_0x350eb7)break;else _0x438c99['push'](_0x438c99['shift']());}catch(_0x5136b1){_0x438c99['push'](_0x438c99['shift']());}}}(_0x311b,0xf104e),(Object['defineProperty'](exports,_0x39b83c(0x146),{'value':!0x0}),exports[_0x39b83c(0x114)]=void 0x0));let _=require('lodash'),os=require('os'),tty_1=require(_0x39b83c(0x12a)),chalk=require('chalk'),debug=require('debug')(_0x39b83c(0x11a)),Table=require('cli-table3'),option_decorators_1=require('./option-decorators'),interaction_1=require(_0x39b83c(0x14c)),misc_1=require(_0x39b83c(0x120)),usageConst='Usage:\x20';function runHelp(_0x40a514,_0x4c7589){var _0x3abb10=_0x39b83c,_0x22e920=getCommandExample(_0x40a514,_0x4c7589),_0x4c7589=getCommandHelp(_0x4c7589),_0x29f8ea=getOptionsHelpTable(_0x40a514),_0x40a514=getCommonSwitchOptionsHelpTable(_0x40a514);interaction_1['out'][_0x3abb10(0x125)](),interaction_1[_0x3abb10(0x124)][_0x3abb10(0x125)](_0x4c7589),interaction_1[_0x3abb10(0x124)][_0x3abb10(0x125)](),interaction_1['out'][_0x3abb10(0x125)](usageConst+chalk[_0x3abb10(0x13e)](_0x22e920)),0x0<_0x29f8ea[_0x3abb10(0x111)]&&(interaction_1['out']['help'](),interaction_1[_0x3abb10(0x124)][_0x3abb10(0x125)](_0x3abb10(0x134)),interaction_1[_0x3abb10(0x124)]['help'](_0x29f8ea['toString']())),0x0<_0x40a514['length']&&(interaction_1[_0x3abb10(0x124)][_0x3abb10(0x125)](),interaction_1[_0x3abb10(0x124)][_0x3abb10(0x125)]('Common\x20Options\x20(works\x20on\x20all\x20commands):'),interaction_1[_0x3abb10(0x124)]['help'](_0x40a514[_0x3abb10(0x12c)]()));}function getCommandHelp(_0x1bb25e){var _0x4a4e9f=_0x39b83c;return _0x1bb25e=option_decorators_1[_0x4a4e9f(0x126)](_0x1bb25e['constructor']),_0x1bb25e||_0x4a4e9f(0x14b);}function _0x311b(){var _0x1c13e9=['stdout','isatty','runHelp','argName','command','hasArg','map','forEach','mappdl-cli:util:commandline:help','reverse','longName','1180665TDDIMh','required','2FirZIZ','../misc','68280LHvjUD','push','max','out','help','getClassHelpText','position','name','36369OCZRJR','tty','reduce','toString','<arg>','6938972HBBlYg','getOptionsForTwoColumnTableWithNoBorders','\x20positional\x20options:','\x20<arg>','concat','973104JWcBjO','Options:','\x20switch\x20options:','join','getPositionalOptionsDescription','filter','590mveooj','unshift','values','scriptName','common','bold','getOptionsDescription','helpText','slice','3698871xNOmbU','\x20\x20\x20\x20','EOL','Command\x20has\x20','__esModule','5728890igKmju','shortName','repeat','385PQBLxx','No\x20help\x20text\x20for\x20command.\x20Dev,\x20fix\x20it!','../interaction','columns','lastIndexOf','...>','length'];_0x311b=function(){return _0x1c13e9;};return _0x311b();}function toSwitchOptionHelp(_0x287a2c){var _0x54ebe5=_0x39b83c;return{'shortName':_0x287a2c[_0x54ebe5(0x148)]?'-'+_0x287a2c['shortName']:'','longName':_0x287a2c[_0x54ebe5(0x11c)]?'--'+_0x287a2c[_0x54ebe5(0x11c)]:'','helpText':_0x287a2c[_0x54ebe5(0x140)]||'','argName':_0x287a2c[_0x54ebe5(0x117)]?_0x54ebe5(0x12d):''};}function getOptionsHelpTable(_0x144d38){var _0x3cb07e=_0x39b83c,_0x247208=getSwitchOptionsHelp(_0x144d38,!0x1),_0x144d38=getPositionalOptionsHelp(_0x144d38);return getStyledOptionsHelpTable(_0x247208[_0x3cb07e(0x132)](_0x144d38));}function getCommonSwitchOptionsHelpTable(_0x1676f9){return getStyledOptionsHelpTable(getSwitchOptionsHelp(_0x1676f9,!0x0));}function getStyledOptionsHelpTable(_0x453300){var _0x36aafb=_0x39b83c,_0x453300=styleOptsTable(_0x453300),_0x3e4329=_0x453300[_0x36aafb(0x12b)]((_0x363024,_0x26e1b6)=>Math[_0x36aafb(0x123)](_0x26e1b6[0x0][_0x36aafb(0x111)],_0x363024),0x0);let _0x37f612=new Table(interaction_1[_0x36aafb(0x124)][_0x36aafb(0x12f)](_0x3e4329));return _0x453300[_0x36aafb(0x119)](_0x17a835=>_0x37f612[_0x36aafb(0x122)](_0x17a835)),_0x37f612;}function getSwitchOptionsHelp(_0x512faf,_0x137ff0){var _0x1c8c49=_0x39b83c;return _0x512faf=option_decorators_1['getOptionsDescription'](_0x512faf),_0x512faf=sortOptionDescriptions(filterOptionDescriptions(_[_0x1c8c49(0x13b)](_0x512faf),_0x137ff0))['map'](toSwitchOptionHelp),(debug(_0x1c8c49(0x145)+_0x512faf[_0x1c8c49(0x111)]+_0x1c8c49(0x135)),debug(_0x512faf[_0x1c8c49(0x118)](_0x19004e=>_0x19004e[_0x1c8c49(0x148)]+'|'+_0x19004e[_0x1c8c49(0x11c)])[_0x1c8c49(0x136)]('/')),_0x512faf['map'](_0x3d4eac=>['\x20\x20\x20\x20'+switchText(_0x3d4eac)+'\x20\x20\x20\x20',_0x3d4eac['helpText']]));}function toPositionalOptionHelp(_0x492059){var _0x1644c8=_0x39b83c;return{'name':_0x492059[_0x1644c8(0x128)],'helpText':_0x492059[_0x1644c8(0x140)]};}function getPositionalOptionsHelp(_0x36ded6){var _0x28e61d=_0x39b83c;return _0x36ded6=option_decorators_1[_0x28e61d(0x137)](_0x36ded6)['map'](toPositionalOptionHelp),(debug(_0x28e61d(0x145)+_0x36ded6[_0x28e61d(0x111)]+_0x28e61d(0x130)),debug(_0x36ded6[_0x28e61d(0x118)](_0x191fab=>_0x191fab[_0x28e61d(0x128)])[_0x28e61d(0x136)]('/')),_0x36ded6[_0x28e61d(0x118)](_0x3cd763=>[_0x28e61d(0x143)+_0x3cd763['name']+_0x28e61d(0x143),_0x3cd763['helpText']]));}function switchText(_0x95ba5b){var _0x1dff6c=_0x39b83c,_0x3636ba=_0x95ba5b[_0x1dff6c(0x148)]?[_0x95ba5b['shortName']]:['\x20\x20'],_0x29faf8=_0x95ba5b[_0x1dff6c(0x148)]&&_0x95ba5b[_0x1dff6c(0x11c)]?['|']:['\x20'],_0xa63143=_0x95ba5b['longName']?[_0x95ba5b[_0x1dff6c(0x11c)]]:[],_0x95ba5b=_0x95ba5b[_0x1dff6c(0x115)]?['\x20'+_0x95ba5b['argName']]:[];return _0x3636ba['concat'](_0x29faf8)[_0x1dff6c(0x132)](_0xa63143)[_0x1dff6c(0x132)](_0x95ba5b)[_0x1dff6c(0x136)]('');}function terminalWidth(){var _0xaf7018=_0x39b83c;return tty_1[_0xaf7018(0x113)](0x1)?process[_0xaf7018(0x112)][_0xaf7018(0x10e)]:0x50;}function _0x3e13(_0x352ee3,_0x3db96e){var _0x311bdd=_0x311b();return _0x3e13=function(_0x3e13a4,_0x306ecf){_0x3e13a4=_0x3e13a4-0x10e;var _0x54e89c=_0x311bdd[_0x3e13a4];return _0x54e89c;},_0x3e13(_0x352ee3,_0x3db96e);}function getCommandExample(_0x2dd363,_0x312b44){var _0x136efb=_0x39b83c;_0x312b44=getCommandName(_0x312b44);let _0x49b244=[];var _0x13508b=os[_0x136efb(0x144)]+'\x20\x20';let _0x470534=misc_1[_0x136efb(0x13c)]+'\x20'+_0x312b44;var _0x312b44=terminalWidth(),_0x269c11=os[_0x136efb(0x144)]['length'];let _0xc2e122=_0x312b44-usageConst[_0x136efb(0x111)]-_0x269c11,_0x3a0ab8=_0xc2e122-'\x20\x20'[_0x136efb(0x111)],_0x31e9cf=_[_0x136efb(0x149)]('\x20',usageConst[_0x136efb(0x111)]);return getAllOptionExamples(_0x2dd363)[_0x136efb(0x119)](_0x52e2fb=>{var _0x33f682=_0x136efb;_0x470534[_0x33f682(0x111)]+_0x52e2fb['length']+0x1>(_0x49b244['length']?_0x3a0ab8:_0xc2e122)?(_0x49b244[_0x33f682(0x122)](_0x470534),_0x470534=_0x31e9cf+_0x52e2fb):_0x470534+='\x20'+_0x52e2fb;}),_0x49b244[_0x136efb(0x122)](_0x470534),_0x49b244[_0x136efb(0x136)](_0x13508b);}function getCommandName(_0x241154){var _0x5de4ae=_0x39b83c;_0x241154=_0x241154[_0x5de4ae(0x116)];let _0xa03b00=_0x241154[_0x241154[_0x5de4ae(0x111)]-0x1];var _0x28a95b=_0xa03b00[_0x5de4ae(0x10f)]('.');return-0x1<_0x28a95b&&(_0xa03b00=_0xa03b00[_0x5de4ae(0x141)](0x0,_0x28a95b)),_0x241154[_0x241154[_0x5de4ae(0x111)]-0x1]=_0xa03b00,_0x241154[_0x5de4ae(0x136)]('\x20');}function getAllOptionExamples(_0x3ec0ce){var _0x1293ae=_0x39b83c;return getSwitchOptionExamples(_0x3ec0ce,!0x1)[_0x1293ae(0x132)](getPositionalOptionExamples(_0x3ec0ce));}function getSwitchOptionExamples(_0x3133a1,_0x5aede6=!0x0){var _0x31c43d=_0x39b83c;return _0x3133a1=option_decorators_1[_0x31c43d(0x13f)](_0x3133a1),sortOptionDescriptions(_0x5aede6?_['values'](_0x3133a1):filterOptionDescriptions(_[_0x31c43d(0x13b)](_0x3133a1),!0x1))['map'](_0x4ae94b=>{var _0x30f524=_0x31c43d,_0x31cc28=[];return _0x31cc28[_0x30f524(0x122)](_0x4ae94b[_0x30f524(0x148)]?'-'+_0x4ae94b[_0x30f524(0x148)]:''),_0x31cc28[_0x30f524(0x122)](_0x4ae94b[_0x30f524(0x148)]&&_0x4ae94b[_0x30f524(0x11c)]?'|':''),_0x31cc28[_0x30f524(0x122)](_0x4ae94b['longName']?'--'+_0x4ae94b[_0x30f524(0x11c)]:''),_0x31cc28[_0x30f524(0x122)](_0x4ae94b['hasArg']?_0x30f524(0x131):''),_0x4ae94b[_0x30f524(0x11e)]||(_0x31cc28[_0x30f524(0x13a)]('['),_0x31cc28['push'](']')),_0x31cc28['join']('');});}function getPositionalOptionExamples(_0x4e71a8){var _0x5136ed=_0x39b83c;return _0x4e71a8=option_decorators_1['getPositionalOptionsDescription'](_0x4e71a8),_['sortBy'](_0x4e71a8,_0x5136ed(0x127))['map'](_0x38a87d=>null!==_0x38a87d[_0x5136ed(0x127)]?'<'+_0x38a87d[_0x5136ed(0x128)]+'>':'<'+_0x38a87d[_0x5136ed(0x128)]+_0x5136ed(0x110));}function styleOptsTable(_0x19318f){var _0x14079a=_0x39b83c;return _0x19318f[_0x14079a(0x118)](_0x1be460=>[chalk[_0x14079a(0x13e)](_0x1be460[0x0])]['concat'](_0x1be460[_0x14079a(0x141)](0x1)));}function sortOptionDescriptions(_0x537e8c){var _0x500a14=_0x39b83c;return _(_0x537e8c)[_0x500a14(0x11b)]()['sortBy']([_0x3f3ddf=>_0x3f3ddf[_0x500a14(0x11e)]?0x0:0x1])['value']();}function filterOptionDescriptions(_0x3e3e8e,_0x17f445){var _0x5e8d6f=_0x39b83c;return _0x17f445?_0x3e3e8e[_0x5e8d6f(0x138)](_0x20b823=>_0x20b823[_0x5e8d6f(0x13d)]):_0x3e3e8e[_0x5e8d6f(0x138)](_0x4421b3=>!_0x4421b3[_0x5e8d6f(0x13d)]);}exports[_0x39b83c(0x114)]=runHelp;
+"use strict";
+// Help system - displays help for categories and commands
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.runHelp = void 0;
+const _ = require("lodash");
+const os = require("os");
+const tty_1 = require("tty");
+const chalk = require("chalk");
+const debug = require("debug")("mappdl-cli:util:commandline:help");
+const Table = require("cli-table3");
+const option_decorators_1 = require("./option-decorators");
+const interaction_1 = require("../interaction");
+const misc_1 = require("../misc");
+const usageConst = "Usage: ";
+function runHelp(commandPrototype, commandObj) {
+    const commandExample = getCommandExample(commandPrototype, commandObj);
+    const commandHelp = getCommandHelp(commandObj);
+    const optionsHelpTable = getOptionsHelpTable(commandPrototype);
+    const commonSwitchOptionsHelpTable = getCommonSwitchOptionsHelpTable(commandPrototype);
+    interaction_1.out.help();
+    interaction_1.out.help(commandHelp);
+    interaction_1.out.help();
+    interaction_1.out.help(usageConst + chalk.bold(commandExample));
+    if (optionsHelpTable.length > 0) {
+        interaction_1.out.help();
+        interaction_1.out.help("Options:");
+        interaction_1.out.help(optionsHelpTable.toString());
+    }
+    if (commonSwitchOptionsHelpTable.length > 0) {
+        interaction_1.out.help();
+        interaction_1.out.help("Common Options (works on all commands):");
+        interaction_1.out.help(commonSwitchOptionsHelpTable.toString());
+    }
+}
+exports.runHelp = runHelp;
+function getCommandHelp(commandObj) {
+    const helpString = option_decorators_1.getClassHelpText(commandObj.constructor);
+    return !!helpString ? helpString : "No help text for command. Dev, fix it!";
+}
+function toSwitchOptionHelp(option) {
+    return {
+        shortName: option.shortName ? `-${option.shortName}` : "",
+        longName: option.longName ? `--${option.longName}` : "",
+        helpText: option.helpText || "",
+        argName: option.hasArg ? "<arg>" : "",
+    };
+}
+function getOptionsHelpTable(commandPrototype) {
+    const nonCommonSwitchOpts = getSwitchOptionsHelp(commandPrototype, false);
+    const posOpts = getPositionalOptionsHelp(commandPrototype);
+    return getStyledOptionsHelpTable(nonCommonSwitchOpts.concat(posOpts));
+}
+function getCommonSwitchOptionsHelpTable(commandPrototype) {
+    const commonSwitchOpts = getSwitchOptionsHelp(commandPrototype, true);
+    return getStyledOptionsHelpTable(commonSwitchOpts);
+}
+function getStyledOptionsHelpTable(options) {
+    const opts = styleOptsTable(options);
+    // Calculate max length of the strings from the first column (switches/positional parameters) - it will be a width for the first column;
+    const firstColumnWidth = opts.reduce((contenderMaxWidth, optRow) => Math.max(optRow[0].length, contenderMaxWidth), 0);
+    // Creating a help table object
+    const helpTableObject = new Table(interaction_1.out.getOptionsForTwoColumnTableWithNoBorders(firstColumnWidth));
+    opts.forEach((opt) => helpTableObject.push(opt));
+    return helpTableObject;
+}
+function getSwitchOptionsHelp(commandPrototype, isCommon) {
+    const switchOptions = option_decorators_1.getOptionsDescription(commandPrototype);
+    const filteredSwitchOptions = filterOptionDescriptions(_.values(switchOptions), isCommon);
+    const options = sortOptionDescriptions(filteredSwitchOptions).map(toSwitchOptionHelp);
+    debug(`Command has ${options.length} switch options:`);
+    debug(options.map((o) => `${o.shortName}|${o.longName}`).join("/"));
+    return options.map((optionHelp) => [`    ${switchText(optionHelp)}    `, optionHelp.helpText]);
+}
+function toPositionalOptionHelp(option) {
+    return {
+        name: option.name,
+        helpText: option.helpText,
+    };
+}
+function getPositionalOptionsHelp(commandPrototype) {
+    const options = option_decorators_1.getPositionalOptionsDescription(commandPrototype).map(toPositionalOptionHelp);
+    debug(`Command has ${options.length} positional options:`);
+    debug(options.map((o) => o.name).join("/"));
+    return options.map((optionsHelp) => [`    ${optionsHelp.name}    `, optionsHelp.helpText]);
+}
+function switchText(switchOption) {
+    // Desired formats look like:
+    //
+    //  -x
+    //  -x|--xopt
+    //     --xopt
+    //  -y <arg>
+    //  -y|--yopt <arg>
+    //     --yopt <arg>
+    const start = switchOption.shortName ? [switchOption.shortName] : ["  "];
+    const sep = switchOption.shortName && switchOption.longName ? ["|"] : [" "];
+    const long = switchOption.longName ? [switchOption.longName] : [];
+    const arg = switchOption.argName ? [" " + switchOption.argName] : [];
+    return start.concat(sep).concat(long).concat(arg).join("");
+}
+function terminalWidth() {
+    // If stdout is a terminal, return the width
+    if (tty_1.isatty(1)) {
+        return process.stdout.columns;
+    }
+    // Otherwise return something useful.
+    return 80;
+}
+function getCommandExample(commandPrototype, commandObj) {
+    const commandName = getCommandName(commandObj);
+    const lines = [];
+    const lastLinesLeftMargin = "  "; // 2 spaces
+    const linesSeparator = os.EOL + lastLinesLeftMargin;
+    let currentLine = `${misc_1.scriptName} ${commandName}`;
+    const maxWidth = terminalWidth();
+    const separatorLength = os.EOL.length;
+    const firstLineFreeSpace = maxWidth - usageConst.length - separatorLength;
+    const freeSpace = firstLineFreeSpace - lastLinesLeftMargin.length;
+    const leftMargin = _.repeat(" ", usageConst.length);
+    getAllOptionExamples(commandPrototype).forEach((example) => {
+        if (currentLine.length + example.length + 1 > (lines.length ? freeSpace : firstLineFreeSpace)) {
+            lines.push(currentLine);
+            currentLine = leftMargin + example;
+        }
+        else {
+            currentLine += ` ${example}`;
+        }
+    });
+    lines.push(currentLine);
+    return lines.join(linesSeparator);
+}
+function getCommandName(commandObj) {
+    const commandParts = commandObj.command;
+    let script = commandParts[commandParts.length - 1];
+    const extIndex = script.lastIndexOf(".");
+    if (extIndex > -1) {
+        script = script.slice(0, extIndex);
+    }
+    commandParts[commandParts.length - 1] = script;
+    return commandParts.join(" ");
+}
+function getAllOptionExamples(commandPrototype) {
+    return getSwitchOptionExamples(commandPrototype, false).concat(getPositionalOptionExamples(commandPrototype));
+}
+function getSwitchOptionExamples(commandPrototype, includeCommon = true) {
+    const switchOptions = option_decorators_1.getOptionsDescription(commandPrototype);
+    const switchOptionDescriptions = includeCommon ? _.values(switchOptions) : filterOptionDescriptions(_.values(switchOptions), false);
+    return sortOptionDescriptions(switchOptionDescriptions).map((description) => {
+        const result = [];
+        result.push(description.shortName ? `-${description.shortName}` : "");
+        result.push(description.shortName && description.longName ? "|" : "");
+        result.push(description.longName ? `--${description.longName}` : "");
+        result.push(description.hasArg ? " <arg>" : "");
+        if (!description.required) {
+            result.unshift("[");
+            result.push("]");
+        }
+        return result.join("");
+    });
+}
+function getPositionalOptionExamples(commandPrototype) {
+    const positionalOptions = option_decorators_1.getPositionalOptionsDescription(commandPrototype);
+    return _.sortBy(positionalOptions, "position").map((description) => {
+        if (description.position !== null) {
+            return `<${description.name}>`;
+        }
+        // Output for "rest" parameter. sortBy will push it to the end.
+        return `<${description.name}...>`;
+    });
+}
+function styleOptsTable(table) {
+    return table.map((row) => [chalk.bold(row[0])].concat(row.slice(1)));
+}
+function sortOptionDescriptions(options) {
+    return _(options)
+        .reverse() // options from a top prototype are added first, reversing order
+        .sortBy([(opt) => (opt.required ? 0 : 1)]) // required options should be shown first
+        .value();
+}
+function filterOptionDescriptions(options, isCommon) {
+    return isCommon
+        ? options.filter((option) => {
+            return option.common;
+        })
+        : options.filter((option) => {
+            return !option.common;
+        });
+}

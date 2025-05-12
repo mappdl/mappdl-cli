@@ -1,1 +1,21 @@
-var _0x4acca4=_0x4208;function _0x4208(_0x4e4052,_0x289e5e){var _0x674ff0=_0x674f();return _0x4208=function(_0x420809,_0x126f3b){_0x420809=_0x420809-0x1cb;var _0x538ab8=_0x674ff0[_0x420809];return _0x538ab8;},_0x4208(_0x4e4052,_0x289e5e);}(function(_0x205007,_0x2e2a16){var _0x15f1d1=_0x4208,_0x5aab1b=_0x205007();while(!![]){try{var _0x430522=-parseInt(_0x15f1d1(0x1de))/0x1*(-parseInt(_0x15f1d1(0x1db))/0x2)+parseInt(_0x15f1d1(0x1e3))/0x3*(parseInt(_0x15f1d1(0x1cc))/0x4)+-parseInt(_0x15f1d1(0x1d9))/0x5+parseInt(_0x15f1d1(0x1d3))/0x6*(-parseInt(_0x15f1d1(0x1e0))/0x7)+-parseInt(_0x15f1d1(0x1d0))/0x8*(-parseInt(_0x15f1d1(0x1dd))/0x9)+parseInt(_0x15f1d1(0x1cb))/0xa*(-parseInt(_0x15f1d1(0x1d1))/0xb)+parseInt(_0x15f1d1(0x1d5))/0xc*(parseInt(_0x15f1d1(0x1d7))/0xd);if(_0x430522===_0x2e2a16)break;else _0x5aab1b['push'](_0x5aab1b['shift']());}catch(_0x1396bb){_0x5aab1b['push'](_0x5aab1b['shift']());}}}(_0x674f,0x68d15));function getPortalBuildLink(_0x7ef6c9,_0x40e9a1,_0x493b92,_0x3007f7,_0x2f6db3){var _0x13dfe4=_0x4208;return _0x7ef6c9+(_0x13dfe4(0x1dc)+_0x40e9a1+_0x13dfe4(0x1cf)+_0x493b92+_0x13dfe4(0x1d2)+encodeURIComponent(_0x3007f7)+_0x13dfe4(0x1e2))+_0x2f6db3;}function _0x674f(){var _0x1220e9=['117912IggtLm','85459WZGsxg','/build/branches/','21954PPZafP','getPortalOrgLink','361032bUrtFq','getPortalBuildLink','78XTvpkD','defineProperty','56975KqAdww','__esModule','2ubrPgb','/users/','45LaLvRi','426004WZbEHS','/runs/','952BXritm','/test/series/','/builds/','24144ceWxzU','310VIVjOl','248aTflNN','getPortalTestLink','/orgs/','/apps/'];_0x674f=function(){return _0x1220e9;};return _0x674f();}function getPortalTestLink(_0x3608a7,_0x4125bb,_0x38c7b6,_0x2aa344,_0x211b18,_0x272a7e){var _0x42be98=_0x4208;return _0x4125bb?encodeURI(_0x3608a7+(_0x42be98(0x1ce)+_0x38c7b6+_0x42be98(0x1cf)+_0x2aa344+_0x42be98(0x1e1)+_0x211b18+_0x42be98(0x1df))+_0x272a7e):encodeURI(_0x3608a7+('/users/'+_0x38c7b6+_0x42be98(0x1cf)+_0x2aa344+_0x42be98(0x1e1)+_0x211b18+_0x42be98(0x1df))+_0x272a7e);}function getPortalOrgLink(_0x4fc12a,_0x3981ec){var _0x555ed3=_0x4208;return _0x4fc12a+_0x555ed3(0x1ce)+_0x3981ec;}Object[_0x4acca4(0x1d8)](exports,_0x4acca4(0x1da),{'value':!0x0}),exports[_0x4acca4(0x1d4)]=exports[_0x4acca4(0x1cd)]=exports[_0x4acca4(0x1d6)]=void 0x0,exports['getPortalBuildLink']=getPortalBuildLink,exports[_0x4acca4(0x1cd)]=getPortalTestLink,exports[_0x4acca4(0x1d4)]=getPortalOrgLink;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPortalOrgLink = exports.getPortalTestLink = exports.getPortalBuildLink = void 0;
+function getPortalBuildLink(portalBaseUrl, appOwner, appName, branchName, buildId) {
+    const encodedBranchName = encodeURIComponent(branchName);
+    return `${portalBaseUrl}/users/${appOwner}/apps/${appName}/build/branches/${encodedBranchName}/builds/${buildId}`;
+}
+exports.getPortalBuildLink = getPortalBuildLink;
+function getPortalTestLink(portalBaseUrl, isOrg, appOwner, appName, seriesName, testRunId) {
+    if (isOrg) {
+        return encodeURI(`${portalBaseUrl}/orgs/${appOwner}/apps/${appName}/test/series/${seriesName}/runs/${testRunId}`);
+    }
+    else {
+        return encodeURI(`${portalBaseUrl}/users/${appOwner}/apps/${appName}/test/series/${seriesName}/runs/${testRunId}`);
+    }
+}
+exports.getPortalTestLink = getPortalTestLink;
+function getPortalOrgLink(portalBaseUrl, orgName) {
+    return `${portalBaseUrl}/orgs/${orgName}`;
+}
+exports.getPortalOrgLink = getPortalOrgLink;

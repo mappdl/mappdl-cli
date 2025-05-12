@@ -1,1 +1,26 @@
-var _0x5630f5=_0x4a12;function _0x49e4(){var _0x432309=['14rdfkyj','done','next','../../../package.json','14436JNCOhx','4VgoDHF','user-agent','2095216qwXQPe','28yVPMvX','2024906zVvVwj','userAgentPolicy','defineProperty','__esModule','platform','210279ZptZZE','71411pdGuxV','../misc','\x20NodeJS/','682QNsFdk','180QYVRAZ','headers','version','7240cdhamG','Cli/','1194iFtJKA','2HIaBas','throw','value','167274IreDkr','apply'];_0x49e4=function(){return _0x432309;};return _0x49e4();}(function(_0x1241eb,_0x22a4d5){var _0x32aa95=_0x4a12,_0x38a4d7=_0x1241eb();while(!![]){try{var _0x5ca72a=parseInt(_0x32aa95(0x90))/0x1*(-parseInt(_0x32aa95(0x9a))/0x2)+-parseInt(_0x32aa95(0x8f))/0x3*(-parseInt(_0x32aa95(0xa4))/0x4)+parseInt(_0x32aa95(0x97))/0x5*(-parseInt(_0x32aa95(0x99))/0x6)+-parseInt(_0x32aa95(0x9f))/0x7*(-parseInt(_0x32aa95(0x88))/0x8)+-parseInt(_0x32aa95(0x9d))/0x9*(parseInt(_0x32aa95(0x94))/0xa)+-parseInt(_0x32aa95(0x93))/0xb*(-parseInt(_0x32aa95(0xa3))/0xc)+-parseInt(_0x32aa95(0x8a))/0xd*(-parseInt(_0x32aa95(0x89))/0xe);if(_0x5ca72a===_0x22a4d5)break;else _0x38a4d7['push'](_0x38a4d7['shift']());}catch(_0x32fa09){_0x38a4d7['push'](_0x38a4d7['shift']());}}}(_0x49e4,0x45cc8));var __awaiter=this&&this['__awaiter']||function(_0x5c89de,_0x453c1b,_0x4e3fc3,_0xfd2161){return new(_0x4e3fc3=_0x4e3fc3||Promise)(function(_0xf38d66,_0x1326be){var _0x268b63=_0x4a12;function _0x59ed85(_0x47831f){var _0x26770d=_0x4a12;try{_0x2c7673(_0xfd2161[_0x26770d(0xa1)](_0x47831f));}catch(_0x2d01bc){_0x1326be(_0x2d01bc);}}function _0xf988fb(_0x55f69b){var _0x49c04f=_0x4a12;try{_0x2c7673(_0xfd2161[_0x49c04f(0x9b)](_0x55f69b));}catch(_0x5b64f0){_0x1326be(_0x5b64f0);}}function _0x2c7673(_0x46455c){var _0x1f45e6=_0x4a12,_0x5170ec;_0x46455c[_0x1f45e6(0xa0)]?_0xf38d66(_0x46455c[_0x1f45e6(0x9c)]):((_0x5170ec=_0x46455c['value'])instanceof _0x4e3fc3?_0x5170ec:new _0x4e3fc3(function(_0x69384c){_0x69384c(_0x5170ec);}))['then'](_0x59ed85,_0xf988fb);}_0x2c7673((_0xfd2161=_0xfd2161[_0x268b63(0x9e)](_0x5c89de,_0x453c1b||[]))['next']());});};function _0x4a12(_0x38551f,_0x5eb1cc){var _0x49e4bf=_0x49e4();return _0x4a12=function(_0x4a1202,_0x5964b3){_0x4a1202=_0x4a1202-0x88;var _0x4700fd=_0x49e4bf[_0x4a1202];return _0x4700fd;},_0x4a12(_0x38551f,_0x5eb1cc);}Object[_0x5630f5(0x8c)](exports,_0x5630f5(0x8d),{'value':!0x0}),exports['userAgentPolicy']=void 0x0;let os_1=require('os'),cliVersion=require(_0x5630f5(0xa2))['version'],misc_1=require(_0x5630f5(0x91));function userAgentPolicy(){return{'name':'mappdlUserAgentPolicy','sendRequest':(_0x1a8a05,_0x1e3046)=>__awaiter(this,void 0x0,void 0x0,function*(){var _0x2e6d01=_0x4a12,_0x2da60b=misc_1['scriptName']+_0x2e6d01(0x98)+cliVersion+_0x2e6d01(0x92)+process[_0x2e6d01(0x96)]+'\x20'+os_1[_0x2e6d01(0x8e)]()+'/'+os_1['release']();return _0x1a8a05[_0x2e6d01(0x95)]['set'](_0x2e6d01(0xa5),_0x2da60b),_0x1e3046(_0x1a8a05);})};}exports[_0x5630f5(0x8b)]=userAgentPolicy;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.userAgentPolicy = void 0;
+const os_1 = require("os");
+const { version: cliVersion } = require("../../../package.json");
+const misc_1 = require("../misc");
+function userAgentPolicy() {
+    return {
+        name: "mappdlUserAgentPolicy",
+        sendRequest: (request, next) => __awaiter(this, void 0, void 0, function* () {
+            const userAgentValue = `${misc_1.scriptName}Cli/${cliVersion} NodeJS/${process.version} ${os_1.platform()}/${os_1.release()}`;
+            request.headers.set("user-agent", userAgentValue);
+            return next(request);
+        }),
+    };
+}
+exports.userAgentPolicy = userAgentPolicy;

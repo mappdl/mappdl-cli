@@ -1,1 +1,145 @@
-const _0x18c417=_0x4070;(function(_0x490fc7,_0x5bb849){const _0x2658e4=_0x4070,_0x32a981=_0x490fc7();while(!![]){try{const _0x26db70=-parseInt(_0x2658e4(0xe1))/0x1*(parseInt(_0x2658e4(0xcc))/0x2)+-parseInt(_0x2658e4(0xe8))/0x3*(parseInt(_0x2658e4(0xd7))/0x4)+parseInt(_0x2658e4(0xd5))/0x5*(parseInt(_0x2658e4(0xc8))/0x6)+-parseInt(_0x2658e4(0xd9))/0x7+-parseInt(_0x2658e4(0xd0))/0x8*(-parseInt(_0x2658e4(0xe6))/0x9)+parseInt(_0x2658e4(0xe2))/0xa*(-parseInt(_0x2658e4(0xe5))/0xb)+parseInt(_0x2658e4(0xdb))/0xc;if(_0x26db70===_0x5bb849)break;else _0x32a981['push'](_0x32a981['shift']());}catch(_0x1ff457){_0x32a981['push'](_0x32a981['shift']());}}}(_0x3d72,0x55859),(Object[_0x18c417(0xc9)](exports,_0x18c417(0xd1),{'value':!0x0}),exports[_0x18c417(0xe3)]=void 0x0));function _0x4070(_0x1b352f,_0x162676){const _0x3d723c=_0x3d72();return _0x4070=function(_0x407033,_0x13231e){_0x407033=_0x407033-0xc5;let _0x45c65c=_0x3d723c[_0x407033];return _0x45c65c;},_0x4070(_0x1b352f,_0x162676);}function _0x3d72(){const _0xdd9a0e=['createSerializer','8QgivFV','params1','1584359Gkolgp','accept','11454564oGaZfE','PathsRa6DxlV01AppsOwnerNameAppNameBranchesBranchConfigPutResponses200ContentApplicationJsonSchema','create','Paths1Pv0ByrV01AppsOwnerNameAppNameBranchesBranchConfigGetResponsesDefaultContentApplicationJsonSchema','../models/mappers','appName','55854zlOqqe','50GytPhT','BranchConfigurationsImpl','GET','1123210hpLhPo','31437mncoHD','/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config','300927IDMWkd','@azure/core-client','$host','client','PathsYdemoiV01AppsOwnerNameAppNameBranchesBranchConfigPostResponses200ContentApplicationJsonSchema','PathsRuhky8V01AppsOwnerNameAppNameBranchesBranchConfigGetResponses200ContentApplicationJsonSchema','8466nJRBUD','defineProperty','update','contentType','6hZTJoH','json','sendOperationRequest','ownerName','184pAFWyo','__esModule','payload','branch','PathsQs07S5V01AppsOwnerNameAppNameBranchesBranchConfigDeleteResponses200ContentApplicationJsonSchema','1490idQAQx'];_0x3d72=function(){return _0xdd9a0e;};return _0x3d72();}let coreClient=require(_0x18c417(0xe9)),Mappers=require(_0x18c417(0xdf)),Parameters=require('../models/parameters');class BranchConfigurationsImpl{constructor(_0x576879){const _0x5ab740=_0x18c417;this[_0x5ab740(0xc5)]=_0x576879;}['get'](_0x46ec35,_0x16df6a,_0x4b8908,_0x28421c){const _0x1da69d=_0x18c417;return this[_0x1da69d(0xc5)][_0x1da69d(0xce)]({'branch':_0x46ec35,'ownerName':_0x16df6a,'appName':_0x4b8908,'options':_0x28421c},getOperationSpec);}[_0x18c417(0xdd)](_0xaccdcf,_0xc2dfbd,_0x542af4,_0x325a2f,_0x59a04f){const _0x593058=_0x18c417;return this[_0x593058(0xc5)][_0x593058(0xce)]({'branch':_0xaccdcf,'ownerName':_0xc2dfbd,'appName':_0x542af4,'params':_0x325a2f,'options':_0x59a04f},createOperationSpec);}[_0x18c417(0xca)](_0x3c5d38,_0x31509c,_0x56ba20,_0x863771,_0x326279){const _0xe7e156=_0x18c417;return this[_0xe7e156(0xc5)][_0xe7e156(0xce)]({'branch':_0x3c5d38,'ownerName':_0x31509c,'appName':_0x56ba20,'params':_0x863771,'options':_0x326279},updateOperationSpec);}['delete'](_0x5a0a92,_0x5d07ea,_0x1c850b,_0x74f1b8){const _0x402d35=_0x18c417;return this[_0x402d35(0xc5)][_0x402d35(0xce)]({'branch':_0x5a0a92,'ownerName':_0x5d07ea,'appName':_0x1c850b,'options':_0x74f1b8},deleteOperationSpec);}}exports[_0x18c417(0xe3)]=BranchConfigurationsImpl;let serializer=coreClient[_0x18c417(0xd6)](Mappers,!0x1),getOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config','httpMethod':_0x18c417(0xe4),'responses':{0xc8:{'bodyMapper':Mappers[_0x18c417(0xc7)]},'default':{'bodyMapper':Mappers[_0x18c417(0xde)]}},'urlParameters':[Parameters[_0x18c417(0xea)],Parameters[_0x18c417(0xcf)],Parameters['appName'],Parameters[_0x18c417(0xd3)]],'headerParameters':[Parameters[_0x18c417(0xda)]],'serializer':serializer},createOperationSpec={'path':_0x18c417(0xe7),'httpMethod':'POST','responses':{0xc8:{'bodyMapper':Mappers[_0x18c417(0xc6)]}},'requestBody':Parameters[_0x18c417(0xd8)],'urlParameters':[Parameters['$host'],Parameters[_0x18c417(0xcf)],Parameters[_0x18c417(0xe0)],Parameters[_0x18c417(0xd3)]],'headerParameters':[Parameters[_0x18c417(0xcb)],Parameters[_0x18c417(0xda)]],'mediaType':'json','serializer':serializer},updateOperationSpec={'path':_0x18c417(0xe7),'httpMethod':'PUT','responses':{0xc8:{'bodyMapper':Mappers[_0x18c417(0xdc)]}},'requestBody':Parameters['params2'],'urlParameters':[Parameters[_0x18c417(0xea)],Parameters[_0x18c417(0xcf)],Parameters[_0x18c417(0xe0)],Parameters['branch']],'headerParameters':[Parameters[_0x18c417(0xcb)],Parameters[_0x18c417(0xda)]],'mediaType':_0x18c417(0xcd),'serializer':serializer},deleteOperationSpec={'path':_0x18c417(0xe7),'httpMethod':'DELETE','responses':{0xc8:{'bodyMapper':Mappers[_0x18c417(0xd4)]}},'requestBody':Parameters[_0x18c417(0xd2)],'urlParameters':[Parameters[_0x18c417(0xea)],Parameters[_0x18c417(0xcf)],Parameters['appName'],Parameters[_0x18c417(0xd3)]],'headerParameters':[Parameters[_0x18c417(0xcb)],Parameters[_0x18c417(0xda)]],'mediaType':_0x18c417(0xcd),'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BranchConfigurationsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing BranchConfigurations operations. */
+class BranchConfigurationsImpl {
+    /**
+     * Initialize a new instance of the class BranchConfigurations class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Gets the branch configuration
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(branch, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Configures the branch for build
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param params Parameters of the configuration
+     * @param options The options parameters.
+     */
+    create(branch, ownerName, appName, params, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, params, options }, createOperationSpec);
+    }
+    /**
+     * Reconfigures the branch for build
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param params Parameters of the configuration
+     * @param options The options parameters.
+     */
+    update(branch, ownerName, appName, params, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, params, options }, updateOperationSpec);
+    }
+    /**
+     * Deletes the branch build configuration
+     * @param branch The branch name
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    delete(branch, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ branch, ownerName, appName, options }, deleteOperationSpec);
+    }
+}
+exports.BranchConfigurationsImpl = BranchConfigurationsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsRuhky8V01AppsOwnerNameAppNameBranchesBranchConfigGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Pv0ByrV01AppsOwnerNameAppNameBranchesBranchConfigGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsYdemoiV01AppsOwnerNameAppNameBranchesBranchConfigPostResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.params1,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsRa6DxlV01AppsOwnerNameAppNameBranchesBranchConfigPutResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.params2,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/branches/{branch}/config",
+    httpMethod: "DELETE",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsQs07S5V01AppsOwnerNameAppNameBranchesBranchConfigDeleteResponses200ContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.payload,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.branch
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

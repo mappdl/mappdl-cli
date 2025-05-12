@@ -1,1 +1,119 @@
-const _0x4b54d3=_0x2572;(function(_0x649407,_0x4c5e43){const _0x19c09c=_0x2572,_0xe7a6da=_0x649407();while(!![]){try{const _0xf0d31=-parseInt(_0x19c09c(0x81))/0x1*(parseInt(_0x19c09c(0xaa))/0x2)+-parseInt(_0x19c09c(0xa2))/0x3*(parseInt(_0x19c09c(0x9f))/0x4)+parseInt(_0x19c09c(0xa6))/0x5*(parseInt(_0x19c09c(0x7c))/0x6)+parseInt(_0x19c09c(0x8c))/0x7+parseInt(_0x19c09c(0xa8))/0x8*(-parseInt(_0x19c09c(0x8b))/0x9)+-parseInt(_0x19c09c(0x7d))/0xa*(parseInt(_0x19c09c(0x95))/0xb)+parseInt(_0x19c09c(0x98))/0xc;if(_0xf0d31===_0x4c5e43)break;else _0xe7a6da['push'](_0xe7a6da['shift']());}catch(_0x486a67){_0xe7a6da['push'](_0xe7a6da['shift']());}}}(_0x58af,0x76e39),(Object[_0x4b54d3(0x92)](exports,_0x4b54d3(0xa1),{'value':!0x0}),exports[_0x4b54d3(0x86)]=void 0x0));let minimist=require('minimist'),util=require('util'),debug=require(_0x4b54d3(0x99))(_0x4b54d3(0xa9));function _0x2572(_0x3d8410,_0x593593){const _0x58af6a=_0x58af();return _0x2572=function(_0x25720a,_0x505593){_0x25720a=_0x25720a-0x7c;let _0x3e0f20=_0x58af6a[_0x25720a];return _0x3e0f20;},_0x2572(_0x3d8410,_0x593593);}function optionKey(_0x1cd577){return _0x1cd577['shortName']||_0x1cd577['longName'];}function optionDisplayName(_0x4ced6f){const _0x4a765c=_0x4b54d3;return[_0x4ced6f['shortName']?'-'+_0x4ced6f['shortName']:null,_0x4ced6f[_0x4a765c(0x96)]?'--'+_0x4ced6f[_0x4a765c(0x96)]:null]['filter'](_0x56a2a8=>!!_0x56a2a8)[_0x4a765c(0x8f)](_0x4a765c(0xa7));}function descriptionToMinimistOpts(_0x302080){const _0x5bfe57=_0x4b54d3;let _0x146161={'boolean':[],'string':[],'alias':{},'default':{},'unknown':_0x1e9991=>{if('-'===_0x1e9991['charAt'](0x0))throw new Error('Unknown\x20argument\x20'+_0x1e9991);return!0x0;}};return Object[_0x5bfe57(0xa3)](_0x302080)[_0x5bfe57(0x94)](_0x33aca0=>_0x302080[_0x33aca0])[_0x5bfe57(0x90)](_0x1b57c3=>{const _0x3bf388=_0x5bfe57;var _0xa12855=optionKey(_0x1b57c3);(_0x1b57c3['hasArg']?_0x146161[_0x3bf388(0x9d)]:_0x146161[_0x3bf388(0x82)])[_0x3bf388(0x80)](_0xa12855),_0x1b57c3['shortName']&&_0x1b57c3[_0x3bf388(0x96)]&&(_0x146161[_0x3bf388(0x93)][_0x1b57c3[_0x3bf388(0x97)]]=_0x1b57c3[_0x3bf388(0x96)]),void 0x0!==_0x1b57c3[_0x3bf388(0x7f)]&&(_0x146161[_0x3bf388(0x83)][_0xa12855]=_0x1b57c3[_0x3bf388(0x7f)]);}),_0x146161;}function parseOptions(..._0x467e57){const _0x3d62f5=_0x4b54d3;let _0x10a866,_0x7ef8ec,_0x95fe03,_0x274b26;0x4===_0x467e57[_0x3d62f5(0x85)]?(debug('Parser\x20called\x20with\x204\x20args:\x20'+util[_0x3d62f5(0x87)](_0x467e57)),[_0x10a866,_0x7ef8ec,_0x95fe03,_0x274b26]=_0x467e57):(debug(_0x3d62f5(0x8a)+util[_0x3d62f5(0x87)](_0x467e57)),[_0x10a866,_0x95fe03,_0x274b26]=_0x467e57,_0x7ef8ec=[]),debug(_0x3d62f5(0xa5)+_0x274b26[_0x3d62f5(0x8f)]('\x20'));var _0x467e57=descriptionToMinimistOpts(_0x10a866);let _0x3dfa53=minimist(_0x274b26,_0x467e57),_0x1e58dd=(debug(_0x3d62f5(0x9e)+util['inspect'](_0x3dfa53)),Object[_0x3d62f5(0xa3)](_0x10a866)[_0x3d62f5(0x90)](_0x1f3ee9=>{const _0x57e3fd=_0x3d62f5;var _0x38b3b5=_0x10a866[_0x1f3ee9],_0x8fc03f=optionKey(_0x38b3b5);if(!_0x3dfa53['help']&&!_0x3dfa53[_0x57e3fd(0x91)]&&_0x38b3b5[_0x57e3fd(0x8d)]&&!_0x3dfa53[_0x8fc03f])throw new Error(_0x57e3fd(0x84)+optionDisplayName(_0x38b3b5));_0x95fe03[_0x1f3ee9]=_0x3dfa53[_0x8fc03f];}),_0x3dfa53['_']||[]);if(_0x7ef8ec[_0x3d62f5(0x7e)]((_0x5c19a3,_0x2e8189)=>null===_0x5c19a3[_0x3d62f5(0xab)]?0x1:null===_0x2e8189[_0x3d62f5(0xab)]?-0x1:_0x2e8189[_0x3d62f5(0xab)]-_0x5c19a3[_0x3d62f5(0xab)]),!_0x7ef8ec['some'](_0x9e6a2f=>null===_0x9e6a2f[_0x3d62f5(0xab)])&&_0x1e58dd[_0x3d62f5(0x85)]>_0x7ef8ec[_0x3d62f5(0x85)])throw _0x467e57=_0x1e58dd['slice'](_0x7ef8ec[_0x3d62f5(0x85)]),new Error(_0x3d62f5(0xa0)+_0x467e57[_0x3d62f5(0x8f)]('\x20'));_0x7ef8ec[_0x3d62f5(0x90)]((_0x3c23dc,_0x5cb697)=>{const _0x399967=_0x3d62f5;if(debug('Checking\x20for\x20'+(_0x3c23dc[_0x399967(0x8d)]?_0x399967(0x8d):_0x399967(0x9b))+'\x20option\x20'+_0x3c23dc[_0x399967(0x89)]+_0x399967(0x9a)+_0x3c23dc[_0x399967(0xab)]),_0x1e58dd[_0x399967(0x85)]-0x1<_0x3c23dc[_0x399967(0xab)]){if(!_0x3dfa53[_0x399967(0xa4)]&&_0x3c23dc[_0x399967(0x8d)])throw new Error(_0x399967(0x88)+_0x3c23dc[_0x399967(0x89)]);return _0x3c23dc[_0x399967(0x7f)]?void(_0x95fe03[_0x3c23dc[_0x399967(0x8e)]]=_0x3c23dc['defaultValue']):void 0x0;}null!==_0x3c23dc[_0x399967(0xab)]?(_0x95fe03[_0x3c23dc[_0x399967(0x8e)]]=_0x1e58dd[_0x3c23dc['position']],_0x1e58dd[_0x3c23dc[_0x399967(0xab)]]=null):_0x95fe03[_0x3c23dc[_0x399967(0x8e)]]=_0x1e58dd[_0x399967(0x9c)](_0x5a9597=>null!==_0x5a9597);});}function _0x58af(){const _0x390cba=['help','Parsing\x20command\x20line\x20','1793735VTYNZv','\x20/\x20','280624uIHuTc','mappdl-cli:util:commandline:option-parser','54iLgjrX','position','6CGxSVa','3080kZhHHk','sort','defaultValue','push','13624APbzMp','boolean','default','Missing\x20required\x20option\x20','length','parseOptions','inspect','Missing\x20required\x20positional\x20argument\x20','name','Parser\x20called\x20with\x203\x20args:\x20','90YwRuXz','5905298YpaYWs','required','propertyName','join','forEach','version','defineProperty','alias','map','979FnCPsw','longName','shortName','8999796FLsgzq','debug','\x20at\x20position\x20','optional','filter','string','Raw\x20parsed\x20command\x20line\x20=\x20','188KqnLBP','Unknown\x20arguments:\x20','__esModule','45915fMqFCi','keys'];_0x58af=function(){return _0x390cba;};return _0x58af();}exports[_0x4b54d3(0x86)]=parseOptions;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.parseOptions = void 0;
+const minimist = require("minimist");
+const util = require("util");
+const debug = require("debug")("mappdl-cli:util:commandline:option-parser");
+function optionKey(option) {
+    return option.shortName || option.longName;
+}
+function optionDisplayName(options) {
+    const short = options.shortName ? "-" + options.shortName : null;
+    const long = options.longName ? "--" + options.longName : null;
+    return [short, long].filter((x) => !!x).join(" / ");
+}
+function descriptionToMinimistOpts(options) {
+    const parseOpts = {
+        boolean: [],
+        string: [],
+        alias: {},
+        default: {},
+        unknown: (arg) => {
+            if (arg.charAt(0) === "-") {
+                throw new Error(`Unknown argument ${arg}`);
+            }
+            return true;
+        },
+    };
+    Object.keys(options)
+        .map((key) => options[key])
+        .forEach((option) => {
+        const key = optionKey(option);
+        // Is option a boolean or has a value?
+        if (option.hasArg) {
+            parseOpts.string.push(key);
+        }
+        else {
+            parseOpts.boolean.push(key);
+        }
+        // If both names are given, set up alias
+        if (option.shortName && option.longName) {
+            parseOpts.alias[option.shortName] = option.longName;
+        }
+        if (option.defaultValue !== undefined) {
+            parseOpts.default[key] = option.defaultValue;
+        }
+    });
+    return parseOpts;
+}
+function parseOptions(...params) {
+    let flagOptions;
+    let positionalOptions;
+    let target;
+    let args;
+    if (params.length === 4) {
+        debug(`Parser called with 4 args: ${util.inspect(params)}`);
+        [flagOptions, positionalOptions, target, args] = params;
+    }
+    else {
+        debug(`Parser called with 3 args: ${util.inspect(params)}`);
+        [flagOptions, target, args] = params;
+        positionalOptions = [];
+    }
+    debug(`Parsing command line ${args.join(" ")}`);
+    const minimistOptions = descriptionToMinimistOpts(flagOptions);
+    const parsed = minimist(args, minimistOptions);
+    debug(`Raw parsed command line = ${util.inspect(parsed)}`);
+    // handle flag args
+    Object.keys(flagOptions).forEach((targetPropertyName) => {
+        const option = flagOptions[targetPropertyName];
+        const optKey = optionKey(option);
+        // Skip required args if help or version have been invoked
+        if (!parsed["help"] && !parsed["version"] && option.required && !parsed[optKey]) {
+            // TODO: Replace this with auto-prompting
+            throw new Error(`Missing required option ${optionDisplayName(option)}`);
+        }
+        target[targetPropertyName] = parsed[optKey];
+    });
+    // Handle positional args
+    const positionalArgs = parsed["_"] || [];
+    positionalOptions.sort((a, b) => {
+        if (a.position === null) {
+            return +1;
+        }
+        if (b.position === null) {
+            return -1;
+        }
+        return b.position - a.position;
+    });
+    // Check for leftover positional parameters, fail if found
+    const hasRestOption = positionalOptions.some((o) => o.position === null);
+    if (!hasRestOption && positionalArgs.length > positionalOptions.length) {
+        const unknownArgs = positionalArgs.slice(positionalOptions.length);
+        throw new Error(`Unknown arguments: ${unknownArgs.join(" ")}`);
+    }
+    positionalOptions.forEach((opt, index) => {
+        debug(`Checking for ${opt.required ? "required" : "optional"} option ${opt.name} at position ${opt.position}`);
+        if (positionalArgs.length - 1 < opt.position) {
+            if (!parsed["help"] && opt.required) {
+                throw new Error(`Missing required positional argument ${opt.name}`);
+            }
+            else if (opt.defaultValue) {
+                target[opt.propertyName] = opt.defaultValue;
+                return;
+            }
+            else {
+                return;
+            }
+        }
+        if (opt.position !== null) {
+            target[opt.propertyName] = positionalArgs[opt.position];
+            positionalArgs[opt.position] = null;
+        }
+        else {
+            // This is the rest argument, pick up whatever's left
+            target[opt.propertyName] = positionalArgs.filter((opt) => opt !== null);
+        }
+    });
+}
+exports.parseOptions = parseOptions;

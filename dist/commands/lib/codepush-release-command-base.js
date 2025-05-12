@@ -1,1 +1,199 @@
-function _0x55d2(_0x37e4f7,_0x12ea8d){var _0x2553c3=_0x2553();return _0x55d2=function(_0x55d2eb,_0x1f283a){_0x55d2eb=_0x55d2eb-0x182;var _0x599bbd=_0x2553c3[_0x55d2eb];return _0x599bbd;},_0x55d2(_0x37e4f7,_0x12ea8d);}function _0x2553(){var _0x3be42c=['progress','81499BcScor','token','description','884538UhxnMv','mandatory','Successfully\x20released\x20update\x20for\x20app\x20\x22','#111','decorate','For\x20dev\x20purposes\x20only!','./validation-utils','uploadDomain','defaultValue','Starting\x20to\x20upload\x20the\x20release\x20bundle:\x20','\x20with\x20upload\x20data:\x20','help','checkTargetBinaryVersion','100','value','targetBinaryVersion','disabled','createRelease','validate','codePushDeploymentUpload','specifiedRollout','\x0aReleasing\x20validationResult\x20error\x20\x0a','chalk','\x0aYour\x20target-binary-version\x20\x22','app','\x22.\x0a','Specifies\x20whether\x20this\x20release\x20should\x20be\x20immediately\x20downloadable','Creating\x20CodePush\x20release...','rollout','prototype','util','longName','12783096fdXLIp','AppCommand','InvalidParameter','4890vZcBRw','Invalid\x20binary\x20version(s)\x20for\x20a\x20release.','text','then','success','function','updateContentsPath','throw','./file-utils','getOwnPropertyDescriptor','trim','cyan','Exception','__esModule','52448amtNNI','isValidRollout','18724aqihjw','debug','out','\x22\x20will\x20be\x20treated\x20as\x20\x22','7UXNEqY','../../util/commandline','mappdl-cli:commands:release-base','hasArg','failure','next','66tucZea','upload','appName','apply','codePushDeploymentReleases','__decorate','isBinaryOrZip','length','Rollout\x20value\x20should\x20be\x20integer\x20value\x20between\x20','\x0aReleasing\x20checkTargetBinaryVersion\x20...\x20\x0a','610DTdPxu','2795148QTCkqf','defineProperty','Description\x20of\x20the\x20changes\x20made\x20to\x20the\x20app\x20in\x20this\x20release','Upload\x20client\x20message:\x20','shortName','4878354pURvnv','default','./update-contents-tasks','rmDir','create','uploadBundle','zip','fileUploadClient','ErrorCodes','\x20and\x20','object','It\x20is\x20unnecessary\x20to\x20package\x20releases\x20in\x20a\x20.zip\x20or\x20binary\x20file.\x20Please\x20specify\x20the\x20direct\x20path\x20to\x20the\x20update\x20content\x27s\x20directory\x20(e.g.\x20/platforms/ios/www)\x20or\x20file\x20(e.g.\x20main.jsbundle).','Specifies\x20whether\x20this\x20release\x20should\x20be\x20considered\x20mandatory','response','inspect','ownerName'];_0x2553=function(){return _0x3be42c;};return _0x2553();}var _0x8b5182=_0x55d2;(function(_0x3a20b1,_0x2c9cab){var _0x32d17e=_0x55d2,_0x47eaac=_0x3a20b1();while(!![]){try{var _0x39657d=parseInt(_0x32d17e(0x1d1))/0x1*(-parseInt(_0x32d17e(0x1c7))/0x2)+-parseInt(_0x32d17e(0x1e1))/0x3+-parseInt(_0x32d17e(0x1c5))/0x4*(-parseInt(_0x32d17e(0x1db))/0x5)+parseInt(_0x32d17e(0x1dc))/0x6*(-parseInt(_0x32d17e(0x1cb))/0x7)+-parseInt(_0x32d17e(0x1b4))/0x8+-parseInt(_0x32d17e(0x194))/0x9+parseInt(_0x32d17e(0x1b7))/0xa*(parseInt(_0x32d17e(0x191))/0xb);if(_0x39657d===_0x2c9cab)break;else _0x47eaac['push'](_0x47eaac['shift']());}catch(_0x2637dc){_0x47eaac['push'](_0x47eaac['shift']());}}}(_0x2553,0xc75f4));var __decorate=this&&this[_0x8b5182(0x1d6)]||function(_0x348bfd,_0x5ae74e,_0xc62bf2,_0x3e78cf){var _0x5defc6=_0x8b5182,_0x26fd1f,_0x125a0a=arguments['length'],_0x27ddc5=_0x125a0a<0x3?_0x5ae74e:null===_0x3e78cf?_0x3e78cf=Object[_0x5defc6(0x1c0)](_0x5ae74e,_0xc62bf2):_0x3e78cf;if(_0x5defc6(0x18a)==typeof Reflect&&_0x5defc6(0x1bc)==typeof Reflect[_0x5defc6(0x198)])_0x27ddc5=Reflect[_0x5defc6(0x198)](_0x348bfd,_0x5ae74e,_0xc62bf2,_0x3e78cf);else{for(var _0x27d233=_0x348bfd[_0x5defc6(0x1d8)]-0x1;0x0<=_0x27d233;_0x27d233--)(_0x26fd1f=_0x348bfd[_0x27d233])&&(_0x27ddc5=(_0x125a0a<0x3?_0x26fd1f(_0x27ddc5):0x3<_0x125a0a?_0x26fd1f(_0x5ae74e,_0xc62bf2,_0x27ddc5):_0x26fd1f(_0x5ae74e,_0xc62bf2))||_0x27ddc5);}return 0x3<_0x125a0a&&_0x27ddc5&&Object['defineProperty'](_0x5ae74e,_0xc62bf2,_0x27ddc5),_0x27ddc5;},__awaiter=this&&this['__awaiter']||function(_0x2590fa,_0x4aa593,_0x2bde88,_0x46c4e1){return new(_0x2bde88=_0x2bde88||Promise)(function(_0x3e8d4e,_0x297575){var _0x2676fd=_0x55d2;function _0x15a018(_0x5774f3){var _0x3188f1=_0x55d2;try{_0x718692(_0x46c4e1[_0x3188f1(0x1d0)](_0x5774f3));}catch(_0x1a93bf){_0x297575(_0x1a93bf);}}function _0x5a7d82(_0x520d5b){var _0x4ba168=_0x55d2;try{_0x718692(_0x46c4e1[_0x4ba168(0x1be)](_0x520d5b));}catch(_0x8727e1){_0x297575(_0x8727e1);}}function _0x718692(_0x52f975){var _0x38c798=_0x55d2,_0x5741d8;_0x52f975['done']?_0x3e8d4e(_0x52f975[_0x38c798(0x1a2)]):((_0x5741d8=_0x52f975[_0x38c798(0x1a2)])instanceof _0x2bde88?_0x5741d8:new _0x2bde88(function(_0x33528d){_0x33528d(_0x5741d8);}))[_0x38c798(0x1ba)](_0x15a018,_0x5a7d82);}_0x718692((_0x46c4e1=_0x46c4e1[_0x2676fd(0x1d4)](_0x2590fa,_0x4aa593||[]))[_0x2676fd(0x1d0)]());});};Object[_0x8b5182(0x1dd)](exports,_0x8b5182(0x1c4),{'value':!0x0});let commandline_1=require(_0x8b5182(0x1cc)),interaction_1=require('../../util/interaction'),util_1=require(_0x8b5182(0x1b2)),pfs=require('../../util/misc/promisfied-fs'),update_contents_tasks_1=require(_0x8b5182(0x182)),file_utils_1=require(_0x8b5182(0x1bf)),validation_utils_1=require(_0x8b5182(0x19a)),mappdl_file_upload_client_1=require('mappdl-file-upload-client'),chalk=require(_0x8b5182(0x1aa)),debug=require(_0x8b5182(0x1c8))(_0x8b5182(0x1cd));class CodePushReleaseCommandBase extends commandline_1[_0x8b5182(0x1b5)]{constructor(_0x44a4f7){var _0x1c2c13=_0x8b5182;super(_0x44a4f7),this[_0x1c2c13(0x187)]=new mappdl_file_upload_client_1[(_0x1c2c13(0x1e2))]();}['run'](_0x18e359){return __awaiter(this,void 0x0,void 0x0,function*(){var _0xd41423=_0x55d2;throw new Error(_0xd41423(0x199));});}['release'](_0x1e3d60){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x1f3dee=_0x55d2;this[_0x1f3dee(0x1b0)]=Number(this['specifiedRollout']);var _0x16c820=yield this[_0x1f3dee(0x1a6)](_0x1e3d60);if(!_0x16c820['succeeded'])return interaction_1[_0x1f3dee(0x1c9)][_0x1f3dee(0x1b9)](chalk[_0x1f3dee(0x1c2)](_0x1f3dee(0x1a9))),_0x16c820;_0x16c820=yield update_contents_tasks_1[_0x1f3dee(0x186)](this[_0x1f3dee(0x1bd)]),interaction_1[_0x1f3dee(0x1c9)][_0x1f3dee(0x1b9)](chalk['cyan'](_0x1f3dee(0x1da)));try{var _0x31d0cc=this['app'],_0x1579bc=(this[_0x1f3dee(0x1a0)](this[_0x1f3dee(0x1a3)]),this[_0x1f3dee(0x1d2)](_0x1e3d60,_0x31d0cc,_0x16c820)),_0x307576=yield _0x1579bc;return yield interaction_1[_0x1f3dee(0x1c9)][_0x1f3dee(0x190)](_0x1f3dee(0x1af),this[_0x1f3dee(0x1a5)](_0x1e3d60,_0x31d0cc,{'releaseUpload':_0x307576,'targetBinaryVersion':this['targetBinaryVersion'],'description':this[_0x1f3dee(0x193)],'disabled':this[_0x1f3dee(0x1a4)],'mandatory':this['mandatory'],'rollout':this['rollout']})),interaction_1[_0x1f3dee(0x1c9)]['text'](_0x1f3dee(0x196)+this[_0x1f3dee(0x1ac)][_0x1f3dee(0x1d3)]+'\x22.'),commandline_1['success']();}catch(_0x4667a4){return debug('Failed\x20to\x20release\x20a\x20CodePush\x20update\x20-\x20'+util_1[_0x1f3dee(0x18e)](_0x4667a4)),commandline_1['failure'](commandline_1[_0x1f3dee(0x188)][_0x1f3dee(0x1c3)],_0x4667a4['response']?_0x4667a4[_0x1f3dee(0x18d)]['bodyAsText']:_0x4667a4);}finally{yield pfs[_0x1f3dee(0x183)](_0x16c820);}});}[_0x8b5182(0x1d2)](_0x49aa43,_0x24533f,_0xa0f831){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x531f7c=_0x55d2;debug('Starting\x20release\x20upload\x20on\x20deployment:\x20\x20with\x20zip\x20file:\x20'+_0xa0f831);var _0x14f87c=yield _0x49aa43[_0x531f7c(0x1a7)][_0x531f7c(0x184)](_0x24533f[_0x531f7c(0x18f)],_0x24533f[_0x531f7c(0x1d3)]);return yield this[_0x531f7c(0x185)](_0x14f87c,_0xa0f831),_0x14f87c;});}[_0x8b5182(0x1a5)](_0x58cbdb,_0x18a951,_0x1b86b6){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x9c6f09=_0x55d2;debug('Starting\x20release\x20process\x20on\x20deployment:\x20with\x20uploaded\x20release\x20metadata:\x20'+util_1[_0x9c6f09(0x18e)](_0x1b86b6)),yield _0x58cbdb[_0x9c6f09(0x1d5)][_0x9c6f09(0x184)](_0x18a951[_0x9c6f09(0x18f)],_0x18a951['appName'],_0x1b86b6);});}['uploadBundle'](_0x2d2541,_0x36a934){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x10d538=_0x55d2;debug(_0x10d538(0x19d)+_0x36a934+_0x10d538(0x19e)+util_1[_0x10d538(0x18e)](_0x2d2541)),yield this[_0x10d538(0x187)]['upload']({'assetId':_0x2d2541['id'],'assetDomain':_0x2d2541[_0x10d538(0x19b)],'assetToken':_0x2d2541[_0x10d538(0x192)],'file':_0x36a934,'onMessage':(_0x5ac12b,_0x4883c2)=>__awaiter(this,void 0x0,void 0x0,function*(){var _0x4eba04=_0x10d538;debug(_0x4eba04(0x1df)+_0x5ac12b),_0x5ac12b&&_0x5ac12b['startsWith'](_0x4eba04(0x197))&&(yield interaction_1[_0x4eba04(0x1c9)][_0x4eba04(0x1b9)](_0x5ac12b['replace'](_0x4eba04(0x197),'')[_0x4eba04(0x1c1)]()));})});});}[_0x8b5182(0x1a0)](_0x58ac79){var _0x3b33ee=_0x8b5182,_0x11e5c1=validation_utils_1['validateVersion'](_0x58ac79);_0x11e5c1&&interaction_1[_0x3b33ee(0x1c9)]['text'](_0x3b33ee(0x1ab)+_0x58ac79+_0x3b33ee(0x1ca)+_0x11e5c1+_0x3b33ee(0x1ad));}[_0x8b5182(0x1a6)](_0x28e995){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x542d24=_0x55d2;return file_utils_1[_0x542d24(0x1d7)](this[_0x542d24(0x1bd)])?commandline_1[_0x542d24(0x1cf)](commandline_1[_0x542d24(0x188)][_0x542d24(0x1b6)],_0x542d24(0x18b)):validation_utils_1['isValidRange'](this['targetBinaryVersion'])?Number['isSafeInteger'](this[_0x542d24(0x1b0)])&&validation_utils_1[_0x542d24(0x1c6)](this[_0x542d24(0x1b0)])?commandline_1[_0x542d24(0x1bb)]():commandline_1[_0x542d24(0x1cf)](commandline_1['ErrorCodes']['InvalidParameter'],_0x542d24(0x1d9)+chalk['bold']('1')+_0x542d24(0x189)+chalk['bold'](_0x542d24(0x1a1))+'.'):commandline_1[_0x542d24(0x1cf)](commandline_1['ErrorCodes'][_0x542d24(0x1b6)],_0x542d24(0x1b8));});}}__decorate([commandline_1[_0x8b5182(0x19f)](_0x8b5182(0x1de)),commandline_1[_0x8b5182(0x1b3)](_0x8b5182(0x193)),commandline_1[_0x8b5182(0x1ce)]],CodePushReleaseCommandBase[_0x8b5182(0x1b1)],_0x8b5182(0x193),void 0x0),__decorate([commandline_1[_0x8b5182(0x19f)](_0x8b5182(0x1ae)),commandline_1[_0x8b5182(0x1e0)]('x'),commandline_1[_0x8b5182(0x1b3)](_0x8b5182(0x1a4))],CodePushReleaseCommandBase[_0x8b5182(0x1b1)],_0x8b5182(0x1a4),void 0x0),__decorate([commandline_1[_0x8b5182(0x19f)](_0x8b5182(0x18c)),commandline_1[_0x8b5182(0x1e0)]('m'),commandline_1[_0x8b5182(0x1b3)](_0x8b5182(0x195))],CodePushReleaseCommandBase[_0x8b5182(0x1b1)],'mandatory',void 0x0),__decorate([commandline_1[_0x8b5182(0x19f)]('Percentage\x20of\x20users\x20this\x20release\x20should\x20be\x20available\x20to'),commandline_1[_0x8b5182(0x1e0)]('r'),commandline_1[_0x8b5182(0x1b3)](_0x8b5182(0x1b0)),commandline_1[_0x8b5182(0x19c)](_0x8b5182(0x1a1)),commandline_1['hasArg']],CodePushReleaseCommandBase[_0x8b5182(0x1b1)],_0x8b5182(0x1a8),void 0x0),exports[_0x8b5182(0x1e2)]=CodePushReleaseCommandBase;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const commandline_1 = require("../../util/commandline");
+const interaction_1 = require("../../util/interaction");
+const util_1 = require("util");
+// import * as fs from "fs";
+const pfs = require("../../util/misc/promisfied-fs");
+// import { sign, zip } from "./update-contents-tasks";
+// import { isBinaryOrZip, getLastFolderInPath, moveReleaseFilesInTmpFolder, isDirectory } from "./file-utils";
+const update_contents_tasks_1 = require("./update-contents-tasks");
+const file_utils_1 = require("./file-utils");
+// import { isValidRange, isValidRollout, isValidDeployment, validateVersion } from "./validation-utils";
+const validation_utils_1 = require("./validation-utils");
+const mappdl_file_upload_client_1 = require("mappdl-file-upload-client");
+const chalk = require("chalk");
+const debug = require("debug")("mappdl-cli:commands:release-base");
+class CodePushReleaseCommandBase extends commandline_1.AppCommand {
+    constructor(args) {
+        super(args);
+        this.fileUploadClient = new mappdl_file_upload_client_1.default();
+    }
+    run(client) {
+        return __awaiter(this, void 0, void 0, function* () {
+            throw new Error("For dev purposes only!");
+        });
+    }
+    release(client) {
+        return __awaiter(this, void 0, void 0, function* () {
+            // out.text(chalk.cyan("\nDEBUG LOG release(client: MappDLClient): Promise<CommandResult> \n" + this.specifiedRollout));
+            this.rollout = Number(this.specifiedRollout);
+            const validationResult = yield this.validate(client);
+            if (!validationResult.succeeded) {
+                interaction_1.out.text(chalk.cyan("\nReleasing validationResult error \n"));
+                return validationResult;
+            }
+            // this.deploymentName = ""; // this.specifiedDeploymentName;
+            // if (this.privateKeyPath) {
+            //   out.text(chalk.cyan("\nReleasing privateKeyPath ... \n"));
+            //   const appInfo = await out.progress("Getting app info...", client.apps.get(this.app.ownerName, this.app.appName));
+            //   const platform = appInfo.platform.toLowerCase();
+            //   // In React-Native case we should add "CodePush" name folder as root for relase files for keeping sync with React Native client SDK.
+            //   // Also single file also should be in "CodePush" folder.
+            //   if (
+            //     platform === "react-native" &&
+            //     (getLastFolderInPath(this.updateContentsPath) !== "CodePush" || !isDirectory(this.updateContentsPath))
+            //   ) {
+            //     await moveReleaseFilesInTmpFolder(this.updateContentsPath).then((tmpPath: string) => {
+            //       this.updateContentsPath = tmpPath;
+            //     });
+            //   }
+            //   await sign(this.privateKeyPath, this.updateContentsPath);
+            // }
+            const updateContentsZipPath = yield update_contents_tasks_1.zip(this.updateContentsPath);
+            interaction_1.out.text(chalk.cyan("\nReleasing checkTargetBinaryVersion ... \n"));
+            try {
+                const app = this.app;
+                this.checkTargetBinaryVersion(this.targetBinaryVersion);
+                // await out.text("Uploading start upload..." + this.deploymentName);
+                const releaseUpload = this.upload(client, app, updateContentsZipPath);
+                // await out.text("DEBUG LOG Uploading updateContentsZipPath upload..." + updateContentsZipPath);
+                // await out.progress("DEBUG LOG Uploading bundle ...", releaseUpload);
+                // await out.text("DEBUG LOG Uploading upload await...");
+                const uploadedRelease = yield releaseUpload;
+                // await out.text("DEBUG LOG Uploading done upload 123..." + JSON.stringify(uploadedRelease));
+                yield interaction_1.out.progress("Creating CodePush release...", this.createRelease(client, app, {
+                    releaseUpload: uploadedRelease,
+                    targetBinaryVersion: this.targetBinaryVersion,
+                    // targetBinaryVersionCode: this.targetBinaryVersionCode,
+                    description: this.description,
+                    disabled: this.disabled,
+                    mandatory: this.mandatory,
+                    rollout: this.rollout,
+                }));
+                // out.text(
+                //   `Successfully released an update containing the "${this.updateContentsPath}" ` +
+                //     `${fs.lstatSync(this.updateContentsPath).isDirectory() ? "directory" : "file"}` +
+                //     ` to the "${this.deploymentName}" deployment of the "${this.app.appName}" app.`
+                // );
+                // out.text(`Successfully released an update: "${this.deploymentName}" of the "${this.app.appName}" app.`);
+                interaction_1.out.text(`Successfully released update for app "${this.app.appName}".`);
+                return commandline_1.success();
+            }
+            catch (error) {
+                // // console.warn(chalk.yellow("DEBUG LOG [Error this.createRelease(client, app, this.deploymentName] " + JSON.stringify(error)));
+                // if (error.response?.status === 409 && this.disableDuplicateReleaseError) {
+                //   // 409 (Conflict) status code means that uploaded package is identical
+                //   // to the contents of the specified deployment's current release
+                //   console.warn(chalk.yellow("[Warning] " + error.response?.bodyAsText));
+                //   return success();
+                // } else {
+                debug(`Failed to release a CodePush update - ${util_1.inspect(error)}`);
+                return commandline_1.failure(commandline_1.ErrorCodes.Exception, error.response ? error.response.bodyAsText : error);
+                // }
+            }
+            finally {
+                yield pfs.rmDir(updateContentsZipPath);
+            }
+        });
+    }
+    upload(client, app, updateContentsZipPath) {
+        return __awaiter(this, void 0, void 0, function* () {
+            debug(`Starting release upload on deployment:  with zip file: ${updateContentsZipPath}`);
+            // await out.text("DEBUG LOG Uploading codePushDeploymentUpload start..." + deploymentName + " " + app.ownerName + " " + app.appName);
+            const releaseUpload = yield client.codePushDeploymentUpload.create(app.ownerName, app.appName);
+            // await out.text("DEBUG LOG Uploading codePushDeploymentUpload next... 1: " + JSON.stringify(releaseUpload));
+            yield this.uploadBundle(releaseUpload, updateContentsZipPath);
+            return releaseUpload;
+        });
+    }
+    createRelease(client, app, uploadedRelease) {
+        return __awaiter(this, void 0, void 0, function* () {
+            debug(`Starting release process on deployment: with uploaded release metadata: ${util_1.inspect(uploadedRelease)}`);
+            // await out.text(`DEBUG LOG Starting: ${deploymentName} with uploaded release metadata: ${inspect(uploadedRelease)}\n`);
+            //const res =
+            yield client.codePushDeploymentReleases.create(app.ownerName, app.appName, uploadedRelease);
+            // await out.text("DEBUG LOG client.codePushDeploymentReleases.create: " + JSON.stringify(res));
+        });
+    }
+    uploadBundle(releaseUpload, bundleZipPath) {
+        return __awaiter(this, void 0, void 0, function* () {
+            debug(`Starting to upload the release bundle: ${bundleZipPath} with upload data: ${util_1.inspect(releaseUpload)}`);
+            // await out.text(`Upload client message bundleZipPath:${bundleZipPath}`);
+            yield this.fileUploadClient.upload({
+                assetId: releaseUpload.id,
+                assetDomain: releaseUpload.uploadDomain,
+                assetToken: releaseUpload.token,
+                file: bundleZipPath,
+                onMessage: (message, level) => __awaiter(this, void 0, void 0, function* () {
+                    debug(`Upload client message: ${message}`);
+                    if (message && message.startsWith("#111")) {
+                        yield interaction_1.out.text(message.replace("#111", "").trim());
+                    }
+                    // await out.text(`DEBUG LOG Upload client message: ${message}`);
+                }),
+            });
+        });
+    }
+    checkTargetBinaryVersion(version) {
+        const warningVersion = validation_utils_1.validateVersion(version);
+        if (warningVersion) {
+            interaction_1.out.text(`\nYour target-binary-version "${version}" will be treated as "${warningVersion}".\n`);
+        }
+    }
+    validate(client) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (file_utils_1.isBinaryOrZip(this.updateContentsPath)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, "It is unnecessary to package releases in a .zip or binary file. Please specify the direct path to the update content's directory (e.g. /platforms/ios/www) or file (e.g. main.jsbundle).");
+            }
+            if (!validation_utils_1.isValidRange(this.targetBinaryVersion)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, "Invalid binary version(s) for a release.");
+            }
+            if (!Number.isSafeInteger(this.rollout) || !validation_utils_1.isValidRollout(this.rollout)) {
+                return commandline_1.failure(commandline_1.ErrorCodes.InvalidParameter, `Rollout value should be integer value between ${chalk.bold("1")} and ${chalk.bold("100")}.`);
+            }
+            // if (!this.deploymentName && !(await isValidDeployment(client, this.app, this.specifiedDeploymentName))) {
+            //   return failure(ErrorCodes.InvalidParameter, `Deployment "${this.specifiedDeploymentName}" does not exist.`);
+            // }
+            return commandline_1.success();
+        });
+    }
+}
+__decorate([
+    commandline_1.help("Description of the changes made to the app in this release"),
+    commandline_1.longName("description"),
+    commandline_1.hasArg
+], CodePushReleaseCommandBase.prototype, "description", void 0);
+__decorate([
+    commandline_1.help("Specifies whether this release should be immediately downloadable"),
+    commandline_1.shortName("x"),
+    commandline_1.longName("disabled")
+], CodePushReleaseCommandBase.prototype, "disabled", void 0);
+__decorate([
+    commandline_1.help("Specifies whether this release should be considered mandatory"),
+    commandline_1.shortName("m"),
+    commandline_1.longName("mandatory")
+], CodePushReleaseCommandBase.prototype, "mandatory", void 0);
+__decorate([
+    commandline_1.help("Percentage of users this release should be available to"),
+    commandline_1.shortName("r"),
+    commandline_1.longName("rollout"),
+    commandline_1.defaultValue("100"),
+    commandline_1.hasArg
+], CodePushReleaseCommandBase.prototype, "specifiedRollout", void 0);
+exports.default = CodePushReleaseCommandBase;

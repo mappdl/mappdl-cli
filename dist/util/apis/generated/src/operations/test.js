@@ -1,1 +1,1086 @@
-const _0x3d2e3c=_0x5421;(function(_0x513510,_0x538632){const _0x59ca12=_0x5421,_0x2cc6df=_0x513510();while(!![]){try{const _0x210537=parseInt(_0x59ca12(0xa5))/0x1+parseInt(_0x59ca12(0x9f))/0x2+-parseInt(_0x59ca12(0x6c))/0x3+parseInt(_0x59ca12(0xc7))/0x4+parseInt(_0x59ca12(0xcd))/0x5*(parseInt(_0x59ca12(0x9c))/0x6)+parseInt(_0x59ca12(0xbe))/0x7+-parseInt(_0x59ca12(0xdb))/0x8;if(_0x210537===_0x538632)break;else _0x2cc6df['push'](_0x2cc6df['shift']());}catch(_0x3abb08){_0x2cc6df['push'](_0x2cc6df['shift']());}}}(_0x4f64,0xd26c7),(Object[_0x3d2e3c(0x87)](exports,_0x3d2e3c(0xd3),{'value':!0x0}),exports[_0x3d2e3c(0x7e)]=void 0x0));function _0x5421(_0x813970,_0x4333ca){const _0x4f64ed=_0x4f64();return _0x5421=function(_0x5421c2,_0x3c0fa7){_0x5421c2=_0x5421c2-0x6a;let _0x3c4cc9=_0x4f64ed[_0x5421c2];return _0x3c4cc9;},_0x5421(_0x813970,_0x4333ca);}let coreClient=require('@azure/core-client'),Mappers=require(_0x3d2e3c(0xb8)),Parameters=require('../models/parameters');class TestImpl{constructor(_0x3c70fb){const _0x85de61=_0x3d2e3c;this[_0x85de61(0xa2)]=_0x3c70fb;}[_0x3d2e3c(0xb1)](_0x59f687,_0x4da601,_0x1cdae2,_0x58e78e){const _0x32e16=_0x3d2e3c;return this[_0x32e16(0xa2)]['sendOperationRequest']({'id':_0x59f687,'ownerName':_0x4da601,'appName':_0x1cdae2,'options':_0x58e78e},getDeviceSetOfUserOperationSpec);}[_0x3d2e3c(0x71)](_0x22ca34,_0x46e9d9,_0x5dcd9f,_0x167786,_0x454387,_0x2db6ca){const _0x60df=_0x3d2e3c;return this[_0x60df(0xa2)][_0x60df(0x7b)]({'id':_0x22ca34,'ownerName':_0x46e9d9,'appName':_0x5dcd9f,'devices':_0x167786,'name':_0x454387,'options':_0x2db6ca},updateDeviceSetOfUserOperationSpec);}[_0x3d2e3c(0x8a)](_0x228c16,_0x59e379,_0x58292e,_0x9f2cea){const _0x213fd0=_0x3d2e3c;return this[_0x213fd0(0xa2)][_0x213fd0(0x7b)]({'id':_0x228c16,'ownerName':_0x59e379,'appName':_0x58292e,'options':_0x9f2cea},deleteDeviceSetOfUserOperationSpec);}['listDeviceSetsOfUser'](_0x3b97e0,_0x54afd1,_0xc2623){const _0x4a7dde=_0x3d2e3c;return this['client'][_0x4a7dde(0x7b)]({'ownerName':_0x3b97e0,'appName':_0x54afd1,'options':_0xc2623},listDeviceSetsOfUserOperationSpec);}[_0x3d2e3c(0x83)](_0x2d4dad,_0x46e3d,_0x1affcc,_0x37c6af,_0x7a821e){const _0x523736=_0x3d2e3c;return this[_0x523736(0xa2)][_0x523736(0x7b)]({'ownerName':_0x2d4dad,'appName':_0x46e3d,'devices':_0x1affcc,'name':_0x37c6af,'options':_0x7a821e},createDeviceSetOfUserOperationSpec);}[_0x3d2e3c(0xd0)](_0x5d39ac,_0x1812e5,_0x190923,_0x410415){return this['client']['sendOperationRequest']({'testSeriesSlug':_0x5d39ac,'ownerName':_0x1812e5,'appName':_0x190923,'options':_0x410415},getAllTestRunsForSeriesOperationSpec);}['deleteTestSeries'](_0x4d3260,_0x313dc2,_0x41cbf8,_0x1a0881){const _0x2b73cc=_0x3d2e3c;return this[_0x2b73cc(0xa2)]['sendOperationRequest']({'testSeriesSlug':_0x4d3260,'ownerName':_0x313dc2,'appName':_0x41cbf8,'options':_0x1a0881},deleteTestSeriesOperationSpec);}[_0x3d2e3c(0xb4)](_0x223e4b,_0x5103e1,_0x49f286,_0x2f6d09,_0x1f9f0c){const _0x5c9145=_0x3d2e3c;return this[_0x5c9145(0xa2)][_0x5c9145(0x7b)]({'testSeriesSlug':_0x223e4b,'ownerName':_0x5103e1,'appName':_0x49f286,'name':_0x2f6d09,'options':_0x1f9f0c},patchTestSeriesOperationSpec);}['getAllTestSeries'](_0x2c0df2,_0x353e7e,_0x7073c3){const _0x5c6903=_0x3d2e3c;return this['client'][_0x5c6903(0x7b)]({'ownerName':_0x2c0df2,'appName':_0x353e7e,'options':_0x7073c3},getAllTestSeriesOperationSpec);}[_0x3d2e3c(0xbc)](_0x414523,_0xf6fce,_0x39d3f2,_0x4a7f1e){const _0x240675=_0x3d2e3c;return this[_0x240675(0xa2)][_0x240675(0x7b)]({'ownerName':_0x414523,'appName':_0xf6fce,'name':_0x39d3f2,'options':_0x4a7f1e},createTestSeriesOperationSpec);}[_0x3d2e3c(0x76)](_0xbddbea,_0x501e54,_0x5c1415,_0x3d58e1){const _0x147779=_0x3d2e3c;return this[_0x147779(0xa2)][_0x147779(0x7b)]({'testRunId':_0xbddbea,'ownerName':_0x501e54,'appName':_0x5c1415,'options':_0x3d58e1},stopTestRunOperationSpec);}[_0x3d2e3c(0xbb)](_0x52580d,_0x143b07,_0x4731c1,_0x5a00d4){const _0x1e48bd=_0x3d2e3c;return this['client'][_0x1e48bd(0x7b)]({'testRunId':_0x52580d,'ownerName':_0x143b07,'appName':_0x4731c1,'options':_0x5a00d4},getTestRunStateOperationSpec);}[_0x3d2e3c(0xc1)](_0x146b1d,_0x27583f,_0x2aedd9,_0x2ffda7,_0x3586){return this['client']['sendOperationRequest']({'testRunId':_0x146b1d,'ownerName':_0x27583f,'appName':_0x2aedd9,'startOptions':_0x2ffda7,'options':_0x3586},startTestRunOperationSpec);}['getTestReport'](_0x312ccf,_0x137fe5,_0x3281a8,_0x479384){const _0x1ac09c=_0x3d2e3c;return this['client'][_0x1ac09c(0x7b)]({'testRunId':_0x312ccf,'ownerName':_0x137fe5,'appName':_0x3281a8,'options':_0x479384},getTestReportOperationSpec);}[_0x3d2e3c(0x81)](_0x2b3fbb,_0x42e566,_0x5b15e5,_0x280abf,_0x4a2c82){const _0x4a32e1=_0x3d2e3c;return this['client'][_0x4a32e1(0x7b)]({'testRunId':_0x2b3fbb,'ownerName':_0x42e566,'appName':_0x5b15e5,'fileInfo':_0x280abf,'options':_0x4a2c82},uploadHashesBatchOperationSpec);}['uploadHash'](_0x304d89,_0x124677,_0x3dd75f,_0x497cc7,_0x24d787){return this['client']['sendOperationRequest']({'testRunId':_0x304d89,'ownerName':_0x124677,'appName':_0x3dd75f,'fileInfo':_0x497cc7,'options':_0x24d787},uploadHashOperationSpec);}['startUploadingFile'](_0x3739d6,_0x23b3fa,_0x37b128,_0x383da8){const _0x173854=_0x3d2e3c;return this[_0x173854(0xa2)]['sendOperationRequest']({'testRunId':_0x3739d6,'ownerName':_0x23b3fa,'appName':_0x37b128,'options':_0x383da8},startUploadingFileOperationSpec);}['getTestRun'](_0x5f4f57,_0x2623c3,_0x1be143,_0x44a5de){const _0x4fd4f9=_0x3d2e3c;return this[_0x4fd4f9(0xa2)]['sendOperationRequest']({'testRunId':_0x5f4f57,'ownerName':_0x2623c3,'appName':_0x1be143,'options':_0x44a5de},getTestRunOperationSpec);}[_0x3d2e3c(0x92)](_0x5bd68a,_0x255169,_0xb75ffe,_0x39c126){const _0x5ad251=_0x3d2e3c;return this[_0x5ad251(0xa2)]['sendOperationRequest']({'testRunId':_0x5bd68a,'ownerName':_0x255169,'appName':_0xb75ffe,'options':_0x39c126},archiveTestRunOperationSpec);}[_0x3d2e3c(0x8b)](_0x582e5e,_0x2077da,_0x182fa5){const _0x523aa8=_0x3d2e3c;return this['client'][_0x523aa8(0x7b)]({'ownerName':_0x582e5e,'appName':_0x2077da,'options':_0x182fa5},getTestRunsOperationSpec);}[_0x3d2e3c(0xc3)](_0x5ca7a5,_0x330fdd,_0x485082){const _0x3646f5=_0x3d2e3c;return this[_0x3646f5(0xa2)][_0x3646f5(0x7b)]({'ownerName':_0x5ca7a5,'appName':_0x330fdd,'options':_0x485082},createTestRunOperationSpec);}['gdprExportTestRun'](_0x4806ab,_0x3c7d16,_0xeb8dc6){const _0x3cc15a=_0x3d2e3c;return this[_0x3cc15a(0xa2)][_0x3cc15a(0x7b)]({'ownerName':_0x4806ab,'appName':_0x3c7d16,'options':_0xeb8dc6},gdprExportTestRunOperationSpec);}[_0x3d2e3c(0x84)](_0x668108,_0x425fea,_0x4a8f9b){const _0x498f49=_0x3d2e3c;return this[_0x498f49(0xa2)]['sendOperationRequest']({'ownerName':_0x668108,'appName':_0x425fea,'options':_0x4a8f9b},gdprExportPipelineTestOperationSpec);}['gdprExportHashFile'](_0x139c4e,_0x5944ce,_0x56c210){const _0x4c7cb0=_0x3d2e3c;return this['client'][_0x4c7cb0(0x7b)]({'ownerName':_0x139c4e,'appName':_0x5944ce,'options':_0x56c210},gdprExportHashFileOperationSpec);}[_0x3d2e3c(0x77)](_0x3a54b9,_0x30a017,_0x8e5fb5){const _0x1b60cf=_0x3d2e3c;return this[_0x1b60cf(0xa2)][_0x1b60cf(0x7b)]({'ownerName':_0x3a54b9,'appName':_0x30a017,'options':_0x8e5fb5},gdprExportFileSetFileOperationSpec);}[_0x3d2e3c(0xd1)](_0x185c27,_0x24e0ee,_0x360825){const _0x147d6e=_0x3d2e3c;return this['client'][_0x147d6e(0x7b)]({'ownerName':_0x185c27,'appName':_0x24e0ee,'options':_0x360825},gdprExportAppOperationSpec);}[_0x3d2e3c(0x9e)](_0x28b585,_0x294572,_0x14ffdf){const _0x35fbab=_0x3d2e3c;return this[_0x35fbab(0xa2)]['sendOperationRequest']({'ownerName':_0x28b585,'appName':_0x294572,'options':_0x14ffdf},gdprExportAppsOperationSpec);}['getSubscriptions'](_0x12fba2,_0x1f371f,_0x3f3c84){const _0x2da972=_0x3d2e3c;return this['client'][_0x2da972(0x7b)]({'ownerName':_0x12fba2,'appName':_0x1f371f,'options':_0x3f3c84},getSubscriptionsOperationSpec);}[_0x3d2e3c(0xde)](_0x3db068,_0x4676f0,_0x49e021){const _0x1f57bd=_0x3d2e3c;return this[_0x1f57bd(0xa2)][_0x1f57bd(0x7b)]({'ownerName':_0x3db068,'appName':_0x4676f0,'options':_0x49e021},createSubscriptionOperationSpec);}[_0x3d2e3c(0xcb)](_0x2155b4,_0x3dd1d3,_0x3b3b6d,_0x5f18ad){const _0x49f00c=_0x3d2e3c;return this[_0x49f00c(0xa2)][_0x49f00c(0x7b)]({'id':_0x2155b4,'ownerName':_0x3dd1d3,'appName':_0x3b3b6d,'options':_0x5f18ad},getDeviceSetOfOwnerOperationSpec);}['updateDeviceSetOfOwner'](_0x2b6092,_0x34a9bc,_0xe7dddd,_0x3a5cd1,_0x274417,_0x37f889){const _0x4938a1=_0x3d2e3c;return this['client'][_0x4938a1(0x7b)]({'id':_0x2b6092,'ownerName':_0x34a9bc,'appName':_0xe7dddd,'devices':_0x3a5cd1,'name':_0x274417,'options':_0x37f889},updateDeviceSetOfOwnerOperationSpec);}[_0x3d2e3c(0xa0)](_0x52871f,_0x396b96,_0x5ccbe7,_0x645647){const _0xdc5a9d=_0x3d2e3c;return this[_0xdc5a9d(0xa2)][_0xdc5a9d(0x7b)]({'id':_0x52871f,'ownerName':_0x396b96,'appName':_0x5ccbe7,'options':_0x645647},deleteDeviceSetOfOwnerOperationSpec);}[_0x3d2e3c(0x80)](_0x5a5819,_0x15c260,_0xccbb78){const _0x20c856=_0x3d2e3c;return this[_0x20c856(0xa2)][_0x20c856(0x7b)]({'ownerName':_0x5a5819,'appName':_0x15c260,'options':_0xccbb78},listDeviceSetsOfOwnerOperationSpec);}['createDeviceSetOfOwner'](_0x5e8a73,_0x3f86ea,_0x456b79,_0x5f52ad,_0x474541){const _0x4c7d50=_0x3d2e3c;return this[_0x4c7d50(0xa2)]['sendOperationRequest']({'ownerName':_0x5e8a73,'appName':_0x3f86ea,'devices':_0x456b79,'name':_0x5f52ad,'options':_0x474541},createDeviceSetOfOwnerOperationSpec);}[_0x3d2e3c(0x85)](_0x39be8a,_0x1205bf,_0x22fcd6,_0x251fe4){const _0x4ab772=_0x3d2e3c;return this[_0x4ab772(0xa2)]['sendOperationRequest']({'ownerName':_0x39be8a,'appName':_0x1205bf,'devices':_0x22fcd6,'options':_0x251fe4},createDeviceSelectionOperationSpec);}[_0x3d2e3c(0xdc)](_0x313adc,_0x34c5f4,_0x5d7ff3){const _0x3a6b5b=_0x3d2e3c;return this[_0x3a6b5b(0xa2)]['sendOperationRequest']({'ownerName':_0x313adc,'appName':_0x34c5f4,'options':_0x5d7ff3},getDeviceConfigurationsOperationSpec);}[_0x3d2e3c(0x78)](_0x1962d5){const _0x52c9da=_0x3d2e3c;return this[_0x52c9da(0xa2)]['sendOperationRequest']({'options':_0x1962d5},gdprExportFeatureFlagOperationSpec);}[_0x3d2e3c(0x98)](_0x5e246a){const _0x47f25b=_0x3d2e3c;return this[_0x47f25b(0xa2)][_0x47f25b(0x7b)]({'options':_0x5e246a},gdprExportAccountOperationSpec);}[_0x3d2e3c(0xcf)](_0x175257){const _0x4d95cd=_0x3d2e3c;return this[_0x4d95cd(0xa2)][_0x4d95cd(0x7b)]({'options':_0x175257},gdprExportAccountsOperationSpec);}}function _0x4f64(){const _0x1e3262=['createDeviceSetOfUser','gdprExportPipelineTest','createDeviceSelection','Paths1CxzjsgV01AppsOwnerNameAppNameTestRunsGetResponses200ContentApplicationJsonSchemaItems','defineProperty','/v0.1/apps/{owner_name}/{app_name}/test_series/{test_series_slug}/test_runs','/v0.1/apps/{owner_name}/{app_name}/test_series','deleteDeviceSetOfUser','getTestRuns','accept','TestCloudTestRunStartResult','PathsTbqb7JV01AppsOwnerNameAppNameTestExportGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/user/device_sets/{id}','/v0.1/apps/{owner_name}/{app_name}/test_runs','Paths1Qu9NsjV01AppsOwnerNameAppNameOwnerDeviceSetsGetResponses200ContentApplicationJsonSchemaItems','archiveTestRun','fileInfo1','TestCloudErrorDetails1','Subscription1','devices','appUploadId','gdprExportAccount','Paths120IxifV01AccountTestExportFeatureflagsGetResponses200ContentApplicationJsonSchema','assign','PathsQpbfbqV01AppsOwnerNameAppNameTestExportHashfilesGetResponses200ContentApplicationJsonSchema','74082OOQUfq','TestCloudErrorDetails4','gdprExportApps','536198UJUHmn','deleteDeviceSetOfOwner','PathsAd8C7FV01AppsOwnerNameAppNameTestSeriesGetResponses200ContentApplicationJsonSchemaItems','client','TestRun1','/v0.1/account/test/export/featureFlags','441318iMMqhx','TestRun','TestUploadHashHeaders','GET','PUT','/v0.1/apps/{owner_name}/{app_name}/test/export/testRuns','/v0.1/apps/{owner_name}/{app_name}/test_series/{test_series_slug}','/v0.1/apps/{owner_name}/{app_name}/device_selection','query','DeviceSet1','TestSeries','/v0.1/account/test/export/accounts','getDeviceSetOfUser','/v0.1/apps/{owner_name}/{app_name}/user/device_sets','testRunId','patchTestSeries','Sequence','PathsH1EvszV01AppsOwnerNameAppNameTestRunsTestRunIdHashesBatchPostResponses200ContentApplicationJsonSchemaItems','Paths1D5PwtqV01AppsOwnerNameAppNameTestExportAppsGetResponses200ContentApplicationJsonSchema','../models/mappers','/v0.1/apps/{owner_name}/{app_name}/owner/device_sets/{id}','Paths17Qazt1V01AppsOwnerNameAppNameUserDeviceSetsGetResponses200ContentApplicationJsonSchemaItems','getTestRunState','createTestSeries','DeviceSet2','4242728gzlvJJ','createSerializer','DELETE','startTestRun','startOptions','createTestRun','Paths1UxedxfV01AppsOwnerNameAppNameTestExportTestrunsGetResponses200ContentApplicationJsonSchema','/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}','Paths17A5P9IV01AppsOwnerNameAppNameTestExportPipelinetestsGetResponses200ContentApplicationJsonSchema','3844984vzJagw','ownerName','PathsRj1AeoV01AppsOwnerNameAppNameTestRunsTestRunIdReportGetResponses200ContentApplicationJsonSchema','DeviceSetUpdateInformation2','getDeviceSetOfOwner','testRunId1','465oGrXpX','fileInfo','gdprExportAccounts','getAllTestRunsForSeries','gdprExportApp','name','__esModule','json','TestCloudErrorDetails','/v0.1/apps/{owner_name}/{app_name}/test/export/pipelineTests','/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/stop','PATCH','/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/report','$host','13883168ynuGVo','getDeviceConfigurations','POST','createSubscription','TestCloudErrorDetails3','DeviceSet0','DeviceList','testSeriesSlug','2483241tLpOGd','/v0.1/apps/{owner_name}/{app_name}/device_configurations','contentType','PathsK7Amr2V01AccountTestExportAccountsGetResponses200ContentApplicationJsonSchema','Composite','updateDeviceSetOfUser','TestCloudErrorDetails2','id2','/v0.1/apps/{owner_name}/{app_name}/test/export/hashFiles','PathsShbmt3V01AppsOwnerNameAppNameTestSeriesSlugTestRunsGetResponses200ContentApplicationJsonSchemaItems','stopTestRun','gdprExportFileSetFile','gdprExportFeatureFlag','/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/hashes','appName','sendOperationRequest','TestCloudErrorDetails0','TestSeries0','TestImpl','/v0.1/apps/{owner_name}/{app_name}/owner/device_sets','listDeviceSetsOfOwner','uploadHashesBatch','/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/start'];_0x4f64=function(){return _0x1e3262;};return _0x4f64();}exports['TestImpl']=TestImpl;let serializer=coreClient[_0x3d2e3c(0xbf)](Mappers,!0x1),getDeviceSetOfUserOperationSpec={'path':_0x3d2e3c(0x8f),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers['DeviceSet']},0x194:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x73)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},updateDeviceSetOfUserOperationSpec={'path':_0x3d2e3c(0x8f),'httpMethod':_0x3d2e3c(0xa9),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xe0)]},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0xd5)]},0x194:{}},'requestBody':{'parameterPath':{'devices':[_0x3d2e3c(0x96)],'name':[_0x3d2e3c(0xd2)]},'mapper':Object[_0x3d2e3c(0x9a)](Object[_0x3d2e3c(0x9a)]({},Mappers['DeviceSetUpdateInformation']),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x73)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},deleteDeviceSetOfUserOperationSpec={'path':_0x3d2e3c(0x8f),'httpMethod':'DELETE','responses':{0xc8:{},0x194:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x73)]],'serializer':serializer},listDeviceSetsOfUserOperationSpec={'path':_0x3d2e3c(0xb2),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x3d2e3c(0xb5),'element':{'type':{'name':'Composite','className':_0x3d2e3c(0xba)}}}}}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},createDeviceSetOfUserOperationSpec={'path':_0x3d2e3c(0xb2),'httpMethod':_0x3d2e3c(0xdd),'responses':{0xc9:{'bodyMapper':Mappers[_0x3d2e3c(0xae)]},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0x7c)]}},'requestBody':{'parameterPath':{'devices':['devices'],'name':[_0x3d2e3c(0xd2)]},'mapper':Object[_0x3d2e3c(0x9a)](Object[_0x3d2e3c(0x9a)]({},Mappers['DeviceSetUpdateInformation0']),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},getAllTestRunsForSeriesOperationSpec={'path':_0x3d2e3c(0x88),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x3d2e3c(0xb5),'element':{'type':{'name':'Composite','className':_0x3d2e3c(0x75)}}}}}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x6b)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},deleteTestSeriesOperationSpec={'path':_0x3d2e3c(0xab),'httpMethod':_0x3d2e3c(0xc0),'responses':{0xc8:{},0x194:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x6b)]],'serializer':serializer},patchTestSeriesOperationSpec={'path':_0x3d2e3c(0xab),'httpMethod':_0x3d2e3c(0xd8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xaf)]},0x190:{},0x194:{}},'requestBody':{'parameterPath':{'name':[_0x3d2e3c(0xd2)]},'mapper':Object['assign'](Object[_0x3d2e3c(0x9a)]({},Mappers['NameOfTheTestSeries']),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName'],Parameters[_0x3d2e3c(0x6b)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters['accept']],'mediaType':'json','serializer':serializer},getAllTestSeriesOperationSpec={'path':_0x3d2e3c(0x89),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x3d2e3c(0x70),'className':_0x3d2e3c(0xa1)}}}}}},'queryParameters':[Parameters[_0x3d2e3c(0xad)]],'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters['accept']],'serializer':serializer},createTestSeriesOperationSpec={'path':_0x3d2e3c(0x89),'httpMethod':_0x3d2e3c(0xdd),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x7d)]},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0x94)]}},'requestBody':{'parameterPath':{'name':[_0x3d2e3c(0xd2)]},'mapper':Object[_0x3d2e3c(0x9a)](Object[_0x3d2e3c(0x9a)]({},Mappers['NameOfTheTestSeries0']),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName']],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters['accept']],'mediaType':'json','serializer':serializer},stopTestRunOperationSpec={'path':_0x3d2e3c(0xd7),'httpMethod':'PUT','responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xa6)]},0x194:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters['testRunId']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},getTestRunStateOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/state','httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers['TestRunState']}},'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xb3)]],'headerParameters':[Parameters['accept']],'serializer':serializer},startTestRunOperationSpec={'path':_0x3d2e3c(0x82),'httpMethod':_0x3d2e3c(0xdd),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x8d)]}},'requestBody':Parameters[_0x3d2e3c(0xc2)],'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xb3)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},getTestReportOperationSpec={'path':_0x3d2e3c(0xd9),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xc9)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xcc)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},uploadHashesBatchOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/hashes/batch','httpMethod':_0x3d2e3c(0xdd),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x3d2e3c(0xb5),'element':{'type':{'name':_0x3d2e3c(0x70),'className':_0x3d2e3c(0xb6)}}}}}},'requestBody':Parameters[_0x3d2e3c(0xce)],'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xb3)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},uploadHashOperationSpec={'path':_0x3d2e3c(0x79),'httpMethod':'POST','responses':{0xc9:{},0x191:{'headersMapper':Mappers[_0x3d2e3c(0xa7)]},0x19c:{}},'requestBody':Parameters[_0x3d2e3c(0x93)],'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)],Parameters['testRunId']],'headerParameters':[Parameters['contentType']],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},startUploadingFileOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/files','httpMethod':_0x3d2e3c(0xdd),'responses':{0xc8:{'headersMapper':Mappers['TestStartUploadingFileHeaders']},0x190:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xb3)]],'serializer':serializer},getTestRunOperationSpec={'path':_0x3d2e3c(0xc5),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers['TestRun0']}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xcc)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},archiveTestRunOperationSpec={'path':_0x3d2e3c(0xc5),'httpMethod':'DELETE','responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xa3)]},0x194:{}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0xcc)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},getTestRunsOperationSpec={'path':_0x3d2e3c(0x90),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x3d2e3c(0x70),'className':_0x3d2e3c(0x86)}}}}}},'urlParameters':[Parameters['$host'],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},createTestRunOperationSpec={'path':_0x3d2e3c(0x90),'httpMethod':'POST','responses':{0xc9:{'headersMapper':Mappers['TestCreateTestRunHeaders']}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'serializer':serializer},gdprExportTestRunOperationSpec={'path':_0x3d2e3c(0xaa),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xc4)]}},'urlParameters':[Parameters['$host'],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportPipelineTestOperationSpec={'path':_0x3d2e3c(0xd6),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xc6)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportHashFileOperationSpec={'path':_0x3d2e3c(0x74),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x9b)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportFileSetFileOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test/export/fileSetFiles','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers['Paths18Bwc0DV01AppsOwnerNameAppNameTestExportFilesetfilesGetResponses200ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportAppOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test/export/apps','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xb7)]}},'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportAppsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/test/export','httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x8e)]}},'urlParameters':[Parameters['$host'],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},getSubscriptionsOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/subscriptions','httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers['Subscription0']}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},createSubscriptionOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/subscriptions','httpMethod':_0x3d2e3c(0xdd),'responses':{0xc9:{'bodyMapper':Mappers[_0x3d2e3c(0x95)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},getDeviceSetOfOwnerOperationSpec={'path':_0x3d2e3c(0xb9),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0xbd)]},0x194:{}},'urlParameters':[Parameters['$host'],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters['id2']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},updateDeviceSetOfOwnerOperationSpec={'path':_0x3d2e3c(0xb9),'httpMethod':'PUT','responses':{0xc8:{'bodyMapper':Mappers['DeviceSet3']},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0x72)]},0x194:{}},'requestBody':{'parameterPath':{'devices':[_0x3d2e3c(0x96)],'name':[_0x3d2e3c(0xd2)]},'mapper':Object['assign'](Object[_0x3d2e3c(0x9a)]({},Mappers['DeviceSetUpdateInformation1']),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters['ownerName'],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x73)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters['accept']],'mediaType':_0x3d2e3c(0xd4),'serializer':serializer},deleteDeviceSetOfOwnerOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/owner/device_sets/{id}','httpMethod':_0x3d2e3c(0xc0),'responses':{0xc8:{},0x194:{}},'urlParameters':[Parameters['$host'],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)],Parameters[_0x3d2e3c(0x73)]],'serializer':serializer},listDeviceSetsOfOwnerOperationSpec={'path':_0x3d2e3c(0x7f),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':_0x3d2e3c(0xb5),'element':{'type':{'name':_0x3d2e3c(0x70),'className':_0x3d2e3c(0x91)}}}}}},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters['appName']],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},createDeviceSetOfOwnerOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/owner/device_sets','httpMethod':_0x3d2e3c(0xdd),'responses':{0xc9:{'bodyMapper':Mappers['DeviceSet4']},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0xdf)]}},'requestBody':{'parameterPath':{'devices':['devices'],'name':[_0x3d2e3c(0xd2)]},'mapper':Object[_0x3d2e3c(0x9a)](Object[_0x3d2e3c(0x9a)]({},Mappers[_0x3d2e3c(0xca)]),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':'json','serializer':serializer},createDeviceSelectionOperationSpec={'path':_0x3d2e3c(0xac),'httpMethod':'POST','responses':{0xc9:{'bodyMapper':Mappers['DeviceSelection']},0x190:{'bodyMapper':Mappers[_0x3d2e3c(0x9d)]}},'requestBody':{'parameterPath':{'devices':[_0x3d2e3c(0x96)]},'mapper':Object['assign'](Object[_0x3d2e3c(0x9a)]({},Mappers[_0x3d2e3c(0x6a)]),{'required':!0x0})},'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x6e)],Parameters[_0x3d2e3c(0x8c)]],'mediaType':'json','serializer':serializer},getDeviceConfigurationsOperationSpec={'path':_0x3d2e3c(0x6d),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x3d2e3c(0xb5),'element':{'type':{'name':_0x3d2e3c(0x70),'className':'Paths1Wime0YV01AppsOwnerNameAppNameDeviceConfigurationsGetResponses200ContentApplicationJsonSchemaItems'}}}}}},'queryParameters':[Parameters[_0x3d2e3c(0x97)]],'urlParameters':[Parameters[_0x3d2e3c(0xda)],Parameters[_0x3d2e3c(0xc8)],Parameters[_0x3d2e3c(0x7a)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportFeatureFlagOperationSpec={'path':_0x3d2e3c(0xa4),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x99)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportAccountOperationSpec={'path':_0x3d2e3c(0xb0),'httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers[_0x3d2e3c(0x6f)]}},'urlParameters':[Parameters[_0x3d2e3c(0xda)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer},gdprExportAccountsOperationSpec={'path':'/v0.1/account/test/export','httpMethod':_0x3d2e3c(0xa8),'responses':{0xc8:{'bodyMapper':Mappers['PathsIp035RV01AccountTestExportGetResponses200ContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x3d2e3c(0xda)]],'headerParameters':[Parameters[_0x3d2e3c(0x8c)]],'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TestImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Test operations. */
+class TestImpl {
+    /**
+     * Initialize a new instance of the class Test class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Gets a device set belonging to the user
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getDeviceSetOfUser(id, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, options }, getDeviceSetOfUserOperationSpec);
+    }
+    /**
+     * Updates a device set belonging to the user
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param devices List of device IDs
+     * @param name The name of the device set
+     * @param options The options parameters.
+     */
+    updateDeviceSetOfUser(id, ownerName, appName, devices, name, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, devices, name, options }, updateDeviceSetOfUserOperationSpec);
+    }
+    /**
+     * Deletes a device set belonging to the user
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteDeviceSetOfUser(id, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, options }, deleteDeviceSetOfUserOperationSpec);
+    }
+    /**
+     * Lists device sets belonging to the user
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listDeviceSetsOfUser(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listDeviceSetsOfUserOperationSpec);
+    }
+    /**
+     * Creates a device set belonging to the user
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param devices List of device IDs
+     * @param name The name of the device set
+     * @param options The options parameters.
+     */
+    createDeviceSetOfUser(ownerName, appName, devices, name, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, devices, name, options }, createDeviceSetOfUserOperationSpec);
+    }
+    /**
+     * Returns list of all test runs for a given test series
+     * @param testSeriesSlug The slug of the test series
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getAllTestRunsForSeries(testSeriesSlug, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testSeriesSlug, ownerName, appName, options }, getAllTestRunsForSeriesOperationSpec);
+    }
+    /**
+     * Deletes a single test series
+     * @param testSeriesSlug The slug of the test series
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteTestSeries(testSeriesSlug, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testSeriesSlug, ownerName, appName, options }, deleteTestSeriesOperationSpec);
+    }
+    /**
+     * Updates name and slug of a test series
+     * @param testSeriesSlug The slug of the test series
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param name Name of the new test series
+     * @param options The options parameters.
+     */
+    patchTestSeries(testSeriesSlug, ownerName, appName, name, options) {
+        return this.client.sendOperationRequest({ testSeriesSlug, ownerName, appName, name, options }, patchTestSeriesOperationSpec);
+    }
+    /**
+     * Returns list of all test series for an application
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getAllTestSeries(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getAllTestSeriesOperationSpec);
+    }
+    /**
+     * Creates new test series for an application
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param name Name of the new test series
+     * @param options The options parameters.
+     */
+    createTestSeries(ownerName, appName, name, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, name, options }, createTestSeriesOperationSpec);
+    }
+    /**
+     * Stop a test run execution
+     * @param testRunId The ID of the test run to be stopped
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    stopTestRun(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, stopTestRunOperationSpec);
+    }
+    /**
+     * Gets state of the test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getTestRunState(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, getTestRunStateOperationSpec);
+    }
+    /**
+     * Starts test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param startOptions Option required to start the test run
+     * @param options The options parameters.
+     */
+    startTestRun(testRunId, ownerName, appName, startOptions, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, startOptions, options }, startTestRunOperationSpec);
+    }
+    /**
+     * Returns a single test report
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getTestReport(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, getTestReportOperationSpec);
+    }
+    /**
+     * Adds file with the given hash to a test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param fileInfo File hash information
+     * @param options The options parameters.
+     */
+    uploadHashesBatch(testRunId, ownerName, appName, fileInfo, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, fileInfo, options }, uploadHashesBatchOperationSpec);
+    }
+    /**
+     * Adds file with the given hash to a test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param fileInfo File hash information
+     * @param options The options parameters.
+     */
+    uploadHash(testRunId, ownerName, appName, fileInfo, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, fileInfo, options }, uploadHashOperationSpec);
+    }
+    /**
+     * Uploads file for a test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    startUploadingFile(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, startUploadingFileOperationSpec);
+    }
+    /**
+     * Returns a single test runs
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getTestRun(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, getTestRunOperationSpec);
+    }
+    /**
+     * Logically deletes a test run
+     * @param testRunId The ID of the test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    archiveTestRun(testRunId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ testRunId, ownerName, appName, options }, archiveTestRunOperationSpec);
+    }
+    /**
+     * Returns a list of test runs
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getTestRuns(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getTestRunsOperationSpec);
+    }
+    /**
+     * Creates a new test run
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    createTestRun(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, createTestRunOperationSpec);
+    }
+    /**
+     * Lists test run data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportTestRun(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportTestRunOperationSpec);
+    }
+    /**
+     * Lists pipeline test data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportPipelineTest(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportPipelineTestOperationSpec);
+    }
+    /**
+     * Lists hash file data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportHashFile(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportHashFileOperationSpec);
+    }
+    /**
+     * Lists file set file data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportFileSetFile(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportFileSetFileOperationSpec);
+    }
+    /**
+     * Lists app data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportApp(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportAppOperationSpec);
+    }
+    /**
+     * Lists all the endpoints available for Test apps data
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    gdprExportApps(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, gdprExportAppsOperationSpec);
+    }
+    /**
+     * Get information about the currently active subscriptions, if any
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getSubscriptions(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getSubscriptionsOperationSpec);
+    }
+    /**
+     * Accept a free trial subscription
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    createSubscription(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, createSubscriptionOperationSpec);
+    }
+    /**
+     * Gets a device set belonging to the owner
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getDeviceSetOfOwner(id, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, options }, getDeviceSetOfOwnerOperationSpec);
+    }
+    /**
+     * Updates a device set belonging to the owner
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param devices List of device IDs
+     * @param name The name of the device set
+     * @param options The options parameters.
+     */
+    updateDeviceSetOfOwner(id, ownerName, appName, devices, name, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, devices, name, options }, updateDeviceSetOfOwnerOperationSpec);
+    }
+    /**
+     * Deletes a device set belonging to the owner
+     * @param id The UUID of the device set
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteDeviceSetOfOwner(id, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ id, ownerName, appName, options }, deleteDeviceSetOfOwnerOperationSpec);
+    }
+    /**
+     * Lists device sets belonging to the owner
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listDeviceSetsOfOwner(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listDeviceSetsOfOwnerOperationSpec);
+    }
+    /**
+     * Creates a device set belonging to the owner
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param devices List of device IDs
+     * @param name The name of the device set
+     * @param options The options parameters.
+     */
+    createDeviceSetOfOwner(ownerName, appName, devices, name, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, devices, name, options }, createDeviceSetOfOwnerOperationSpec);
+    }
+    /**
+     * Creates a short ID for a list of devices
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param devices Array of String
+     * @param options The options parameters.
+     */
+    createDeviceSelection(ownerName, appName, devices, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, devices, options }, createDeviceSelectionOperationSpec);
+    }
+    /**
+     * Returns a list of available devices
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    getDeviceConfigurations(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, getDeviceConfigurationsOperationSpec);
+    }
+    /**
+     * Lists feature flag data
+     * @param options The options parameters.
+     */
+    gdprExportFeatureFlag(options) {
+        return this.client.sendOperationRequest({ options }, gdprExportFeatureFlagOperationSpec);
+    }
+    /**
+     * Lists account data
+     * @param options The options parameters.
+     */
+    gdprExportAccount(options) {
+        return this.client.sendOperationRequest({ options }, gdprExportAccountOperationSpec);
+    }
+    /**
+     * Lists all the endpoints available for Test accounts data
+     * @param options The options parameters.
+     */
+    gdprExportAccounts(options) {
+        return this.client.sendOperationRequest({ options }, gdprExportAccountsOperationSpec);
+    }
+}
+exports.TestImpl = TestImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getDeviceSetOfUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/user/device_sets/{id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DeviceSet
+        },
+        404: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateDeviceSetOfUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/user/device_sets/{id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DeviceSet0
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails
+        },
+        404: {}
+    },
+    requestBody: {
+        parameterPath: { devices: ["devices"], name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.DeviceSetUpdateInformation), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteDeviceSetOfUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/user/device_sets/{id}",
+    httpMethod: "DELETE",
+    responses: { 200: {}, 404: {} },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    serializer
+};
+const listDeviceSetsOfUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/user/device_sets",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths17Qazt1V01AppsOwnerNameAppNameUserDeviceSetsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createDeviceSetOfUserOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/user/device_sets",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.DeviceSet1
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails0
+        }
+    },
+    requestBody: {
+        parameterPath: { devices: ["devices"], name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.DeviceSetUpdateInformation0), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getAllTestRunsForSeriesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_series/{test_series_slug}/test_runs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsShbmt3V01AppsOwnerNameAppNameTestSeriesSlugTestRunsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testSeriesSlug
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteTestSeriesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_series/{test_series_slug}",
+    httpMethod: "DELETE",
+    responses: { 200: {}, 404: {} },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testSeriesSlug
+    ],
+    serializer
+};
+const patchTestSeriesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_series/{test_series_slug}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestSeries
+        },
+        400: {},
+        404: {}
+    },
+    requestBody: {
+        parameterPath: { name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.NameOfTheTestSeries), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testSeriesSlug
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getAllTestSeriesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_series",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsAd8C7FV01AppsOwnerNameAppNameTestSeriesGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    queryParameters: [Parameters.query],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createTestSeriesOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_series",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestSeries0
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails1
+        }
+    },
+    requestBody: {
+        parameterPath: { name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.NameOfTheTestSeries0), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const stopTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/stop",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestRun
+        },
+        404: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getTestRunStateOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/state",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestRunState
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const startTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/start",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestCloudTestRunStartResult
+        }
+    },
+    requestBody: Parameters.startOptions,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getTestReportOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/report",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsRj1AeoV01AppsOwnerNameAppNameTestRunsTestRunIdReportGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const uploadHashesBatchOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/hashes/batch",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsH1EvszV01AppsOwnerNameAppNameTestRunsTestRunIdHashesBatchPostResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    requestBody: Parameters.fileInfo,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const uploadHashOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/hashes",
+    httpMethod: "POST",
+    responses: {
+        201: {},
+        401: {
+            headersMapper: Mappers.TestUploadHashHeaders
+        },
+        412: {}
+    },
+    requestBody: Parameters.fileInfo1,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    headerParameters: [Parameters.contentType],
+    mediaType: "json",
+    serializer
+};
+const startUploadingFileOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}/files",
+    httpMethod: "POST",
+    responses: {
+        200: {
+            headersMapper: Mappers.TestStartUploadingFileHeaders
+        },
+        400: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId
+    ],
+    serializer
+};
+const getTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestRun0
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const archiveTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs/{test_run_id}",
+    httpMethod: "DELETE",
+    responses: {
+        200: {
+            bodyMapper: Mappers.TestRun1
+        },
+        404: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.testRunId1
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getTestRunsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1CxzjsgV01AppsOwnerNameAppNameTestRunsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test_runs",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            headersMapper: Mappers.TestCreateTestRunHeaders
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    serializer
+};
+const gdprExportTestRunOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export/testRuns",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1UxedxfV01AppsOwnerNameAppNameTestExportTestrunsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportPipelineTestOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export/pipelineTests",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths17A5P9IV01AppsOwnerNameAppNameTestExportPipelinetestsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportHashFileOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export/hashFiles",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsQpbfbqV01AppsOwnerNameAppNameTestExportHashfilesGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportFileSetFileOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export/fileSetFiles",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths18Bwc0DV01AppsOwnerNameAppNameTestExportFilesetfilesGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportAppOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export/apps",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1D5PwtqV01AppsOwnerNameAppNameTestExportAppsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportAppsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/test/export",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsTbqb7JV01AppsOwnerNameAppNameTestExportGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getSubscriptionsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/subscriptions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Subscription0
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createSubscriptionOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/subscriptions",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.Subscription1
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getDeviceSetOfOwnerOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/owner/device_sets/{id}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DeviceSet2
+        },
+        404: {}
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateDeviceSetOfOwnerOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/owner/device_sets/{id}",
+    httpMethod: "PUT",
+    responses: {
+        200: {
+            bodyMapper: Mappers.DeviceSet3
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails2
+        },
+        404: {}
+    },
+    requestBody: {
+        parameterPath: { devices: ["devices"], name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.DeviceSetUpdateInformation1), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteDeviceSetOfOwnerOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/owner/device_sets/{id}",
+    httpMethod: "DELETE",
+    responses: { 200: {}, 404: {} },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.id2
+    ],
+    serializer
+};
+const listDeviceSetsOfOwnerOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/owner/device_sets",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Qu9NsjV01AppsOwnerNameAppNameOwnerDeviceSetsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createDeviceSetOfOwnerOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/owner/device_sets",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.DeviceSet4
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails3
+        }
+    },
+    requestBody: {
+        parameterPath: { devices: ["devices"], name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.DeviceSetUpdateInformation2), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const createDeviceSelectionOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/device_selection",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.DeviceSelection
+        },
+        400: {
+            bodyMapper: Mappers.TestCloudErrorDetails4
+        }
+    },
+    requestBody: {
+        parameterPath: { devices: ["devices"] },
+        mapper: Object.assign(Object.assign({}, Mappers.DeviceList), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const getDeviceConfigurationsOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/device_configurations",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Wime0YV01AppsOwnerNameAppNameDeviceConfigurationsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    queryParameters: [Parameters.appUploadId],
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportFeatureFlagOperationSpec = {
+    path: "/v0.1/account/test/export/featureFlags",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths120IxifV01AccountTestExportFeatureflagsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportAccountOperationSpec = {
+    path: "/v0.1/account/test/export/accounts",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsK7Amr2V01AccountTestExportAccountsGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const gdprExportAccountsOperationSpec = {
+    path: "/v0.1/account/test/export",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsIp035RV01AccountTestExportGetResponses200ContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};

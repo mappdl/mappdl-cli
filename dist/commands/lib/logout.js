@@ -1,1 +1,65 @@
-var _0x8bb89b=_0xc2ad;(function(_0x4c91ce,_0x3e7862){var _0x3d76a9=_0xc2ad,_0x3b22d4=_0x4c91ce();while(!![]){try{var _0x3e1856=-parseInt(_0x3d76a9(0x8e))/0x1+parseInt(_0x3d76a9(0x95))/0x2+-parseInt(_0x3d76a9(0x91))/0x3*(-parseInt(_0x3d76a9(0x84))/0x4)+parseInt(_0x3d76a9(0x80))/0x5*(parseInt(_0x3d76a9(0x83))/0x6)+-parseInt(_0x3d76a9(0x9c))/0x7*(-parseInt(_0x3d76a9(0x90))/0x8)+-parseInt(_0x3d76a9(0x99))/0x9*(parseInt(_0x3d76a9(0x8b))/0xa)+-parseInt(_0x3d76a9(0x85))/0xb;if(_0x3e1856===_0x3e7862)break;else _0x3b22d4['push'](_0x3b22d4['shift']());}catch(_0x44def9){_0x3b22d4['push'](_0x3b22d4['shift']());}}}(_0x4661,0x6ecd9));var __awaiter=this&&this['__awaiter']||function(_0x1c869c,_0x2a7318,_0x5502d4,_0x43fde6){return new(_0x5502d4=_0x5502d4||Promise)(function(_0x441902,_0x297c47){var _0x3c103e=_0xc2ad;function _0x13c2d1(_0x2a209b){var _0x1a166f=_0xc2ad;try{_0x3b62fe(_0x43fde6[_0x1a166f(0x9d)](_0x2a209b));}catch(_0x4306b5){_0x297c47(_0x4306b5);}}function _0x1285ba(_0x362715){var _0xfc1a66=_0xc2ad;try{_0x3b62fe(_0x43fde6[_0xfc1a66(0x8a)](_0x362715));}catch(_0x295575){_0x297c47(_0x295575);}}function _0x3b62fe(_0x36991d){var _0x4a8dc9=_0xc2ad,_0x2cb4c4;_0x36991d['done']?_0x441902(_0x36991d[_0x4a8dc9(0x9a)]):((_0x2cb4c4=_0x36991d['value'])instanceof _0x5502d4?_0x2cb4c4:new _0x5502d4(function(_0x2eb5fd){_0x2eb5fd(_0x2cb4c4);}))[_0x4a8dc9(0x97)](_0x13c2d1,_0x1285ba);}_0x3b62fe((_0x43fde6=_0x43fde6[_0x3c103e(0x98)](_0x1c869c,_0x2a7318||[]))['next']());});};Object[_0x8bb89b(0x87)](exports,'__esModule',{'value':!0x0}),exports[_0x8bb89b(0x8f)]=void 0x0;function _0x4661(){var _0x29cddf=['then','apply','9vbCFjc','value','\x20from\x20server\x20failed,\x20error\x20','17101rGwrCF','next','../../util/profile','userApiTokens','debug','Attempting\x20to\x20delete\x20token\x20id\x20','current','progress','Deletion\x20of\x20token\x20id\x20','3757835AURSat','deleteUser','tokenSuppliedByUser','6ahzIAt','24oPzxsl','3340865hpcmmp','Logging\x20out\x20current\x20user...','defineProperty','Could\x20not\x20retrieve\x20current\x20token\x20from\x20token\x20store','race','throw','3635690GXXdyt','delete','User\x20token\x20deletion\x20failed','775991HODpOL','logout','936qynDDY','143391yRVPHF','mappdl-cli:commands:lib:logout','\x20off\x20server','../../util/interaction','1145888hPGluQ','accessTokenId'];_0x4661=function(){return _0x29cddf;};return _0x4661();}let profile_1=require(_0x8bb89b(0x9e)),interaction_1=require(_0x8bb89b(0x94)),debug=require(_0x8bb89b(0xa0))(_0x8bb89b(0x92)),maxTokenDeletionTimeoutSec=0xa;function logout(_0x5cf5a3,_0x460449){return __awaiter(this,void 0x0,void 0x0,function*(){var _0xc5a256=_0xc2ad;yield interaction_1['out'][_0xc5a256(0xa3)](_0xc5a256(0x86),performLogout(_0x5cf5a3,_0x460449));});}function _0xc2ad(_0xeaa656,_0xcc9a6e){var _0x4661b8=_0x4661();return _0xc2ad=function(_0xc2ad7a,_0x4f3f31){_0xc2ad7a=_0xc2ad7a-0x7f;var _0xad415=_0x4661b8[_0xc2ad7a];return _0xad415;},_0xc2ad(_0xeaa656,_0xcc9a6e);}function performLogout(_0x429498,_0x47ae34){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x36302b=_0xc2ad;if(null==_0x47ae34||!_0x47ae34[_0x36302b(0x82)]){let _0x33bbca;try{yield Promise[_0x36302b(0x89)]([()=>__awaiter(this,void 0x0,void 0x0,function*(){var _0x3e6669=_0x36302b;try{(_0x33bbca=yield _0x47ae34[_0x3e6669(0x96)])&&'null'!==_0x33bbca||(_0x33bbca=_0x3e6669(0xa2)),debug(_0x3e6669(0xa1)+_0x33bbca+_0x3e6669(0x93)),_0x429498[_0x3e6669(0x9f)][_0x3e6669(0x8c)](_0x33bbca);}catch(_0x91d207){debug(_0x3e6669(0x88));}}),new Promise((_0x5d3af1,_0x41921e)=>setTimeout(()=>{_0x5d3af1();},0x3e8*maxTokenDeletionTimeoutSec))]);}catch(_0x94c1d4){debug(_0x36302b(0x7f)+_0x33bbca+_0x36302b(0x9b)+_0x94c1d4);}}try{debug('Deleting\x20user\x20token\x20from\x20token\x20store'),yield profile_1[_0x36302b(0x81)]();}catch(_0x4fb10a){debug(_0x36302b(0x8d));}});}exports[_0x8bb89b(0x8f)]=logout;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.logout = void 0;
+const profile_1 = require("../../util/profile");
+const interaction_1 = require("../../util/interaction");
+const debug = require("debug")("mappdl-cli:commands:lib:logout");
+// How long to wait before giving up on the token being deleted
+const maxTokenDeletionTimeoutSec = 10;
+function logout(client, user) {
+    return __awaiter(this, void 0, void 0, function* () {
+        yield interaction_1.out.progress("Logging out current user...", performLogout(client, user));
+    });
+}
+exports.logout = logout;
+function performLogout(client, user) {
+    return __awaiter(this, void 0, void 0, function* () {
+        // Only delete token off the server if CLI created it.
+        if (!(user === null || user === void 0 ? void 0 : user.tokenSuppliedByUser)) {
+            let tokenId;
+            try {
+                yield Promise.race([
+                    () => __awaiter(this, void 0, void 0, function* () {
+                        try {
+                            tokenId = yield user.accessTokenId;
+                            if (!tokenId || tokenId === "null") {
+                                tokenId = "current";
+                            }
+                            debug(`Attempting to delete token id ${tokenId} off server`);
+                            client.userApiTokens.delete(tokenId);
+                        }
+                        catch (err) {
+                            debug("Could not retrieve current token from token store");
+                            // cb(err, null, null, null);
+                        }
+                    }),
+                    new Promise((resolve, reject) => setTimeout(() => {
+                        // TODO: Investigate if there's a way to explicitly cancel the outstanding call.
+                        resolve();
+                    }, maxTokenDeletionTimeoutSec * 1000)),
+                ]);
+            }
+            catch (err) {
+                // Noop, it's ok if deletion fails
+                debug(`Deletion of token id ${tokenId} from server failed, error ${err}`);
+            }
+        }
+        try {
+            debug("Deleting user token from token store");
+            yield profile_1.deleteUser();
+        }
+        catch (err) {
+            // Noop, it's ok if deletion fails
+            debug("User token deletion failed");
+        }
+    });
+}

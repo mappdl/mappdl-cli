@@ -1,1 +1,388 @@
-const _0x58f35c=_0x2ad4;(function(_0x145df1,_0x31556a){const _0x52c598=_0x2ad4,_0x5c0212=_0x145df1();while(!![]){try{const _0x27787e=parseInt(_0x52c598(0x144))/0x1+parseInt(_0x52c598(0x133))/0x2*(parseInt(_0x52c598(0x104))/0x3)+parseInt(_0x52c598(0x142))/0x4+-parseInt(_0x52c598(0x100))/0x5*(parseInt(_0x52c598(0x13c))/0x6)+-parseInt(_0x52c598(0x12a))/0x7*(-parseInt(_0x52c598(0x11c))/0x8)+-parseInt(_0x52c598(0x105))/0x9+-parseInt(_0x52c598(0x143))/0xa;if(_0x27787e===_0x31556a)break;else _0x5c0212['push'](_0x5c0212['shift']());}catch(_0x3c2623){_0x5c0212['push'](_0x5c0212['shift']());}}}(_0x7423,0x53c80),(Object['defineProperty'](exports,_0x58f35c(0x107),{'value':!0x0}),exports['TeamsImpl']=void 0x0));let coreClient=require(_0x58f35c(0x128)),Mappers=require('../models/mappers'),Parameters=require(_0x58f35c(0x108));class TeamsImpl{constructor(_0x2de2a4){const _0x36c998=_0x58f35c;this[_0x36c998(0x109)]=_0x2de2a4;}[_0x58f35c(0x114)](_0x1fc971,_0x39e05a,_0xa6132e,_0x1d222e){const _0x906e34=_0x58f35c;return this[_0x906e34(0x109)][_0x906e34(0x111)]({'orgName':_0x1fc971,'teamName':_0x39e05a,'userName':_0xa6132e,'options':_0x1d222e},removeUserOperationSpec);}[_0x58f35c(0x121)](_0x5d812d,_0x4f8b96,_0x2283db){const _0x58a6b8=_0x58f35c;return this[_0x58a6b8(0x109)][_0x58a6b8(0x111)]({'orgName':_0x5d812d,'teamName':_0x4f8b96,'options':_0x2283db},getUsersOperationSpec);}[_0x58f35c(0x145)](_0x44e596,_0x721eed,_0x5358c6,_0x121182){const _0x40b5f7=_0x58f35c;return this[_0x40b5f7(0x109)]['sendOperationRequest']({'orgName':_0x44e596,'teamName':_0x721eed,'userEmail':_0x5358c6,'options':_0x121182},addUserOperationSpec);}['updatePermissions'](_0x39c652,_0x17432d,_0x1bb142,_0x3ceff9,_0x45295c){const _0x4c0c5d=_0x58f35c;return this['client'][_0x4c0c5d(0x111)]({'orgName':_0x39c652,'teamName':_0x17432d,'appName':_0x1bb142,'permissions':_0x3ceff9,'options':_0x45295c},updatePermissionsOperationSpec);}[_0x58f35c(0x139)](_0xf2dbb5,_0x36351b,_0xac381f,_0x2870c7){const _0xfec41a=_0x58f35c;return this[_0xfec41a(0x109)][_0xfec41a(0x111)]({'orgName':_0xf2dbb5,'teamName':_0x36351b,'appName':_0xac381f,'options':_0x2870c7},removeAppOperationSpec);}[_0x58f35c(0x115)](_0x58b762,_0x3634d9,_0x5c42ef,_0xdd162c){const _0x4bb7e8=_0x58f35c;return this[_0x4bb7e8(0x109)][_0x4bb7e8(0x111)]({'orgName':_0x58b762,'teamName':_0x3634d9,'name':_0x5c42ef,'options':_0xdd162c},addAppOperationSpec);}[_0x58f35c(0x112)](_0x97e64f,_0x5b7388,_0x578629){return this['client']['sendOperationRequest']({'orgName':_0x97e64f,'teamName':_0x5b7388,'options':_0x578629},listAppsOperationSpec);}[_0x58f35c(0x13a)](_0x4eae5f,_0x4ac2ec,_0x395046){const _0x8c9e8d=_0x58f35c;return this[_0x8c9e8d(0x109)][_0x8c9e8d(0x111)]({'orgName':_0x4eae5f,'teamName':_0x4ac2ec,'options':_0x395046},getTeamOperationSpec);}[_0x58f35c(0x141)](_0x1260d1,_0x55cd02,_0x5b2d0c){return this['client']['sendOperationRequest']({'orgName':_0x1260d1,'teamName':_0x55cd02,'options':_0x5b2d0c},deleteOperationSpec);}['update'](_0x2415d5,_0xe2b3e5,_0x2f844b,_0x1770ed){const _0x395ea6=_0x58f35c;return this[_0x395ea6(0x109)][_0x395ea6(0x111)]({'orgName':_0x2415d5,'teamName':_0xe2b3e5,'displayName':_0x2f844b,'options':_0x1770ed},updateOperationSpec);}[_0x58f35c(0x11e)](_0x579ddc,_0x2453cc){const _0x401152=_0x58f35c;return this[_0x401152(0x109)]['sendOperationRequest']({'orgName':_0x579ddc,'options':_0x2453cc},listAllOperationSpec);}[_0x58f35c(0x127)](_0x3f7f86,_0x5a7de0,_0x589428){const _0x576573=_0x58f35c;return this[_0x576573(0x109)]['sendOperationRequest']({'orgName':_0x3f7f86,'displayName':_0x5a7de0,'options':_0x589428},createTeamOperationSpec);}}function _0x2ad4(_0x755f2f,_0x3955ff){const _0x742312=_0x7423();return _0x2ad4=function(_0x2ad4b4,_0x5b7319){_0x2ad4b4=_0x2ad4b4-0xfe;let _0x295628=_0x742312[_0x2ad4b4];return _0x295628;},_0x2ad4(_0x755f2f,_0x3955ff);}exports[_0x58f35c(0x119)]=TeamsImpl;function _0x7423(){const _0x2d2bf0=['../models/parameters','client','Paths1Cc9FkbV01OrgsOrgNameTeamsTeamNameUsersPostRequestbodyContentApplicationJsonSchema','assign','accept','Paths1414Qm7V01OrgsOrgNameTeamsTeamNamePatchRequestbodyContentApplicationJsonSchema','Sequence','orgName','createSerializer','sendOperationRequest','listApps','Paths1WbpnrnV01OrgsOrgNameTeamsGetResponsesDefaultContentApplicationJsonSchema','removeUser','addApp','Paths16B1TziV01OrgsOrgNameTeamsTeamNameGetResponsesDefaultContentApplicationJsonSchema','Paths1YpvsyyV01OrgsOrgNameTeamsTeamNameAppsPostResponsesDefaultContentApplicationJsonSchema','POST','TeamsImpl','PATCH','/v0.1/orgs/{org_name}/teams/{team_name}','88RisgpJ','Paths1Iu7UzV01OrgsOrgNameTeamsPostRequestbodyContentApplicationJsonSchema','listAll','/v0.1/orgs/{org_name}/teams/{team_name}/users','Paths1Ga78SuV01OrgsOrgNameTeamsTeamNamePatchResponsesDefaultContentApplicationJsonSchema','getUsers','Paths3K4Kv5V01OrgsOrgNameTeamsTeamNameAppsPostRequestbodyContentApplicationJsonSchema','userEmail','PathsH0Ns4HV01OrgsOrgNameTeamsTeamNameAppsGetResponsesDefaultContentApplicationJsonSchema','Paths1HiscesV01OrgsOrgNameTeamsTeamNameAppsAppNamePatchRequestbodyContentApplicationJsonSchema','Paths1Beedi7V01OrgsOrgNameTeamsTeamNameAppsAppNamePatchResponsesDefaultContentApplicationJsonSchema','createTeam','@azure/core-client','/v0.1/orgs/{org_name}/teams/{team_name}/apps','369131ivNeiH','Paths41XckqV01OrgsOrgNameTeamsTeamNameUsersPostResponsesDefaultContentApplicationJsonSchema','displayName','json','/v0.1/orgs/{org_name}/teams/{team_name}/apps/{app_name}','/v0.1/orgs/{org_name}/teams','PathsS2AazoV01OrgsOrgNameTeamsTeamNameAppsGetResponses200ContentApplicationJsonSchemaItems','PathsQ6Nk57V01OrgsOrgNameTeamsTeamNameUsersGetResponses200ContentApplicationJsonSchema','options','86iJTlMg','GET','teamName','Composite','appName','PathsL86WmaV01OrgsOrgNameTeamsTeamNameUsersUserNameDeleteResponsesDefaultContentApplicationJsonSchema','removeApp','getTeam','contentType','18kUtRdD','Paths10Bx1MpV01OrgsOrgNameTeamsTeamNameUsersGetResponsesDefaultContentApplicationJsonSchema','Post201ApplicationJsonItemsItem','DELETE','PathsY6FsqxV01OrgsOrgNameTeamsTeamNameUsersPostResponses201ContentApplicationJsonSchema','delete','2353644hqBcCi','9035280JXbSEz','659398qlEOOK','addUser','Paths6Yr3JV01OrgsOrgNameTeamsTeamNameAppsAppNamePatchResponses200ContentApplicationJsonSchema','description','938310qDzwOp','PathsUii78RV01OrgsOrgNameTeamsTeamNameGetResponses200ContentApplicationJsonSchema','permissions','$host','19869Zjkdke','2726811BUvYDg','/v0.1/orgs/{org_name}/teams/{team_name}/users/{user_name}','__esModule'];_0x7423=function(){return _0x2d2bf0;};return _0x7423();}let serializer=coreClient[_0x58f35c(0x110)](Mappers,!0x1),removeUserOperationSpec={'path':_0x58f35c(0x106),'httpMethod':_0x58f35c(0x13f),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x58f35c(0x138)]}},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters['userName'],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},getUsersOperationSpec={'path':_0x58f35c(0x11f),'httpMethod':_0x58f35c(0x134),'responses':{0xc8:{'bodyMapper':Mappers[_0x58f35c(0x131)]},'default':{'bodyMapper':Mappers[_0x58f35c(0x13d)]}},'urlParameters':[Parameters['$host'],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters['accept']],'serializer':serializer},addUserOperationSpec={'path':_0x58f35c(0x11f),'httpMethod':_0x58f35c(0x118),'responses':{0xc9:{'bodyMapper':Mappers[_0x58f35c(0x140)]},'default':{'bodyMapper':Mappers[_0x58f35c(0x12b)]}},'requestBody':{'parameterPath':{'userEmail':[_0x58f35c(0x123)]},'mapper':Object[_0x58f35c(0x10b)](Object[_0x58f35c(0x10b)]({},Mappers[_0x58f35c(0x10a)]),{'required':!0x0})},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x13b)],Parameters[_0x58f35c(0x10c)]],'mediaType':_0x58f35c(0x12d),'serializer':serializer},updatePermissionsOperationSpec={'path':_0x58f35c(0x12e),'httpMethod':'PATCH','responses':{0xc8:{'bodyMapper':Mappers[_0x58f35c(0xfe)]},'default':{'bodyMapper':Mappers[_0x58f35c(0x126)]}},'requestBody':{'parameterPath':{'permissions':[_0x58f35c(0x102)]},'mapper':Object[_0x58f35c(0x10b)](Object[_0x58f35c(0x10b)]({},Mappers[_0x58f35c(0x125)]),{'required':!0x0})},'urlParameters':[Parameters['$host'],Parameters['appName'],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x13b)],Parameters[_0x58f35c(0x10c)]],'mediaType':_0x58f35c(0x12d),'serializer':serializer},removeAppOperationSpec={'path':_0x58f35c(0x12e),'httpMethod':'DELETE','responses':{0xcc:{},'default':{'bodyMapper':Mappers['Paths1Pofxg3V01OrgsOrgNameTeamsTeamNameAppsAppNameDeleteResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x58f35c(0x137)],Parameters['orgName'],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},addAppOperationSpec={'path':_0x58f35c(0x129),'httpMethod':_0x58f35c(0x118),'responses':{0xc9:{'bodyMapper':Mappers['PathsQkzmz3V01OrgsOrgNameTeamsTeamNameAppsPostResponses201ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x58f35c(0x117)]}},'requestBody':{'parameterPath':{'name':['name']},'mapper':Object['assign'](Object['assign']({},Mappers[_0x58f35c(0x122)]),{'required':!0x0})},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x13b)],Parameters[_0x58f35c(0x10c)]],'mediaType':_0x58f35c(0x12d),'serializer':serializer},listAppsOperationSpec={'path':'/v0.1/orgs/{org_name}/teams/{team_name}/apps','httpMethod':_0x58f35c(0x134),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':'Composite','className':_0x58f35c(0x130)}}}}},'default':{'bodyMapper':Mappers[_0x58f35c(0x124)]}},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},getTeamOperationSpec={'path':_0x58f35c(0x11b),'httpMethod':_0x58f35c(0x134),'responses':{0xc8:{'bodyMapper':Mappers[_0x58f35c(0x101)]},'default':{'bodyMapper':Mappers[_0x58f35c(0x116)]}},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},deleteOperationSpec={'path':_0x58f35c(0x11b),'httpMethod':_0x58f35c(0x13f),'responses':{0xcc:{},'default':{'bodyMapper':Mappers['Paths1HybnvwV01OrgsOrgNameTeamsTeamNameDeleteResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},updateOperationSpec={'path':_0x58f35c(0x11b),'httpMethod':_0x58f35c(0x11a),'responses':{0xc8:{'bodyMapper':Mappers['Paths1L1EevaV01OrgsOrgNameTeamsTeamNamePatchResponses200ContentApplicationJsonSchema']},'default':{'bodyMapper':Mappers[_0x58f35c(0x120)]}},'requestBody':{'parameterPath':{'displayName':['displayName']},'mapper':Object['assign'](Object[_0x58f35c(0x10b)]({},Mappers[_0x58f35c(0x10d)]),{'required':!0x0})},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)],Parameters[_0x58f35c(0x135)]],'headerParameters':[Parameters[_0x58f35c(0x13b)],Parameters[_0x58f35c(0x10c)]],'mediaType':_0x58f35c(0x12d),'serializer':serializer},listAllOperationSpec={'path':_0x58f35c(0x12f),'httpMethod':_0x58f35c(0x134),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x58f35c(0x10e),'element':{'type':{'name':_0x58f35c(0x136),'className':'Paths63Ea35V01OrgsOrgNameTeamsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers[_0x58f35c(0x113)]}},'urlParameters':[Parameters['$host'],Parameters[_0x58f35c(0x10f)]],'headerParameters':[Parameters[_0x58f35c(0x10c)]],'serializer':serializer},createTeamOperationSpec={'path':_0x58f35c(0x12f),'httpMethod':_0x58f35c(0x118),'responses':{0xc9:{'bodyMapper':{'type':{'name':_0x58f35c(0x10e),'element':{'type':{'name':'Composite','className':_0x58f35c(0x13e)}}}}},'default':{'bodyMapper':Mappers['Paths1P5700PV01OrgsOrgNameTeamsPostResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'displayName':[_0x58f35c(0x12c)],'name':['options','name'],'description':[_0x58f35c(0x132),_0x58f35c(0xff)]},'mapper':Object['assign'](Object['assign']({},Mappers[_0x58f35c(0x11d)]),{'required':!0x0})},'urlParameters':[Parameters[_0x58f35c(0x103)],Parameters[_0x58f35c(0x10f)]],'headerParameters':[Parameters[_0x58f35c(0x13b)],Parameters[_0x58f35c(0x10c)]],'mediaType':'json','serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TeamsImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Teams operations. */
+class TeamsImpl {
+    /**
+     * Initialize a new instance of the class Teams class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Removes a user from a team that is owned by an organization
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param userName The slug name of the user
+     * @param options The options parameters.
+     */
+    removeUser(orgName, teamName, userName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, userName, options }, removeUserOperationSpec);
+    }
+    /**
+     * Returns the users of a team which is owned by an organization
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param options The options parameters.
+     */
+    getUsers(orgName, teamName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, options }, getUsersOperationSpec);
+    }
+    /**
+     * Adds a new user to a team that is owned by an organization
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param userEmail The user's email address
+     * @param options The options parameters.
+     */
+    addUser(orgName, teamName, userEmail, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, userEmail, options }, addUserOperationSpec);
+    }
+    /**
+     * Updates the permissions the team has to the app
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param appName The name of the application
+     * @param permissions The permissions all members of the team have on the app
+     * @param options The options parameters.
+     */
+    updatePermissions(orgName, teamName, appName, permissions, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, appName, permissions, options }, updatePermissionsOperationSpec);
+    }
+    /**
+     * Removes an app from a team
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    removeApp(orgName, teamName, appName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, appName, options }, removeAppOperationSpec);
+    }
+    /**
+     * Adds an app to a team
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param name The name of the app to be added to the distribution group
+     * @param options The options parameters.
+     */
+    addApp(orgName, teamName, name, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, name, options }, addAppOperationSpec);
+    }
+    /**
+     * Returns the apps a team has access to
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param options The options parameters.
+     */
+    listApps(orgName, teamName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, options }, listAppsOperationSpec);
+    }
+    /**
+     * Returns the details of a single team
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param options The options parameters.
+     */
+    getTeam(orgName, teamName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, options }, getTeamOperationSpec);
+    }
+    /**
+     * Deletes a single team
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param options The options parameters.
+     */
+    delete(orgName, teamName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, options }, deleteOperationSpec);
+    }
+    /**
+     * Updates a single team
+     * @param orgName The organization's name
+     * @param teamName The team's name
+     * @param displayName The new display name of the team
+     * @param options The options parameters.
+     */
+    update(orgName, teamName, displayName, options) {
+        return this.client.sendOperationRequest({ orgName, teamName, displayName, options }, updateOperationSpec);
+    }
+    /**
+     * Returns the list of all teams in this org
+     * @param orgName The organization's name
+     * @param options The options parameters.
+     */
+    listAll(orgName, options) {
+        return this.client.sendOperationRequest({ orgName, options }, listAllOperationSpec);
+    }
+    /**
+     * Creates a team and returns it
+     * @param orgName The organization's name
+     * @param displayName The display name of the team
+     * @param options The options parameters.
+     */
+    createTeam(orgName, displayName, options) {
+        return this.client.sendOperationRequest({ orgName, displayName, options }, createTeamOperationSpec);
+    }
+}
+exports.TeamsImpl = TeamsImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const removeUserOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/users/{user_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.PathsL86WmaV01OrgsOrgNameTeamsTeamNameUsersUserNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.orgName,
+        Parameters.userName,
+        Parameters.teamName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getUsersOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/users",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsQ6Nk57V01OrgsOrgNameTeamsTeamNameUsersGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths10Bx1MpV01OrgsOrgNameTeamsTeamNameUsersGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const addUserOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/users",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.PathsY6FsqxV01OrgsOrgNameTeamsTeamNameUsersPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths41XckqV01OrgsOrgNameTeamsTeamNameUsersPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { userEmail: ["userEmail"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Cc9FkbV01OrgsOrgNameTeamsTeamNameUsersPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const updatePermissionsOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/apps/{app_name}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths6Yr3JV01OrgsOrgNameTeamsTeamNameAppsAppNamePatchResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Beedi7V01OrgsOrgNameTeamsTeamNameAppsAppNamePatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { permissions: ["permissions"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1HiscesV01OrgsOrgNameTeamsTeamNameAppsAppNamePatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.appName,
+        Parameters.orgName,
+        Parameters.teamName
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const removeAppOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/apps/{app_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths1Pofxg3V01OrgsOrgNameTeamsTeamNameAppsAppNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.appName,
+        Parameters.orgName,
+        Parameters.teamName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const addAppOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/apps",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.PathsQkzmz3V01OrgsOrgNameTeamsTeamNameAppsPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1YpvsyyV01OrgsOrgNameTeamsTeamNameAppsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { name: ["name"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths3K4Kv5V01OrgsOrgNameTeamsTeamNameAppsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listAppsOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}/apps",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsS2AazoV01OrgsOrgNameTeamsTeamNameAppsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsH0Ns4HV01OrgsOrgNameTeamsTeamNameAppsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const getTeamOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.PathsUii78RV01OrgsOrgNameTeamsTeamNameGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths16B1TziV01OrgsOrgNameTeamsTeamNameGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths1HybnvwV01OrgsOrgNameTeamsTeamNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const updateOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams/{team_name}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths1L1EevaV01OrgsOrgNameTeamsTeamNamePatchResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Ga78SuV01OrgsOrgNameTeamsTeamNamePatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { displayName: ["displayName"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1414Qm7V01OrgsOrgNameTeamsTeamNamePatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName, Parameters.teamName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listAllOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths63Ea35V01OrgsOrgNameTeamsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths1WbpnrnV01OrgsOrgNameTeamsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const createTeamOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/teams",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Post201ApplicationJsonItemsItem"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths1P5700PV01OrgsOrgNameTeamsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: {
+            displayName: ["displayName"],
+            name: ["options", "name"],
+            description: ["options", "description"]
+        },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Iu7UzV01OrgsOrgNameTeamsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};

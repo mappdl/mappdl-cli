@@ -1,1 +1,53 @@
-function _0x2610(){var _0x282d25=['scriptName','isCommandFailedResult','decorate','3328kgcnnU','concat','then','910mueEYo','\x20commands','default','852444GUXacr','length','inspect','apply','help','4853022beMeJi','errorCode','168047pHUDed','NoSuchCommand','next','done','Get\x20help\x20using\x20','187014rMhbZb','commandToGetHelpFor','position','getOwnPropertyDescriptor','791441wMiiDW','__decorate','prototype','defineProperty','Command','447572eyntuZ','ErrorCodes','15426maQoqn','__awaiter','execute','22BzWTwf','mappdl-cli:commands:help','value','failure','35EzZTuR','function','\x20doesn\x27t\x20exist','name','throw','Getting\x20help\x20for\x20\x22','debug','version'];_0x2610=function(){return _0x282d25;};return _0x2610();}var _0x5a9843=_0x5686;(function(_0x505b59,_0x2a26f1){var _0x2ebfd1=_0x5686,_0x193e12=_0x505b59();while(!![]){try{var _0x1997d7=-parseInt(_0x2ebfd1(0xe1))/0x1+parseInt(_0x2ebfd1(0xcc))/0x2*(-parseInt(_0x2ebfd1(0xed))/0x3)+-parseInt(_0x2ebfd1(0xf6))/0x4*(-parseInt(_0x2ebfd1(0xd0))/0x5)+-parseInt(_0x2ebfd1(0xe6))/0x6+-parseInt(_0x2ebfd1(0xf1))/0x7+parseInt(_0x2ebfd1(0xdb))/0x8*(parseInt(_0x2ebfd1(0xc9))/0x9)+-parseInt(_0x2ebfd1(0xde))/0xa*(-parseInt(_0x2ebfd1(0xe8))/0xb);if(_0x1997d7===_0x2a26f1)break;else _0x193e12['push'](_0x193e12['shift']());}catch(_0x1661bd){_0x193e12['push'](_0x193e12['shift']());}}}(_0x2610,0x681b4));function _0x5686(_0x1276d7,_0xfa3d62){var _0x26108d=_0x2610();return _0x5686=function(_0x5686ba,_0x29eb4c){_0x5686ba=_0x5686ba-0xc9;var _0x46771d=_0x26108d[_0x5686ba];return _0x46771d;},_0x5686(_0x1276d7,_0xfa3d62);}var __decorate=this&&this[_0x5a9843(0xf2)]||function(_0x185a02,_0x2d35a8,_0x3c5aa0,_0x4b9328){var _0x387512=_0x5a9843,_0x56749a,_0x5da297=arguments[_0x387512(0xe2)],_0x4d2035=_0x5da297<0x3?_0x2d35a8:null===_0x4b9328?_0x4b9328=Object[_0x387512(0xf0)](_0x2d35a8,_0x3c5aa0):_0x4b9328;if('object'==typeof Reflect&&_0x387512(0xd1)==typeof Reflect[_0x387512(0xda)])_0x4d2035=Reflect[_0x387512(0xda)](_0x185a02,_0x2d35a8,_0x3c5aa0,_0x4b9328);else{for(var _0x9a67c3=_0x185a02[_0x387512(0xe2)]-0x1;0x0<=_0x9a67c3;_0x9a67c3--)(_0x56749a=_0x185a02[_0x9a67c3])&&(_0x4d2035=(_0x5da297<0x3?_0x56749a(_0x4d2035):0x3<_0x5da297?_0x56749a(_0x2d35a8,_0x3c5aa0,_0x4d2035):_0x56749a(_0x2d35a8,_0x3c5aa0))||_0x4d2035);}return 0x3<_0x5da297&&_0x4d2035&&Object[_0x387512(0xf4)](_0x2d35a8,_0x3c5aa0,_0x4d2035),_0x4d2035;},__awaiter=this&&this[_0x5a9843(0xca)]||function(_0x1832b0,_0x1967f1,_0x35c33d,_0x155635){return new(_0x35c33d=_0x35c33d||Promise)(function(_0x31b423,_0x286238){var _0x36a371=_0x5686;function _0x5729ae(_0x4bd8c8){var _0xaa16b5=_0x5686;try{_0x34f75d(_0x155635[_0xaa16b5(0xea)](_0x4bd8c8));}catch(_0x53e4a5){_0x286238(_0x53e4a5);}}function _0x325410(_0x2fe5bf){var _0xfda511=_0x5686;try{_0x34f75d(_0x155635[_0xfda511(0xd4)](_0x2fe5bf));}catch(_0x146ffb){_0x286238(_0x146ffb);}}function _0x34f75d(_0x155dd0){var _0x1cdfd0=_0x5686,_0x5e4c2a;_0x155dd0[_0x1cdfd0(0xeb)]?_0x31b423(_0x155dd0[_0x1cdfd0(0xce)]):((_0x5e4c2a=_0x155dd0[_0x1cdfd0(0xce)])instanceof _0x35c33d?_0x5e4c2a:new _0x35c33d(function(_0x334dbe){_0x334dbe(_0x5e4c2a);}))[_0x1cdfd0(0xdd)](_0x5729ae,_0x325410);}_0x34f75d((_0x155635=_0x155635[_0x36a371(0xe4)](_0x1832b0,_0x1967f1||[]))['next']());});};Object['defineProperty'](exports,'__esModule',{'value':!0x0});let commandline_1=require('../util/commandline'),misc_1=require('../util/misc'),debug=require(_0x5a9843(0xd6))(_0x5a9843(0xcd)),util_1=require('util'),HelpCommand=class extends commandline_1[_0x5a9843(0xf5)]{constructor(_0x48e39a){super(_0x48e39a);}[_0x5a9843(0xcb)](){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x506005=_0x5686;if(this[_0x506005(0xd7)])return this['showVersion']();debug(_0x506005(0xd5)+util_1[_0x506005(0xe3)](this[_0x506005(0xee)])+'\x22');var _0x2abe6f=commandline_1['runner'](__dirname),_0x2abe6f=this[_0x506005(0xee)]?yield _0x2abe6f(this[_0x506005(0xee)][_0x506005(0xdc)](['-h'])):yield _0x2abe6f([]);return commandline_1[_0x506005(0xd9)](_0x2abe6f)&&_0x2abe6f[_0x506005(0xe7)]===commandline_1[_0x506005(0xf7)][_0x506005(0xe9)]?commandline_1[_0x506005(0xcf)](commandline_1[_0x506005(0xf7)][_0x506005(0xe9)],'command\x20'+this[_0x506005(0xee)]['join']('\x20')+_0x506005(0xd2)):_0x2abe6f;});}};__decorate([commandline_1[_0x5a9843(0xd3)]('command...'),commandline_1[_0x5a9843(0xef)](null),commandline_1['help']('Command\x20to\x20get\x20help\x20on')],HelpCommand[_0x5a9843(0xf3)],_0x5a9843(0xee),void 0x0),HelpCommand=__decorate([commandline_1[_0x5a9843(0xe5)](_0x5a9843(0xec)+misc_1[_0x5a9843(0xd8)]+_0x5a9843(0xdf))],HelpCommand),exports[_0x5a9843(0xe0)]=HelpCommand;
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const commandline_1 = require("../util/commandline");
+const misc_1 = require("../util/misc");
+const debug = require("debug")("mappdl-cli:commands:help");
+const util_1 = require("util");
+let HelpCommand = class HelpCommand extends commandline_1.Command {
+    constructor(args) {
+        super(args);
+    }
+    execute() {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (this.version) {
+                return this.showVersion();
+            }
+            debug(`Getting help for "${util_1.inspect(this.commandToGetHelpFor)}"`);
+            // Try to load help for the command in question
+            // We just load the command and run the help
+            const cmdRunner = commandline_1.runner(__dirname);
+            const result = !this.commandToGetHelpFor ? yield cmdRunner([]) : yield cmdRunner(this.commandToGetHelpFor.concat(["-h"]));
+            if (commandline_1.isCommandFailedResult(result) && result.errorCode === commandline_1.ErrorCodes.NoSuchCommand) {
+                return commandline_1.failure(commandline_1.ErrorCodes.NoSuchCommand, `command ${this.commandToGetHelpFor.join(" ")} doesn't exist`);
+            }
+            else {
+                return result;
+            }
+        });
+    }
+};
+__decorate([
+    commandline_1.name("command..."),
+    commandline_1.position(null),
+    commandline_1.help("Command to get help on")
+], HelpCommand.prototype, "commandToGetHelpFor", void 0);
+HelpCommand = __decorate([
+    commandline_1.help(`Get help using ${misc_1.scriptName} commands`)
+], HelpCommand);
+exports.default = HelpCommand;

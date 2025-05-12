@@ -1,1 +1,59 @@
-var _0x550abf=_0x4a6b;(function(_0x59a726,_0x4be7b1){var _0x57fc28=_0x4a6b,_0x1cfb62=_0x59a726();while(!![]){try{var _0x4a9ba8=-parseInt(_0x57fc28(0x1c9))/0x1*(parseInt(_0x57fc28(0x1cc))/0x2)+parseInt(_0x57fc28(0x1d6))/0x3*(parseInt(_0x57fc28(0x1c5))/0x4)+parseInt(_0x57fc28(0x1c4))/0x5*(-parseInt(_0x57fc28(0x1e8))/0x6)+-parseInt(_0x57fc28(0x1db))/0x7+parseInt(_0x57fc28(0x1c7))/0x8*(-parseInt(_0x57fc28(0x1e2))/0x9)+parseInt(_0x57fc28(0x1d4))/0xa+-parseInt(_0x57fc28(0x1de))/0xb*(-parseInt(_0x57fc28(0x1ce))/0xc);if(_0x4a9ba8===_0x4be7b1)break;else _0x1cfb62['push'](_0x1cfb62['shift']());}catch(_0x237c45){_0x1cfb62['push'](_0x1cfb62['shift']());}}}(_0x48f7,0x55043));function _0x48f7(){var _0x57539b=['forEach','join','3211590IOfkpg','.zip','215688yeuIVn','default','then','../../../util/misc/promisfied-fs','next','1019564KNONwO','throw','../file-utils','33avmvyP','walk','message','addFile','468DxfZTm','yazl','__esModule','close','value','__awaiter','3560646xCbRer','createWriteStream','5DrCQMH','16IqBhbC','error','68744rNLBBT','push','6NPmudX','normalizePath','\x20Make\x20sure\x20you\x20have\x20added\x20the\x20platform\x20you\x20are\x20making\x20a\x20release\x20to.`.','182450mVLwTO','path','5891052JAKZVS','basename','end','ZipFile'];_0x48f7=function(){return _0x57539b;};return _0x48f7();}var __awaiter=this&&this[_0x550abf(0x1e7)]||function(_0x28b876,_0xdae726,_0x4b9667,_0x21abff){return new(_0x4b9667=_0x4b9667||Promise)(function(_0x9c4f01,_0x1f1483){function _0x2a23c7(_0x1d7312){var _0x35154c=_0x4a6b;try{_0x2b0627(_0x21abff[_0x35154c(0x1da)](_0x1d7312));}catch(_0x51ffe8){_0x1f1483(_0x51ffe8);}}function _0x6accd2(_0x28622c){var _0xfdf7d8=_0x4a6b;try{_0x2b0627(_0x21abff[_0xfdf7d8(0x1dc)](_0x28622c));}catch(_0x3bf202){_0x1f1483(_0x3bf202);}}function _0x2b0627(_0x5d91ac){var _0x5037e9=_0x4a6b,_0x13fcf6;_0x5d91ac['done']?_0x9c4f01(_0x5d91ac[_0x5037e9(0x1e6)]):((_0x13fcf6=_0x5d91ac[_0x5037e9(0x1e6)])instanceof _0x4b9667?_0x13fcf6:new _0x4b9667(function(_0x5c16d8){_0x5c16d8(_0x13fcf6);}))[_0x5037e9(0x1d8)](_0x2a23c7,_0x6accd2);}_0x2b0627((_0x21abff=_0x21abff['apply'](_0x28b876,_0xdae726||[]))['next']());});};Object['defineProperty'](exports,_0x550abf(0x1e4),{'value':!0x0});let fs=require('fs'),pfs=require(_0x550abf(0x1d9)),path=require(_0x550abf(0x1cd)),yazl=require(_0x550abf(0x1e3)),file_utils_1=require(_0x550abf(0x1dd));function _0x4a6b(_0x4bb1a9,_0x1e872b){var _0x48f755=_0x48f7();return _0x4a6b=function(_0x4a6be6,_0x2f49ab){_0x4a6be6=_0x4a6be6-0x1c4;var _0x5982ce=_0x48f755[_0x4a6be6];return _0x5982ce;},_0x4a6b(_0x4bb1a9,_0x1e872b);}function zip(_0x479749){return new Promise((_0x311ec8,_0x36c551)=>__awaiter(this,void 0x0,void 0x0,function*(){var _0x343fe9=_0x4a6b;let _0x503897=[];try{file_utils_1['isDirectory'](_0x479749)||_0x503897[_0x343fe9(0x1c8)]({'sourceLocation':_0x479749,'targetLocation':file_utils_1[_0x343fe9(0x1ca)](path[_0x343fe9(0x1cf)](_0x479749))});}catch(_0x308bf3){_0x308bf3['message']=_0x308bf3[_0x343fe9(0x1e0)]+_0x343fe9(0x1cb),_0x36c551(_0x308bf3);}var _0x144794=_0x479749;let _0xfbfd4c=path[_0x343fe9(0x1d3)](_0x144794,'..'),_0x347b76=((yield pfs[_0x343fe9(0x1df)](_0x479749))[_0x343fe9(0x1d2)](_0x105a28=>{var _0x4d98e8=_0x343fe9,_0x3b1cc8=path['relative'](_0xfbfd4c,_0x105a28);_0x503897['push']({'sourceLocation':_0x105a28,'targetLocation':file_utils_1[_0x4d98e8(0x1ca)](_0x3b1cc8)});}),path['join'](process['cwd'](),file_utils_1['generateRandomFilename'](0xf)+_0x343fe9(0x1d5))),_0x3abe3e=new yazl[(_0x343fe9(0x1d1))]();_0x144794=fs[_0x343fe9(0x1e9)](_0x347b76),(_0x3abe3e['outputStream']['pipe'](_0x144794)['on'](_0x343fe9(0x1c6),_0x39294b=>{_0x36c551(_0x39294b);})['on'](_0x343fe9(0x1e5),()=>{_0x311ec8(_0x347b76);}),_0x503897[_0x343fe9(0x1d2)](_0x364596=>{var _0x38300f=_0x343fe9;_0x3abe3e[_0x38300f(0x1e1)](_0x364596['sourceLocation'],_0x364596['targetLocation']);}),_0x3abe3e[_0x343fe9(0x1d0)]());}));}exports[_0x550abf(0x1d7)]=zip;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const fs = require("fs");
+const pfs = require("../../../util/misc/promisfied-fs");
+const path = require("path");
+const yazl = require("yazl");
+const file_utils_1 = require("../file-utils");
+function zip(updateContentsPath) {
+    return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
+        const releaseFiles = [];
+        try {
+            if (!file_utils_1.isDirectory(updateContentsPath)) {
+                releaseFiles.push({
+                    sourceLocation: updateContentsPath,
+                    targetLocation: file_utils_1.normalizePath(path.basename(updateContentsPath)), // Put the file in the root
+                });
+            }
+        }
+        catch (error) {
+            error.message = error.message + " Make sure you have added the platform you are making a release to.`.";
+            reject(error);
+        }
+        const directoryPath = updateContentsPath;
+        const baseDirectoryPath = path.join(directoryPath, ".."); // For legacy reasons, put the root directory in the zip
+        const files = yield pfs.walk(updateContentsPath);
+        files.forEach((filePath) => {
+            const relativePath = path.relative(baseDirectoryPath, filePath);
+            releaseFiles.push({
+                sourceLocation: filePath,
+                targetLocation: file_utils_1.normalizePath(relativePath),
+            });
+        });
+        const packagePath = path.join(process.cwd(), file_utils_1.generateRandomFilename(15) + ".zip");
+        const zipFile = new yazl.ZipFile();
+        const writeStream = fs.createWriteStream(packagePath);
+        zipFile.outputStream
+            .pipe(writeStream)
+            .on("error", (error) => {
+            reject(error);
+        })
+            .on("close", () => {
+            resolve(packagePath);
+        });
+        releaseFiles.forEach((releaseFile) => {
+            zipFile.addFile(releaseFile.sourceLocation, releaseFile.targetLocation);
+        });
+        zipFile.end();
+    }));
+}
+exports.default = zip;

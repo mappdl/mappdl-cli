@@ -1,1 +1,178 @@
-const _0x4cad2a=_0x2f39;(function(_0x3890be,_0x1bdfdd){const _0x47d364=_0x2f39,_0x5bff9d=_0x3890be();while(!![]){try{const _0x219529=-parseInt(_0x47d364(0xa5))/0x1+-parseInt(_0x47d364(0x99))/0x2*(-parseInt(_0x47d364(0xa1))/0x3)+-parseInt(_0x47d364(0xae))/0x4+-parseInt(_0x47d364(0xa3))/0x5+-parseInt(_0x47d364(0xa7))/0x6+parseInt(_0x47d364(0xa8))/0x7+parseInt(_0x47d364(0xad))/0x8*(parseInt(_0x47d364(0x92))/0x9);if(_0x219529===_0x1bdfdd)break;else _0x5bff9d['push'](_0x5bff9d['shift']());}catch(_0x42b32e){_0x5bff9d['push'](_0x5bff9d['shift']());}}}(_0x3594,0xc0572),(Object[_0x4cad2a(0x93)](exports,_0x4cad2a(0xb2),{'value':!0x0}),exports['StoresImpl']=void 0x0));let coreClient=require(_0x4cad2a(0xaf)),Mappers=require('../models/mappers'),Parameters=require(_0x4cad2a(0xab));class StoresImpl{constructor(_0x211a6c){const _0x224384=_0x4cad2a;this[_0x224384(0x9f)]=_0x211a6c;}[_0x4cad2a(0x9d)](_0xbc6237,_0x241c96,_0x518c06,_0x3a8fc0){const _0x2b0922=_0x4cad2a;return this[_0x2b0922(0x9f)]['sendOperationRequest']({'storeName':_0xbc6237,'ownerName':_0x241c96,'appName':_0x518c06,'options':_0x3a8fc0},getOperationSpec);}[_0x4cad2a(0xa2)](_0x2fcae0,_0x33e776,_0x1aa8da,_0x3ddaca,_0x19803b){const _0x37fb42=_0x4cad2a;return this[_0x37fb42(0x9f)]['sendOperationRequest']({'storeName':_0x2fcae0,'ownerName':_0x33e776,'appName':_0x1aa8da,'serviceConnectionId':_0x3ddaca,'options':_0x19803b},patchOperationSpec);}[_0x4cad2a(0xa4)](_0x4b4214,_0x5bd664,_0x58e3f8,_0x416962){const _0x4b34f1=_0x4cad2a;return this[_0x4b34f1(0x9f)][_0x4b34f1(0x9e)]({'storeName':_0x4b4214,'ownerName':_0x5bd664,'appName':_0x58e3f8,'options':_0x416962},deleteOperationSpec);}['create'](_0x551e60,_0x1df5b6,_0x2616c5,_0x38a1a6){const _0x2a890e=_0x4cad2a;return this[_0x2a890e(0x9f)]['sendOperationRequest']({'ownerName':_0x551e60,'appName':_0x1df5b6,'body':_0x2616c5,'options':_0x38a1a6},createOperationSpec);}['list'](_0x44ad67,_0x479b5d,_0x2cbf09){const _0x2c7dac=_0x4cad2a;return this[_0x2c7dac(0x9f)][_0x2c7dac(0x9e)]({'ownerName':_0x44ad67,'appName':_0x479b5d,'options':_0x2cbf09},listOperationSpec);}}function _0x2f39(_0x5e924f,_0x3e5f46){const _0x359461=_0x3594();return _0x2f39=function(_0x2f3956,_0x2010f0){_0x2f3956=_0x2f3956-0x8f;let _0x550adb=_0x359461[_0x2f3956];return _0x550adb;},_0x2f39(_0x5e924f,_0x3e5f46);}exports[_0x4cad2a(0xb5)]=StoresImpl;let serializer=coreClient[_0x4cad2a(0xac)](Mappers,!0x1),getOperationSpec={'path':'/v0.1/apps/{owner_name}/{app_name}/distribution_stores/{store_name}','httpMethod':_0x4cad2a(0x96),'responses':{0xc8:{'bodyMapper':Mappers[_0x4cad2a(0x94)]},'default':{'bodyMapper':Mappers['PathsTg2NhfV01AppsOwnerNameAppNameDistributionStoresStoreNameGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x4cad2a(0xb4)],Parameters[_0x4cad2a(0x9b)],Parameters['storeName']],'headerParameters':[Parameters['accept']],'serializer':serializer},patchOperationSpec={'path':_0x4cad2a(0xb8),'httpMethod':'PATCH','responses':{0xc8:{},'default':{'bodyMapper':Mappers[_0x4cad2a(0xb3)]}},'requestBody':{'parameterPath':{'serviceConnectionId':[_0x4cad2a(0x97)]},'mapper':Object[_0x4cad2a(0xb7)](Object[_0x4cad2a(0xb7)]({},Mappers['Paths1Yf5Jp5V01AppsOwnerNameAppNameDistributionStoresStoreNamePatchRequestbodyContentApplicationJsonSchema']),{'required':!0x0})},'urlParameters':[Parameters[_0x4cad2a(0xb6)],Parameters[_0x4cad2a(0xb4)],Parameters[_0x4cad2a(0x9b)],Parameters[_0x4cad2a(0x91)]],'headerParameters':[Parameters[_0x4cad2a(0xa9)],Parameters[_0x4cad2a(0xb1)]],'mediaType':_0x4cad2a(0x95),'serializer':serializer},deleteOperationSpec={'path':_0x4cad2a(0xb8),'httpMethod':'DELETE','responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x4cad2a(0x98)]}},'requestBody':Parameters[_0x4cad2a(0xa0)],'urlParameters':[Parameters[_0x4cad2a(0xb6)],Parameters[_0x4cad2a(0xb4)],Parameters[_0x4cad2a(0x9b)],Parameters[_0x4cad2a(0x91)]],'headerParameters':[Parameters[_0x4cad2a(0xa9)],Parameters['accept']],'mediaType':_0x4cad2a(0x95),'serializer':serializer},createOperationSpec={'path':_0x4cad2a(0x9a),'httpMethod':_0x4cad2a(0xa6),'responses':{0xc9:{'bodyMapper':Mappers[_0x4cad2a(0x90)]},'default':{'bodyMapper':Mappers['PathsMlw3HcV01AppsOwnerNameAppNameDistributionStoresPostResponsesDefaultContentApplicationJsonSchema']}},'requestBody':Parameters[_0x4cad2a(0x9c)],'urlParameters':[Parameters[_0x4cad2a(0xb6)],Parameters['ownerName'],Parameters['appName']],'headerParameters':[Parameters[_0x4cad2a(0xa9)],Parameters['accept']],'mediaType':_0x4cad2a(0x95),'serializer':serializer},listOperationSpec={'path':_0x4cad2a(0x9a),'httpMethod':_0x4cad2a(0x96),'responses':{0xc8:{'bodyMapper':{'type':{'name':_0x4cad2a(0xb0),'element':{'type':{'name':_0x4cad2a(0xaa),'className':_0x4cad2a(0x8f)}}}}}},'urlParameters':[Parameters['$host'],Parameters[_0x4cad2a(0xb4)],Parameters['appName']],'headerParameters':[Parameters[_0x4cad2a(0xb1)]],'serializer':serializer};function _0x3594(){const _0x335613=['572512wzBuxa','6281048pBqAMg','@azure/core-client','Sequence','accept','__esModule','PathsAqfpleV01AppsOwnerNameAppNameDistributionStoresStoreNamePatchResponsesDefaultContentApplicationJsonSchema','ownerName','StoresImpl','$host','assign','/v0.1/apps/{owner_name}/{app_name}/distribution_stores/{store_name}','Paths1WzhejqV01AppsOwnerNameAppNameDistributionStoresGetResponses200ContentApplicationJsonSchemaItems','PathsM4SyzbV01AppsOwnerNameAppNameDistributionStoresPostResponses201ContentApplicationJsonSchema','storeName','279pxnZed','defineProperty','Paths17Ft4FaV01AppsOwnerNameAppNameDistributionStoresStoreNameGetResponses200ContentApplicationJsonSchema','json','GET','serviceConnectionId','Paths14Io730V01AppsOwnerNameAppNameDistributionStoresStoreNameDeleteResponsesDefaultContentApplicationJsonSchema','195082qIEatA','/v0.1/apps/{owner_name}/{app_name}/distribution_stores','appName','body10','get','sendOperationRequest','client','body8','45NJBIAS','patch','901115rMqcas','delete','911736UCgguh','POST','2607582knpDhV','1421315oAjmig','contentType','Composite','../models/parameters','createSerializer'];_0x3594=function(){return _0x335613;};return _0x3594();}
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StoresImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing Stores operations. */
+class StoresImpl {
+    /**
+     * Initialize a new instance of the class Stores class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Return the store details for specified store name.
+     * @param storeName The name of the store
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    get(storeName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ storeName, ownerName, appName, options }, getOperationSpec);
+    }
+    /**
+     * Update the store.
+     * @param storeName The name of the store
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param serviceConnectionId Service connection id to updated.
+     * @param options The options parameters.
+     */
+    patch(storeName, ownerName, appName, serviceConnectionId, options) {
+        return this.client.sendOperationRequest({ storeName, ownerName, appName, serviceConnectionId, options }, patchOperationSpec);
+    }
+    /**
+     * delete the store based on specific store name.
+     * @param storeName The name of the store
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    delete(storeName, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ storeName, ownerName, appName, options }, deleteOperationSpec);
+    }
+    /**
+     * Create a new external store for the specified application.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param body The store request
+     * @param options The options parameters.
+     */
+    create(ownerName, appName, body, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, body, options }, createOperationSpec);
+    }
+    /**
+     * Get all the store details from Storage store table for a particular application.
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    list(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listOperationSpec);
+    }
+}
+exports.StoresImpl = StoresImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const getOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_stores/{store_name}",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: Mappers.Paths17Ft4FaV01AppsOwnerNameAppNameDistributionStoresStoreNameGetResponses200ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsTg2NhfV01AppsOwnerNameAppNameDistributionStoresStoreNameGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.storeName
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const patchOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_stores/{store_name}",
+    httpMethod: "PATCH",
+    responses: {
+        200: {},
+        default: {
+            bodyMapper: Mappers.PathsAqfpleV01AppsOwnerNameAppNameDistributionStoresStoreNamePatchResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { serviceConnectionId: ["serviceConnectionId"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths1Yf5Jp5V01AppsOwnerNameAppNameDistributionStoresStoreNamePatchRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.storeName
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const deleteOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_stores/{store_name}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.Paths14Io730V01AppsOwnerNameAppNameDistributionStoresStoreNameDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body8,
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.storeName
+    ],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const createOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_stores",
+    httpMethod: "POST",
+    responses: {
+        201: {
+            bodyMapper: Mappers.PathsM4SyzbV01AppsOwnerNameAppNameDistributionStoresPostResponses201ContentApplicationJsonSchema
+        },
+        default: {
+            bodyMapper: Mappers.PathsMlw3HcV01AppsOwnerNameAppNameDistributionStoresPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: Parameters.body10,
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
+const listOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/distribution_stores",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1WzhejqV01AppsOwnerNameAppNameDistributionStoresGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};

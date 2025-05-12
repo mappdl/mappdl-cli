@@ -1,1 +1,181 @@
-const _0x55e1f2=_0x4fc9;(function(_0x31b1a7,_0x480f8f){const _0x10fdc9=_0x4fc9,_0x383803=_0x31b1a7();while(!![]){try{const _0x546683=-parseInt(_0x10fdc9(0x1ee))/0x1*(-parseInt(_0x10fdc9(0x1f1))/0x2)+parseInt(_0x10fdc9(0x203))/0x3*(parseInt(_0x10fdc9(0x1f3))/0x4)+-parseInt(_0x10fdc9(0x1e0))/0x5*(parseInt(_0x10fdc9(0x1ed))/0x6)+-parseInt(_0x10fdc9(0x20b))/0x7+-parseInt(_0x10fdc9(0x204))/0x8+parseInt(_0x10fdc9(0x1fc))/0x9+-parseInt(_0x10fdc9(0x1f0))/0xa*(parseInt(_0x10fdc9(0x1e3))/0xb);if(_0x546683===_0x480f8f)break;else _0x383803['push'](_0x383803['shift']());}catch(_0x44dfe6){_0x383803['push'](_0x383803['shift']());}}}(_0x2945,0xa1296),(Object[_0x55e1f2(0x1fb)](exports,_0x55e1f2(0x1fa),{'value':!0x0}),exports[_0x55e1f2(0x207)]=void 0x0));let coreClient=require(_0x55e1f2(0x1f8)),Mappers=require(_0x55e1f2(0x1e1)),Parameters=require(_0x55e1f2(0x1e6));function _0x2945(){const _0x1a791c=['contentType','AzureSubscriptionImpl','GET','DELETE','deleteForApp','2764580qUDdif','/v0.1/apps/{owner_name}/{app_name}/azure_subscriptions','subscriptionId','Paths1R8N8WnV01OrgsOrgNameAzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems','appName','linkForApp','746335GnJmiI','../models/mappers','listForApp','2607HMlvdm','sendOperationRequest','listForOrg','../models/parameters','ownerName','Paths11GzlnuV01AppsOwnerNameAppNameAzureSubscriptionsPostRequestbodyContentApplicationJsonSchema','Paths1Ocwvn4V01OrgsOrgNameAzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema','createSerializer','Composite','/v0.1/orgs/{org_name}/azure_subscriptions','6MkjEnM','4293wQDzjY','client','23470vbkivA','540iUVMus','orgName','1456508EAfpWE','PathsZl5LyeV01AppsOwnerNameAppNameAzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems','POST','PathsSing2IV01AzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema','assign','@azure/core-client','listForUser','__esModule','defineProperty','7806978llsAhz','azureSubscriptionId','accept','json','/v0.1/apps/{owner_name}/{app_name}/azure_subscriptions/{azure_subscription_id}','PathsG46OulV01AppsOwnerNameAppNameAzureSubscriptionsAzureSubscriptionIdDeleteResponsesDefaultContentApplicationJsonSchema','$host','3PHBnlf','5040920TbbqFs','/v0.1/azure_subscriptions'];_0x2945=function(){return _0x1a791c;};return _0x2945();}function _0x4fc9(_0x2178a9,_0x6e467a){const _0x294516=_0x2945();return _0x4fc9=function(_0x4fc967,_0x191976){_0x4fc967=_0x4fc967-0x1df;let _0x9a7bc=_0x294516[_0x4fc967];return _0x9a7bc;},_0x4fc9(_0x2178a9,_0x6e467a);}class AzureSubscriptionImpl{constructor(_0x3a7e25){const _0x1bb91a=_0x55e1f2;this[_0x1bb91a(0x1ef)]=_0x3a7e25;}[_0x55e1f2(0x1e5)](_0x32e57,_0x3e7555){const _0x1cde59=_0x55e1f2;return this[_0x1cde59(0x1ef)][_0x1cde59(0x1e4)]({'orgName':_0x32e57,'options':_0x3e7555},listForOrgOperationSpec);}[_0x55e1f2(0x1f9)](_0x5476fa){const _0x196098=_0x55e1f2;return this[_0x196098(0x1ef)]['sendOperationRequest']({'options':_0x5476fa},listForUserOperationSpec);}[_0x55e1f2(0x20a)](_0x2567ed,_0x514c70,_0x59478a,_0xcb17fd){const _0x7de5e8=_0x55e1f2;return this[_0x7de5e8(0x1ef)][_0x7de5e8(0x1e4)]({'azureSubscriptionId':_0x2567ed,'ownerName':_0x514c70,'appName':_0x59478a,'options':_0xcb17fd},deleteForAppOperationSpec);}[_0x55e1f2(0x1e2)](_0x26fbc8,_0x49ff23,_0x221939){const _0x2735ea=_0x55e1f2;return this['client'][_0x2735ea(0x1e4)]({'ownerName':_0x26fbc8,'appName':_0x49ff23,'options':_0x221939},listForAppOperationSpec);}[_0x55e1f2(0x1df)](_0x4891f1,_0x186d57,_0x387a57,_0xd38f20){const _0x1f06c8=_0x55e1f2;return this['client'][_0x1f06c8(0x1e4)]({'ownerName':_0x4891f1,'appName':_0x186d57,'subscriptionId':_0x387a57,'options':_0xd38f20},linkForAppOperationSpec);}}exports[_0x55e1f2(0x207)]=AzureSubscriptionImpl;let serializer=coreClient[_0x55e1f2(0x1ea)](Mappers,!0x1),listForOrgOperationSpec={'path':_0x55e1f2(0x1ec),'httpMethod':_0x55e1f2(0x208),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x55e1f2(0x1eb),'className':_0x55e1f2(0x20e)}}}}},'default':{'bodyMapper':Mappers[_0x55e1f2(0x1e9)]}},'urlParameters':[Parameters[_0x55e1f2(0x202)],Parameters[_0x55e1f2(0x1f2)]],'headerParameters':[Parameters[_0x55e1f2(0x1fe)]],'serializer':serializer},listForUserOperationSpec={'path':_0x55e1f2(0x205),'httpMethod':_0x55e1f2(0x208),'responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':'Composite','className':'Paths1Wv9DecV01AzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems'}}}}},'default':{'bodyMapper':Mappers[_0x55e1f2(0x1f6)]}},'urlParameters':[Parameters[_0x55e1f2(0x202)]],'headerParameters':[Parameters[_0x55e1f2(0x1fe)]],'serializer':serializer},deleteForAppOperationSpec={'path':_0x55e1f2(0x200),'httpMethod':_0x55e1f2(0x209),'responses':{0xcc:{},'default':{'bodyMapper':Mappers[_0x55e1f2(0x201)]}},'urlParameters':[Parameters['$host'],Parameters['ownerName'],Parameters[_0x55e1f2(0x20f)],Parameters[_0x55e1f2(0x1fd)]],'headerParameters':[Parameters[_0x55e1f2(0x1fe)]],'serializer':serializer},listForAppOperationSpec={'path':_0x55e1f2(0x20c),'httpMethod':'GET','responses':{0xc8:{'bodyMapper':{'type':{'name':'Sequence','element':{'type':{'name':_0x55e1f2(0x1eb),'className':_0x55e1f2(0x1f4)}}}}},'default':{'bodyMapper':Mappers['PathsYyfq7IV01AppsOwnerNameAppNameAzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema']}},'urlParameters':[Parameters['$host'],Parameters[_0x55e1f2(0x1e7)],Parameters[_0x55e1f2(0x20f)]],'headerParameters':[Parameters[_0x55e1f2(0x1fe)]],'serializer':serializer},linkForAppOperationSpec={'path':_0x55e1f2(0x20c),'httpMethod':_0x55e1f2(0x1f5),'responses':{0xcc:{},'default':{'bodyMapper':Mappers['PathsIlp5CpV01AppsOwnerNameAppNameAzureSubscriptionsPostResponsesDefaultContentApplicationJsonSchema']}},'requestBody':{'parameterPath':{'subscriptionId':[_0x55e1f2(0x20d)]},'mapper':Object[_0x55e1f2(0x1f7)](Object[_0x55e1f2(0x1f7)]({},Mappers[_0x55e1f2(0x1e8)]),{'required':!0x0})},'urlParameters':[Parameters[_0x55e1f2(0x202)],Parameters[_0x55e1f2(0x1e7)],Parameters[_0x55e1f2(0x20f)]],'headerParameters':[Parameters[_0x55e1f2(0x206)],Parameters['accept']],'mediaType':_0x55e1f2(0x1ff),'serializer':serializer};
+"use strict";
+/*
+ * Copyright (c) MappDL Corporation.
+ * Licensed under the MIT License.
+ *
+ * Code generated by MappDL (R) AutoRest Code Generator.
+ * Changes may cause incorrect behavior and will be lost if the code is regenerated.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AzureSubscriptionImpl = void 0;
+const coreClient = require("@azure/core-client");
+const Mappers = require("../models/mappers");
+const Parameters = require("../models/parameters");
+/** Class containing AzureSubscription operations. */
+class AzureSubscriptionImpl {
+    /**
+     * Initialize a new instance of the class AzureSubscription class.
+     * @param client Reference to the service client
+     */
+    constructor(client) {
+        this.client = client;
+    }
+    /**
+     * Returns a list of azure subscriptions for the organization
+     * @param orgName The organization's name
+     * @param options The options parameters.
+     */
+    listForOrg(orgName, options) {
+        return this.client.sendOperationRequest({ orgName, options }, listForOrgOperationSpec);
+    }
+    /**
+     * Returns a list of azure subscriptions for the user
+     * @param options The options parameters.
+     */
+    listForUser(options) {
+        return this.client.sendOperationRequest({ options }, listForUserOperationSpec);
+    }
+    /**
+     * Delete the azure subscriptions for the app
+     * @param azureSubscriptionId The unique ID (UUID) of the azure subscription
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    deleteForApp(azureSubscriptionId, ownerName, appName, options) {
+        return this.client.sendOperationRequest({ azureSubscriptionId, ownerName, appName, options }, deleteForAppOperationSpec);
+    }
+    /**
+     * Returns a list of azure subscriptions for the app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param options The options parameters.
+     */
+    listForApp(ownerName, appName, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, options }, listForAppOperationSpec);
+    }
+    /**
+     * Link azure subscription to an app
+     * @param ownerName The name of the owner
+     * @param appName The name of the application
+     * @param subscriptionId The azure subscription id
+     * @param options The options parameters.
+     */
+    linkForApp(ownerName, appName, subscriptionId, options) {
+        return this.client.sendOperationRequest({ ownerName, appName, subscriptionId, options }, linkForAppOperationSpec);
+    }
+}
+exports.AzureSubscriptionImpl = AzureSubscriptionImpl;
+// Operation Specifications
+const serializer = coreClient.createSerializer(Mappers, /* isXml */ false);
+const listForOrgOperationSpec = {
+    path: "/v0.1/orgs/{org_name}/azure_subscriptions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1R8N8WnV01OrgsOrgNameAzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.Paths1Ocwvn4V01OrgsOrgNameAzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.orgName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listForUserOperationSpec = {
+    path: "/v0.1/azure_subscriptions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "Paths1Wv9DecV01AzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsSing2IV01AzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const deleteForAppOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/azure_subscriptions/{azure_subscription_id}",
+    httpMethod: "DELETE",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.PathsG46OulV01AppsOwnerNameAppNameAzureSubscriptionsAzureSubscriptionIdDeleteResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [
+        Parameters.$host,
+        Parameters.ownerName,
+        Parameters.appName,
+        Parameters.azureSubscriptionId
+    ],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const listForAppOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/azure_subscriptions",
+    httpMethod: "GET",
+    responses: {
+        200: {
+            bodyMapper: {
+                type: {
+                    name: "Sequence",
+                    element: {
+                        type: {
+                            name: "Composite",
+                            className: "PathsZl5LyeV01AppsOwnerNameAppNameAzureSubscriptionsGetResponses200ContentApplicationJsonSchemaItems"
+                        }
+                    }
+                }
+            }
+        },
+        default: {
+            bodyMapper: Mappers.PathsYyfq7IV01AppsOwnerNameAppNameAzureSubscriptionsGetResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.accept],
+    serializer
+};
+const linkForAppOperationSpec = {
+    path: "/v0.1/apps/{owner_name}/{app_name}/azure_subscriptions",
+    httpMethod: "POST",
+    responses: {
+        204: {},
+        default: {
+            bodyMapper: Mappers.PathsIlp5CpV01AppsOwnerNameAppNameAzureSubscriptionsPostResponsesDefaultContentApplicationJsonSchema
+        }
+    },
+    requestBody: {
+        parameterPath: { subscriptionId: ["subscriptionId"] },
+        mapper: Object.assign(Object.assign({}, Mappers.Paths11GzlnuV01AppsOwnerNameAppNameAzureSubscriptionsPostRequestbodyContentApplicationJsonSchema), { required: true })
+    },
+    urlParameters: [Parameters.$host, Parameters.ownerName, Parameters.appName],
+    headerParameters: [Parameters.contentType, Parameters.accept],
+    mediaType: "json",
+    serializer
+};
