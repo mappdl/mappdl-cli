@@ -16,13 +16,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 // Implementation of MappDL login command
-const os = require("os");
-const opener = require("opener");
-const qs = require("qs");
 const commandline_1 = require("../util/commandline");
 const profile_1 = require("../util/profile");
 const interaction_1 = require("../util/interaction");
-const logout_1 = require("./lib/logout");
+const token_store_1 = require("../util/token-store");
 const debug = require("debug")("mappdl-cli:commands:login");
 let LoginCommand = class LoginCommand extends commandline_1.Command {
     constructor(args) {
@@ -31,24 +28,30 @@ let LoginCommand = class LoginCommand extends commandline_1.Command {
     runNoClient() {
         return __awaiter(this, void 0, void 0, function* () {
             let result = this.validateArguments();
-            let userSuppliedToken = false;
             try {
+                if (!this.token || this.token.trim() === "") {
+                    throw new Error(`Specify '--token' or '-t' to import token credentials..`);
+                }
+                const user = profile_1.getUser();
+                console.log(user);
+                const getter = token_store_1.tokenStore.get("anhtuan7692").catch((err) => {
+                    debug(`Can't get token from tokenStore: ${err.message}`);
+                    if (!err.message.includes("could not be found")) {
+                        throw err;
+                    }
+                    debug(`Fallback to the old name in the keychain.`);
+                    return token_store_1.tokenStore.get("anhtuan7692", true);
+                });
+                console.log(getter);
+                const userSuppliedToken = true;
                 if (commandline_1.succeeded(result)) {
-                    try {
-                        yield this.removeLoggedInUser();
-                    }
-                    catch (_a) {
-                        userSuppliedToken = false;
-                    }
-                    const token = yield this.doInteractiveLogin();
                     const endpoint = profile_1.environments(undefined).endpoint;
-                    const client = this.clientFactory.fromToken(token, endpoint);
+                    const client = this.clientFactory.fromToken(this.token, endpoint);
                     const userResponse = yield interaction_1.out.progress("Getting user info ...", client.users.get());
-                    yield profile_1.saveUser(userResponse, { id: "UserToken", token: token }, undefined, userSuppliedToken);
+                    yield profile_1.saveUser(userResponse, { id: "UserToken", token: this.token }, undefined, userSuppliedToken);
                     interaction_1.out.text(`Logged in as ${userResponse.name}`);
-                    // Force early exit to avoid long standing delays if token deletion is slow
-                    process.exit(0);
                     result = commandline_1.success();
+                    process.exit(0);
                 }
             }
             catch (err) {
@@ -58,34 +61,16 @@ let LoginCommand = class LoginCommand extends commandline_1.Command {
         });
     }
     validateArguments() {
-        if (profile_1.getTokenFromEnvironmentVar()) {
-            return commandline_1.failure(commandline_1.ErrorCodes.IllegalCommand, `can't login when token is set in environment variable ${profile_1.mappDLAccessTokenEnvVar}`);
-        }
         return commandline_1.success();
     }
-    doInteractiveLogin() {
-        return __awaiter(this, void 0, void 0, function* () {
-            const loginUrl = profile_1.environments(undefined).loginEndpoint + "?" + qs.stringify({ hostname: os.hostname() });
-            interaction_1.out.text(`Opening your browser... ${os.EOL}? Visit ${loginUrl} and enter the code:`);
-            opener(loginUrl);
-            const token = yield interaction_1.prompt("Access code from browser: ");
-            return token;
-        });
-    }
-    removeLoggedInUser() {
-        return __awaiter(this, void 0, void 0, function* () {
-            const currentUser = profile_1.getUser();
-            if (currentUser !== null) {
-                debug(`Currently logged in as ${currentUser.userName}, removing token`);
-                debug(`Creating client factory`);
-                const client = this.clientFactory.fromProfile(currentUser);
-                debug(`Removing existing token`);
-                yield logout_1.logout(client, currentUser);
-            }
-        });
-    }
 };
+__decorate([
+    commandline_1.help("Token to log in to the mappdl-cli"),
+    commandline_1.shortName("t"),
+    commandline_1.longName("token"),
+    commandline_1.hasArg
+], LoginCommand.prototype, "token", void 0);
 LoginCommand = __decorate([
-    commandline_1.help("Log in")
+    commandline_1.help("Login with token")
 ], LoginCommand);
 exports.default = LoginCommand;
