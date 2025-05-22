@@ -19,8 +19,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const commandline_1 = require("../util/commandline");
 const profile_1 = require("../util/profile");
 const interaction_1 = require("../util/interaction");
-const token_store_1 = require("../util/token-store");
-const debug = require("debug")("mappdl-cli:commands:login");
 let LoginCommand = class LoginCommand extends commandline_1.Command {
     constructor(args) {
         super(args);
@@ -32,17 +30,17 @@ let LoginCommand = class LoginCommand extends commandline_1.Command {
                 if (!this.token || this.token.trim() === "") {
                     throw new Error(`Specify '--token' or '-t' to import token credentials..`);
                 }
-                const user = profile_1.getUser();
-                console.log(user);
-                const getter = token_store_1.tokenStore.get("anhtuan7692").catch((err) => {
-                    debug(`Can't get token from tokenStore: ${err.message}`);
-                    if (!err.message.includes("could not be found")) {
-                        throw err;
-                    }
-                    debug(`Fallback to the old name in the keychain.`);
-                    return token_store_1.tokenStore.get("anhtuan7692", true);
-                });
-                console.log(getter);
+                // const user = getUser();
+                // console.log(user);
+                // const getter = tokenStore.get("anhtuan7692").catch((err: Error) => {
+                //   debug(`Can't get token from tokenStore: ${err.message}`);
+                //   if (!err.message.includes("could not be found")) {
+                //     throw err;
+                //   }
+                //   debug(`Fallback to the old name in the keychain.`);
+                //   return tokenStore.get("anhtuan7692", true);
+                // });
+                // console.log(getter);
                 const userSuppliedToken = true;
                 if (commandline_1.succeeded(result)) {
                     const endpoint = profile_1.environments(undefined).endpoint;

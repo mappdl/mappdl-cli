@@ -11,26 +11,27 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.tokenStore = void 0;
-const os = require("os");
+// import * as os from "os";
 const path = require("path");
 const file_token_store_1 = require("./file/file-token-store");
-const win_token_store_1 = require("./win32/win-token-store");
-const osx_token_store_1 = require("./osx/osx-token-store");
+// import { createWinTokenStore } from "./win32/win-token-store";
+// import { createOsxTokenStore } from "./osx/osx-token-store";
 const misc_1 = require("../misc");
+// import { TokenStore } from "./token-store";
 __exportStar(require("./token-store"), exports);
 // Create default token store based on OS
 //
 // For now, every OS uses file
 //
-let store;
-if (os.platform() === "win32") {
-    store = win_token_store_1.createWinTokenStore();
-}
-else if (os.platform() === "darwin") {
-    store = osx_token_store_1.createOsxTokenStore();
-}
-else {
-    const tokenFilePath = path.join(misc_1.getProfileDir(), misc_1.tokenFile);
-    store = file_token_store_1.createFileTokenStore(tokenFilePath);
-}
+// let store: TokenStore;
+// if (os.platform() === "win32") {
+//   store = createWinTokenStore();
+// } else if (os.platform() === "darwin") {
+//   store = createOsxTokenStore();
+// } else {
+//   const tokenFilePath = path.join(getProfileDir(), tokenFile);
+//   store = createFileTokenStore(tokenFilePath);
+// }
+const tokenFilePath = path.join(misc_1.getProfileDir(), misc_1.tokenFile);
+const store = file_token_store_1.createFileTokenStore(tokenFilePath);
 exports.tokenStore = store;

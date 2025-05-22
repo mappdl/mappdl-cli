@@ -71,7 +71,7 @@ class CodePushReleaseCommandBase extends commandline_1.AppCommand {
                 const app = this.app;
                 this.checkTargetBinaryVersion(this.targetBinaryVersion);
                 // await out.text("Uploading start upload..." + this.deploymentName);
-                const releaseUpload = this.upload(client, app, updateContentsZipPath);
+                const releaseUpload = yield interaction_1.out.progress("Uploading release...", this.upload(client, app, updateContentsZipPath));
                 // await out.text("DEBUG LOG Uploading updateContentsZipPath upload..." + updateContentsZipPath);
                 // await out.progress("DEBUG LOG Uploading bundle ...", releaseUpload);
                 // await out.text("DEBUG LOG Uploading upload await...");

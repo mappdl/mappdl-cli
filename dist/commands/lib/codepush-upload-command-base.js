@@ -64,11 +64,12 @@ class CodePushUploadCommandBase extends commandline_1.AppCommand {
                 const app = this.app;
                 // this.checkTargetBinaryVersion(this.targetBinaryVersion);
                 // // await out.text("Uploading start upload..." + this.deploymentName);
-                const releaseUpload = this.upload(client, app, updateContentsZipPath); // this.deploymentName,
+                // const releaseUpload = this.upload(client, app, updateContentsZipPath); // this.deploymentName,
+                yield interaction_1.out.progress("Uploading release...", this.upload(client, app, updateContentsZipPath));
                 // // await out.text("DEBUG LOG Uploading updateContentsZipPath upload..." + updateContentsZipPath);
                 // // await out.progress("DEBUG LOG Uploading bundle ...", releaseUpload);
                 // // await out.text("DEBUG LOG Uploading upload await...");
-                yield releaseUpload;
+                // await releaseUpload;
                 // // await out.text("DEBUG LOG Uploading done upload 123..." + JSON.stringify(uploadedRelease));
                 // await out.progress(
                 //   "Creating CodePush release...",
@@ -92,7 +93,7 @@ class CodePushUploadCommandBase extends commandline_1.AppCommand {
                 return commandline_1.success();
             }
             catch (error) {
-                console.warn(chalk.yellow("DEBUG LOG [Error this.createRelease(client, app, this.deploymentName] " + JSON.stringify(error)));
+                // console.warn(chalk.yellow("DEBUG LOG [Error this.createRelease(client, app, this.deploymentName] " + JSON.stringify(error)));
                 if (((_a = error.response) === null || _a === void 0 ? void 0 : _a.status) === 409) {
                     //} && this.disableDuplicateReleaseError) {
                     // 409 (Conflict) status code means that uploaded package is identical

@@ -99,6 +99,7 @@ class Command {
         }
         else if (user) {
             debug(`Creating mappdl client for command for current logged in user`);
+            // out.text(`Creating mappdl client for command for current logged in user`);
             client = this.clientFactory.fromProfile(user);
             endpoint = user.endpoint;
         }

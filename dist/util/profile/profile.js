@@ -19,6 +19,7 @@ const mkdirp = require("mkdirp");
 const environments_1 = require("./environments");
 const misc_1 = require("../misc");
 const token_store_1 = require("../token-store");
+// import { out } from "../interaction";
 const debug = require("debug")("mappdl-cli:util:profile:profile");
 class ProfileImpl {
     constructor(fileContents) {
@@ -113,6 +114,7 @@ function getProfileFilename() {
 function loadProfile() {
     const profilePath = getProfileFilename();
     debug(`Loading profile from ${profilePath}`);
+    // out.text("profilePath: " + profilePath);
     if (!misc_1.fileExistsSync(profilePath)) {
         debug("No profile file exists");
         return null;

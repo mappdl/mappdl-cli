@@ -55,6 +55,7 @@ function createMappDLClient(command, telemetryEnabled) {
                 return null;
             }
             debug(`Creating client from user for user ${util_1.inspect(user)}`);
+            // out.text(`Creating client from user for user ${inspect(user)} : `);
             return new mappDLClient_1.MappDLClient(Object.assign({ endpoint: user.endpoint }, createClientOptions(user.accessToken)));
         },
     };

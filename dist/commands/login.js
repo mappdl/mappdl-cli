@@ -78,6 +78,7 @@ let LoginCommand = class LoginCommand extends commandline_1.Command {
             if (currentUser !== null) {
                 debug(`Currently logged in as ${currentUser.userName}, removing token`);
                 debug(`Creating client factory`);
+                // out.text("removeLoggedInUser: Creating client factory");
                 const client = this.clientFactory.fromProfile(currentUser);
                 debug(`Removing existing token`);
                 yield logout_1.logout(client, currentUser);

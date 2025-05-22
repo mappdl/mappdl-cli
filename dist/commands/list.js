@@ -34,13 +34,15 @@ let AppsListCommand = class AppsListCommand extends commandline_1.Command {
         return `${prefix}${app.owner.name}/${app.name}${suffix}`;
     }
     run(client) {
+        var _a;
         return __awaiter(this, void 0, void 0, function* () {
             let appsResponse;
             try {
                 appsResponse = yield interaction_1.out.progress("Getting app list ...", client.apps.list());
             }
             catch (error) {
-                if (error.response.status >= 400) {
+                // out.text("error:" + (error?.message || ""));
+                if (((_a = error.response) === null || _a === void 0 ? void 0 : _a.status) >= 400) {
                     return commandline_1.failure(commandline_1.ErrorCodes.Exception, "Unknown error when loading apps");
                 }
             }
